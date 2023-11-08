@@ -1,10 +1,10 @@
 import NextAuth, { NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
-// import { MongoDBAdapter } from '@auth/mongodb-adapter';
-// import clientPromise from '@/db/mongodb';
+import { MongoDBAdapter } from '@auth/mongodb-adapter';
+import clientPromise from '@/db/mongodb';
 
 const options: NextAuthOptions = {
-	// adapter: MongoDBAdapter(clientPromise),
+	adapter: MongoDBAdapter(clientPromise, { databaseName: 'techchack' }),
 	providers: [
 		GithubProvider({
 			clientId: process.env.GITHUB_CLIENT_ID,

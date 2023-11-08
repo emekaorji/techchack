@@ -32,7 +32,7 @@ const Dashboard = () => {
 				<p>{user?.email}</p>
 				{/* <button onClick={() => signOut()}>Sign Out</button> */}
 				<form>
-					<div className={styles.inputContainer}>
+					<label className={styles.inputContainer}>
 						<span className={styles.icon}>
 							<SearchIcon />
 						</span>
@@ -42,7 +42,8 @@ const Dashboard = () => {
 							type='text'
 							value={value}
 						/>
-					</div>
+						<div className={styles.background} />
+					</label>
 				</form>
 				<div className={styles.stacks}></div>
 			</div>
