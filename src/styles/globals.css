@@ -95,7 +95,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 3em;
   font-family: Agbalumo, 'san-serif';
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 img, svg {

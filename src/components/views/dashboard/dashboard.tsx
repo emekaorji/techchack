@@ -2,8 +2,11 @@ import Head from 'next/head';
 import styles from './dashboard.module.css';
 import { ChangeEvent, useCallback, useState } from 'react';
 import SearchIcon from '@/components/interface/icons/search';
+// import { signOut } from 'next-auth/react';
+import useAuthContext from '@/hooks/context/useAuthContext';
 
 const Dashboard = () => {
+	const { user } = useAuthContext();
 	const [value, setValue] = useState('');
 
 	const handleInputChange = useCallback(
@@ -26,6 +29,8 @@ const Dashboard = () => {
 			</Head>
 			<div className={styles.container}>
 				<h1>TechChack</h1>
+				<p>{user?.email}</p>
+				{/* <button onClick={() => signOut()}>Sign Out</button> */}
 				<form>
 					<div className={styles.inputContainer}>
 						<span className={styles.icon}>

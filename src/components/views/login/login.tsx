@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import styles from './login.module.css';
+import { signIn } from 'next-auth/react';
+import GithubIcon from '@/components/interface/icons/github';
 
 const Login = () => {
 	return (
@@ -13,10 +15,15 @@ const Login = () => {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<h1>Login</h1>
-			<form>
-				<input type='text' />
-			</form>
+			<div className={styles.container}>
+				<h1>TechChack</h1>
+				<button onClick={() => signIn('github')}>
+					<span className={styles.icon}>
+						<GithubIcon />
+					</span>{' '}
+					Login with Github
+				</button>
+			</div>
 		</>
 	);
 };
