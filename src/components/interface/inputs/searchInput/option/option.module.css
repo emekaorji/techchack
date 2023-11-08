@@ -1,0 +1,11 @@
+.option {
+  text-align: left;
+  border-radius: 0.3em;
+  padding: 0.3em;
+}
+.option:hover {
+  background-color: #44559455;
+}
+.option.isSelected {
+  background-color: #445594aa;
+}
