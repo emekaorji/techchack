@@ -165,5 +165,12 @@
   "WordPress",
   "MDX",
   "Markdown",
-  "tRPC"
+  "tRPC",
+  "Bluetooth",
+  "Algolia",
+  "SWC",
+  "Storybook",
+  "Cloudflare",
+  "SWR",
+  "ML"
 ]
