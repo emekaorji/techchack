@@ -55,3 +55,9 @@
 .input:focus ~ .background {
   filter: blur(30px);
 }
+.stacks {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 4em;
+}

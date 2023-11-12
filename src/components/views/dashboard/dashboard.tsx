@@ -4,6 +4,8 @@ import { ChangeEvent, useCallback, useState } from 'react';
 import SearchIcon from '@/components/interface/icons/search';
 // import { signOut } from 'next-auth/react';
 import useAuthContext from '@/hooks/context/useAuthContext';
+import stackData from '@/data/stacks.json';
+import Chip from '@/components/interface/chip/chip';
 
 const Dashboard = () => {
 	const { user } = useAuthContext();
@@ -45,7 +47,11 @@ const Dashboard = () => {
 						<div className={styles.background} />
 					</label>
 				</form>
-				<div className={styles.stacks}></div>
+				<div className={styles.stacks}>
+					{stackData.map((item) => (
+						<Chip icon={item.icon} key={item.name} name={item.name} />
+					))}
+				</div>
 			</div>
 		</>
 	);
