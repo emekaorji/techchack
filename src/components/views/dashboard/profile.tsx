@@ -58,6 +58,7 @@ const Profile = () => {
 					</span>
 					<input
 						className={styles.input}
+						placeholder='Search stacks'
 						onChange={handleInputChange}
 						type='text'
 						value={value}
@@ -70,6 +71,7 @@ const Profile = () => {
 					<Chip icon={item.icon} key={item.name} name={item.name} />
 				))}
 			</div>
+			<br />
 		</>
 	);
 };
