@@ -1,26 +1,160 @@
 const LoaderIcon = () => (
 	<svg
-		width='542px'
-		height='542px'
-		viewBox='-15 -15 542 542'
-		xmlSpace='preserve'
+		xmlns='http://www.w3.org/2000/svg'
+		xmlnsXlink='http://www.w3.org/1999/xlink'
+		width='211px'
+		height='211px'
 		style={{ transition: 'none' }}
-		xmlns='http://www.w3.org/2000/svg'>
-		<path
-			d='M39.5986 18.5712C81.6096 -20.3694 190.433 14.0197 190.433 14.0197C190.433 14.0197 491.8 101.086 510.831 230.469C534.542 391.667 190.24 504.22 141.336 510.639C92.4329 517.058 41.6233 501.03 22.3893 457.032C12.5973 434.633 -15.2491 368.997 22.3893 314.419C60.0277 259.84 317.479 251.709 317.479 213.78C317.479 175.851 156.015 93.3765 111.473 102.521C66.9311 111.666 94.2636 212.263 74.5235 237.549C54.7834 262.835 17.2942 261.014 5.73089 237.397C-5.83243 213.78 -2.41239 57.5119 39.5986 18.5712Z'
-			fill='none'
-			strokeWidth='30'
-			stroke='#FFFFFF'
-			strokeDasharray='720'
-			strokeDashoffset='1400'>
-			<animate
-				attributeName='stroke-dashoffset'
-				begin='0'
-				dur='1s'
-				values='1400;700;0'
-				repeatCount='indefinite'
-			/>
-		</path>
+		viewBox='0 0 100 100'
+		preserveAspectRatio='xMidYMid'>
+		<defs>
+			<filter
+				id='balls'
+				x='-100%'
+				y='-100%'
+				width='300%'
+				height='300%'
+				colorInterpolationFilters='sRGB'>
+				<feGaussianBlur in='SourceGraphic' stdDeviation='3.2'></feGaussianBlur>
+				<feComponentTransfer result='cutoff'>
+					<feFuncA type='table' tableValues='0 0 0 0 0 0 1 1 1 1 1'></feFuncA>
+				</feComponentTransfer>
+			</filter>
+		</defs>
+
+		<g filter='url(#balls)'>
+			<g transform='translate(50 50)'>
+				<g>
+					<circle cx='37' cy='0' r='5' fill='currentColor'>
+						<animate
+							attributeName='r'
+							keyTimes='0;0.5;1'
+							values='4.8;11.2;4.8'
+							dur='4s'
+							repeatCount='indefinite'
+							begin='-0.25s'></animate>
+					</circle>
+					<animateTransform
+						attributeName='transform'
+						type='rotate'
+						keyTimes='0;1'
+						values='0;360'
+						dur='4s'
+						repeatCount='indefinite'
+						begin='0s'></animateTransform>
+				</g>
+			</g>
+
+			<g transform='translate(50 50)'>
+				<g>
+					<circle cx='37' cy='0' r='5' fill='currentColor'>
+						<animate
+							attributeName='r'
+							keyTimes='0;0.5;1'
+							values='4.8;11.2;4.8'
+							dur='2s'
+							repeatCount='indefinite'
+							begin='-0.20833333333333334s'></animate>
+					</circle>
+					<animateTransform
+						attributeName='transform'
+						type='rotate'
+						keyTimes='0;1'
+						values='0;360'
+						dur='2s'
+						repeatCount='indefinite'
+						begin='-0.041666666666666664s'></animateTransform>
+				</g>
+			</g>
+
+			<g transform='translate(50 50)'>
+				<g>
+					<circle cx='37' cy='0' r='5' fill='currentColor'>
+						<animate
+							attributeName='r'
+							keyTimes='0;0.5;1'
+							values='4.8;11.2;4.8'
+							dur='1.3333333333333333s'
+							repeatCount='indefinite'
+							begin='-0.16666666666666666s'></animate>
+					</circle>
+					<animateTransform
+						attributeName='transform'
+						type='rotate'
+						keyTimes='0;1'
+						values='0;360'
+						dur='1.3333333333333333s'
+						repeatCount='indefinite'
+						begin='-0.08333333333333333s'></animateTransform>
+				</g>
+			</g>
+
+			<g transform='translate(50 50)'>
+				<g>
+					<circle cx='37' cy='0' r='5' fill='currentColor'>
+						<animate
+							attributeName='r'
+							keyTimes='0;0.5;1'
+							values='4.8;11.2;4.8'
+							dur='1s'
+							repeatCount='indefinite'
+							begin='-0.125s'></animate>
+					</circle>
+					<animateTransform
+						attributeName='transform'
+						type='rotate'
+						keyTimes='0;1'
+						values='0;360'
+						dur='1s'
+						repeatCount='indefinite'
+						begin='-0.125s'></animateTransform>
+				</g>
+			</g>
+
+			<g transform='translate(50 50)'>
+				<g>
+					<circle cx='37' cy='0' r='5' fill='currentColor'>
+						<animate
+							attributeName='r'
+							keyTimes='0;0.5;1'
+							values='4.8;11.2;4.8'
+							dur='0.8s'
+							repeatCount='indefinite'
+							begin='-0.08333333333333333s'></animate>
+					</circle>
+					<animateTransform
+						attributeName='transform'
+						type='rotate'
+						keyTimes='0;1'
+						values='0;360'
+						dur='0.8s'
+						repeatCount='indefinite'
+						begin='-0.16666666666666666s'></animateTransform>
+				</g>
+			</g>
+
+			<g transform='translate(50 50)'>
+				<g>
+					<circle cx='37' cy='0' r='5' fill='currentColor'>
+						<animate
+							attributeName='r'
+							keyTimes='0;0.5;1'
+							values='4.8;11.2;4.8'
+							dur='0.6666666666666666s'
+							repeatCount='indefinite'
+							begin='-0.041666666666666664s'></animate>
+					</circle>
+					<animateTransform
+						attributeName='transform'
+						type='rotate'
+						keyTimes='0;1'
+						values='0;360'
+						dur='0.6666666666666666s'
+						repeatCount='indefinite'
+						begin='-0.20833333333333334s'></animateTransform>
+				</g>
+			</g>
+		</g>
 	</svg>
 );
 

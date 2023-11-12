@@ -1,0 +1,19 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 1em 3em;
+  z-index: 1;
+}
+.left {
+  font-size: 1.5em;
+  font-family: Agbalumo, 'san-serif';
+  text-shadow: 
+    -4px -4px 15px rgb(0, 0, 0),
+    -4px 4px 15px rgb(0, 0, 0),
+    4px 4px 15px rgb(0, 0, 0),
+    4px -4px 15px rgb(0, 0, 0);
+}

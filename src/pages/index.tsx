@@ -1,5 +1,12 @@
-import Dashboard from '@/components/views/dashboard/dashboard';
+export async function getServerSideProps() {
+	return {
+		redirect: {
+			permanent: false,
+			destination: `/profile`,
+		},
+	};
+}
 
-export default function Home() {
-	return <Dashboard />;
+export default function HomePage() {
+	return '';
 }

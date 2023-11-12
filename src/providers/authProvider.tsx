@@ -1,3 +1,4 @@
+import LoaderIcon from '@/components/interface/icons/loader';
 import { AuthContextValue } from '@/types/context';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
@@ -14,21 +15,23 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
 	const { pathname, push } = useRouter();
 
 	useEffect(() => {
-		if (!session && pathname !== '/login') {
-			push('/login');
-		} else if (session && pathname === '/login') {
-			push('/');
+		if (status !== 'loading') {
+			if (!session && pathname !== '/login') {
+				push('/login');
+			} else if (session && pathname === '/login') {
+				push('/profile');
+			}
 		}
 	}, [session]);
 
 	const providerValue = useMemo<AuthContextValue>(
 		() => ({ user: session?.user || null }),
-		[]
+		[session]
 	);
 
 	return (
 		<AuthContext.Provider value={providerValue}>
-			{status === 'loading' ? 'loading...' : children}
+			{status === 'loading' ? 'TechChack' : children}
 		</AuthContext.Provider>
 	);
 };
