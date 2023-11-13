@@ -114,7 +114,7 @@
   z-index: -1;
   border-radius: 2em;
   /* transition: all 200ms ease; */
-  animation: wave 3.5s linear infinite;
+  animation: wave 5s linear infinite;
 }
 @keyframes wave {
   100% {

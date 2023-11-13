@@ -46,8 +46,8 @@ const Profile = () => {
 				</div>
 				<div className={styles.level2}>
 					<div className={styles.empty}>
-						You have not added any tech stack to your shelf. Add one or more
-						tech stack by clicking a stack below
+						You don't have any tech stack in your shelf. Add one or more tech
+						stack by clicking a stack below
 					</div>
 				</div>
 			</form>
