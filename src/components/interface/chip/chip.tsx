@@ -10,7 +10,7 @@ const Chip = ({ icon, name }: ChipProps) => {
 	return (
 		<>
 			<div className={styles.chip}>
-				<span className={styles.icon}>{icon}</span>
+				<span className={styles.icon}></span>
 				<span className={styles.name}>{name}</span>
 				<button className={styles.overlayButton} />
 				<button className={styles.cancelButton}>

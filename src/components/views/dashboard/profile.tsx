@@ -10,6 +10,26 @@ import styles from './profile.module.css';
 import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
 
+const convertSVGtoDataURL = async (svgPath: string): Promise<string> => {
+	try {
+		const response = await fetch(svgPath);
+		const result = await response.text();
+		console.log(result);
+	} catch (error) {
+		console.log(error);
+	}
+	return '';
+};
+
+/**
+ * Categories of stack
+ * 1. Languages - PHP, JavaScript, R, HTML, EJS, TypeScript, Rust, Go
+ * 2. Libraries & Frameworks - React, NextJS, Laravel, AngularJS, D3.js
+ * 3. Tools & Services - Amazon ECS, DatadogHQ, Netlify
+ * 4. Environments - VSCode, JetBrains, Atom, Remix, StackBlitz, Visual Studio
+ * 5. Concepts - Microservices, DevOps, Virtualization, Memoization
+ */
+
 const Profile = () => {
 	const { user } = useAuthContext();
 
@@ -67,9 +87,10 @@ const Profile = () => {
 				</label>
 			</form>
 			<div className={styles.stacks}>
-				{stackData.map((item) => (
-					<Chip icon={item.icon} key={item.name} name={item.name} />
-				))}
+				{stackData.map((item, index) => {
+					if (index < 63) convertSVGtoDataURL(item.icon);
+					return <Chip icon={item.icon} key={item.name} name={item.name} />;
+				})}
 			</div>
 			<br />
 		</>
