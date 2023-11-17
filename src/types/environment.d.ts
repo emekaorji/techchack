@@ -7,6 +7,7 @@ declare global {
 			DEV_GITHUB_CLIENT_SECRET: string;
 			STAG_GITHUB_CLIENT_ID: string;
 			STAG_GITHUB_CLIENT_SECRET: string;
+			TECHCHACK_SECRET: string;
 		}
 	}
 }

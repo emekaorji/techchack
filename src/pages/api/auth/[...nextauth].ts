@@ -23,6 +23,7 @@ const options: NextAuthOptions = {
 			allowDangerousEmailAccountLinking: true,
 		}),
 	],
+	secret: process.env.TECHCHACK_SECRET,
 } satisfies NextAuthOptions;
 
 export default NextAuth(options);
