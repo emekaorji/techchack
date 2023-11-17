@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { ChangeEvent, useCallback, useState } from 'react';
+import { ChangeEvent, useCallback, useEffect, useState } from 'react';
 import SearchIcon from '@/components/interface/icons/search';
 // import { signOut } from 'next-auth/react';
 import stackData from '@/data/stacks.json';
@@ -9,6 +9,19 @@ import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './profile.module.css';
 import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
+
+const getBase64FromUrl = async (url: string) => {
+	const data = await fetch(url);
+	const blob = await data.blob();
+	return new Promise((resolve) => {
+		const reader = new FileReader();
+		reader.readAsDataURL(blob);
+		reader.onloadend = () => {
+			const base64data = reader.result;
+			resolve(base64data);
+		};
+	});
+};
 
 const convertSVGtoDataURL = async (svgPath: string): Promise<string> => {
 	try {
@@ -41,6 +54,10 @@ const Profile = () => {
 		},
 		[]
 	);
+
+	useEffect(() => {
+		fetch('/api/hello');
+	}, []);
 
 	return (
 		<>
@@ -88,7 +105,7 @@ const Profile = () => {
 			</form>
 			<div className={styles.stacks}>
 				{stackData.map((item, index) => {
-					if (index < 63) convertSVGtoDataURL(item.icon);
+					// if (index < 5) convertSVGtoDataURL(item.icon);
 					return <Chip icon={item.icon} key={item.name} name={item.name} />;
 				})}
 			</div>
