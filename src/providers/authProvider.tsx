@@ -1,4 +1,3 @@
-import LoaderIcon from '@/components/interface/icons/loader';
 import { AuthContextValue } from '@/types/context';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
@@ -22,7 +21,7 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
 				push('/profile');
 			}
 		}
-	}, [session]);
+	}, [pathname, push, session, status]);
 
 	const providerValue = useMemo<AuthContextValue>(
 		() => ({ user: session?.user || null }),
