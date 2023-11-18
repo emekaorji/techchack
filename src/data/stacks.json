@@ -1,873 +1,6970 @@
 [
-  { "name": ".NET", "icon": "dotnet.svg" },
-  { "name": "AWS", "icon": "aws.svg" },
-  { "name": "AWS API Gateway", "icon": "aws-api-gateway.svg" },
-  { "name": "AWS Amplify", "icon": "aws-amplify.svg" },
-  { "name": "AWS App Mesh", "icon": "aws-app-mesh.svg" },
-  { "name": "AWS AppFlow", "icon": "aws-appflow.svg" },
-  { "name": "AWS AppSync", "icon": "aws-appsync.svg" },
-  { "name": "AWS Athena", "icon": "aws-athena.svg" },
-  { "name": "AWS Aurora", "icon": "aws-aurora.svg" },
-  { "name": "AWS Backup", "icon": "aws-backup.svg" },
-  { "name": "AWS Batch", "icon": "aws-batch.svg" },
-  { "name": "AWS Certificate Manager", "icon": "aws-certificate-manager.svg" },
-  { "name": "AWS CloudFront", "icon": "aws-cloudfront.svg" },
-  { "name": "AWS CloudFormation", "icon": "aws-cloudformation.svg" },
-  { "name": "AWS CloudSearch", "icon": "aws-cloudsearch.svg" },
-  { "name": "AWS CloudTrail", "icon": "aws-cloudtrail.svg" },
-  { "name": "AWS CloudWatch", "icon": "aws-cloudwatch.svg" },
-  { "name": "AWS CodeBuild", "icon": "aws-codebuild.svg" },
-  { "name": "AWS CodeCommit", "icon": "aws-codecommit.svg" },
-  { "name": "AWS CodeDeploy", "icon": "aws-codedeploy.svg" },
-  { "name": "AWS CodePipeline", "icon": "aws-codepipeline.svg" },
-  { "name": "AWS CodeStar", "icon": "aws-codestar.svg" },
-  { "name": "AWS Cognito", "icon": "aws-cognito.svg" },
-  { "name": "AWS Config", "icon": "aws-config.svg" },
-  { "name": "AWS DynamoDB", "icon": "aws-dynamodb.svg" },
-  { "name": "AWS EC2", "icon": "aws-ec2.svg" },
-  { "name": "AWS ECS", "icon": "aws-ecs.svg" },
-  { "name": "AWS EKS", "icon": "aws-eks.svg" },
-  { "name": "AWS ELB", "icon": "aws-elb.svg" },
-  { "name": "AWS Elastic Beanstalk", "icon": "aws-elastic-beanstalk.svg" },
-  { "name": "AWS ElasticCache", "icon": "aws-elasticache.svg" },
-  { "name": "AWS EventBridge", "icon": "aws-eventbridge.svg" },
-  { "name": "AWS Fargate", "icon": "aws-fargate.svg" },
-  { "name": "AWS Glacier", "icon": "aws-glacier.svg" },
-  { "name": "AWS Glue", "icon": "aws-glue.svg" },
-  { "name": "AWS IAM", "icon": "aws-iam.svg" },
-  { "name": "AWS KMS", "icon": "aws-kms.svg" },
-  { "name": "AWS Keyspaces", "icon": "aws-keyspaces.svg" },
-  { "name": "AWS Kinesis", "icon": "aws-kinesis.svg" },
-  { "name": "AWS Lake Formation", "icon": "aws-lake-formation.svg" },
-  { "name": "AWS Lambda", "icon": "aws-lambda.svg" },
-  { "name": "AWS LightSail", "icon": "aws-lightsail.svg" },
-  { "name": "AWS MQ", "icon": "aws-mq.svg" },
-  { "name": "AWS MSK", "icon": "aws-msk.svg" },
-  { "name": "AWS Neptune", "icon": "aws-neptune.svg" },
-  { "name": "AWS Open Search", "icon": "aws-open-search.svg" },
-  { "name": "AWS Opworks", "icon": "aws-opsworks.svg" },
-  { "name": "AWS QuickSight", "icon": "aws-quicksight.svg" },
-  { "name": "AWS RDS", "icon": "aws-rds.svg" },
-  { "name": "AWS Redshift", "icon": "aws-redshift.svg" },
-  { "name": "AWS Route 53", "icon": "aws-route53.svg" },
-  { "name": "AWS S3", "icon": "aws-s3.svg" },
-  { "name": "AWS SES", "icon": "aws-ses.svg" },
-  { "name": "AWS SNS", "icon": "aws-sns.svg" },
-  { "name": "AWS SQS", "icon": "aws-sqs.svg" },
-  { "name": "AWS Secrets Manager", "icon": "aws-secrets-manager.svg" },
-  { "name": "AWS Shield", "icon": "aws-shield.svg" },
-  { "name": "AWS Step Functions", "icon": "aws-step-functions.svg" },
-  { "name": "AWS Systems Manager", "icon": "aws-systems-manager.svg" },
-  { "name": "AWS Timestream", "icon": "aws-timestream.svg" },
-  { "name": "AWS VPC", "icon": "aws-vpc.svg" },
-  { "name": "AWS WAF", "icon": "aws-waf.svg" },
-  { "name": "AWS X-Ray", "icon": "aws-xray.svg" },
-  { "name": "Adobe After Effects", "icon": "adobe-after-effects.svg" },
-  { "name": "Adobe Animate", "icon": "adobe-animate.svg" },
-  { "name": "Adobe Dreamweaver", "icon": "adobe-dreamweaver.svg" },
-  { "name": "Adobe Illustrator", "icon": "adobe-illustrator.svg" },
-  { "name": "Adobe InCopy", "icon": "adobe-incopy.svg" },
-  { "name": "Adobe InDesign", "icon": "adobe-indesign.svg" },
-  { "name": "Adobe Lightroom", "icon": "adobe-lightroom.svg" },
-  { "name": "Adobe Photoshop", "icon": "adobe-photoshop.svg" },
-  { "name": "Adobe Premiere", "icon": "adobe-premiere.svg" },
-  { "name": "Adobe XD", "icon": "adobe-xd.svg" },
-  { "name": "Algolia", "icon": "algolia.svg" },
-  { "name": "AlpineJS", "icon": "alpinejs.svg" },
-  { "name": "Analytics", "icon": "analytics.svg" },
-  { "name": "Android Development", "icon": "android-icon.svg" },
-  { "name": "AngularJS", "icon": "angular.svg" },
-  { "name": "Ansible", "icon": "ansible.svg" },
-  { "name": "Apache", "icon": "apache.svg" },
-  { "name": "Apollo", "icon": "apollo.svg" },
-  { "name": "Appcenter", "icon": "appcenter-icon.svg" },
-  { "name": "Appcircle", "icon": "appcircle-icon.svg" },
-  { "name": "Appwrite", "icon": "appwrite-icon.svg" },
-  { "name": "ArangoDB", "icon": "arangodb-icon.svg" },
-  { "name": "Arbitrum", "icon": "arbitrum.svg" },
-  { "name": "Arch Linux", "icon": "archlinux.svg" },
-  { "name": "Arduino", "icon": "arduino.svg" },
-  { "name": "Artificial Intelligence", "icon": "ml.svg" },
-  { "name": "Astro", "icon": "astro-icon.svg" },
-  { "name": "Atom", "icon": "atom-icon.svg" },
-  { "name": "Audio", "icon": "audio.svg" },
-  { "name": "Auth0", "icon": "auth0-icon.svg" },
-  { "name": "Axios", "icon": "axios.svg" },
-  { "name": "Babel", "icon": "babel.svg" },
-  { "name": "BackboneJS", "icon": "backbone-icon.svg" },
-  { "name": "Bash", "icon": "bash-icon.svg" },
-  { "name": "Batch", "icon": "batch.svg" },
-  { "name": "Bazel", "icon": "bazel.svg" },
-  { "name": "Big Data", "icon": "big-data.svg" },
-  { "name": "Bigpanda", "icon": "bigpanda.svg" },
-  { "name": "Bitbucket", "icon": "bitbucket.svg" },
-  { "name": "Blender", "icon": "blender.svg" },
-  { "name": "Blitz", "icon": "blitzjs-icon.svg" },
-  { "name": "Blockchain", "icon": "blockchain.svg" },
-  { "name": "Blueprints", "icon": "blueprints.svg" },
-  { "name": "Bluetooth", "icon": "bluetooth.svg" },
-  { "name": "Bourbon", "icon": "bourbon.svg" },
-  { "name": "Box", "icon": "box.svg" },
-  { "name": "Bower", "icon": "bower.svg" },
-  { "name": "Broccoli JS", "icon": "broccoli.svg" },
-  { "name": "Browserify", "icon": "browserify.svg" },
-  { "name": "BuilderIO", "icon": "builder-io-icon.svg" },
-  { "name": "Bun", "icon": "bun.svg" },
-  { "name": "C", "icon": "c.svg" },
-  { "name": "C#", "icon": "c-sharp.svg" },
-  { "name": "C++", "icon": "c-plusplus.svg" },
-  { "name": "CRA", "icon": "create-react-app.svg" },
-  { "name": "CSS Flexbox Model", "icon": "css-flexbox.svg" },
-  { "name": "CSS3", "icon": "css-3.svg" },
-  { "name": "CSSNext", "icon": "cssnext.svg" },
-  { "name": "CanJS", "icon": "canjs.svg" },
-  { "name": "Canva", "icon": "canva.svg" },
-  { "name": "Chai", "icon": "chai.svg" },
-  { "name": "ChatGPT", "icon": "openai-icon.svg" },
-  { "name": "Cheerio", "icon": "cheerio.svg" },
-  { "name": "Chevereto", "icon": "chevereto.svg" },
-  { "name": "Chrome", "icon": "chrome.svg" },
-  { "name": "Chrome Web Store", "icon": "chrome-web-store.svg" },
-  { "name": "Chromatic", "icon": "chromatic-icon.svg" },
-  { "name": "CircleCI", "icon": "circleci.svg" },
-  { "name": "Clojure", "icon": "clojure.svg" },
-  { "name": "Cloud", "icon": "cloud-computing.svg" },
-  { "name": "Cloudflare", "icon": "cloudflare-icon.svg" },
-  { "name": "Cloudinary", "icon": "cloudinary-icon.svg" },
-  { "name": "Codebeat", "icon": "codebeat.svg" },
-  { "name": "CPanel", "icon": "cpanel.svg" },
-  { "name": "Codeclimate", "icon": "codeclimate-icon.svg" },
-  { "name": "Codecov", "icon": "codecov-icon.svg" },
-  { "name": "Codefactor", "icon": "codefactor-icon.svg" },
-  { "name": "Codeigniter", "icon": "codeigniter-icon.svg" },
-  { "name": "Codepen", "icon": "codepen-icon.svg" },
-  { "name": "Codesandbox", "icon": "codesandbox-icon.svg" },
-  { "name": "Codesee", "icon": "codesee-icon.svg" },
-  { "name": "Codium", "icon": "codium.svg" },
-  { "name": "CoffeeScript", "icon": "coffescript.svg" },
-  { "name": "Commitizen", "icon": "commitzen.svg" },
-  { "name": "Confluence", "icon": "confluence.svg" },
-  { "name": "Contentful", "icon": "contentful.svg" },
-  { "name": "CouchDB", "icon": "couchdb-icon.svg" },
-  { "name": "Couchbase", "icon": "couchbase.svg" },
-  { "name": "Cryptography", "icon": "cryptography.svg" },
-  { "name": "cURL", "icon": "curl.svg" },
-  { "name": "Cypress", "icon": "cypress-icon.svg" },
-  { "name": "D3.js", "icon": "d3.svg" },
-  { "name": "DaisyUI", "icon": "daisyUI.svg" },
-  { "name": "DanfoJS", "icon": "danfo.svg" },
-  { "name": "DNS", "icon": "dns.svg" },
-  { "name": "Dart", "icon": "dart.svg" },
-  { "name": "Dashlane", "icon": "dashlane-icon.svg" },
-  { "name": "Data Structures and Algorithms", "icon": "data-structures-and-algorithm.svg" },
-  { "name": "Datadog", "icon": "datadog-icon.svg" },
-  { "name": "Datasette", "icon": "datasette.svg" },
-  { "name": "Dataspell", "icon": "dataspell.svg" },
-  { "name": "DatoCMS", "icon": "datacms-icon.svg" },
-  { "name": "DCOS", "icon": "dcos.svg" },
-  { "name": "Debian", "icon": "debian.svg" },
-  { "name": "Deno", "icon": "deno.svg" },
-  { "name": "DeployHQ", "icon": "deployhq-icon.svg" },
-  { "name": "Design", "icon": "design.svg" },
-  { "name": "DevOps", "icon": "devops.svg" },
-  { "name": "DGraph", "icon": "dgraph-icon.svg" },
-  { "name": "DialogFlow", "icon": "dialogflow.svg" },
-  { "name": "Digital Ocean", "icon": "digital-ocean-icon.svg" },
-  { "name": "Discord", "icon": "discord-icon.svg" },
-  { "name": "Django", "icon": "django.svg" },
-  { "name": "Dockbit", "icon": "dockbit.svg" },
-  { "name": "Docker", "icon": "docker-icon.svg" },
-  { "name": "Doctrine", "icon": "doctrine.svg" },
-  { "name": "Docusaurus", "icon": "docusaurus.svg" },
-  { "name": "Dojo", "icon": "dojo-icon.svg" },
-  { "name": "Dolt", "icon": "dolt.svg" },
-  { "name": "Dribbble", "icon": "dribbble-icon.svg" },
-  { "name": "DrizzleORM", "icon": "drizzle-icon.svg" },
-  { "name": "Drools", "icon": "drools-icon.svg" },
-  { "name": "Dropmark", "icon": "dropmark.svg" },
-  { "name": "Dropzone", "icon": "dropzone.svg" },
-  { "name": "Drupal", "icon": "drupal-icon.svg" },
-  { "name": "Dynamic XYZ", "icon": "dynamic-xyz.svg" },
-  { "name": "Dynatrace", "icon": "dynatrace-icon.svg" },
-  { "name": "dbt", "icon": "dbt-icon.svg" },
-  { "name": "E2E Testing", "icon": "e2etesting.svg" },
-  { "name": "ES6", "icon": "es6.png" },
-  { "name": "ESBuild", "icon": "esbuild.svg" },
-  { "name": "ESDoc", "icon": "esdoc.svg" },
-  { "name": "ESLint", "icon": "eslint.svg" },
-  { "name": "Eclipse", "icon": "eclipse-icon.svg" },
-  { "name": "Editor Config", "icon": "editorconfig.svg" },
-  { "name": "Effect", "icon": "effect-icon.svg" },
-  { "name": "Electron", "icon": "electron.svg" },
-  { "name": "ELM", "icon": "elm-classic.svg" },
-  { "name": "Elixir", "icon": "elixir.svg" },
-  { "name": "Email Services", "icon": "email.svg" },
-  { "name": "Ember", "icon": "ember-tomster.svg" },
-  { "name": "Emmet", "icon": "emmet.svg" },
-  { "name": "Envoy", "icon": "envoy-icon.svg" },
-  { "name": "Epsagon", "icon": "epsagon-icon.svg" },
-  { "name": "Ethereum", "icon": "ethereum.svg" },
-  { "name": "EthersJS", "icon": "ethers.svg" },
-  { "name": "EventSentry", "icon": "eventsentry.svg" },
-  { "name": "Evergreen", "icon": "evergreen-icon.svg" },
-  { "name": "Excel", "icon": "excel.svg" },
-  { "name": "Expo", "icon": "expo-icon.svg" },
-  { "name": "ExpressJS", "icon": "express.svg" },
-  { "name": "etcd", "icon": "etcd.svg" },
-  { "name": "F#", "icon": "fsharp.svg" },
-  { "name": "FFmpeg", "icon": "ffmpeg-icon.svg" },
-  { "name": "Facebook API", "icon": "facebook.svg" },
-  { "name": "Fast API", "icon": "fastapi-icon.svg" },
-  { "name": "Fastify", "icon": "fastify-icon.svg" },
-  { "name": "Fastly", "icon": "fastly.svg" },
-  { "name": "Fauna", "icon": "fauna-icon.svg" },
-  { "name": "FeathersJS", "icon": "feathersjs.svg" },
-  { "name": "Fedora", "icon": "fedora.svg" },
-  { "name": "Fetch", "icon": "fetch.svg" },
-  { "name": "Figma", "icon": "figma.svg" },
-  { "name": "Firebase", "icon": "firebase.svg" },
-  { "name": "Firebase Auth", "icon": "firebase-auth.png" },
-  { "name": "Firebase Database", "icon": "firebase-database.png" },
-  { "name": "Firebase Firestore", "icon": "firebase-firestore.png" },
-  { "name": "Firebase Storage", "icon": "firebase-storage.png" },
-  { "name": "Firefox", "icon": "firefox.svg" },
-  { "name": "Flannel", "icon": "flannel.svg" },
-  { "name": "Flask", "icon": "flask.svg" },
-  { "name": "Flat UI", "icon": "flat-ui.svg" },
-  { "name": "Flow", "icon": "flow.svg" },
-  { "name": "Flutter", "icon": "flutter.svg" },
-  { "name": "Fluxxor", "icon": "fluxxor.svg" },
-  { "name": "Fly.io", "icon": "fly-icon.svg" },
-  { "name": "Font Awesome", "icon": "font-awesome.svg" },
-  { "name": "Foundation", "icon": "foundation.svg" },
-  { "name": "FoundationDB", "icon": "foundationdb-icon.svg" },
-  { "name": "Framer", "icon": "framer.svg" },
-  { "name": "Framework7", "icon": "framework7-icon.svg" },
-  { "name": "Freedcamp", "icon": "freedcamp-icon.svg" },
-  { "name": "Fresh", "icon": "fresh.svg" },
-  { "name": "GNOME", "icon": "gnome-icon.svg" },
-  { "name": "GSAP", "icon": "greensock-icon.svg" },
-  { "name": "Ganache", "icon": "ganache-icon.svg" },
-  { "name": "GatsbyJS", "icon": "gatsby.svg" },
-  { "name": "Geekbot", "icon": "geekbot.svg" },
-  { "name": "Geetest", "icon": "geetest.svg" },
-  { "name": "Gerrit", "icon": "gerrit.svg" },
-  { "name": "Giant Swarm", "icon": "giantswarm.svg" },
-  { "name": "Gimp", "icon": "gimp.svg" },
-  { "name": "Gin", "icon": "gin.svg" },
-  { "name": "Git", "icon": "git-icon.svg" },
-  { "name": "Gitbook", "icon": "gitbook.svg" },
-  { "name": "Gitflow", "icon": "git-icon.svg" },
-  { "name": "Github", "icon": "github-icon.svg" },
-  { "name": "Github Actions", "icon": "github-actions.svg" },
-  { "name": "Github Copilot", "icon": "github-copilot.svg" },
-  { "name": "Gitkraken", "icon": "gitkraken.svg" },
-  { "name": "Gitlab", "icon": "gitlab.svg" },
-  { "name": "Glamorous", "icon": "glamorous-icon.svg" },
-  { "name": "GlimmerJS", "icon": "glimmerjs.svg" },
-  { "name": "Glitch", "icon": "glitch-icon.svg" },
-  { "name": "GNU", "icon": "gnu.svg" },
-  { "name": "Go", "icon": "go.svg" },
-  { "name": "Google Bard", "icon": "google-bard.svg" },
-  { "name": "Google Play Console", "icon": "google-play-console.png" },
-  { "name": "Gradle", "icon": "gradle.svg" },
-  { "name": "Grafana", "icon": "grafana.svg" },
-  { "name": "Grails", "icon": "grails.svg" },
-  { "name": "Graphene", "icon": "graphene.svg" },
-  { "name": "GraphQL", "icon": "graphql.svg" },
-  { "name": "Grav", "icon": "grav.svg" },
-  { "name": "Gravatar", "icon": "gravatar-icon.svg" },
-  { "name": "Gridsome", "icon": "gridsome-icon.svg" },
-  { "name": "Grunt", "icon": "grunt.svg" },
-  { "name": "Gulp", "icon": "gulp.svg" },
-  { "name": "Gunicorn", "icon": "gunicorn.svg" },
-  { "name": "GunJS", "icon": "gunjs.svg" },
-  { "name": "Gzip", "icon": "gzip.svg" },
-  { "name": "HTML5", "icon": "html-5.svg" },
-  { "name": "HTMX", "icon": "htmx.svg" },
-  { "name": "Hack", "icon": "hack.svg" },
-  { "name": "Hadoop", "icon": "hadoop.svg" },
-  { "name": "Haiku", "icon": "haiku-icon.svg" },
-  { "name": "Hanami", "icon": "hanami.svg" },
-  { "name": "Hapi", "icon": "hapi.svg" },
-  { "name": "Hardhat", "icon": "hardhat-icon.svg" },
-  { "name": "Harness", "icon": "harness-icon.svg" },
-  { "name": "Hashnode", "icon": "hashnode-icon.svg" },
-  { "name": "Haskell", "icon": "haskell-icon.svg" },
-  { "name": "Hasura", "icon": "hasura-icon.svg" },
-  { "name": "Haxe", "icon": "haxe.svg" },
-  { "name": "Haxl", "icon": "haxl.svg" },
-  { "name": "HBase", "icon": "hbase.svg" },
-  { "name": "HeadlessUI", "icon": "headlessui-icon.svg" },
-  { "name": "Heap", "icon": "heap-icon.svg" },
-  { "name": "Heroku", "icon": "heroku-icon.svg" },
-  { "name": "HHVM", "icon": "hhvm.svg" },
-  { "name": "Hono", "icon": "hono.svg" },
-  { "name": "Hostgator", "icon": "hostgator-icon.svg" },
-  { "name": "HTML", "icon": "html-5.svg" },
-  { "name": "HTTPie", "icon": "httpie-icon.svg" },
-  { "name": "Imagemin", "icon": "imagemin.svg" },
-  { "name": "Imba", "icon": "imba-icon.svg" },
-  { "name": "Importio", "icon": "importio.svg" },
-  { "name": "Incident", "icon": "incident-icon.svg" },
-  { "name": "InfluxDB", "icon": "influxdb-icon.svg" },
-  { "name": "Ingress", "icon": "ingress.svg" },
-  { "name": "Ink", "icon": "ink.svg" },
-  { "name": "Insomnia", "icon": "insomnia.svg" },
-  { "name": "Ionic", "icon": "ionic-icon.svg" },
-  { "name": "IOS", "icon": "ios.svg" },
-  { "name": "JSFiddle", "icon": "jsfiddle.svg" },
-  { "name": "JSON", "icon": "json.svg" },
-  { "name": "JSPM", "icon": "jspm.svg" },
-  { "name": "JSS", "icon": "jss.svg" },
-  { "name": "JWT", "icon": "jwt-icon.svg" },
-  { "name": "Jamstack", "icon": "jamstack-icon.svg" },
-  { "name": "Java", "icon": "java.svg" },
-  { "name": "JavaScript", "icon": "javascript.svg" },
-  { "name": "Jekyll", "icon": "jekyll.svg" },
-  { "name": "Jenkins", "icon": "jenkins.svg" },
-  { "name": "Jest", "icon": "jest.svg" },
-  { "name": "Jetbrains Space", "icon": "jetbrains-space-icon.svg" },
-  { "name": "Jetbrains", "icon": "jetbrains.svg" },
-  { "name": "Jhipster", "icon": "jhipster-icon.svg" },
-  { "name": "Jira", "icon": "jira.svg" },
-  { "name": "JRuby", "icon": "jruby.svg" },
-  { "name": "JSBin", "icon": "jsbin.svg" },
-  { "name": "Juju", "icon": "juju.svg" },
-  { "name": "Julia", "icon": "julia.svg" },
-  { "name": "Jupyter", "icon": "jupyter.svg" },
-  { "name": "KDE", "icon": "kde.svg" },
-  { "name": "KaiOS", "icon": "kaios.svg" },
-  { "name": "Karma", "icon": "karma.svg" },
-  { "name": "Katalon", "icon": "katalon-icon.svg" },
-  { "name": "Kemal", "icon": "kemal.svg" },
-  { "name": "KeyCDN", "icon": "keycdn-icon.svg" },
-  { "name": "KeyDB", "icon": "keydb-icon.svg" },
-  { "name": "Kibana", "icon": "kibana.svg" },
-  { "name": "Kinto", "icon": "kinto-icon.svg" },
-  { "name": "Kong", "icon": "kong-icon.svg" },
-  { "name": "Kotlin", "icon": "kotlin-icon.svg" },
-  { "name": "Ktor", "icon": "ktor-icon.svg" },
-  { "name": "Kubernetes", "icon": "kubernetes.svg" },
-  { "name": "LESS", "icon": "less.svg" },
-  { "name": "Laravel", "icon": "laravel.svg" },
-  { "name": "Lexical", "icon": "lexical-icon.svg" },
-  { "name": "Lit", "icon": "lit-icon.svg" },
-  { "name": "LevelDB", "icon": "leveldb.svg" },
-  { "name": "Lighthouse", "icon": "lighthouse.svg" },
-  { "name": "Linux", "icon": "linux.svg" },
-  { "name": "Liquid", "icon": "" },
-  { "name": "Lodash", "icon": "lodash.svg" },
-  { "name": "Loopback", "icon": "loopback-icon.svg" },
-  { "name": "MDX", "icon": "mdx.svg" },
-  { "name": "MDN", "icon": "mdn.svg" },
-  { "name": "ML", "icon": "ml.svg" },
-  { "name": "MSW", "icon": "msw-icon.svg" },
-  { "name": "MailChimp", "icon": "mailchimp-freddie.svg" },
-  { "name": "MalinaJS", "icon": "malinajs.svg" },
-  { "name": "Manjaro", "icon": "manjaro.svg" },
-  { "name": "Mantine", "icon": "mantine.svg" },
-  { "name": "MariaDB", "icon": "mariadb.svg" },
-  { "name": "Markdown", "icon": "markdown.svg" },
-  { "name": "Mastodon", "icon": "mastodon-icon.svg" },
-  { "name": "Material UI", "icon": "material-ui.svg" },
-  { "name": "Matter", "icon": "matter-icon.svg" },
-  { "name": "Medusa", "icon": "medusa-icon.svg" },
-  { "name": "Mercurial", "icon": "mercurial.svg" },
-  { "name": "Metamask", "icon": "metamask-icon.svg" },
-  { "name": "Meteor", "icon": "meteor-icon.svg" },
-  { "name": "Micro", "icon": "micro-icon.svg" },
-  { "name": "MicroPython", "icon": "micro-python.svg" },
-  { "name": "Microcosm", "icon": "microcosm.svg" },
-  { "name": "Microservices", "icon": "microservices.svg" },
-  { "name": "Microsoft Azure", "icon": "microsoft-azure.svg" },
-  { "name": "Mida", "icon": "mida-icon.svg" },
-  { "name": "Middleman", "icon": "middleman.svg" },
-  { "name": "Million", "icon": "million-icon.svg" },
-  { "name": "Milvus", "icon": "milvus-icon.svg" },
-  { "name": "MindsDB", "icon": "mindsdb-icon.svg" },
-  { "name": "Mithril", "icon": "mithril.svg" },
-  { "name": "Mocha", "icon": "mocha.svg" },
-  { "name": "Mockflow", "icon": "mockflow-icon.svg" },
-  { "name": "Modernizr", "icon": "modernizr.svg" },
-  { "name": "Modx", "icon": "modx-icon.svg" },
-  { "name": "MomentJS", "icon": "momentjs.svg" },
-  { "name": "MongoDB", "icon": "mongodb-icon.svg" },
-  { "name": "Mongoose", "icon": "mongoose.svg" },
-  { "name": "Mono", "icon": "mono.svg" },
-  { "name": "Moon", "icon": "moon.svg" },
-  { "name": "Morpheus", "icon": "morpheus-icon.svg" },
-  { "name": "Multipass", "icon": "multipass.svg" },
-  { "name": "MySQL", "icon": "mysql-icon.svg" },
-  { "name": "NASM", "icon": "nasm.svg" },
-  { "name": "NGRok", "icon": "ngrok.svg" },
-  { "name": "NPM", "icon": "npm-icon.svg" },
-  { "name": "NaiveUI", "icon": "naiveui.svg" },
-  { "name": "Namecheap", "icon": "namecheap.svg" },
-  { "name": "Nanonets", "icon": "nanonets.svg" },
-  { "name": "NativeScript", "icon": "nativescript.svg" },
-  { "name": "Neat", "icon": "neat.svg" },
-  { "name": "Neon", "icon": "neon-icon.svg" },
-  { "name": "NestJS", "icon": "nestjs.svg" },
-  { "name": "Netbeans", "icon": "netbeans.svg" },
-  { "name": "Netlify", "icon": "netlify-icon.svg" },
-  { "name": "New Relic", "icon": "new-relic-icon.svg" },
-  { "name": "NextAuth", "icon": "nextauth.png" },
-  { "name": "NextJS", "icon": "nextjs-icon.svg" },
-  { "name": "Nextra", "icon": "nextra.svg" },
-  { "name": "Nginx", "icon": "nginx.svg" },
-  { "name": "Nightwatch.js", "icon": "nightwatch.svg" },
-  { "name": "Nim", "icon": "nim-lang.svg" },
-  { "name": "NocoDB", "icon": "nocodb.svg" },
-  { "name": "Node-SASS", "icon": "node-sass.svg" },
-  { "name": "NodeBots", "icon": "nodebots.svg" },
-  { "name": "NodeJS", "icon": "nodejs-icon-alt.svg" },
-  { "name": "NodeOS", "icon": "nodeos.svg" },
-  { "name": "Nodemon", "icon": "nodemon.svg" },
-  { "name": "Nomad", "icon": "nomad-icon.svg" },
-  { "name": "Notion", "icon": "notion-icon.svg" },
-  { "name": "NuxtJS", "icon": "nuxt-icon.svg" },
-  { "name": "OCaml", "icon": "ocaml.svg" },
-  { "name": "Oauth", "icon": "oauth.svg" },
-  { "name": "Objective-C", "icon": "objective-c.svg" },
-  { "name": "Observable", "icon": "observablehq.svg" },
-  { "name": "Obsidian", "icon": "obsidian-icon.svg" },
-  { "name": "Octopus Deploy", "icon": "octopus-deploy.svg" },
-  { "name": "Okta", "icon": "okta-icon.svg" },
-  { "name": "OneSignal", "icon": "onesignal.svg" },
-  { "name": "OpenZeppelin", "icon": "open-zeppelin-icon.svg" },
-  { "name": "OpenAI", "icon": "openai-icon.svg" },
-  { "name": "OpenAPI", "icon": "openapi-icon.svg" },
-  { "name": "OpenCV", "icon": "opencv.svg" },
-  { "name": "Open GL", "icon": "opengl.svg" },
-  { "name": "OpenCart", "icon": "opencart.svg" },
-  { "name": "OpenFrameworks", "icon": "openframeworks.svg" },
-  { "name": "OpenLayers", "icon": "opengl.svg" },
-  { "name": "OpenSearch", "icon": "opensearch-icon.svg" },
-  { "name": "OpenShift", "icon": "openshift.svg" },
-  { "name": "Openstack", "icon": "openstack.svg" },
-  { "name": "OpenTelemetry", "icon": "opentelemetry-icon.svg" },
-  { "name": "OpsGenie", "icon": "opsgenie.svg" },
-  { "name": "Optimizely", "icon": "optimizely-icon.svg" },
-  { "name": "Oracle", "icon": "oracle.svg" },
-  { "name": "Origami", "icon": "origami.svg" },
-  { "name": "Overloop", "icon": "overloop-icon.svg" },
-  { "name": "PHP", "icon": "php.svg" },
-  { "name": "PKG", "icon": "pkg.svg" },
-  { "name": "PM2", "icon": "pm2-icon.svg" },
-  { "name": "PNPM", "icon": "pnpm.svg" },
-  { "name": "POEditor", "icon": "poeditor.svg" },
-  { "name": "PWA", "icon": "pwa.svg" },
-  { "name": "Packer", "icon": "packer.svg" },
-  { "name": "Pager Duty", "icon": "pagerduty-icon.svg" },
-  { "name": "PandaCSS", "icon": "pandacss-icon.svg" },
-  { "name": "Pandas", "icon": "pandas-icon.svg" },
-  { "name": "Parcel", "icon": "parcel-icon.svg" },
-  { "name": "Partytown", "icon": "partytown-icon.svg" },
-  { "name": "Passport", "icon": "passport.svg" },
-  { "name": "Payload", "icon": "payload.svg" },
-  { "name": "Paypal", "icon": "paypal.svg" },
-  { "name": "Peer5", "icon": "peer5.svg" },
-  { "name": "Pepperoni", "icon": "pepperoni.svg" },
-  { "name": "Percona", "icon": "percona.svg" },
-  { "name": "Percy", "icon": "percy-icon.svg" },
-  { "name": "Perl", "icon": "perl.svg" },
-  { "name": "Phalcon", "icon": "phalcon.svg" },
-  { "name": "Pheonix", "icon": "pheonix.svg" },
-  { "name": "PhpStorm", "icon": "phpstorm.svg" },
-  { "name": "Pinecone", "icon": "pinecone-icon.svg" },
-  { "name": "Pivotal Tracker", "icon": "pivotal_tracker.svg" },
-  { "name": "PicoCSS", "icon": "picocss.svg" },
-  { "name": "PlanetScale", "icon": "planetscale.svg" },
-  { "name": "Planless", "icon": "planless-icon.svg" },
-  { "name": "Plastic SCM", "icon": "plastic-scm.svg" },
-  { "name": "Plasmic", "icon": "plasmic.svg" },
-  { "name": "PlatformIO", "icon": "platformio.svg" },
-  { "name": "Play", "icon": "play.svg" },
-  { "name": "Playwright", "icon": "playwright.svg" },
-  { "name": "PocketBase", "icon": "pocket-base.svg" },
-  { "name": "Polymer", "icon": "polymer.svg" },
-  { "name": "PortFinder", "icon": "" },
-  { "name": "PostCSS", "icon": "postcss.svg" },
-  { "name": "PostHog", "icon": "posthog-icon.svg" },
-  { "name": "Postgraphile", "icon": "postgraphile.svg" },
-  { "name": "PostgreSQL", "icon": "postgresql.svg" },
-  { "name": "PouchDB", "icon": "pouchdb.svg" },
-  { "name": "Preact", "icon": "preact.svg" },
-  { "name": "Precursor", "icon": "precursor.svg" },
-  { "name": "Prerender", "icon": "prerender-icon.svg" },
-  { "name": "PrestaShop", "icon": "prestashop.svg" },
-  { "name": "Presto", "icon": "presto-icon.svg" },
-  { "name": "Prettier", "icon": "prettier.svg" },
-  { "name": "Prisma", "icon": "prisma.svg" },
-  { "name": "Prismic", "icon": "prismic-icon.svg" },
-  { "name": "Processing", "icon": "processing.svg" },
-  { "name": "ProcessWire", "icon": "processwire-icon.svg" },
-  { "name": "ProductBoard", "icon": "productboard-icon.svg" },
-  { "name": "Progress", "icon": "progress.svg" },
-  { "name": "Prometheus", "icon": "prometheus.svg" },
-  { "name": "Promises", "icon": "promises.svg" },
-  { "name": "Proofy", "icon": "proofy.svg" },
-  { "name": "Proto.io", "icon": "protoio.svg" },
-  { "name": "Protractor", "icon": "protractor.svg" },
-  { "name": "Prott", "icon": "prott.svg" },
-  { "name": "Pug", "icon": "pug.svg" },
-  { "name": "Pulumi", "icon": "pulumi-icon.svg" },
-  { "name": "PumpkinDB", "icon": "pumpkindb.svg" },
-  { "name": "Puppet", "icon": "puppet-icon.svg" },
-  { "name": "Puppeteer", "icon": "puppeteer.svg" },
-  { "name": "Purescript", "icon": "purescript-icon.svg" },
-  { "name": "Pushbullet", "icon": "pushbullet.svg" },
-  { "name": "Pusher", "icon": "pusher-icon.svg" },
-  { "name": "PyCharm", "icon": "pycharm.svg" },
-  { "name": "PyPi", "icon": "pypi.svg" },
-  { "name": "PyScript", "icon": "pyscript.svg" },
-  { "name": "PyTorch", "icon": "pytorch-icon.svg" },
-  { "name": "PyUp", "icon": "pyup.svg" },
-  { "name": "Python", "icon": "python.svg" },
-  { "name": "Q", "icon": "q.svg" },
-  { "name": "Qdrant", "icon": "qdrant-icon.svg" },
-  { "name": "Qlik", "icon": "qlik.svg" },
-  { "name": "Qt", "icon": "qt.svg" },
-  { "name": "Quarkus", "icon": "quarkus-icon.svg" },
-  { "name": "Quay", "icon": "quay.svg" },
-  { "name": "Qwik", "icon": "qwik-icon.svg" },
-  { "name": "R", "icon": "r-lang.svg" },
-  { "name": "RAML", "icon": "raml.svg" },
-  { "name": "RSA", "icon": "rsa.svg" },
-  { "name": "RabbitMQ", "icon": "rabbitmq-icon.svg" },
-  { "name": "Rackspace", "icon": "rackspace-icon.svg" },
-  { "name": "Ramda", "icon": "ramda.svg" },
-  { "name": "Rancher", "icon": "rancher-icon.svg" },
-  { "name": "Raphael", "icon": "raphael.svg" },
-  { "name": "RapidAPI", "icon": "rapidapi.svg" },
-  { "name": "RaspberrryPI", "icon": "raspberry-pi.svg" },
-  { "name": "Rax", "icon": "rax.svg" },
-  { "name": "ReCAPTCHA", "icon": "recaptcha.svg" },
-  { "name": "React", "icon": "react.svg" },
-  { "name": "React Query", "icon": "react-query-icon.svg" },
-  { "name": "React Router", "icon": "react-router.svg" },
-  { "name": "React Spring", "icon": "react-spring.svg" },
-  { "name": "React Styleguidist", "icon": "react-styleguidist.svg" },
-  { "name": "Realm", "icon": "realm.svg" },
-  { "name": "Reapp", "icon": "reapp.svg" },
-  { "name": "ReasonML", "icon": "reasonml-icon.svg" },
-  { "name": "Recoil", "icon": "recoil-icon.svg" },
-  { "name": "Reddit", "icon": "reddit-icon.svg" },
-  { "name": "Red Hat", "icon": "redhat-icon.svg" },
-  { "name": "Redis", "icon": "redis.svg" },
-  { "name": "Redsmin", "icon": "redsmin.svg" },
-  { "name": "Redux", "icon": "redux.svg" },
-  { "name": "RedwoodJS", "icon": "redwoodjs.svg" },
-  { "name": "Reindex", "icon": "reindex.svg" },
-  { "name": "Relay", "icon": "relay.svg" },
-  { "name": "Release", "icon": "release.svg" },
-  { "name": "Remix", "icon": "remix-icon.svg" },
-  { "name": "RenovateBot", "icon": "renovatebot.svg" },
-  { "name": "Replay", "icon": "replay-icon.svg" },
-  { "name": "Replit", "icon": "replit-icon.svg" },
-  { "name": "Require", "icon": "require.svg" },
-  { "name": "ReScript", "icon": "rescript-icon.svg" },
-  { "name": "Rest", "icon": "rest-api.svg" },
-  { "name": "RethinkDB", "icon": "rethinkdb.svg" },
-  { "name": "Retool", "icon": "retool-icon.svg" },
-  { "name": "Riak", "icon": "riak.svg" },
-  { "name": "Rider", "icon": "rider.svg" },
-  { "name": "Riot", "icon": "riot.svg" },
-  { "name": "Risingwave-icon", "icon": "risingwave-icon.svg" },
-  { "name": "Robotics", "icon": "robotics.svg" },
-  { "name": "RocksDB", "icon": "rocksdb.svg" },
-  { "name": "Rocky Linux", "icon": "rocky-linux-icon.svg" },
-  { "name": "Rollbar", "icon": "rollbar-icon.svg" },
-  { "name": "Ros", "icon": "ros.svg" },
-  { "name": "Rubocop", "icon": "rubocop.svg" },
-  { "name": "Ruby", "icon": "ruby.svg" },
-  { "name": "Ruby Gems", "icon": "rubygems.svg" },
-  { "name": "Ruby Mine", "icon": "rubymine.svg" },
-  { "name": "Ruby on Rails", "icon": "rails.svg" },
-  { "name": "Rum", "icon": "rum.svg" },
-  { "name": "Rush", "icon": "rush-icon.svg" },
-  { "name": "Rust", "icon": "rust.svg" },
-  { "name": "RxDB", "icon": "rxdb.svg" },
-  { "name": "SAP", "icon": "sap.svg" },
-  { "name": "SASS", "icon": "sass.svg" },
-  { "name": "SCSS", "icon": "scss.svg" },
-  { "name": "SEMVER", "icon": "semver.svg" },
-  { "name": "SEO", "icon": "seo.svg" },
-  { "name": "SMTP", "icon": "smtp.svg" },
-  { "name": "SQL", "icon": "sql.svg" },
-  { "name": "SQLite", "icon": "sqlite.svg" },
-  { "name": "SSH", "icon": "ssh.svg" },
-  { "name": "SST", "icon": "sst-icon.svg" },
-  { "name": "SVG", "icon": "svg.svg" },
-  { "name": "SVGator", "icon": "svgator.svg" },
-  { "name": "SWC", "icon": "swc.svg" },
-  { "name": "SWR", "icon": "swr.svg" },
-  { "name": "Sagui", "icon": "sagui.svg" },
-  { "name": "Sails", "icon": "sails.svg" },
-  { "name": "SanityCMS", "icon": "sanity.svg" },
-  { "name": "SassDoc", "icon": "sass-doc.svg" },
-  { "name": "Sass", "icon": "sass.svg" },
-  { "name": "Scala", "icon": "scala.svg" },
-  { "name": "Scaledrone", "icon": "scaledrone.svg" },
-  { "name": "Section", "icon": "section-icon.svg" },
-  { "name": "Segment", "icon": "segment-icon.svg" },
-  { "name": "Selenium", "icon": "selenium.svg" },
-  { "name": "Semantic UI", "icon": "semantic-ui.svg" },
-  { "name": "Semantic Web", "icon": "semantic-web.svg" },
-  { "name": "Semaphoreci", "icon": "semaphoreci.svg" },
-  { "name": "Sencha", "icon": "sencha.svg" },
-  { "name": "SendGrid", "icon": "sendgrid-icon.svg" },
-  { "name": "Seneca", "icon": "seneca.svg" },
-  { "name": "Sentry", "icon": "sentry-icon.svg" },
-  { "name": "Sequelize", "icon": "sequelize.svg" },
-  { "name": "Serverless", "icon": "serverless.svg" },
-  { "name": "Shell", "icon": "shell.svg" },
-  { "name": "Shields", "icon": "shields.svg" },
-  { "name": "Shipit", "icon": "shipit.svg" },
-  { "name": "Shogun", "icon": "shogun.svg" },
-  { "name": "Shopify", "icon": "shopify.svg" },
-  { "name": "Shortcut", "icon": "shortcut-icon.svg" },
-  { "name": "Sidekiq", "icon": "sidekiq-icon.svg" },
-  { "name": "Signal", "icon": "signal.svg" },
-  { "name": "Sinatra", "icon": "sinatra.svg" },
-  { "name": "Singlestore", "icon": "singlestore-icon.svg" },
-  { "name": "Sketch", "icon": "sketch.svg" },
-  { "name": "Skylight", "icon": "skylight.svg" },
-  { "name": "Slim", "icon": "slim.svg" },
-  { "name": "Smartling", "icon": "smartling.svg" },
-  { "name": "SnapSVG", "icon": "snap-svg.svg" },
-  { "name": "Snaplet", "icon": "snaplet-icon.svg" },
-  { "name": "Snowpack", "icon": "snowpack.svg" },
-  { "name": "Snyk", "icon": "snyk.svg" },
-  { "name": "SocketIO", "icon": "socket.io.svg" },
-  { "name": "Software Architecture", "icon": "architecture.svg" },
-  { "name": "Solid", "icon": "solid.svg" },
-  { "name": "Solidity", "icon": "solidity.svg" },
-  { "name": "SolidJS", "icon": "solidjs-icon.svg" },
-  { "name": "SonarCloud", "icon": "sonarcloud-icon.svg" },
-  { "name": "SonarLint", "icon": "sonarlint-icon.svg" },
-  { "name": "Sourcetree", "icon": "sourcetree.svg" },
-  { "name": "Spark", "icon": "spark.svg" },
-  { "name": "Speech Recognition API", "icon": "speech-recognition.svg" },
-  { "name": "Speedcurve", "icon": "speedcurve.svg" },
-  { "name": "SpiderMonkey", "icon": "spidermonkey-icon.svg" },
-  { "name": "Spinnaker", "icon": "spinnaker.svg" },
-  { "name": "Splunk", "icon": "splunk.svg" },
-  { "name": "Spring", "icon": "spring-icon.svg" },
-  { "name": "Square", "icon": "square.svg" },
-  { "name": "Squarespace", "icon": "squarespace.svg" },
-  { "name": "Stackbit", "icon": "stackbit-icon.svg" },
-  { "name": "StackBlitz", "icon": "stackblitz-icon.svg" },
-  { "name": "Stately", "icon": "stately-icon.svg" },
-  { "name": "Statuspage", "icon": "statuspage.svg" },
-  { "name": "StencilJS", "icon": "stenciljs-icon.svg" },
-  { "name": "Stetho", "icon": "stetho.svg" },
-  { "name": "Stimulus", "icon": "stimulus-icon.svg" },
-  { "name": "Stitch", "icon": "stitch.svg" },
-  { "name": "Stoplight", "icon": "stoplight.svg" },
-  { "name": "Storyblok", "icon": "storyblok-icon.svg" },
-  { "name": "Storybook", "icon": "storybook-icon.svg" },
-  { "name": "Strapi", "icon": "strapi-icon.svg" },
-  { "name": "Streamlit", "icon": "streamlit.svg" },
-  { "name": "Strider", "icon": "strider.svg" },
-  { "name": "Stripe", "icon": "stripe.svg" },
-  { "name": "Struts", "icon": "struts.svg" },
-  { "name": "Styleci", "icon": "styleci.svg" },
-  { "name": "Styled Components", "icon": "styled-components.svg" },
-  { "name": "Stylis", "icon": "stylis.svg" },
-  { "name": "Stylus", "icon": "stylus.svg" },
-  { "name": "Sublime Text", "icon": "sublimetext-icon.svg" },
-  { "name": "Subversion", "icon": "subversion.svg" },
-  { "name": "Sugarss", "icon": "sugarss.svg" },
-  { "name": "Supabase", "icon": "supabase-icon.svg" },
-  { "name": "Supertokens", "icon": "supertokens-icon.svg" },
-  { "name": "Surge", "icon": "surge.svg" },
-  { "name": "SurrealDB", "icon": "surrealdb.svg" },
-  { "name": "Suse", "icon": "suse.svg" },
-  { "name": "Svelte", "icon": "svelte-icon.svg" },
-  { "name": "SvelteKit", "icon": "svelte-icon.svg" },
-  { "name": "Swagger", "icon": "swagger.svg" },
-  { "name": "Swift", "icon": "swift.svg" },
-  { "name": "Swiftype", "icon": "swiftype.svg" },
-  { "name": "Swimm", "icon": "swimm.svg" },
-  { "name": "Sysdig", "icon": "sysdig-icon.svg" },
-  { "name": "TOML", "icon": "toml.svg" },
-  { "name": "T3", "icon": "t3.svg" },
-  { "name": "Tableau", "icon": "tableau-icon.svg" },
-  { "name": "Taiga", "icon": "taiga.svg" },
-  { "name": "Tailscale", "icon": "tailscale.svg" },
-  { "name": "TailwindCSS", "icon": "tailwindcss-icon.svg" },
-  { "name": "TailwindUI", "icon": "tailwindcss-icon.svg" },
-  { "name": "Taskade", "icon": "taskade.svg" },
-  { "name": "Tauri", "icon": "tauri.svg" },
-  { "name": "Tealium", "icon": "tealium.svg" },
-  { "name": "Teamcity", "icon": "teamcity.svg" },
-  { "name": "Teamgrid", "icon": "teamgrid.svg" },
-  { "name": "TensorFlow", "icon": "tensorflow.svg" },
-  { "name": "Terminal", "icon": "terminal.svg" },
-  { "name": "Terraform", "icon": "terraform-icon.svg" },
-  { "name": "Terser", "icon": "terser-icon.svg" },
-  { "name": "Testcafe", "icon": "testcafe.svg" },
-  { "name": "Testing Library", "icon": "testing-library.svg" },
-  { "name": "Testlodge", "icon": "testlodge.svg" },
-  { "name": "ThreeJS", "icon": "threejs.svg" },
-  { "name": "Thymeleaf", "icon": "thymeleaf-icon.svg" },
-  { "name": "Todoist", "icon": "todoist-icon.svg" },
-  { "name": "Tor", "icon": "tor-browser.svg" },
-  { "name": "Travis CI", "icon": "travis-ci.svg" },
-  { "name": "Trello", "icon": "trello.svg" },
-  { "name": "Truffle", "icon": "truffle-icon.svg" },
-  { "name": "Tuple", "icon": "tuple.svg" },
-  { "name": "TurboRepo", "icon": "turborepo-icon.svg" },
-  { "name": "Turbopack", "icon": "turbopack-icon.svg" },
-  { "name": "Turret", "icon": "turret.svg" },
-  { "name": "TursoDB", "icon": "tursodb.jpeg" },
-  { "name": "Twilio", "icon": "twilio-icon.svg" },
-  { "name": "Twitter API", "icon": "twitter.svg" },
-  { "name": "TypeORM", "icon": "typeorm.svg" },
-  { "name": "TypeScript", "icon": "typescript-icon.svg" },
-  { "name": "Typo3", "icon": "typo3-icon.svg" },
-  { "name": "UI/UX", "icon": "ui-ux.svg" },
-  { "name": "UNIT Testing", "icon": "unit-testing.svg" },
-  { "name": "Ubuntu", "icon": "ubuntu.svg" },
-  { "name": "Unbounce", "icon": "unbounce-icon.svg" },
-  { "name": "Undertow", "icon": "undertow.svg" },
-  { "name": "UnitJS", "icon": "unitjs.svg" },
-  { "name": "Unito", "icon": "unito-icon.svg" },
-  { "name": "Unity", "icon": "unity.svg" },
-  { "name": "Unreal Engine", "icon": "unrealengine-icon.svg" },
-  { "name": "Upstash", "icon": "upstash-icon.svg" },
-  { "name": "User Testing", "icon": "user-testing-icon.svg" },
-  { "name": "V", "icon": "vlang.svg" },
-  { "name": "V8", "icon": "v8.svg" },
-  { "name": "VSCode", "icon": "visual-studio-code.svg" },
-  { "name": "VWO", "icon": "vwo.svg" },
-  { "name": "Vaadin", "icon": "vaadin.svg" },
-  { "name": "Vagrant", "icon": "vagrant.svg" },
-  { "name": "Vault", "icon": "vault-icon.svg" },
-  { "name": "Vercel", "icon": "vercel-icon.svg" },
-  { "name": "Verdaccio", "icon": "verdaccio-icon.svg" },
-  { "name": "Video", "icon": "video.svg" },
-  { "name": "Vim", "icon": "vim.svg" },
-  { "name": "Visual Studio", "icon": "visual-studio.svg" },
-  { "name": "Vite", "icon": "vitejs.svg" },
-  { "name": "Vitess", "icon": "vitess.svg" },
-  { "name": "Vitest", "icon": "vitest.svg" },
-  { "name": "Vivaldi", "icon": "vivaldi-icon.svg" },
-  { "name": "Void", "icon": "void.svg" },
-  { "name": "VueJS", "icon": "vue.svg" },
-  { "name": "Vuetify", "icon": "vuetifyjs.svg" },
-  { "name": "VueUse", "icon": "vueuse.svg" },
-  { "name": "Vulkan", "icon": "vulkan.svg" },
-  { "name": "Vultr", "icon": "vultr-icon.svg" },
-  { "name": "W3C", "icon": "w3c.svg" },
-  { "name": "WMR", "icon": "wmr.svg" },
-  { "name": "WSL", "icon": "" },
-  { "name": "Waffle", "icon": "waffle-icon.svg" },
-  { "name": "Wagtail", "icon": "wagtail.svg" },
-  { "name": "Wakatime", "icon": "wakatime.svg" },
-  { "name": "Watchman", "icon": "watchman.svg" },
-  { "name": "Waypoint", "icon": "waypoint-icon.svg" },
-  { "name": "Wayscript", "icon": "wayscript-icon.svg" },
-  { "name": "Wearos", "icon": "wearos.svg" },
-  { "name": "Weave", "icon": "weave.svg" },
-  { "name": "WebGPU", "icon": "webgpu.svg" },
-  { "name": "WebRTC", "icon": "webrtc.svg" },
-  { "name": "Web Assembly", "icon": "webassembly.svg" },
-  { "name": "Web Components", "icon": "webcomponents.svg" },
-  { "name": "Web Design", "icon": "web-design.svg" },
-  { "name": "Web Development", "icon": "web-development.svg" },
-  { "name": "Web3", "icon": "web3.svg" },
-  { "name": "Web3JS", "icon": "web3js.svg" },
-  { "name": "Webflow", "icon": "webflow.svg" },
-  { "name": "Webhint", "icon": "webhint-icon.svg" },
-  { "name": "Webix", "icon": "webix-icon.svg" },
-  { "name": "Webhooks", "icon": "webhooks.svg" },
-  { "name": "Webkit", "icon": "webkit.svg" },
-  { "name": "Webmin", "icon": "webmin.svg" },
-  { "name": "Webpack", "icon": "webpack.svg" },
-  { "name": "Websocket", "icon": "websocket.svg" },
-  { "name": "Webstorm", "icon": "webstorm.svg" },
-  { "name": "Webtorrent", "icon": "webtorrent.svg" },
-  { "name": "Weebly", "icon": "weebly.svg" },
-  { "name": "Wicket", "icon": "wicket-icon.svg" },
-  { "name": "Wi-Fi", "icon": "wifi.svg" },
-  { "name": "WindiCSS", "icon": "windi-css.svg" },
-  { "name": "Wing", "icon": "winglang-icon.svg" },
-  { "name": "Wix", "icon": "wix.svg" },
-  { "name": "WooCommerce", "icon": "woocommerce-icon.svg" },
-  { "name": "WordPress", "icon": "wordpress-icon.svg" },
-  { "name": "Workboard", "icon": "workboard.svg" },
-  { "name": "Workos", "icon": "workos-icon.svg" },
-  { "name": "Workplace", "icon": "workplace-icon.svg" },
-  { "name": "WP Engine", "icon": "wpengine.svg" },
-  { "name": "XML", "icon": "xml.svg" },
-  { "name": "Xamarin", "icon": "xamarin.svg" },
-  { "name": "Xampp", "icon": "xampp.svg" },
-  { "name": "Xata", "icon": "xata-icon.svg" },
-  { "name": "XCode", "icon": "xcode.svg" },
-  { "name": "Xtend", "icon": "xtend.svg" },
-  { "name": "YAML", "icon": "yaml.svg" },
-  { "name": "Yarn", "icon": "yarn.svg" },
-  { "name": "Yugabyte", "icon": "yugabyte.svg" },
-  { "name": "Zapier", "icon": "zapier.svg" },
-  { "name": "Zend Framework", "icon": "zend-framework.svg" },
-  { "name": "Zendesk", "icon": "zendesk-icon.svg" },
-  { "name": "Zig", "icon": "zig.svg" },
-  { "name": "Zod", "icon": "zod.svg" },
-  { "name": "Zoho", "icon": "zoho.svg" },
-  { "name": "Zorin OS", "icon": "zorin-os.svg" },
-  { "name": "gRPC", "icon": "grpc.svg" },
-  { "name": "hCaptcha", "icon": "hcaptcha-icon.svg" },
-  { "name": "jQuery", "icon": "jquery.svg" },
-  { "name": "jsDOM", "icon": "jsdom.svg" },
-  { "name": "jsDelivr", "icon": "jsdelivr.svg" },
-  { "name": "kirby", "icon": "kirby-icon.svg" },
-  { "name": "kops", "icon": "kops.svg" },
-  { "name": "lighttpd", "icon": "lighttpd.svg" },
-  { "name": "linkerd", "icon": "linkerd.svg" },
-  { "name": "loader", "icon": "loader.svg" },
-  { "name": "logentries", "icon": "logentries.svg" },
-  { "name": "mageia", "icon": "mageia.svg" },
-  { "name": "mlab", "icon": "mlab.svg" },
-  { "name": "mparticle", "icon": "mparticle-icon.svg" },
-  { "name": "nvm", "icon": "nvm.svg" },
-  { "name": "octodns", "icon": "octodns.svg" },
-  { "name": "osquery", "icon": "osquery.svg" },
-  { "name": "p5.js", "icon": "p5js.svg" },
-  { "name": "pagekit", "icon": "pagekit.svg" },
-  { "name": "pagekite", "icon": "pagekite.svg" },
-  { "name": "parsehub", "icon": "parsehub.svg" },
-  { "name": "pipedrive", "icon": "pipedrive.svg" },
-  { "name": "quotbyte", "icon": "quotbyte.svg" },
-  { "name": "redux observable", "icon": "redux-observable.svg" },
-  { "name": "redux saga", "icon": "redux-saga.svg" },
-  { "name": "rest li", "icon": "rest-li.svg" },
-  { "name": "rollup.js", "icon": "rollupjs.svg" },
-  { "name": "runscope", "icon": "runscope.svg" },
-  { "name": "seaborn", "icon": "seaborn-icon.svg" },
-  { "name": "semantic release", "icon": "semantic-release.svg" },
-  { "name": "sensu", "icon": "sensu-icon.svg" },
-  { "name": "sigstore", "icon": "sigstore-icon.svg" },
-  { "name": "slack", "icon": "slack-icon.svg" },
-  { "name": "slides", "icon": "slides.svg" },
-  { "name": "snowflake", "icon": "snowflake-icon.svg" },
-  { "name": "stdlib", "icon": "stdlib-icon.svg" },
-  { "name": "stylefmt", "icon": "stylefmt.svg" },
-  { "name": "stylelint", "icon": "stylelint.svg" },
-  { "name": "teamwork", "icon": "teamwork-icon.svg" },
-  { "name": "tRPC", "icon": "trpc.svg" },
-  { "name": "tsnode", "icon": "tsnode.svg" },
-  { "name": "tsuru", "icon": "tsuru.svg" },
-  { "name": "typesense", "icon": "typesense-icon.svg" },
-  { "name": "ukit", "icon": "ukit.svg" },
-  { "name": "unocss", "icon": "unocss.svg" },
-  { "name": "uwsgi", "icon": "uwsgi.svg" },
-  { "name": "web.dev", "icon": "web.dev-icon.svg" },
-  { "name": "zeroheight", "icon": "zeroheight-icon.svg" },
-  { "name": "zkLogin", "icon": "zklogin.svg" },
-  { "name": "zkProof", "icon": "" },
-  { "name": "zkSync", "icon": "zksync.png" },
-  { "name": "zsh", "icon": "zsh.svg" }
+  {
+    "id": "dotnet",
+    "name": ".NET",
+    "category": "Language",
+    "description": "",
+    "requirements": [],
+    "icon": "dotnet.svg"
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws.svg"
+  },
+  {
+    "id": "aws-api-gateway",
+    "name": "AWS API Gateway",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-api-gateway.svg"
+  },
+  {
+    "id": "aws-amplify",
+    "name": "AWS Amplify",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-amplify.svg"
+  },
+  {
+    "id": "aws-app-mesh",
+    "name": "AWS App Mesh",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-app-mesh.svg"
+  },
+  {
+    "id": "aws-appflow",
+    "name": "AWS AppFlow",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-appflow.svg"
+  },
+  {
+    "id": "aws-appsync",
+    "name": "AWS AppSync",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-appsync.svg"
+  },
+  {
+    "id": "aws-athena",
+    "name": "AWS Athena",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-athena.svg"
+  },
+  {
+    "id": "aws-aurora",
+    "name": "AWS Aurora",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-aurora.svg"
+  },
+  {
+    "id": "aws-backup",
+    "name": "AWS Backup",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-backup.svg"
+  },
+  {
+    "id": "aws-batch",
+    "name": "AWS Batch",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-batch.svg"
+  },
+  {
+    "id": "aws-certificate-manager",
+    "name": "AWS Certificate Manager",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-certificate-manager.svg"
+  },
+  {
+    "id": "aws-cloudfront",
+    "name": "AWS CloudFront",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-cloudfront.svg"
+  },
+  {
+    "id": "aws-cloudformation",
+    "name": "AWS CloudFormation",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-cloudformation.svg"
+  },
+  {
+    "id": "aws-cloudsearch",
+    "name": "AWS CloudSearch",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-cloudsearch.svg"
+  },
+  {
+    "id": "aws-cloudtrail",
+    "name": "AWS CloudTrail",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-cloudtrail.svg"
+  },
+  {
+    "id": "aws-cloudwatch",
+    "name": "AWS CloudWatch",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-cloudwatch.svg"
+  },
+  {
+    "id": "aws-codebuild",
+    "name": "AWS CodeBuild",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-codebuild.svg"
+  },
+  {
+    "id": "aws-codecommit",
+    "name": "AWS CodeCommit",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-codecommit.svg"
+  },
+  {
+    "id": "aws-codedeploy",
+    "name": "AWS CodeDeploy",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-codedeploy.svg"
+  },
+  {
+    "id": "aws-codepipeline",
+    "name": "AWS CodePipeline",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-codepipeline.svg"
+  },
+  {
+    "id": "aws-codestar",
+    "name": "AWS CodeStar",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-codestar.svg"
+  },
+  {
+    "id": "aws-cognito",
+    "name": "AWS Cognito",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-cognito.svg"
+  },
+  {
+    "id": "aws-config",
+    "name": "AWS Config",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-config.svg"
+  },
+  {
+    "id": "aws-dynamodb",
+    "name": "AWS DynamoDB",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-dynamodb.svg"
+  },
+  {
+    "id": "aws-ec2",
+    "name": "AWS EC2",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-ec2.svg"
+  },
+  {
+    "id": "aws-ecs",
+    "name": "AWS ECS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-ecs.svg"
+  },
+  {
+    "id": "aws-eks",
+    "name": "AWS EKS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-eks.svg"
+  },
+  {
+    "id": "aws-elb",
+    "name": "AWS ELB",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-elb.svg"
+  },
+  {
+    "id": "aws-elastic-beanstalk",
+    "name": "AWS Elastic Beanstalk",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-elastic-beanstalk.svg"
+  },
+  {
+    "id": "aws-elasticache",
+    "name": "AWS ElasticCache",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-elasticache.svg"
+  },
+  {
+    "id": "aws-eventbridge",
+    "name": "AWS EventBridge",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-eventbridge.svg"
+  },
+  {
+    "id": "aws-fargate",
+    "name": "AWS Fargate",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-fargate.svg"
+  },
+  {
+    "id": "aws-glacier",
+    "name": "AWS Glacier",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-glacier.svg"
+  },
+  {
+    "id": "aws-glue",
+    "name": "AWS Glue",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-glue.svg"
+  },
+  {
+    "id": "aws-iam",
+    "name": "AWS IAM",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-iam.svg"
+  },
+  {
+    "id": "aws-kms",
+    "name": "AWS KMS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-kms.svg"
+  },
+  {
+    "id": "aws-keyspaces",
+    "name": "AWS Keyspaces",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-keyspaces.svg"
+  },
+  {
+    "id": "aws-kinesis",
+    "name": "AWS Kinesis",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-kinesis.svg"
+  },
+  {
+    "id": "aws-lake-formation",
+    "name": "AWS Lake Formation",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-lake-formation.svg"
+  },
+  {
+    "id": "aws-lambda",
+    "name": "AWS Lambda",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-lambda.svg"
+  },
+  {
+    "id": "aws-lightsail",
+    "name": "AWS LightSail",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-lightsail.svg"
+  },
+  {
+    "id": "aws-mq",
+    "name": "AWS MQ",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-mq.svg"
+  },
+  {
+    "id": "aws-msk",
+    "name": "AWS MSK",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-msk.svg"
+  },
+  {
+    "id": "aws-neptune",
+    "name": "AWS Neptune",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-neptune.svg"
+  },
+  {
+    "id": "aws-open-search",
+    "name": "AWS Open Search",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-open-search.svg"
+  },
+  {
+    "id": "aws-opsworks",
+    "name": "AWS Opworks",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-opsworks.svg"
+  },
+  {
+    "id": "aws-quicksight",
+    "name": "AWS QuickSight",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-quicksight.svg"
+  },
+  {
+    "id": "aws-rds",
+    "name": "AWS RDS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-rds.svg"
+  },
+  {
+    "id": "aws-redshift",
+    "name": "AWS Redshift",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-redshift.svg"
+  },
+  {
+    "id": "aws-route53",
+    "name": "AWS Route 53",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-route53.svg"
+  },
+  {
+    "id": "aws-s3",
+    "name": "AWS S3",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-s3.svg"
+  },
+  {
+    "id": "aws-ses",
+    "name": "AWS SES",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-ses.svg"
+  },
+  {
+    "id": "aws-sns",
+    "name": "AWS SNS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-sns.svg"
+  },
+  {
+    "id": "aws-sqs",
+    "name": "AWS SQS",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-sqs.svg"
+  },
+  {
+    "id": "aws-secrets-manager",
+    "name": "AWS Secrets Manager",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-secrets-manager.svg"
+  },
+  {
+    "id": "aws-shield",
+    "name": "AWS Shield",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-shield.svg"
+  },
+  {
+    "id": "aws-step-functions",
+    "name": "AWS Step Functions",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-step-functions.svg"
+  },
+  {
+    "id": "aws-systems-manager",
+    "name": "AWS Systems Manager",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-systems-manager.svg"
+  },
+  {
+    "id": "aws-timestream",
+    "name": "AWS Timestream",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-timestream.svg"
+  },
+  {
+    "id": "aws-vpc",
+    "name": "AWS VPC",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-vpc.svg"
+  },
+  {
+    "id": "aws-waf",
+    "name": "AWS WAF",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-waf.svg"
+  },
+  {
+    "id": "aws-xray",
+    "name": "AWS X-Ray",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "aws-xray.svg"
+  },
+  {
+    "id": "adobe-after-effects",
+    "name": "Adobe After Effects",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-after-effects.svg"
+  },
+  {
+    "id": "adobe-animate",
+    "name": "Adobe Animate",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-animate.svg"
+  },
+  {
+    "id": "adobe-dreamweaver",
+    "name": "Adobe Dreamweaver",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-dreamweaver.svg"
+  },
+  {
+    "id": "adobe-illustrator",
+    "name": "Adobe Illustrator",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-illustrator.svg"
+  },
+  {
+    "id": "adobe-incopy",
+    "name": "Adobe InCopy",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-incopy.svg"
+  },
+  {
+    "id": "adobe-indesign",
+    "name": "Adobe InDesign",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-indesign.svg"
+  },
+  {
+    "id": "adobe-lightroom",
+    "name": "Adobe Lightroom",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-lightroom.svg"
+  },
+  {
+    "id": "adobe-photoshop",
+    "name": "Adobe Photoshop",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-photoshop.svg"
+  },
+  {
+    "id": "adobe-premiere",
+    "name": "Adobe Premiere",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-premiere.svg"
+  },
+  {
+    "id": "adobe-xd",
+    "name": "Adobe XD",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "icon": "adobe-xd.svg"
+  },
+  {
+    "id": "algolia",
+    "name": "Algolia",
+    "category": "Libraries & Frameworks",
+    "description": "",
+    "requirements": [],
+    "icon": "algolia.svg"
+  },
+  {
+    "id": "alpinejs",
+    "name": "AlpineJS",
+    "category": "Libraries & Frameworks",
+    "description": "",
+    "requirements": [],
+    "icon": "alpinejs.svg"
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "category": "Concepts & Fields",
+    "description": "",
+    "requirements": [],
+    "icon": "analytics.svg"
+  },
+  {
+    "id": "android-icon",
+    "name": "Android Development",
+    "category": "Concepts & Fields",
+    "description": "",
+    "requirements": [],
+    "icon": "android-icon.svg"
+  },
+  {
+    "id": "angular",
+    "name": "AngularJS",
+    "category": "Libraries & Frameworks",
+    "description": "",
+    "requirements": [],
+    "icon": "angular.svg"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "category": "Libraries & Frameworks",
+    "description": "",
+    "requirements": [],
+    "icon": "ansible.svg"
+  },
+  {
+    "id": "apache",
+    "name": "Apache",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "apache.svg"
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "apollo.svg"
+  },
+  {
+    "id": "appcenter-icon",
+    "name": "Appcenter",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "appcenter-icon.svg"
+  },
+  {
+    "id": "appcircle-icon",
+    "name": "Appcircle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "appcircle-icon.svg"
+  },
+  {
+    "id": "appwrite-icon",
+    "name": "Appwrite",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "appwrite-icon.svg"
+  },
+  {
+    "id": "arangodb-icon",
+    "name": "ArangoDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "arangodb-icon.svg"
+  },
+  {
+    "id": "arbitrum",
+    "name": "Arbitrum",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "arbitrum.svg"
+  },
+  {
+    "id": "archlinux",
+    "name": "Arch Linux",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "archlinux.svg"
+  },
+  {
+    "id": "arduino",
+    "name": "Arduino",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "arduino.svg"
+  },
+  {
+    "id": "ml",
+    "name": "Artificial Intelligence",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ml.svg"
+  },
+  {
+    "id": "astro-icon",
+    "name": "Astro",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "astro-icon.svg"
+  },
+  {
+    "id": "atom-icon",
+    "name": "Atom",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "atom-icon.svg"
+  },
+  {
+    "id": "audio",
+    "name": "Audio",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "audio.svg"
+  },
+  {
+    "id": "auth0-icon",
+    "name": "Auth0",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "auth0-icon.svg"
+  },
+  {
+    "id": "axios",
+    "name": "Axios",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "axios.svg"
+  },
+  {
+    "id": "babel",
+    "name": "Babel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "babel.svg"
+  },
+  {
+    "id": "backbone-icon",
+    "name": "BackboneJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "backbone-icon.svg"
+  },
+  {
+    "id": "bash-icon",
+    "name": "Bash",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bash-icon.svg"
+  },
+  {
+    "id": "batch",
+    "name": "Batch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "batch.svg"
+  },
+  {
+    "id": "bazel",
+    "name": "Bazel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bazel.svg"
+  },
+  {
+    "id": "big-data",
+    "name": "Big Data",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "big-data.svg"
+  },
+  {
+    "id": "bigpanda",
+    "name": "Bigpanda",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bigpanda.svg"
+  },
+  {
+    "id": "bitbucket",
+    "name": "Bitbucket",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bitbucket.svg"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "blender.svg"
+  },
+  {
+    "id": "blitzjs-icon",
+    "name": "Blitz",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "blitzjs-icon.svg"
+  },
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "blockchain.svg"
+  },
+  {
+    "id": "blueprints",
+    "name": "Blueprints",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "blueprints.svg"
+  },
+  {
+    "id": "bluetooth",
+    "name": "Bluetooth",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bluetooth.svg"
+  },
+  {
+    "id": "bourbon",
+    "name": "Bourbon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bourbon.svg"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "box.svg"
+  },
+  {
+    "id": "bower",
+    "name": "Bower",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bower.svg"
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli JS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "broccoli.svg"
+  },
+  {
+    "id": "browserify",
+    "name": "Browserify",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "browserify.svg"
+  },
+  {
+    "id": "builder-io-icon",
+    "name": "BuilderIO",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "builder-io-icon.svg"
+  },
+  {
+    "id": "bun",
+    "name": "Bun",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "bun.svg"
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "c.svg"
+  },
+  {
+    "id": "c-sharp",
+    "name": "C#",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "c-sharp.svg"
+  },
+  {
+    "id": "c-plusplus",
+    "name": "C++",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "c-plusplus.svg"
+  },
+  {
+    "id": "create-react-app",
+    "name": "CRA",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "create-react-app.svg"
+  },
+  {
+    "id": "css-flexbox",
+    "name": "CSS Flexbox Model",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "css-flexbox.svg"
+  },
+  {
+    "id": "css-3",
+    "name": "CSS3",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "css-3.svg"
+  },
+  {
+    "id": "cssnext",
+    "name": "CSSNext",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cssnext.svg"
+  },
+  {
+    "id": "canjs",
+    "name": "CanJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "canjs.svg"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "canva.svg"
+  },
+  {
+    "id": "chai",
+    "name": "Chai",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "chai.svg"
+  },
+  {
+    "id": "openai-icon",
+    "name": "ChatGPT",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "openai-icon.svg"
+  },
+  {
+    "id": "cheerio",
+    "name": "Cheerio",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cheerio.svg"
+  },
+  {
+    "id": "chevereto",
+    "name": "Chevereto",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "chevereto.svg"
+  },
+  {
+    "id": "chrome",
+    "name": "Chrome",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "chrome.svg"
+  },
+  {
+    "id": "chrome-web-store",
+    "name": "Chrome Web Store",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "chrome-web-store.svg"
+  },
+  {
+    "id": "chromatic-icon",
+    "name": "Chromatic",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "chromatic-icon.svg"
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "circleci.svg"
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "clojure.svg"
+  },
+  {
+    "id": "cloud-computing",
+    "name": "Cloud",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cloud-computing.svg"
+  },
+  {
+    "id": "cloudflare-icon",
+    "name": "Cloudflare",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cloudflare-icon.svg"
+  },
+  {
+    "id": "cloudinary-icon",
+    "name": "Cloudinary",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cloudinary-icon.svg"
+  },
+  {
+    "id": "codebeat",
+    "name": "Codebeat",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codebeat.svg"
+  },
+  {
+    "id": "cpanel",
+    "name": "CPanel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cpanel.svg"
+  },
+  {
+    "id": "codeclimate-icon",
+    "name": "Codeclimate",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codeclimate-icon.svg"
+  },
+  {
+    "id": "codecov-icon",
+    "name": "Codecov",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codecov-icon.svg"
+  },
+  {
+    "id": "codefactor-icon",
+    "name": "Codefactor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codefactor-icon.svg"
+  },
+  {
+    "id": "codeigniter-icon",
+    "name": "Codeigniter",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codeigniter-icon.svg"
+  },
+  {
+    "id": "codepen-icon",
+    "name": "Codepen",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codepen-icon.svg"
+  },
+  {
+    "id": "codesandbox-icon",
+    "name": "Codesandbox",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codesandbox-icon.svg"
+  },
+  {
+    "id": "codesee-icon",
+    "name": "Codesee",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codesee-icon.svg"
+  },
+  {
+    "id": "codium",
+    "name": "Codium",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "codium.svg"
+  },
+  {
+    "id": "coffescript",
+    "name": "CoffeeScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "coffescript.svg"
+  },
+  {
+    "id": "commitzen",
+    "name": "Commitizen",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "commitzen.svg"
+  },
+  {
+    "id": "confluence",
+    "name": "Confluence",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "confluence.svg"
+  },
+  {
+    "id": "contentful",
+    "name": "Contentful",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "contentful.svg"
+  },
+  {
+    "id": "couchdb-icon",
+    "name": "CouchDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "couchdb-icon.svg"
+  },
+  {
+    "id": "couchbase",
+    "name": "Couchbase",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "couchbase.svg"
+  },
+  {
+    "id": "cryptography",
+    "name": "Cryptography",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cryptography.svg"
+  },
+  {
+    "id": "curl",
+    "name": "cURL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "curl.svg"
+  },
+  {
+    "id": "cypress-icon",
+    "name": "Cypress",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "cypress-icon.svg"
+  },
+  {
+    "id": "d3",
+    "name": "D3.js",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "d3.svg"
+  },
+  {
+    "id": "daisyUI",
+    "name": "DaisyUI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "daisyUI.svg"
+  },
+  {
+    "id": "danfo",
+    "name": "DanfoJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "danfo.svg"
+  },
+  {
+    "id": "dns",
+    "name": "DNS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dns.svg"
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dart.svg"
+  },
+  {
+    "id": "dashlane-icon",
+    "name": "Dashlane",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dashlane-icon.svg"
+  },
+  {
+    "id": "data-structures-and-algorithm",
+    "name": "Data Structures and Algorithms",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "data-structures-and-algorithm.svg"
+  },
+  {
+    "id": "datadog-icon",
+    "name": "Datadog",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "datadog-icon.svg"
+  },
+  {
+    "id": "datasette",
+    "name": "Datasette",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "datasette.svg"
+  },
+  {
+    "id": "dataspell",
+    "name": "Dataspell",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dataspell.svg"
+  },
+  {
+    "id": "datacms-icon",
+    "name": "DatoCMS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "datacms-icon.svg"
+  },
+  {
+    "id": "dcos",
+    "name": "DCOS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dcos.svg"
+  },
+  {
+    "id": "debian",
+    "name": "Debian",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "debian.svg"
+  },
+  {
+    "id": "deno",
+    "name": "Deno",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "deno.svg"
+  },
+  {
+    "id": "deployhq-icon",
+    "name": "DeployHQ",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "deployhq-icon.svg"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "design.svg"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "devops.svg"
+  },
+  {
+    "id": "dgraph-icon",
+    "name": "DGraph",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dgraph-icon.svg"
+  },
+  {
+    "id": "dialogflow",
+    "name": "DialogFlow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dialogflow.svg"
+  },
+  {
+    "id": "digital-ocean-icon",
+    "name": "Digital Ocean",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "digital-ocean-icon.svg"
+  },
+  {
+    "id": "discord-icon",
+    "name": "Discord",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "discord-icon.svg"
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "django.svg"
+  },
+  {
+    "id": "dockbit",
+    "name": "Dockbit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dockbit.svg"
+  },
+  {
+    "id": "docker-icon",
+    "name": "Docker",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "docker-icon.svg"
+  },
+  {
+    "id": "doctrine",
+    "name": "Doctrine",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "doctrine.svg"
+  },
+  {
+    "id": "docusaurus",
+    "name": "Docusaurus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "docusaurus.svg"
+  },
+  {
+    "id": "dojo-icon",
+    "name": "Dojo",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dojo-icon.svg"
+  },
+  {
+    "id": "dolt",
+    "name": "Dolt",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dolt.svg"
+  },
+  {
+    "id": "dribbble-icon",
+    "name": "Dribbble",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dribbble-icon.svg"
+  },
+  {
+    "id": "drizzle-icon",
+    "name": "DrizzleORM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "drizzle-icon.svg"
+  },
+  {
+    "id": "drools-icon",
+    "name": "Drools",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "drools-icon.svg"
+  },
+  {
+    "id": "dropmark",
+    "name": "Dropmark",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dropmark.svg"
+  },
+  {
+    "id": "dropzone",
+    "name": "Dropzone",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dropzone.svg"
+  },
+  {
+    "id": "drupal-icon",
+    "name": "Drupal",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "drupal-icon.svg"
+  },
+  {
+    "id": "dynamic-xyz",
+    "name": "Dynamic XYZ",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dynamic-xyz.svg"
+  },
+  {
+    "id": "dynatrace-icon",
+    "name": "Dynatrace",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dynatrace-icon.svg"
+  },
+  {
+    "id": "dbt-icon",
+    "name": "dbt",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "dbt-icon.svg"
+  },
+  {
+    "id": "e2etesting",
+    "name": "E2E Testing",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "e2etesting.svg"
+  },
+  {
+    "id": "es6",
+    "name": "ES6",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "es6.png"
+  },
+  {
+    "id": "esbuild",
+    "name": "ESBuild",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "esbuild.svg"
+  },
+  {
+    "id": "esdoc",
+    "name": "ESDoc",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "esdoc.svg"
+  },
+  {
+    "id": "eslint",
+    "name": "ESLint",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "eslint.svg"
+  },
+  {
+    "id": "eclipse-icon",
+    "name": "Eclipse",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "eclipse-icon.svg"
+  },
+  {
+    "id": "editorconfig",
+    "name": "Editor Config",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "editorconfig.svg"
+  },
+  {
+    "id": "effect-icon",
+    "name": "Effect",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "effect-icon.svg"
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "electron.svg"
+  },
+  {
+    "id": "elm-classic",
+    "name": "ELM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "elm-classic.svg"
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "elixir.svg"
+  },
+  {
+    "id": "email",
+    "name": "Email Services",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "email.svg"
+  },
+  {
+    "id": "ember-tomster",
+    "name": "Ember",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ember-tomster.svg"
+  },
+  {
+    "id": "emmet",
+    "name": "Emmet",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "emmet.svg"
+  },
+  {
+    "id": "envoy-icon",
+    "name": "Envoy",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "envoy-icon.svg"
+  },
+  {
+    "id": "epsagon-icon",
+    "name": "Epsagon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "epsagon-icon.svg"
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ethereum.svg"
+  },
+  {
+    "id": "ethers",
+    "name": "EthersJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ethers.svg"
+  },
+  {
+    "id": "eventsentry",
+    "name": "EventSentry",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "eventsentry.svg"
+  },
+  {
+    "id": "evergreen-icon",
+    "name": "Evergreen",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "evergreen-icon.svg"
+  },
+  {
+    "id": "excel",
+    "name": "Excel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "excel.svg"
+  },
+  {
+    "id": "expo-icon",
+    "name": "Expo",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "expo-icon.svg"
+  },
+  {
+    "id": "express",
+    "name": "ExpressJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "express.svg"
+  },
+  {
+    "id": "etcd",
+    "name": "etcd",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "etcd.svg"
+  },
+  {
+    "id": "fsharp",
+    "name": "F#",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fsharp.svg"
+  },
+  {
+    "id": "ffmpeg-icon",
+    "name": "FFmpeg",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ffmpeg-icon.svg"
+  },
+  {
+    "id": "facebook",
+    "name": "Facebook API",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "facebook.svg"
+  },
+  {
+    "id": "fastapi-icon",
+    "name": "Fast API",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fastapi-icon.svg"
+  },
+  {
+    "id": "fastify-icon",
+    "name": "Fastify",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fastify-icon.svg"
+  },
+  {
+    "id": "fastly",
+    "name": "Fastly",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fastly.svg"
+  },
+  {
+    "id": "fauna-icon",
+    "name": "Fauna",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fauna-icon.svg"
+  },
+  {
+    "id": "feathersjs",
+    "name": "FeathersJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "feathersjs.svg"
+  },
+  {
+    "id": "fedora",
+    "name": "Fedora",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fedora.svg"
+  },
+  {
+    "id": "fetch",
+    "name": "Fetch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fetch.svg"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "figma.svg"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "firebase.svg"
+  },
+  {
+    "id": "firebase-auth",
+    "name": "Firebase Auth",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "firebase-auth.png"
+  },
+  {
+    "id": "firebase-database",
+    "name": "Firebase Database",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "firebase-database.png"
+  },
+  {
+    "id": "firebase-firestore",
+    "name": "Firebase Firestore",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "firebase-firestore.png"
+  },
+  {
+    "id": "firebase-storage",
+    "name": "Firebase Storage",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "firebase-storage.png"
+  },
+  {
+    "id": "firefox",
+    "name": "Firefox",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "firefox.svg"
+  },
+  {
+    "id": "flannel",
+    "name": "Flannel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "flannel.svg"
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "flask.svg"
+  },
+  {
+    "id": "flat-ui",
+    "name": "Flat UI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "flat-ui.svg"
+  },
+  {
+    "id": "flow",
+    "name": "Flow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "flow.svg"
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "flutter.svg"
+  },
+  {
+    "id": "fluxxor",
+    "name": "Fluxxor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fluxxor.svg"
+  },
+  {
+    "id": "fly-icon",
+    "name": "Fly.io",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fly-icon.svg"
+  },
+  {
+    "id": "font-awesome",
+    "name": "Font Awesome",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "font-awesome.svg"
+  },
+  {
+    "id": "foundation",
+    "name": "Foundation",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "foundation.svg"
+  },
+  {
+    "id": "foundationdb-icon",
+    "name": "FoundationDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "foundationdb-icon.svg"
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "framer.svg"
+  },
+  {
+    "id": "framework7-icon",
+    "name": "Framework7",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "framework7-icon.svg"
+  },
+  {
+    "id": "freedcamp-icon",
+    "name": "Freedcamp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "freedcamp-icon.svg"
+  },
+  {
+    "id": "fresh",
+    "name": "Fresh",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "fresh.svg"
+  },
+  {
+    "id": "gnome-icon",
+    "name": "GNOME",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gnome-icon.svg"
+  },
+  {
+    "id": "greensock-icon",
+    "name": "GSAP",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "greensock-icon.svg"
+  },
+  {
+    "id": "ganache-icon",
+    "name": "Ganache",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ganache-icon.svg"
+  },
+  {
+    "id": "gatsby",
+    "name": "GatsbyJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gatsby.svg"
+  },
+  {
+    "id": "geekbot",
+    "name": "Geekbot",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "geekbot.svg"
+  },
+  {
+    "id": "geetest",
+    "name": "Geetest",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "geetest.svg"
+  },
+  {
+    "id": "gerrit",
+    "name": "Gerrit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gerrit.svg"
+  },
+  {
+    "id": "giantswarm",
+    "name": "Giant Swarm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "giantswarm.svg"
+  },
+  {
+    "id": "gimp",
+    "name": "Gimp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gimp.svg"
+  },
+  {
+    "id": "gin",
+    "name": "Gin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gin.svg"
+  },
+  {
+    "id": "git-icon",
+    "name": "Git",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "git-icon.svg"
+  },
+  {
+    "id": "gitbook",
+    "name": "Gitbook",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gitbook.svg"
+  },
+  {
+    "id": "git-icon",
+    "name": "Gitflow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "git-icon.svg"
+  },
+  {
+    "id": "github-icon",
+    "name": "Github",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "github-icon.svg"
+  },
+  {
+    "id": "github-actions",
+    "name": "Github Actions",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "github-actions.svg"
+  },
+  {
+    "id": "github-copilot",
+    "name": "Github Copilot",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "github-copilot.svg"
+  },
+  {
+    "id": "gitkraken",
+    "name": "Gitkraken",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gitkraken.svg"
+  },
+  {
+    "id": "gitlab",
+    "name": "Gitlab",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gitlab.svg"
+  },
+  {
+    "id": "glamorous-icon",
+    "name": "Glamorous",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "glamorous-icon.svg"
+  },
+  {
+    "id": "glimmerjs",
+    "name": "GlimmerJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "glimmerjs.svg"
+  },
+  {
+    "id": "glitch-icon",
+    "name": "Glitch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "glitch-icon.svg"
+  },
+  {
+    "id": "gnu",
+    "name": "GNU",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gnu.svg"
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "go.svg"
+  },
+  {
+    "id": "google-bard",
+    "name": "Google Bard",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "google-bard.svg"
+  },
+  {
+    "id": "google-play-console",
+    "name": "Google Play Console",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "google-play-console.png"
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gradle.svg"
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "grafana.svg"
+  },
+  {
+    "id": "grails",
+    "name": "Grails",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "grails.svg"
+  },
+  {
+    "id": "graphene",
+    "name": "Graphene",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "graphene.svg"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "graphql.svg"
+  },
+  {
+    "id": "grav",
+    "name": "Grav",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "grav.svg"
+  },
+  {
+    "id": "gravatar-icon",
+    "name": "Gravatar",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gravatar-icon.svg"
+  },
+  {
+    "id": "gridsome-icon",
+    "name": "Gridsome",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gridsome-icon.svg"
+  },
+  {
+    "id": "grunt",
+    "name": "Grunt",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "grunt.svg"
+  },
+  {
+    "id": "gulp",
+    "name": "Gulp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gulp.svg"
+  },
+  {
+    "id": "gunicorn",
+    "name": "Gunicorn",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gunicorn.svg"
+  },
+  {
+    "id": "gunjs",
+    "name": "GunJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gunjs.svg"
+  },
+  {
+    "id": "gzip",
+    "name": "Gzip",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "gzip.svg"
+  },
+  {
+    "id": "html-5",
+    "name": "HTML5",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "html-5.svg"
+  },
+  {
+    "id": "htmx",
+    "name": "HTMX",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "htmx.svg"
+  },
+  {
+    "id": "hack",
+    "name": "Hack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hack.svg"
+  },
+  {
+    "id": "hadoop",
+    "name": "Hadoop",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hadoop.svg"
+  },
+  {
+    "id": "haiku-icon",
+    "name": "Haiku",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "haiku-icon.svg"
+  },
+  {
+    "id": "hanami",
+    "name": "Hanami",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hanami.svg"
+  },
+  {
+    "id": "hapi",
+    "name": "Hapi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hapi.svg"
+  },
+  {
+    "id": "hardhat-icon",
+    "name": "Hardhat",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hardhat-icon.svg"
+  },
+  {
+    "id": "harness-icon",
+    "name": "Harness",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "harness-icon.svg"
+  },
+  {
+    "id": "hashnode-icon",
+    "name": "Hashnode",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hashnode-icon.svg"
+  },
+  {
+    "id": "haskell-icon",
+    "name": "Haskell",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "haskell-icon.svg"
+  },
+  {
+    "id": "hasura-icon",
+    "name": "Hasura",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hasura-icon.svg"
+  },
+  {
+    "id": "haxe",
+    "name": "Haxe",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "haxe.svg"
+  },
+  {
+    "id": "haxl",
+    "name": "Haxl",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "haxl.svg"
+  },
+  {
+    "id": "hbase",
+    "name": "HBase",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hbase.svg"
+  },
+  {
+    "id": "headlessui-icon",
+    "name": "HeadlessUI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "headlessui-icon.svg"
+  },
+  {
+    "id": "heap-icon",
+    "name": "Heap",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "heap-icon.svg"
+  },
+  {
+    "id": "heroku-icon",
+    "name": "Heroku",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "heroku-icon.svg"
+  },
+  {
+    "id": "hhvm",
+    "name": "HHVM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hhvm.svg"
+  },
+  {
+    "id": "hono",
+    "name": "Hono",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hono.svg"
+  },
+  {
+    "id": "hostgator-icon",
+    "name": "Hostgator",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hostgator-icon.svg"
+  },
+  {
+    "id": "html-5",
+    "name": "HTML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "html-5.svg"
+  },
+  {
+    "id": "httpie-icon",
+    "name": "HTTPie",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "httpie-icon.svg"
+  },
+  {
+    "id": "imagemin",
+    "name": "Imagemin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "imagemin.svg"
+  },
+  {
+    "id": "imba-icon",
+    "name": "Imba",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "imba-icon.svg"
+  },
+  {
+    "id": "importio",
+    "name": "Importio",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "importio.svg"
+  },
+  {
+    "id": "incident-icon",
+    "name": "Incident",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "incident-icon.svg"
+  },
+  {
+    "id": "influxdb-icon",
+    "name": "InfluxDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "influxdb-icon.svg"
+  },
+  {
+    "id": "ingress",
+    "name": "Ingress",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ingress.svg"
+  },
+  {
+    "id": "ink",
+    "name": "Ink",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ink.svg"
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "insomnia.svg"
+  },
+  {
+    "id": "ionic-icon",
+    "name": "Ionic",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ionic-icon.svg"
+  },
+  {
+    "id": "ios",
+    "name": "IOS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ios.svg"
+  },
+  {
+    "id": "jsfiddle",
+    "name": "JSFiddle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jsfiddle.svg"
+  },
+  {
+    "id": "json",
+    "name": "JSON",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "json.svg"
+  },
+  {
+    "id": "jspm",
+    "name": "JSPM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jspm.svg"
+  },
+  {
+    "id": "jss",
+    "name": "JSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jss.svg"
+  },
+  {
+    "id": "jwt-icon",
+    "name": "JWT",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jwt-icon.svg"
+  },
+  {
+    "id": "jamstack-icon",
+    "name": "Jamstack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jamstack-icon.svg"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "java.svg"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "javascript.svg"
+  },
+  {
+    "id": "jekyll",
+    "name": "Jekyll",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jekyll.svg"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jenkins.svg"
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jest.svg"
+  },
+  {
+    "id": "jetbrains-space-icon",
+    "name": "Jetbrains Space",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jetbrains-space-icon.svg"
+  },
+  {
+    "id": "jetbrains",
+    "name": "Jetbrains",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jetbrains.svg"
+  },
+  {
+    "id": "jhipster-icon",
+    "name": "Jhipster",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jhipster-icon.svg"
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jira.svg"
+  },
+  {
+    "id": "jruby",
+    "name": "JRuby",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jruby.svg"
+  },
+  {
+    "id": "jsbin",
+    "name": "JSBin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jsbin.svg"
+  },
+  {
+    "id": "juju",
+    "name": "Juju",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "juju.svg"
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "julia.svg"
+  },
+  {
+    "id": "jupyter",
+    "name": "Jupyter",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jupyter.svg"
+  },
+  {
+    "id": "kde",
+    "name": "KDE",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kde.svg"
+  },
+  {
+    "id": "kaios",
+    "name": "KaiOS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kaios.svg"
+  },
+  {
+    "id": "karma",
+    "name": "Karma",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "karma.svg"
+  },
+  {
+    "id": "katalon-icon",
+    "name": "Katalon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "katalon-icon.svg"
+  },
+  {
+    "id": "kemal",
+    "name": "Kemal",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kemal.svg"
+  },
+  {
+    "id": "keycdn-icon",
+    "name": "KeyCDN",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "keycdn-icon.svg"
+  },
+  {
+    "id": "keydb-icon",
+    "name": "KeyDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "keydb-icon.svg"
+  },
+  {
+    "id": "kibana",
+    "name": "Kibana",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kibana.svg"
+  },
+  {
+    "id": "kinto-icon",
+    "name": "Kinto",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kinto-icon.svg"
+  },
+  {
+    "id": "kong-icon",
+    "name": "Kong",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kong-icon.svg"
+  },
+  {
+    "id": "kotlin-icon",
+    "name": "Kotlin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kotlin-icon.svg"
+  },
+  {
+    "id": "ktor-icon",
+    "name": "Ktor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ktor-icon.svg"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kubernetes.svg"
+  },
+  {
+    "id": "less",
+    "name": "LESS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "less.svg"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "laravel.svg"
+  },
+  {
+    "id": "lexical-icon",
+    "name": "Lexical",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "lexical-icon.svg"
+  },
+  {
+    "id": "lit-icon",
+    "name": "Lit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "lit-icon.svg"
+  },
+  {
+    "id": "leveldb",
+    "name": "LevelDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "leveldb.svg"
+  },
+  {
+    "id": "lighthouse",
+    "name": "Lighthouse",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "lighthouse.svg"
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "linux.svg"
+  },
+  {
+    "id": "liquid",
+    "name": "Liquid",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": ""
+  },
+  {
+    "id": "lodash",
+    "name": "Lodash",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "lodash.svg"
+  },
+  {
+    "id": "loopback-icon",
+    "name": "Loopback",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "loopback-icon.svg"
+  },
+  {
+    "id": "mdx",
+    "name": "MDX",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mdx.svg"
+  },
+  {
+    "id": "mdn",
+    "name": "MDN",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mdn.svg"
+  },
+  {
+    "id": "ml",
+    "name": "ML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ml.svg"
+  },
+  {
+    "id": "msw-icon",
+    "name": "MSW",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "msw-icon.svg"
+  },
+  {
+    "id": "mailchimp-freddie",
+    "name": "MailChimp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mailchimp-freddie.svg"
+  },
+  {
+    "id": "malinajs",
+    "name": "MalinaJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "malinajs.svg"
+  },
+  {
+    "id": "manjaro",
+    "name": "Manjaro",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "manjaro.svg"
+  },
+  {
+    "id": "mantine",
+    "name": "Mantine",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mantine.svg"
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mariadb.svg"
+  },
+  {
+    "id": "markdown",
+    "name": "Markdown",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "markdown.svg"
+  },
+  {
+    "id": "mastodon-icon",
+    "name": "Mastodon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mastodon-icon.svg"
+  },
+  {
+    "id": "material-ui",
+    "name": "Material UI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "material-ui.svg"
+  },
+  {
+    "id": "matter-icon",
+    "name": "Matter",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "matter-icon.svg"
+  },
+  {
+    "id": "medusa-icon",
+    "name": "Medusa",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "medusa-icon.svg"
+  },
+  {
+    "id": "mercurial",
+    "name": "Mercurial",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mercurial.svg"
+  },
+  {
+    "id": "metamask-icon",
+    "name": "Metamask",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "metamask-icon.svg"
+  },
+  {
+    "id": "meteor-icon",
+    "name": "Meteor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "meteor-icon.svg"
+  },
+  {
+    "id": "micro-icon",
+    "name": "Micro",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "micro-icon.svg"
+  },
+  {
+    "id": "micro-python",
+    "name": "MicroPython",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "micro-python.svg"
+  },
+  {
+    "id": "microcosm",
+    "name": "Microcosm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "microcosm.svg"
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "microservices.svg"
+  },
+  {
+    "id": "microsoft-azure",
+    "name": "Microsoft Azure",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "microsoft-azure.svg"
+  },
+  {
+    "id": "mida-icon",
+    "name": "Mida",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mida-icon.svg"
+  },
+  {
+    "id": "middleman",
+    "name": "Middleman",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "middleman.svg"
+  },
+  {
+    "id": "million-icon",
+    "name": "Million",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "million-icon.svg"
+  },
+  {
+    "id": "milvus-icon",
+    "name": "Milvus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "milvus-icon.svg"
+  },
+  {
+    "id": "mindsdb-icon",
+    "name": "MindsDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mindsdb-icon.svg"
+  },
+  {
+    "id": "mithril",
+    "name": "Mithril",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mithril.svg"
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mocha.svg"
+  },
+  {
+    "id": "mockflow-icon",
+    "name": "Mockflow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mockflow-icon.svg"
+  },
+  {
+    "id": "modernizr",
+    "name": "Modernizr",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "modernizr.svg"
+  },
+  {
+    "id": "modx-icon",
+    "name": "Modx",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "modx-icon.svg"
+  },
+  {
+    "id": "momentjs",
+    "name": "MomentJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "momentjs.svg"
+  },
+  {
+    "id": "mongodb-icon",
+    "name": "MongoDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mongodb-icon.svg"
+  },
+  {
+    "id": "mongoose",
+    "name": "Mongoose",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mongoose.svg"
+  },
+  {
+    "id": "mono",
+    "name": "Mono",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mono.svg"
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "moon.svg"
+  },
+  {
+    "id": "morpheus-icon",
+    "name": "Morpheus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "morpheus-icon.svg"
+  },
+  {
+    "id": "multipass",
+    "name": "Multipass",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "multipass.svg"
+  },
+  {
+    "id": "mysql-icon",
+    "name": "MySQL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mysql-icon.svg"
+  },
+  {
+    "id": "nasm",
+    "name": "NASM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nasm.svg"
+  },
+  {
+    "id": "ngrok",
+    "name": "NGRok",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ngrok.svg"
+  },
+  {
+    "id": "npm-icon",
+    "name": "NPM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "npm-icon.svg"
+  },
+  {
+    "id": "naiveui",
+    "name": "NaiveUI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "naiveui.svg"
+  },
+  {
+    "id": "namecheap",
+    "name": "Namecheap",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "namecheap.svg"
+  },
+  {
+    "id": "nanonets",
+    "name": "Nanonets",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nanonets.svg"
+  },
+  {
+    "id": "nativescript",
+    "name": "NativeScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nativescript.svg"
+  },
+  {
+    "id": "neat",
+    "name": "Neat",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "neat.svg"
+  },
+  {
+    "id": "neon-icon",
+    "name": "Neon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "neon-icon.svg"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nestjs.svg"
+  },
+  {
+    "id": "netbeans",
+    "name": "Netbeans",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "netbeans.svg"
+  },
+  {
+    "id": "netlify-icon",
+    "name": "Netlify",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "netlify-icon.svg"
+  },
+  {
+    "id": "new-relic-icon",
+    "name": "New Relic",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "new-relic-icon.svg"
+  },
+  {
+    "id": "nextauth",
+    "name": "NextAuth",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nextauth.png"
+  },
+  {
+    "id": "nextjs-icon",
+    "name": "NextJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nextjs-icon.svg"
+  },
+  {
+    "id": "nextra",
+    "name": "Nextra",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nextra.svg"
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nginx.svg"
+  },
+  {
+    "id": "nightwatch",
+    "name": "Nightwatch.js",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nightwatch.svg"
+  },
+  {
+    "id": "nim-lang",
+    "name": "Nim",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nim-lang.svg"
+  },
+  {
+    "id": "nocodb",
+    "name": "NocoDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nocodb.svg"
+  },
+  {
+    "id": "node-sass",
+    "name": "Node-SASS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "node-sass.svg"
+  },
+  {
+    "id": "nodebots",
+    "name": "NodeBots",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nodebots.svg"
+  },
+  {
+    "id": "nodejs-icon-alt",
+    "name": "NodeJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nodejs-icon-alt.svg"
+  },
+  {
+    "id": "nodeos",
+    "name": "NodeOS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nodeos.svg"
+  },
+  {
+    "id": "nodemon",
+    "name": "Nodemon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nodemon.svg"
+  },
+  {
+    "id": "nomad-icon",
+    "name": "Nomad",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nomad-icon.svg"
+  },
+  {
+    "id": "notion-icon",
+    "name": "Notion",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "notion-icon.svg"
+  },
+  {
+    "id": "nuxt-icon",
+    "name": "NuxtJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nuxt-icon.svg"
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ocaml.svg"
+  },
+  {
+    "id": "oauth",
+    "name": "Oauth",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "oauth.svg"
+  },
+  {
+    "id": "objective-c",
+    "name": "Objective-C",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "objective-c.svg"
+  },
+  {
+    "id": "observablehq",
+    "name": "Observable",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "observablehq.svg"
+  },
+  {
+    "id": "obsidian-icon",
+    "name": "Obsidian",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "obsidian-icon.svg"
+  },
+  {
+    "id": "octopus-deploy",
+    "name": "Octopus Deploy",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "octopus-deploy.svg"
+  },
+  {
+    "id": "okta-icon",
+    "name": "Okta",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "okta-icon.svg"
+  },
+  {
+    "id": "onesignal",
+    "name": "OneSignal",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "onesignal.svg"
+  },
+  {
+    "id": "open-zeppelin-icon",
+    "name": "OpenZeppelin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "open-zeppelin-icon.svg"
+  },
+  {
+    "id": "openai-icon",
+    "name": "OpenAI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "openai-icon.svg"
+  },
+  {
+    "id": "openapi-icon",
+    "name": "OpenAPI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "openapi-icon.svg"
+  },
+  {
+    "id": "opencv",
+    "name": "OpenCV",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opencv.svg"
+  },
+  {
+    "id": "opengl",
+    "name": "Open GL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opengl.svg"
+  },
+  {
+    "id": "opencart",
+    "name": "OpenCart",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opencart.svg"
+  },
+  {
+    "id": "openframeworks",
+    "name": "OpenFrameworks",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "openframeworks.svg"
+  },
+  {
+    "id": "opengl",
+    "name": "OpenLayers",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opengl.svg"
+  },
+  {
+    "id": "opensearch-icon",
+    "name": "OpenSearch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opensearch-icon.svg"
+  },
+  {
+    "id": "openshift",
+    "name": "OpenShift",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "openshift.svg"
+  },
+  {
+    "id": "openstack",
+    "name": "Openstack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "openstack.svg"
+  },
+  {
+    "id": "opentelemetry-icon",
+    "name": "OpenTelemetry",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opentelemetry-icon.svg"
+  },
+  {
+    "id": "opsgenie",
+    "name": "OpsGenie",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "opsgenie.svg"
+  },
+  {
+    "id": "optimizely-icon",
+    "name": "Optimizely",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "optimizely-icon.svg"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "oracle.svg"
+  },
+  {
+    "id": "origami",
+    "name": "Origami",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "origami.svg"
+  },
+  {
+    "id": "overloop-icon",
+    "name": "Overloop",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "overloop-icon.svg"
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "php.svg"
+  },
+  {
+    "id": "pkg",
+    "name": "PKG",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pkg.svg"
+  },
+  {
+    "id": "pm2-icon",
+    "name": "PM2",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pm2-icon.svg"
+  },
+  {
+    "id": "pnpm",
+    "name": "PNPM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pnpm.svg"
+  },
+  {
+    "id": "poeditor",
+    "name": "POEditor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "poeditor.svg"
+  },
+  {
+    "id": "pwa",
+    "name": "PWA",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pwa.svg"
+  },
+  {
+    "id": "packer",
+    "name": "Packer",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "packer.svg"
+  },
+  {
+    "id": "pagerduty-icon",
+    "name": "Pager Duty",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pagerduty-icon.svg"
+  },
+  {
+    "id": "pandacss-icon",
+    "name": "PandaCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pandacss-icon.svg"
+  },
+  {
+    "id": "pandas-icon",
+    "name": "Pandas",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pandas-icon.svg"
+  },
+  {
+    "id": "parcel-icon",
+    "name": "Parcel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "parcel-icon.svg"
+  },
+  {
+    "id": "partytown-icon",
+    "name": "Partytown",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "partytown-icon.svg"
+  },
+  {
+    "id": "passport",
+    "name": "Passport",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "passport.svg"
+  },
+  {
+    "id": "payload",
+    "name": "Payload",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "payload.svg"
+  },
+  {
+    "id": "paypal",
+    "name": "Paypal",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "paypal.svg"
+  },
+  {
+    "id": "peer5",
+    "name": "Peer5",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "peer5.svg"
+  },
+  {
+    "id": "pepperoni",
+    "name": "Pepperoni",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pepperoni.svg"
+  },
+  {
+    "id": "percona",
+    "name": "Percona",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "percona.svg"
+  },
+  {
+    "id": "percy-icon",
+    "name": "Percy",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "percy-icon.svg"
+  },
+  {
+    "id": "perl",
+    "name": "Perl",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "perl.svg"
+  },
+  {
+    "id": "phalcon",
+    "name": "Phalcon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "phalcon.svg"
+  },
+  {
+    "id": "pheonix",
+    "name": "Pheonix",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pheonix.svg"
+  },
+  {
+    "id": "phpstorm",
+    "name": "PhpStorm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "phpstorm.svg"
+  },
+  {
+    "id": "pinecone-icon",
+    "name": "Pinecone",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pinecone-icon.svg"
+  },
+  {
+    "id": "pivotal_tracker",
+    "name": "Pivotal Tracker",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pivotal_tracker.svg"
+  },
+  {
+    "id": "picocss",
+    "name": "PicoCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "picocss.svg"
+  },
+  {
+    "id": "planetscale",
+    "name": "PlanetScale",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "planetscale.svg"
+  },
+  {
+    "id": "planless-icon",
+    "name": "Planless",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "planless-icon.svg"
+  },
+  {
+    "id": "plastic-scm",
+    "name": "Plastic SCM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "plastic-scm.svg"
+  },
+  {
+    "id": "plasmic",
+    "name": "Plasmic",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "plasmic.svg"
+  },
+  {
+    "id": "platformio",
+    "name": "PlatformIO",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "platformio.svg"
+  },
+  {
+    "id": "play",
+    "name": "Play",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "play.svg"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "playwright.svg"
+  },
+  {
+    "id": "pocket-base",
+    "name": "PocketBase",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pocket-base.svg"
+  },
+  {
+    "id": "polymer",
+    "name": "Polymer",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "polymer.svg"
+  },
+  {
+    "id": "portfinder",
+    "name": "PortFinder",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": ""
+  },
+  {
+    "id": "postcss",
+    "name": "PostCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "postcss.svg"
+  },
+  {
+    "id": "posthog-icon",
+    "name": "PostHog",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "posthog-icon.svg"
+  },
+  {
+    "id": "postgraphile",
+    "name": "Postgraphile",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "postgraphile.svg"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "postgresql.svg"
+  },
+  {
+    "id": "pouchdb",
+    "name": "PouchDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pouchdb.svg"
+  },
+  {
+    "id": "preact",
+    "name": "Preact",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "preact.svg"
+  },
+  {
+    "id": "precursor",
+    "name": "Precursor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "precursor.svg"
+  },
+  {
+    "id": "prerender-icon",
+    "name": "Prerender",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prerender-icon.svg"
+  },
+  {
+    "id": "prestashop",
+    "name": "PrestaShop",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prestashop.svg"
+  },
+  {
+    "id": "presto-icon",
+    "name": "Presto",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "presto-icon.svg"
+  },
+  {
+    "id": "prettier",
+    "name": "Prettier",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prettier.svg"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prisma.svg"
+  },
+  {
+    "id": "prismic-icon",
+    "name": "Prismic",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prismic-icon.svg"
+  },
+  {
+    "id": "processing",
+    "name": "Processing",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "processing.svg"
+  },
+  {
+    "id": "processwire-icon",
+    "name": "ProcessWire",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "processwire-icon.svg"
+  },
+  {
+    "id": "productboard-icon",
+    "name": "ProductBoard",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "productboard-icon.svg"
+  },
+  {
+    "id": "progress",
+    "name": "Progress",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "progress.svg"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prometheus.svg"
+  },
+  {
+    "id": "promises",
+    "name": "Promises",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "promises.svg"
+  },
+  {
+    "id": "proofy",
+    "name": "Proofy",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "proofy.svg"
+  },
+  {
+    "id": "protoio",
+    "name": "Proto.io",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "protoio.svg"
+  },
+  {
+    "id": "protractor",
+    "name": "Protractor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "protractor.svg"
+  },
+  {
+    "id": "prott",
+    "name": "Prott",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "prott.svg"
+  },
+  {
+    "id": "pug",
+    "name": "Pug",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pug.svg"
+  },
+  {
+    "id": "pulumi-icon",
+    "name": "Pulumi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pulumi-icon.svg"
+  },
+  {
+    "id": "pumpkindb",
+    "name": "PumpkinDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pumpkindb.svg"
+  },
+  {
+    "id": "puppet-icon",
+    "name": "Puppet",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "puppet-icon.svg"
+  },
+  {
+    "id": "puppeteer",
+    "name": "Puppeteer",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "puppeteer.svg"
+  },
+  {
+    "id": "purescript-icon",
+    "name": "Purescript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "purescript-icon.svg"
+  },
+  {
+    "id": "pushbullet",
+    "name": "Pushbullet",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pushbullet.svg"
+  },
+  {
+    "id": "pusher-icon",
+    "name": "Pusher",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pusher-icon.svg"
+  },
+  {
+    "id": "pycharm",
+    "name": "PyCharm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pycharm.svg"
+  },
+  {
+    "id": "pypi",
+    "name": "PyPi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pypi.svg"
+  },
+  {
+    "id": "pyscript",
+    "name": "PyScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pyscript.svg"
+  },
+  {
+    "id": "pytorch-icon",
+    "name": "PyTorch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pytorch-icon.svg"
+  },
+  {
+    "id": "pyup",
+    "name": "PyUp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pyup.svg"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "python.svg"
+  },
+  {
+    "id": "q",
+    "name": "Q",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "q.svg"
+  },
+  {
+    "id": "qdrant-icon",
+    "name": "Qdrant",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "qdrant-icon.svg"
+  },
+  {
+    "id": "qlik",
+    "name": "Qlik",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "qlik.svg"
+  },
+  {
+    "id": "qt",
+    "name": "Qt",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "qt.svg"
+  },
+  {
+    "id": "quarkus-icon",
+    "name": "Quarkus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "quarkus-icon.svg"
+  },
+  {
+    "id": "quay",
+    "name": "Quay",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "quay.svg"
+  },
+  {
+    "id": "qwik-icon",
+    "name": "Qwik",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "qwik-icon.svg"
+  },
+  {
+    "id": "r-lang",
+    "name": "R",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "r-lang.svg"
+  },
+  {
+    "id": "raml",
+    "name": "RAML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "raml.svg"
+  },
+  {
+    "id": "rsa",
+    "name": "RSA",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rsa.svg"
+  },
+  {
+    "id": "rabbitmq-icon",
+    "name": "RabbitMQ",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rabbitmq-icon.svg"
+  },
+  {
+    "id": "rackspace-icon",
+    "name": "Rackspace",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rackspace-icon.svg"
+  },
+  {
+    "id": "ramda",
+    "name": "Ramda",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ramda.svg"
+  },
+  {
+    "id": "rancher-icon",
+    "name": "Rancher",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rancher-icon.svg"
+  },
+  {
+    "id": "raphael",
+    "name": "Raphael",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "raphael.svg"
+  },
+  {
+    "id": "rapidapi",
+    "name": "RapidAPI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rapidapi.svg"
+  },
+  {
+    "id": "raspberry-pi",
+    "name": "RaspberrryPI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "raspberry-pi.svg"
+  },
+  {
+    "id": "rax",
+    "name": "Rax",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rax.svg"
+  },
+  {
+    "id": "recaptcha",
+    "name": "ReCAPTCHA",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "recaptcha.svg"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "react.svg"
+  },
+  {
+    "id": "react-query-icon",
+    "name": "React Query",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "react-query-icon.svg"
+  },
+  {
+    "id": "react-router",
+    "name": "React Router",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "react-router.svg"
+  },
+  {
+    "id": "react-spring",
+    "name": "React Spring",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "react-spring.svg"
+  },
+  {
+    "id": "react-styleguidist",
+    "name": "React Styleguidist",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "react-styleguidist.svg"
+  },
+  {
+    "id": "realm",
+    "name": "Realm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "realm.svg"
+  },
+  {
+    "id": "reapp",
+    "name": "Reapp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "reapp.svg"
+  },
+  {
+    "id": "reasonml-icon",
+    "name": "ReasonML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "reasonml-icon.svg"
+  },
+  {
+    "id": "recoil-icon",
+    "name": "Recoil",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "recoil-icon.svg"
+  },
+  {
+    "id": "reddit-icon",
+    "name": "Reddit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "reddit-icon.svg"
+  },
+  {
+    "id": "redhat-icon",
+    "name": "Red Hat",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redhat-icon.svg"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redis.svg"
+  },
+  {
+    "id": "redsmin",
+    "name": "Redsmin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redsmin.svg"
+  },
+  {
+    "id": "redux",
+    "name": "Redux",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redux.svg"
+  },
+  {
+    "id": "redwoodjs",
+    "name": "RedwoodJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redwoodjs.svg"
+  },
+  {
+    "id": "reindex",
+    "name": "Reindex",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "reindex.svg"
+  },
+  {
+    "id": "relay",
+    "name": "Relay",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "relay.svg"
+  },
+  {
+    "id": "release",
+    "name": "Release",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "release.svg"
+  },
+  {
+    "id": "remix-icon",
+    "name": "Remix",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "remix-icon.svg"
+  },
+  {
+    "id": "renovatebot",
+    "name": "RenovateBot",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "renovatebot.svg"
+  },
+  {
+    "id": "replay-icon",
+    "name": "Replay",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "replay-icon.svg"
+  },
+  {
+    "id": "replit-icon",
+    "name": "Replit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "replit-icon.svg"
+  },
+  {
+    "id": "require",
+    "name": "Require",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "require.svg"
+  },
+  {
+    "id": "rescript-icon",
+    "name": "ReScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rescript-icon.svg"
+  },
+  {
+    "id": "rest-api",
+    "name": "Rest",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rest-api.svg"
+  },
+  {
+    "id": "rethinkdb",
+    "name": "RethinkDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rethinkdb.svg"
+  },
+  {
+    "id": "retool-icon",
+    "name": "Retool",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "retool-icon.svg"
+  },
+  {
+    "id": "riak",
+    "name": "Riak",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "riak.svg"
+  },
+  {
+    "id": "rider",
+    "name": "Rider",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rider.svg"
+  },
+  {
+    "id": "riot",
+    "name": "Riot",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "riot.svg"
+  },
+  {
+    "id": "risingwave-icon",
+    "name": "Risingwave-icon",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "risingwave-icon.svg"
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "robotics.svg"
+  },
+  {
+    "id": "rocksdb",
+    "name": "RocksDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rocksdb.svg"
+  },
+  {
+    "id": "rocky-linux-icon",
+    "name": "Rocky Linux",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rocky-linux-icon.svg"
+  },
+  {
+    "id": "rollbar-icon",
+    "name": "Rollbar",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rollbar-icon.svg"
+  },
+  {
+    "id": "ros",
+    "name": "Ros",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ros.svg"
+  },
+  {
+    "id": "rubocop",
+    "name": "Rubocop",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rubocop.svg"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ruby.svg"
+  },
+  {
+    "id": "rubygems",
+    "name": "Ruby Gems",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rubygems.svg"
+  },
+  {
+    "id": "rubymine",
+    "name": "Ruby Mine",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rubymine.svg"
+  },
+  {
+    "id": "rails",
+    "name": "Ruby on Rails",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rails.svg"
+  },
+  {
+    "id": "rum",
+    "name": "Rum",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rum.svg"
+  },
+  {
+    "id": "rush-icon",
+    "name": "Rush",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rush-icon.svg"
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rust.svg"
+  },
+  {
+    "id": "rxdb",
+    "name": "RxDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rxdb.svg"
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sap.svg"
+  },
+  {
+    "id": "sass",
+    "name": "SASS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sass.svg"
+  },
+  {
+    "id": "scss",
+    "name": "SCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "scss.svg"
+  },
+  {
+    "id": "semver",
+    "name": "SEMVER",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "semver.svg"
+  },
+  {
+    "id": "seo",
+    "name": "SEO",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "seo.svg"
+  },
+  {
+    "id": "smtp",
+    "name": "SMTP",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "smtp.svg"
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sql.svg"
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sqlite.svg"
+  },
+  {
+    "id": "ssh",
+    "name": "SSH",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ssh.svg"
+  },
+  {
+    "id": "sst-icon",
+    "name": "SST",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sst-icon.svg"
+  },
+  {
+    "id": "svg",
+    "name": "SVG",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "svg.svg"
+  },
+  {
+    "id": "svgator",
+    "name": "SVGator",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "svgator.svg"
+  },
+  {
+    "id": "swc",
+    "name": "SWC",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "swc.svg"
+  },
+  {
+    "id": "swr",
+    "name": "SWR",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "swr.svg"
+  },
+  {
+    "id": "sagui",
+    "name": "Sagui",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sagui.svg"
+  },
+  {
+    "id": "sails",
+    "name": "Sails",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sails.svg"
+  },
+  {
+    "id": "sanity",
+    "name": "SanityCMS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sanity.svg"
+  },
+  {
+    "id": "sass-doc",
+    "name": "SassDoc",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sass-doc.svg"
+  },
+  {
+    "id": "sass",
+    "name": "Sass",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sass.svg"
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "scala.svg"
+  },
+  {
+    "id": "scaledrone",
+    "name": "Scaledrone",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "scaledrone.svg"
+  },
+  {
+    "id": "section-icon",
+    "name": "Section",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "section-icon.svg"
+  },
+  {
+    "id": "segment-icon",
+    "name": "Segment",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "segment-icon.svg"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "selenium.svg"
+  },
+  {
+    "id": "semantic-ui",
+    "name": "Semantic UI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "semantic-ui.svg"
+  },
+  {
+    "id": "semantic-web",
+    "name": "Semantic Web",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "semantic-web.svg"
+  },
+  {
+    "id": "semaphoreci",
+    "name": "Semaphoreci",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "semaphoreci.svg"
+  },
+  {
+    "id": "sencha",
+    "name": "Sencha",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sencha.svg"
+  },
+  {
+    "id": "sendgrid-icon",
+    "name": "SendGrid",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sendgrid-icon.svg"
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "seneca.svg"
+  },
+  {
+    "id": "sentry-icon",
+    "name": "Sentry",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sentry-icon.svg"
+  },
+  {
+    "id": "sequelize",
+    "name": "Sequelize",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sequelize.svg"
+  },
+  {
+    "id": "serverless",
+    "name": "Serverless",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "serverless.svg"
+  },
+  {
+    "id": "shell",
+    "name": "Shell",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "shell.svg"
+  },
+  {
+    "id": "shields",
+    "name": "Shields",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "shields.svg"
+  },
+  {
+    "id": "shipit",
+    "name": "Shipit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "shipit.svg"
+  },
+  {
+    "id": "shogun",
+    "name": "Shogun",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "shogun.svg"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "shopify.svg"
+  },
+  {
+    "id": "shortcut-icon",
+    "name": "Shortcut",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "shortcut-icon.svg"
+  },
+  {
+    "id": "sidekiq-icon",
+    "name": "Sidekiq",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sidekiq-icon.svg"
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "signal.svg"
+  },
+  {
+    "id": "sinatra",
+    "name": "Sinatra",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sinatra.svg"
+  },
+  {
+    "id": "singlestore-icon",
+    "name": "Singlestore",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "singlestore-icon.svg"
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sketch.svg"
+  },
+  {
+    "id": "skylight",
+    "name": "Skylight",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "skylight.svg"
+  },
+  {
+    "id": "slim",
+    "name": "Slim",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "slim.svg"
+  },
+  {
+    "id": "smartling",
+    "name": "Smartling",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "smartling.svg"
+  },
+  {
+    "id": "snap-svg",
+    "name": "SnapSVG",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "snap-svg.svg"
+  },
+  {
+    "id": "snaplet-icon",
+    "name": "Snaplet",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "snaplet-icon.svg"
+  },
+  {
+    "id": "snowpack",
+    "name": "Snowpack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "snowpack.svg"
+  },
+  {
+    "id": "snyk",
+    "name": "Snyk",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "snyk.svg"
+  },
+  {
+    "id": "socket.io",
+    "name": "SocketIO",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "socket.io.svg"
+  },
+  {
+    "id": "architecture",
+    "name": "Software Architecture",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "architecture.svg"
+  },
+  {
+    "id": "solid",
+    "name": "Solid",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "solid.svg"
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "solidity.svg"
+  },
+  {
+    "id": "solidjs-icon",
+    "name": "SolidJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "solidjs-icon.svg"
+  },
+  {
+    "id": "sonarcloud-icon",
+    "name": "SonarCloud",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sonarcloud-icon.svg"
+  },
+  {
+    "id": "sonarlint-icon",
+    "name": "SonarLint",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sonarlint-icon.svg"
+  },
+  {
+    "id": "sourcetree",
+    "name": "Sourcetree",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sourcetree.svg"
+  },
+  {
+    "id": "spark",
+    "name": "Spark",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "spark.svg"
+  },
+  {
+    "id": "speech-recognition",
+    "name": "Speech Recognition API",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "speech-recognition.svg"
+  },
+  {
+    "id": "speedcurve",
+    "name": "Speedcurve",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "speedcurve.svg"
+  },
+  {
+    "id": "spidermonkey-icon",
+    "name": "SpiderMonkey",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "spidermonkey-icon.svg"
+  },
+  {
+    "id": "spinnaker",
+    "name": "Spinnaker",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "spinnaker.svg"
+  },
+  {
+    "id": "splunk",
+    "name": "Splunk",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "splunk.svg"
+  },
+  {
+    "id": "spring-icon",
+    "name": "Spring",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "spring-icon.svg"
+  },
+  {
+    "id": "square",
+    "name": "Square",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "square.svg"
+  },
+  {
+    "id": "squarespace",
+    "name": "Squarespace",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "squarespace.svg"
+  },
+  {
+    "id": "stackbit-icon",
+    "name": "Stackbit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stackbit-icon.svg"
+  },
+  {
+    "id": "stackblitz-icon",
+    "name": "StackBlitz",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stackblitz-icon.svg"
+  },
+  {
+    "id": "stately-icon",
+    "name": "Stately",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stately-icon.svg"
+  },
+  {
+    "id": "statuspage",
+    "name": "Statuspage",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "statuspage.svg"
+  },
+  {
+    "id": "stenciljs-icon",
+    "name": "StencilJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stenciljs-icon.svg"
+  },
+  {
+    "id": "stetho",
+    "name": "Stetho",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stetho.svg"
+  },
+  {
+    "id": "stimulus-icon",
+    "name": "Stimulus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stimulus-icon.svg"
+  },
+  {
+    "id": "stitch",
+    "name": "Stitch",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stitch.svg"
+  },
+  {
+    "id": "stoplight",
+    "name": "Stoplight",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stoplight.svg"
+  },
+  {
+    "id": "storyblok-icon",
+    "name": "Storyblok",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "storyblok-icon.svg"
+  },
+  {
+    "id": "storybook-icon",
+    "name": "Storybook",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "storybook-icon.svg"
+  },
+  {
+    "id": "strapi-icon",
+    "name": "Strapi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "strapi-icon.svg"
+  },
+  {
+    "id": "streamlit",
+    "name": "Streamlit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "streamlit.svg"
+  },
+  {
+    "id": "strider",
+    "name": "Strider",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "strider.svg"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stripe.svg"
+  },
+  {
+    "id": "struts",
+    "name": "Struts",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "struts.svg"
+  },
+  {
+    "id": "styleci",
+    "name": "Styleci",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "styleci.svg"
+  },
+  {
+    "id": "styled-components",
+    "name": "Styled Components",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "styled-components.svg"
+  },
+  {
+    "id": "stylis",
+    "name": "Stylis",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stylis.svg"
+  },
+  {
+    "id": "stylus",
+    "name": "Stylus",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stylus.svg"
+  },
+  {
+    "id": "sublimetext-icon",
+    "name": "Sublime Text",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sublimetext-icon.svg"
+  },
+  {
+    "id": "subversion",
+    "name": "Subversion",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "subversion.svg"
+  },
+  {
+    "id": "sugarss",
+    "name": "Sugarss",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sugarss.svg"
+  },
+  {
+    "id": "supabase-icon",
+    "name": "Supabase",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "supabase-icon.svg"
+  },
+  {
+    "id": "supertokens-icon",
+    "name": "Supertokens",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "supertokens-icon.svg"
+  },
+  {
+    "id": "surge",
+    "name": "Surge",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "surge.svg"
+  },
+  {
+    "id": "surrealdb",
+    "name": "SurrealDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "surrealdb.svg"
+  },
+  {
+    "id": "suse",
+    "name": "Suse",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "suse.svg"
+  },
+  {
+    "id": "svelte-icon",
+    "name": "Svelte",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "svelte-icon.svg"
+  },
+  {
+    "id": "svelte-icon",
+    "name": "SvelteKit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "svelte-icon.svg"
+  },
+  {
+    "id": "swagger",
+    "name": "Swagger",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "swagger.svg"
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "swift.svg"
+  },
+  {
+    "id": "swiftype",
+    "name": "Swiftype",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "swiftype.svg"
+  },
+  {
+    "id": "swimm",
+    "name": "Swimm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "swimm.svg"
+  },
+  {
+    "id": "sysdig-icon",
+    "name": "Sysdig",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sysdig-icon.svg"
+  },
+  {
+    "id": "toml",
+    "name": "TOML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "toml.svg"
+  },
+  {
+    "id": "t3",
+    "name": "T3",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "t3.svg"
+  },
+  {
+    "id": "tableau-icon",
+    "name": "Tableau",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tableau-icon.svg"
+  },
+  {
+    "id": "taiga",
+    "name": "Taiga",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "taiga.svg"
+  },
+  {
+    "id": "tailscale",
+    "name": "Tailscale",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tailscale.svg"
+  },
+  {
+    "id": "tailwindcss-icon",
+    "name": "TailwindCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tailwindcss-icon.svg"
+  },
+  {
+    "id": "tailwindcss-icon",
+    "name": "TailwindUI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tailwindcss-icon.svg"
+  },
+  {
+    "id": "taskade",
+    "name": "Taskade",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "taskade.svg"
+  },
+  {
+    "id": "tauri",
+    "name": "Tauri",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tauri.svg"
+  },
+  {
+    "id": "tealium",
+    "name": "Tealium",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tealium.svg"
+  },
+  {
+    "id": "teamcity",
+    "name": "Teamcity",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "teamcity.svg"
+  },
+  {
+    "id": "teamgrid",
+    "name": "Teamgrid",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "teamgrid.svg"
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tensorflow.svg"
+  },
+  {
+    "id": "terminal",
+    "name": "Terminal",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "terminal.svg"
+  },
+  {
+    "id": "terraform-icon",
+    "name": "Terraform",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "terraform-icon.svg"
+  },
+  {
+    "id": "terser-icon",
+    "name": "Terser",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "terser-icon.svg"
+  },
+  {
+    "id": "testcafe",
+    "name": "Testcafe",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "testcafe.svg"
+  },
+  {
+    "id": "testing-library",
+    "name": "Testing Library",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "testing-library.svg"
+  },
+  {
+    "id": "testlodge",
+    "name": "Testlodge",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "testlodge.svg"
+  },
+  {
+    "id": "threejs",
+    "name": "ThreeJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "threejs.svg"
+  },
+  {
+    "id": "thymeleaf-icon",
+    "name": "Thymeleaf",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "thymeleaf-icon.svg"
+  },
+  {
+    "id": "todoist-icon",
+    "name": "Todoist",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "todoist-icon.svg"
+  },
+  {
+    "id": "tor-browser",
+    "name": "Tor",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tor-browser.svg"
+  },
+  {
+    "id": "travis-ci",
+    "name": "Travis CI",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "travis-ci.svg"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "trello.svg"
+  },
+  {
+    "id": "truffle-icon",
+    "name": "Truffle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "truffle-icon.svg"
+  },
+  {
+    "id": "tuple",
+    "name": "Tuple",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tuple.svg"
+  },
+  {
+    "id": "turborepo-icon",
+    "name": "TurboRepo",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "turborepo-icon.svg"
+  },
+  {
+    "id": "turbopack-icon",
+    "name": "Turbopack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "turbopack-icon.svg"
+  },
+  {
+    "id": "turret",
+    "name": "Turret",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "turret.svg"
+  },
+  {
+    "id": "tursodb",
+    "name": "TursoDB",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tursodb.jpeg"
+  },
+  {
+    "id": "twilio-icon",
+    "name": "Twilio",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "twilio-icon.svg"
+  },
+  {
+    "id": "twitter",
+    "name": "Twitter API",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "twitter.svg"
+  },
+  {
+    "id": "typeorm",
+    "name": "TypeORM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "typeorm.svg"
+  },
+  {
+    "id": "typescript-icon",
+    "name": "TypeScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "typescript-icon.svg"
+  },
+  {
+    "id": "typo3-icon",
+    "name": "Typo3",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "typo3-icon.svg"
+  },
+  {
+    "id": "ui-ux",
+    "name": "UI/UX",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ui-ux.svg"
+  },
+  {
+    "id": "unit-testing",
+    "name": "UNIT Testing",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unit-testing.svg"
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ubuntu.svg"
+  },
+  {
+    "id": "unbounce-icon",
+    "name": "Unbounce",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unbounce-icon.svg"
+  },
+  {
+    "id": "undertow",
+    "name": "Undertow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "undertow.svg"
+  },
+  {
+    "id": "unitjs",
+    "name": "UnitJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unitjs.svg"
+  },
+  {
+    "id": "unito-icon",
+    "name": "Unito",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unito-icon.svg"
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unity.svg"
+  },
+  {
+    "id": "unrealengine-icon",
+    "name": "Unreal Engine",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unrealengine-icon.svg"
+  },
+  {
+    "id": "upstash-icon",
+    "name": "Upstash",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "upstash-icon.svg"
+  },
+  {
+    "id": "user-testing-icon",
+    "name": "User Testing",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "user-testing-icon.svg"
+  },
+  {
+    "id": "vlang",
+    "name": "V",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vlang.svg"
+  },
+  {
+    "id": "v8",
+    "name": "V8",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "v8.svg"
+  },
+  {
+    "id": "visual-studio-code",
+    "name": "VSCode",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "visual-studio-code.svg"
+  },
+  {
+    "id": "vwo",
+    "name": "VWO",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vwo.svg"
+  },
+  {
+    "id": "vaadin",
+    "name": "Vaadin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vaadin.svg"
+  },
+  {
+    "id": "vagrant",
+    "name": "Vagrant",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vagrant.svg"
+  },
+  {
+    "id": "vault-icon",
+    "name": "Vault",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vault-icon.svg"
+  },
+  {
+    "id": "vercel-icon",
+    "name": "Vercel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vercel-icon.svg"
+  },
+  {
+    "id": "verdaccio-icon",
+    "name": "Verdaccio",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "verdaccio-icon.svg"
+  },
+  {
+    "id": "video",
+    "name": "Video",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "video.svg"
+  },
+  {
+    "id": "vim",
+    "name": "Vim",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vim.svg"
+  },
+  {
+    "id": "visual-studio",
+    "name": "Visual Studio",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "visual-studio.svg"
+  },
+  {
+    "id": "vitejs",
+    "name": "Vite",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vitejs.svg"
+  },
+  {
+    "id": "vitess",
+    "name": "Vitess",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vitess.svg"
+  },
+  {
+    "id": "vitest",
+    "name": "Vitest",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vitest.svg"
+  },
+  {
+    "id": "vivaldi-icon",
+    "name": "Vivaldi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vivaldi-icon.svg"
+  },
+  {
+    "id": "void",
+    "name": "Void",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "void.svg"
+  },
+  {
+    "id": "vue",
+    "name": "VueJS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vue.svg"
+  },
+  {
+    "id": "vuetifyjs",
+    "name": "Vuetify",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vuetifyjs.svg"
+  },
+  {
+    "id": "vueuse",
+    "name": "VueUse",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vueuse.svg"
+  },
+  {
+    "id": "vulkan",
+    "name": "Vulkan",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vulkan.svg"
+  },
+  {
+    "id": "vultr-icon",
+    "name": "Vultr",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "vultr-icon.svg"
+  },
+  {
+    "id": "w3c",
+    "name": "W3C",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "w3c.svg"
+  },
+  {
+    "id": "wmr",
+    "name": "WMR",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wmr.svg"
+  },
+  {
+    "id": "wsl",
+    "name": "WSL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": ""
+  },
+  {
+    "id": "waffle-icon",
+    "name": "Waffle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "waffle-icon.svg"
+  },
+  {
+    "id": "wagtail",
+    "name": "Wagtail",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wagtail.svg"
+  },
+  {
+    "id": "wakatime",
+    "name": "Wakatime",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wakatime.svg"
+  },
+  {
+    "id": "watchman",
+    "name": "Watchman",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "watchman.svg"
+  },
+  {
+    "id": "waypoint-icon",
+    "name": "Waypoint",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "waypoint-icon.svg"
+  },
+  {
+    "id": "wayscript-icon",
+    "name": "Wayscript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wayscript-icon.svg"
+  },
+  {
+    "id": "wearos",
+    "name": "Wearos",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wearos.svg"
+  },
+  {
+    "id": "weave",
+    "name": "Weave",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "weave.svg"
+  },
+  {
+    "id": "webgpu",
+    "name": "WebGPU",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webgpu.svg"
+  },
+  {
+    "id": "webrtc",
+    "name": "WebRTC",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webrtc.svg"
+  },
+  {
+    "id": "webassembly",
+    "name": "Web Assembly",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webassembly.svg"
+  },
+  {
+    "id": "webcomponents",
+    "name": "Web Components",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webcomponents.svg"
+  },
+  {
+    "id": "web-design",
+    "name": "Web Design",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "web-design.svg"
+  },
+  {
+    "id": "web-development",
+    "name": "Web Development",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "web-development.svg"
+  },
+  {
+    "id": "web3",
+    "name": "Web3",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "web3.svg"
+  },
+  {
+    "id": "web3js",
+    "name": "Web3JS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "web3js.svg"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webflow.svg"
+  },
+  {
+    "id": "webhint-icon",
+    "name": "Webhint",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webhint-icon.svg"
+  },
+  {
+    "id": "webix-icon",
+    "name": "Webix",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webix-icon.svg"
+  },
+  {
+    "id": "webhooks",
+    "name": "Webhooks",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webhooks.svg"
+  },
+  {
+    "id": "webkit",
+    "name": "Webkit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webkit.svg"
+  },
+  {
+    "id": "webmin",
+    "name": "Webmin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webmin.svg"
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webpack.svg"
+  },
+  {
+    "id": "websocket",
+    "name": "Websocket",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "websocket.svg"
+  },
+  {
+    "id": "webstorm",
+    "name": "Webstorm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webstorm.svg"
+  },
+  {
+    "id": "webtorrent",
+    "name": "Webtorrent",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "webtorrent.svg"
+  },
+  {
+    "id": "weebly",
+    "name": "Weebly",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "weebly.svg"
+  },
+  {
+    "id": "wicket-icon",
+    "name": "Wicket",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wicket-icon.svg"
+  },
+  {
+    "id": "wifi",
+    "name": "Wi-Fi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wifi.svg"
+  },
+  {
+    "id": "windi-css",
+    "name": "WindiCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "windi-css.svg"
+  },
+  {
+    "id": "winglang-icon",
+    "name": "Wing",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "winglang-icon.svg"
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wix.svg"
+  },
+  {
+    "id": "woocommerce-icon",
+    "name": "WooCommerce",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "woocommerce-icon.svg"
+  },
+  {
+    "id": "wordpress-icon",
+    "name": "WordPress",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wordpress-icon.svg"
+  },
+  {
+    "id": "workboard",
+    "name": "Workboard",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "workboard.svg"
+  },
+  {
+    "id": "workos-icon",
+    "name": "Workos",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "workos-icon.svg"
+  },
+  {
+    "id": "workplace-icon",
+    "name": "Workplace",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "workplace-icon.svg"
+  },
+  {
+    "id": "wpengine",
+    "name": "WP Engine",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "wpengine.svg"
+  },
+  {
+    "id": "xml",
+    "name": "XML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "xml.svg"
+  },
+  {
+    "id": "xamarin",
+    "name": "Xamarin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "xamarin.svg"
+  },
+  {
+    "id": "xampp",
+    "name": "Xampp",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "xampp.svg"
+  },
+  {
+    "id": "xata-icon",
+    "name": "Xata",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "xata-icon.svg"
+  },
+  {
+    "id": "xcode",
+    "name": "XCode",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "xcode.svg"
+  },
+  {
+    "id": "xtend",
+    "name": "Xtend",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "xtend.svg"
+  },
+  {
+    "id": "yaml",
+    "name": "YAML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "yaml.svg"
+  },
+  {
+    "id": "yarn",
+    "name": "Yarn",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "yarn.svg"
+  },
+  {
+    "id": "yugabyte",
+    "name": "Yugabyte",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "yugabyte.svg"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zapier.svg"
+  },
+  {
+    "id": "zend-framework",
+    "name": "Zend Framework",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zend-framework.svg"
+  },
+  {
+    "id": "zendesk-icon",
+    "name": "Zendesk",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zendesk-icon.svg"
+  },
+  {
+    "id": "zig",
+    "name": "Zig",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zig.svg"
+  },
+  {
+    "id": "zod",
+    "name": "Zod",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zod.svg"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zoho.svg"
+  },
+  {
+    "id": "zorin-os",
+    "name": "Zorin OS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zorin-os.svg"
+  },
+  {
+    "id": "grpc",
+    "name": "gRPC",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "grpc.svg"
+  },
+  {
+    "id": "hcaptcha-icon",
+    "name": "hCaptcha",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "hcaptcha-icon.svg"
+  },
+  {
+    "id": "jquery",
+    "name": "jQuery",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jquery.svg"
+  },
+  {
+    "id": "jsdom",
+    "name": "jsDOM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jsdom.svg"
+  },
+  {
+    "id": "jsdelivr",
+    "name": "jsDelivr",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "jsdelivr.svg"
+  },
+  {
+    "id": "kirby-icon",
+    "name": "kirby",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kirby-icon.svg"
+  },
+  {
+    "id": "kops",
+    "name": "kops",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "kops.svg"
+  },
+  {
+    "id": "lighttpd",
+    "name": "lighttpd",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "lighttpd.svg"
+  },
+  {
+    "id": "linkerd",
+    "name": "linkerd",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "linkerd.svg"
+  },
+  {
+    "id": "loader",
+    "name": "loader",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "loader.svg"
+  },
+  {
+    "id": "logentries",
+    "name": "logentries",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "logentries.svg"
+  },
+  {
+    "id": "mageia",
+    "name": "mageia",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mageia.svg"
+  },
+  {
+    "id": "mlab",
+    "name": "mlab",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mlab.svg"
+  },
+  {
+    "id": "mparticle-icon",
+    "name": "mparticle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "mparticle-icon.svg"
+  },
+  {
+    "id": "nvm",
+    "name": "nvm",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "nvm.svg"
+  },
+  {
+    "id": "octodns",
+    "name": "octodns",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "octodns.svg"
+  },
+  {
+    "id": "osquery",
+    "name": "osquery",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "osquery.svg"
+  },
+  {
+    "id": "p5js",
+    "name": "p5.js",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "p5js.svg"
+  },
+  {
+    "id": "pagekit",
+    "name": "pagekit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pagekit.svg"
+  },
+  {
+    "id": "pagekite",
+    "name": "pagekite",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pagekite.svg"
+  },
+  {
+    "id": "parsehub",
+    "name": "parsehub",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "parsehub.svg"
+  },
+  {
+    "id": "pipedrive",
+    "name": "pipedrive",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "pipedrive.svg"
+  },
+  {
+    "id": "quotbyte",
+    "name": "quotbyte",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "quotbyte.svg"
+  },
+  {
+    "id": "redux-observable",
+    "name": "redux observable",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redux-observable.svg"
+  },
+  {
+    "id": "redux-saga",
+    "name": "redux saga",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "redux-saga.svg"
+  },
+  {
+    "id": "rest-li",
+    "name": "rest li",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rest-li.svg"
+  },
+  {
+    "id": "rollupjs",
+    "name": "rollup.js",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "rollupjs.svg"
+  },
+  {
+    "id": "runscope",
+    "name": "runscope",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "runscope.svg"
+  },
+  {
+    "id": "seaborn-icon",
+    "name": "seaborn",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "seaborn-icon.svg"
+  },
+  {
+    "id": "semantic-release",
+    "name": "semantic release",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "semantic-release.svg"
+  },
+  {
+    "id": "sensu-icon",
+    "name": "sensu",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sensu-icon.svg"
+  },
+  {
+    "id": "sigstore-icon",
+    "name": "sigstore",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "sigstore-icon.svg"
+  },
+  {
+    "id": "slack-icon",
+    "name": "slack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "slack-icon.svg"
+  },
+  {
+    "id": "slides",
+    "name": "slides",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "slides.svg"
+  },
+  {
+    "id": "snowflake-icon",
+    "name": "snowflake",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "snowflake-icon.svg"
+  },
+  {
+    "id": "stdlib-icon",
+    "name": "stdlib",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stdlib-icon.svg"
+  },
+  {
+    "id": "stylefmt",
+    "name": "stylefmt",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stylefmt.svg"
+  },
+  {
+    "id": "stylelint",
+    "name": "stylelint",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "stylelint.svg"
+  },
+  {
+    "id": "teamwork-icon",
+    "name": "teamwork",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "teamwork-icon.svg"
+  },
+  {
+    "id": "trpc",
+    "name": "tRPC",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "trpc.svg"
+  },
+  {
+    "id": "tsnode",
+    "name": "tsnode",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tsnode.svg"
+  },
+  {
+    "id": "tsuru",
+    "name": "tsuru",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "tsuru.svg"
+  },
+  {
+    "id": "typesense-icon",
+    "name": "typesense",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "typesense-icon.svg"
+  },
+  {
+    "id": "ukit",
+    "name": "ukit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "ukit.svg"
+  },
+  {
+    "id": "unocss",
+    "name": "unocss",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "unocss.svg"
+  },
+  {
+    "id": "uwsgi",
+    "name": "uwsgi",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "uwsgi.svg"
+  },
+  {
+    "id": "web.dev-icon",
+    "name": "web.dev",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "web.dev-icon.svg"
+  },
+  {
+    "id": "zeroheight-icon",
+    "name": "zeroheight",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zeroheight-icon.svg"
+  },
+  {
+    "id": "zklogin",
+    "name": "zkLogin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zklogin.svg"
+  },
+  {
+    "id": "zkproof",
+    "name": "zkProof",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": ""
+  },
+  {
+    "id": "zksync",
+    "name": "zkSync",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zksync.png"
+  },
+  {
+    "id": "zsh",
+    "name": "zsh",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "icon": "zsh.svg"
+  }
 ]

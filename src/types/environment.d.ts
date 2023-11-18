@@ -8,6 +8,8 @@ declare global {
 			STAG_GITHUB_CLIENT_ID: string;
 			STAG_GITHUB_CLIENT_SECRET: string;
 			TECHCHACK_SECRET: string;
+			DATABASE_URL: string;
+			DATABASE_AUTH_TOKEN: string;
 		}
 	}
 }

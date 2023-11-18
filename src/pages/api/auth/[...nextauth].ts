@@ -1,7 +1,9 @@
 import NextAuth, { NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
-import { MongoDBAdapter } from '@auth/mongodb-adapter';
-import clientPromise from '@/db/mongodb';
+// import { MongoDBAdapter } from '@auth/mongodb-adapter';
+// import clientPromise from '@/db/mongodb';
+import { DrizzleAdapter } from '@auth/drizzle-adapter';
+import { techChackDB } from '@/db';
 
 const devCredentials = {
 	githubClientId: process.env.DEV_GITHUB_CLIENT_ID,
@@ -15,7 +17,7 @@ const credentials =
 	process.env.NODE_ENV === 'development' ? devCredentials : stagingCredentials;
 
 const options: NextAuthOptions = {
-	adapter: MongoDBAdapter(clientPromise, { databaseName: 'techchack' }),
+	adapter: DrizzleAdapter(techChackDB),
 	providers: [
 		GithubProvider({
 			clientId: credentials.githubClientId,

@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@auth/core": "^0.18.0",
+    "@auth/drizzle-adapter": "^0.3.6",
     "@auth/mongodb-adapter": "^2.0.3",
+    "@libsql/client": "^0.4.0-pre.1",
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^2.4.3",
+    "drizzle-orm": "^0.29.0",
     "fuse.js": "^7.0.0",
     "mongodb": "^6.2.0",
     "next": "14.0.1",
@@ -25,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "drizzle-kit": "^0.20.4",
     "eslint": "^8",
     "eslint-config-next": "14.0.1"
   }
