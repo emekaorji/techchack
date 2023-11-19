@@ -1,7 +1,5 @@
 import NextAuth, { NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
-// import { MongoDBAdapter } from '@auth/mongodb-adapter';
-// import clientPromise from '@/db/mongodb';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
 import { techChackDB } from '@/db';
 

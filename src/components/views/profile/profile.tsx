@@ -58,7 +58,7 @@ const convertSVGtoDataURL = async (svgPath: string): Promise<string> => {
  * 2. Libraries & Frameworks - React, NextJS, Laravel, AngularJS, D3.js
  * 3. Tools & Services - Amazon ECS, DatadogHQ, Netlify
  * 4. Environments - VSCode, JetBrains, Atom, Remix, StackBlitz, Visual Studio
- * 5. Concepts - Microservices, DevOps, Virtualization, Memoization
+ * 5. Concepts & Fields - Microservices, DevOps, Virtualization, Memoization
  */
 
 const Profile = () => {

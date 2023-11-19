@@ -57,3 +57,38 @@ export const verificationTokens = sqliteTable(
 		compoundKey: primaryKey({ columns: [vt.identifier, vt.token] }),
 	})
 );
+
+// enum Categories {
+// 	Languages = 'Languages',
+// 	LibrariesAndFrameworks = 'Libraries & Frameworks',
+// 	ToolsAndServices = 'Tools & Services',
+// 	Environments = 'Environments',
+// 	ConceptsAndFields = 'Concepts & Fields',
+// }
+
+const categories = [
+	'Languages',
+	'Libraries & Frameworks',
+	'Tools & Services',
+	'Environments',
+	'Concepts & Fields',
+] as [string, ...string[]];
+
+export const stacks = sqliteTable('stack', {
+	id: text('id').notNull().primaryKey(),
+	name: text('name').notNull(),
+	description: text('description').notNull(),
+	category: text('category', {
+		enum: [
+			'Languages',
+			'Libraries & Frameworks',
+			'Tools & Services',
+			'Environments',
+			'Concepts & Fields',
+		],
+	}).notNull(),
+	requirements: text('requirements', { mode: 'json' })
+		.notNull()
+		.$type<string[]>(),
+	icon: text('icon').notNull(),
+});
