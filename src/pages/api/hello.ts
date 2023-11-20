@@ -19,6 +19,7 @@ interface IStack {
 	name: SQLiteString;
 	description: SQLiteString;
 	category: SQL<unknown> | Placeholder<string, any> | Tcategory;
+	link: SQLiteString;
 	requirements: string[] | SQL<unknown> | Placeholder<string, any>;
 	icon: SQLiteString;
 }
@@ -33,10 +34,13 @@ export async function batchUploadToTursoDB() {
 	const jsonObjectData = JSON.parse(jsonData) as IStack[];
 	// console.log(jsonObjectData);
 
-	let count = 100;
-	const length = jsonObjectData.length - 100;
-	// const length = 200;
+	let count = 513;
+	const length = jsonObjectData.length;
+	// const length = 4;
+	console.log(length);
+	console.log(count < length);
 	while (count < length) {
+		console.log('Let there be carnage');
 		const item = jsonObjectData[count];
 		console.log('================================');
 		console.log(`Uploading: ${item.name}`);
@@ -48,12 +52,16 @@ export async function batchUploadToTursoDB() {
 		);
 		if (extension === 'svg') {
 			// Encode UTF8 string and push the string to mongodb
-			const iconData = await fsPromises.readFile(iconFilePath, 'utf8');
+			const iconData = item.icon
+				? await fsPromises.readFile(iconFilePath, 'utf8')
+				: '';
 			item.icon = iconData;
 		} else {
 			// i.e if `png` or `jpg`
 			// Encode Base64 string, wrap it in an svg `image` and push the string to mongodb
-			const iconData = await fsPromises.readFile(iconFilePath, 'base64');
+			const iconData = item.icon
+				? await fsPromises.readFile(iconFilePath, 'base64')
+				: '';
 			const modifiedIconData = `<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg"><image style="width: 100%; height: 100%;" href="data:image/${extension};base64,${iconData}" /></svg>`;
 			item.icon = modifiedIconData;
 		}
@@ -79,10 +87,10 @@ type Data = {
 	name: string;
 };
 
-export default function handler(
+export default async function handler(
 	req: NextApiRequest,
 	res: NextApiResponse<Data>
 ) {
-	batchUploadToTursoDB();
+	await batchUploadToTursoDB();
 	res.status(200).json({ name: 'John Doe' });
 }

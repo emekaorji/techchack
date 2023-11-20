@@ -73,10 +73,6 @@ const Profile = () => {
 		[]
 	);
 
-	useEffect(() => {
-		fetch('/api/hello');
-	}, []);
-
 	return (
 		<>
 			<Head>

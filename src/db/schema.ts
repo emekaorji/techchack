@@ -87,6 +87,7 @@ export const stacks = sqliteTable('stack', {
 			'Concepts & Fields',
 		],
 	}).notNull(),
+	link: text('link').notNull(),
 	requirements: text('requirements', { mode: 'json' })
 		.notNull()
 		.$type<string[]>(),

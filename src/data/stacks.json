@@ -4,8 +4,8 @@
     "name": ".NET",
     "category": "Language",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dotnet.svg"
   },
   {
@@ -13,8 +13,8 @@
     "name": "AWS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws.svg"
   },
   {
@@ -22,8 +22,8 @@
     "name": "AWS API Gateway",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-api-gateway.svg"
   },
   {
@@ -31,8 +31,8 @@
     "name": "AWS Amplify",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-amplify.svg"
   },
   {
@@ -40,8 +40,8 @@
     "name": "AWS App Mesh",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-app-mesh.svg"
   },
   {
@@ -49,8 +49,8 @@
     "name": "AWS AppFlow",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-appflow.svg"
   },
   {
@@ -58,8 +58,8 @@
     "name": "AWS AppSync",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-appsync.svg"
   },
   {
@@ -67,8 +67,8 @@
     "name": "AWS Athena",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-athena.svg"
   },
   {
@@ -76,8 +76,8 @@
     "name": "AWS Aurora",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-aurora.svg"
   },
   {
@@ -85,8 +85,8 @@
     "name": "AWS Backup",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-backup.svg"
   },
   {
@@ -94,8 +94,8 @@
     "name": "AWS Batch",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-batch.svg"
   },
   {
@@ -103,8 +103,8 @@
     "name": "AWS Certificate Manager",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-certificate-manager.svg"
   },
   {
@@ -112,8 +112,8 @@
     "name": "AWS CloudFormation",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-cloudformation.svg"
   },
   {
@@ -121,8 +121,8 @@
     "name": "AWS CloudFront",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-cloudfront.svg"
   },
   {
@@ -130,8 +130,8 @@
     "name": "AWS CloudSearch",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-cloudsearch.svg"
   },
   {
@@ -139,8 +139,8 @@
     "name": "AWS CloudTrail",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-cloudtrail.svg"
   },
   {
@@ -148,8 +148,8 @@
     "name": "AWS CloudWatch",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-cloudwatch.svg"
   },
   {
@@ -157,8 +157,8 @@
     "name": "AWS CodeBuild",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-codebuild.svg"
   },
   {
@@ -166,8 +166,8 @@
     "name": "AWS CodeCommit",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-codecommit.svg"
   },
   {
@@ -175,8 +175,8 @@
     "name": "AWS CodeDeploy",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-codedeploy.svg"
   },
   {
@@ -184,8 +184,8 @@
     "name": "AWS CodePipeline",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-codepipeline.svg"
   },
   {
@@ -193,8 +193,8 @@
     "name": "AWS CodeStar",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-codestar.svg"
   },
   {
@@ -202,8 +202,8 @@
     "name": "AWS Cognito",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-cognito.svg"
   },
   {
@@ -211,8 +211,8 @@
     "name": "AWS Config",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-config.svg"
   },
   {
@@ -220,8 +220,8 @@
     "name": "AWS DynamoDB",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-dynamodb.svg"
   },
   {
@@ -229,8 +229,8 @@
     "name": "AWS EC2",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-ec2.svg"
   },
   {
@@ -238,8 +238,8 @@
     "name": "AWS ECS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-ecs.svg"
   },
   {
@@ -247,8 +247,8 @@
     "name": "AWS EKS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-eks.svg"
   },
   {
@@ -256,8 +256,8 @@
     "name": "AWS ELB",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-elb.svg"
   },
   {
@@ -265,8 +265,8 @@
     "name": "AWS Elastic Beanstalk",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-elastic-beanstalk.svg"
   },
   {
@@ -274,8 +274,8 @@
     "name": "AWS ElasticCache",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-elasticache.svg"
   },
   {
@@ -283,8 +283,8 @@
     "name": "AWS EventBridge",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-eventbridge.svg"
   },
   {
@@ -292,8 +292,8 @@
     "name": "AWS Fargate",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-fargate.svg"
   },
   {
@@ -301,8 +301,8 @@
     "name": "AWS Glacier",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-glacier.svg"
   },
   {
@@ -310,8 +310,8 @@
     "name": "AWS Glue",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-glue.svg"
   },
   {
@@ -319,8 +319,8 @@
     "name": "AWS IAM",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-iam.svg"
   },
   {
@@ -328,8 +328,8 @@
     "name": "AWS KMS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-kms.svg"
   },
   {
@@ -337,8 +337,8 @@
     "name": "AWS Keyspaces",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-keyspaces.svg"
   },
   {
@@ -346,8 +346,8 @@
     "name": "AWS Kinesis",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-kinesis.svg"
   },
   {
@@ -355,8 +355,8 @@
     "name": "AWS Lake Formation",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-lake-formation.svg"
   },
   {
@@ -364,8 +364,8 @@
     "name": "AWS Lambda",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-lambda.svg"
   },
   {
@@ -373,8 +373,8 @@
     "name": "AWS LightSail",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-lightsail.svg"
   },
   {
@@ -382,8 +382,8 @@
     "name": "AWS MQ",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-mq.svg"
   },
   {
@@ -391,8 +391,8 @@
     "name": "AWS MSK",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-msk.svg"
   },
   {
@@ -400,8 +400,8 @@
     "name": "AWS Neptune",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-neptune.svg"
   },
   {
@@ -409,8 +409,8 @@
     "name": "AWS Open Search",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-open-search.svg"
   },
   {
@@ -418,8 +418,8 @@
     "name": "AWS Opworks",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-opsworks.svg"
   },
   {
@@ -427,8 +427,8 @@
     "name": "AWS QuickSight",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-quicksight.svg"
   },
   {
@@ -436,8 +436,8 @@
     "name": "AWS RDS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-rds.svg"
   },
   {
@@ -445,8 +445,8 @@
     "name": "AWS Redshift",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-redshift.svg"
   },
   {
@@ -454,8 +454,8 @@
     "name": "AWS Route 53",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-route53.svg"
   },
   {
@@ -463,8 +463,8 @@
     "name": "AWS S3",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-s3.svg"
   },
   {
@@ -472,8 +472,8 @@
     "name": "AWS SES",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-ses.svg"
   },
   {
@@ -481,8 +481,8 @@
     "name": "AWS SNS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-sns.svg"
   },
   {
@@ -490,8 +490,8 @@
     "name": "AWS SQS",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-sqs.svg"
   },
   {
@@ -499,8 +499,8 @@
     "name": "AWS Secrets Manager",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-secrets-manager.svg"
   },
   {
@@ -508,8 +508,8 @@
     "name": "AWS Shield",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-shield.svg"
   },
   {
@@ -517,8 +517,8 @@
     "name": "AWS Step Functions",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-step-functions.svg"
   },
   {
@@ -526,8 +526,8 @@
     "name": "AWS Systems Manager",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-systems-manager.svg"
   },
   {
@@ -535,8 +535,8 @@
     "name": "AWS Timestream",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-timestream.svg"
   },
   {
@@ -544,8 +544,8 @@
     "name": "AWS VPC",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-vpc.svg"
   },
   {
@@ -553,8 +553,8 @@
     "name": "AWS WAF",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-waf.svg"
   },
   {
@@ -562,8 +562,8 @@
     "name": "AWS X-Ray",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "aws-xray.svg"
   },
   {
@@ -571,8 +571,8 @@
     "name": "Adobe After Effects",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-after-effects.svg"
   },
   {
@@ -580,8 +580,8 @@
     "name": "Adobe Animate",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-animate.svg"
   },
   {
@@ -589,8 +589,8 @@
     "name": "Adobe Dreamweaver",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-dreamweaver.svg"
   },
   {
@@ -598,8 +598,8 @@
     "name": "Adobe Illustrator",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-illustrator.svg"
   },
   {
@@ -607,8 +607,8 @@
     "name": "Adobe InCopy",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-incopy.svg"
   },
   {
@@ -616,8 +616,8 @@
     "name": "Adobe InDesign",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-indesign.svg"
   },
   {
@@ -625,8 +625,8 @@
     "name": "Adobe Lightroom",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-lightroom.svg"
   },
   {
@@ -634,8 +634,8 @@
     "name": "Adobe Photoshop",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-photoshop.svg"
   },
   {
@@ -643,8 +643,8 @@
     "name": "Adobe Premiere",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-premiere.svg"
   },
   {
@@ -652,8 +652,8 @@
     "name": "Adobe XD",
     "category": "Tools & Services",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "adobe-xd.svg"
   },
   {
@@ -661,8 +661,8 @@
     "name": "Algolia",
     "category": "Libraries & Frameworks",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "algolia.svg"
   },
   {
@@ -670,8 +670,8 @@
     "name": "AlpineJS",
     "category": "Libraries & Frameworks",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "alpinejs.svg"
   },
   {
@@ -679,8 +679,8 @@
     "name": "Analytics",
     "category": "Concepts & Fields",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "analytics.svg"
   },
   {
@@ -688,8 +688,8 @@
     "name": "Android Development",
     "category": "Concepts & Fields",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "android-icon.svg"
   },
   {
@@ -697,8 +697,8 @@
     "name": "AngularJS",
     "category": "Libraries & Frameworks",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "angular.svg"
   },
   {
@@ -706,8 +706,8 @@
     "name": "Ansible",
     "category": "Libraries & Frameworks",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ansible.svg"
   },
   {
@@ -715,8 +715,8 @@
     "name": "Apache",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "apache.svg"
   },
   {
@@ -724,8 +724,8 @@
     "name": "Apollo",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "apollostack.svg"
   },
   {
@@ -733,8 +733,8 @@
     "name": "Appcenter",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "appcenter-icon.svg"
   },
   {
@@ -742,8 +742,8 @@
     "name": "Appcircle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "appcircle-icon.svg"
   },
   {
@@ -751,8 +751,8 @@
     "name": "Appwrite",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "appwrite-icon.svg"
   },
   {
@@ -760,8 +760,8 @@
     "name": "ArangoDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "arangodb-icon.svg"
   },
   {
@@ -769,8 +769,8 @@
     "name": "Arbitrum",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "arbitrum.svg"
   },
   {
@@ -778,8 +778,8 @@
     "name": "Arch Linux",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "archlinux.svg"
   },
   {
@@ -787,8 +787,8 @@
     "name": "Arduino",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "arduino.svg"
   },
   {
@@ -796,8 +796,8 @@
     "name": "Artificial Intelligence",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ml.svg"
   },
   {
@@ -805,8 +805,8 @@
     "name": "Astro",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "astro-icon.svg"
   },
   {
@@ -814,8 +814,8 @@
     "name": "Atom",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "atom-icon.svg"
   },
   {
@@ -823,8 +823,8 @@
     "name": "Audio",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "audio.svg"
   },
   {
@@ -832,8 +832,8 @@
     "name": "Auth0",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "auth0-icon.svg"
   },
   {
@@ -841,8 +841,8 @@
     "name": "Axios",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "axios.svg"
   },
   {
@@ -850,8 +850,8 @@
     "name": "Babel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "babel.svg"
   },
   {
@@ -859,8 +859,8 @@
     "name": "BackboneJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "backbone-icon.svg"
   },
   {
@@ -868,8 +868,8 @@
     "name": "Bash",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bash-icon.svg"
   },
   {
@@ -877,8 +877,8 @@
     "name": "Batch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "batch.svg"
   },
   {
@@ -886,8 +886,8 @@
     "name": "Bazel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bazel.svg"
   },
   {
@@ -895,8 +895,8 @@
     "name": "Big Data",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "big-data.svg"
   },
   {
@@ -904,8 +904,8 @@
     "name": "Bigpanda",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bigpanda.svg"
   },
   {
@@ -913,8 +913,8 @@
     "name": "Bitbucket",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bitbucket.svg"
   },
   {
@@ -922,8 +922,8 @@
     "name": "Blender",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "blender.svg"
   },
   {
@@ -931,8 +931,8 @@
     "name": "Blitz",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "blitzjs-icon.svg"
   },
   {
@@ -940,8 +940,8 @@
     "name": "Blockchain",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "blockchain.svg"
   },
   {
@@ -949,8 +949,8 @@
     "name": "Blueprint",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "blueprint.svg"
   },
   {
@@ -958,8 +958,8 @@
     "name": "Bluetooth",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bluetooth.svg"
   },
   {
@@ -967,8 +967,8 @@
     "name": "Bourbon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bourbon.svg"
   },
   {
@@ -976,8 +976,8 @@
     "name": "Bower",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bower.svg"
   },
   {
@@ -985,8 +985,8 @@
     "name": "Box",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "box.svg"
   },
   {
@@ -994,8 +994,8 @@
     "name": "Broccoli JS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "broccoli.svg"
   },
   {
@@ -1003,8 +1003,8 @@
     "name": "Browserify",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "browserify-icon.svg"
   },
   {
@@ -1012,8 +1012,8 @@
     "name": "BuilderIO",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "builder-io-icon.svg"
   },
   {
@@ -1021,8 +1021,8 @@
     "name": "Bun",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "bun.svg"
   },
   {
@@ -1030,8 +1030,8 @@
     "name": "C",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "c.svg"
   },
   {
@@ -1039,8 +1039,8 @@
     "name": "C#",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "c-sharp.svg"
   },
   {
@@ -1048,8 +1048,8 @@
     "name": "C++",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "c-plusplus.svg"
   },
   {
@@ -1057,8 +1057,8 @@
     "name": "CPanel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cpanel.svg"
   },
   {
@@ -1066,8 +1066,8 @@
     "name": "CRA",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "create-react-app.svg"
   },
   {
@@ -1075,8 +1075,8 @@
     "name": "CSS Flexbox Model",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "css-flexbox.svg"
   },
   {
@@ -1084,8 +1084,8 @@
     "name": "CSS3",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "css-3.svg"
   },
   {
@@ -1093,8 +1093,8 @@
     "name": "CSSNext",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cssnext.svg"
   },
   {
@@ -1102,8 +1102,8 @@
     "name": "CanJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "canjs.svg"
   },
   {
@@ -1111,8 +1111,8 @@
     "name": "Canva",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "canva.svg"
   },
   {
@@ -1120,8 +1120,8 @@
     "name": "Chai",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "chai.svg"
   },
   {
@@ -1129,8 +1129,8 @@
     "name": "ChatGPT",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openai-icon.svg"
   },
   {
@@ -1138,8 +1138,8 @@
     "name": "Cheerio",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cheerio.svg"
   },
   {
@@ -1147,8 +1147,8 @@
     "name": "Chevereto",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "chevereto.svg"
   },
   {
@@ -1156,8 +1156,8 @@
     "name": "Chromatic",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "chromatic-icon.svg"
   },
   {
@@ -1165,8 +1165,8 @@
     "name": "Chrome",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "chrome.svg"
   },
   {
@@ -1174,8 +1174,8 @@
     "name": "Chrome Web Store",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "chrome-web-store.svg"
   },
   {
@@ -1183,8 +1183,8 @@
     "name": "CircleCI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "circleci.svg"
   },
   {
@@ -1192,8 +1192,8 @@
     "name": "Clojure",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "clojure.svg"
   },
   {
@@ -1201,8 +1201,8 @@
     "name": "Cloud",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cloud-computing.svg"
   },
   {
@@ -1210,8 +1210,8 @@
     "name": "Cloudflare",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cloudflare-icon.svg"
   },
   {
@@ -1219,8 +1219,8 @@
     "name": "Cloudinary",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cloudinary-icon.svg"
   },
   {
@@ -1228,8 +1228,8 @@
     "name": "Codebeat",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codebeat.svg"
   },
   {
@@ -1237,8 +1237,8 @@
     "name": "Codeclimate",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codeclimate-icon.svg"
   },
   {
@@ -1246,8 +1246,8 @@
     "name": "Codecov",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codecov-icon.svg"
   },
   {
@@ -1255,8 +1255,8 @@
     "name": "Codefactor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codefactor-icon.svg"
   },
   {
@@ -1264,8 +1264,8 @@
     "name": "Codeigniter",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codeigniter-icon.svg"
   },
   {
@@ -1273,8 +1273,8 @@
     "name": "Codepen",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codepen-icon.svg"
   },
   {
@@ -1282,8 +1282,8 @@
     "name": "Codesandbox",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codesandbox-icon.svg"
   },
   {
@@ -1291,8 +1291,8 @@
     "name": "Codesee",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codesee-icon.svg"
   },
   {
@@ -1300,8 +1300,8 @@
     "name": "Codium",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "codium-icon.svg"
   },
   {
@@ -1309,8 +1309,8 @@
     "name": "CoffeeScript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "coffeescript.svg"
   },
   {
@@ -1318,8 +1318,8 @@
     "name": "Commitizen",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "commitizen.svg"
   },
   {
@@ -1327,8 +1327,8 @@
     "name": "Confluence",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "confluence.svg"
   },
   {
@@ -1336,8 +1336,8 @@
     "name": "Contentful",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "contentful.svg"
   },
   {
@@ -1345,8 +1345,8 @@
     "name": "CouchDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "couchdb-icon.svg"
   },
   {
@@ -1354,8 +1354,8 @@
     "name": "Couchbase",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "couchbase.svg"
   },
   {
@@ -1363,8 +1363,8 @@
     "name": "Cryptography",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cryptography.svg"
   },
   {
@@ -1372,8 +1372,8 @@
     "name": "Cypress",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "cypress-icon.svg"
   },
   {
@@ -1381,8 +1381,8 @@
     "name": "D3.js",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "d3.svg"
   },
   {
@@ -1390,8 +1390,8 @@
     "name": "DCOS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dcos-icon.svg"
   },
   {
@@ -1399,8 +1399,8 @@
     "name": "DGraph",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dgraph-icon.svg"
   },
   {
@@ -1408,8 +1408,8 @@
     "name": "DNS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dns.svg"
   },
   {
@@ -1417,8 +1417,8 @@
     "name": "DaisyUI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "daisyUI.svg"
   },
   {
@@ -1426,8 +1426,8 @@
     "name": "DanfoJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "danfo.svg"
   },
   {
@@ -1435,8 +1435,8 @@
     "name": "Dart",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dart.svg"
   },
   {
@@ -1444,8 +1444,8 @@
     "name": "Dashlane",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dashlane-icon.svg"
   },
   {
@@ -1453,8 +1453,8 @@
     "name": "Data Structures and Algorithms",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "data-structures-and-algorithm.svg"
   },
   {
@@ -1462,8 +1462,8 @@
     "name": "Datadog",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "datadog-icon.svg"
   },
   {
@@ -1471,8 +1471,8 @@
     "name": "Datasette",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "datasette-icon.svg"
   },
   {
@@ -1480,8 +1480,8 @@
     "name": "Dataspell",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dataspell.svg"
   },
   {
@@ -1489,8 +1489,8 @@
     "name": "DatoCMS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "datocms-icon.svg"
   },
   {
@@ -1498,8 +1498,8 @@
     "name": "Debian",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "debian.svg"
   },
   {
@@ -1507,8 +1507,8 @@
     "name": "Deno",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "deno.svg"
   },
   {
@@ -1516,8 +1516,8 @@
     "name": "DeployHQ",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "deployhq-icon.svg"
   },
   {
@@ -1525,8 +1525,8 @@
     "name": "Design",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "design.svg"
   },
   {
@@ -1534,8 +1534,8 @@
     "name": "DevOps",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "devops.svg"
   },
   {
@@ -1543,8 +1543,8 @@
     "name": "DialogFlow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dialogflow.svg"
   },
   {
@@ -1552,8 +1552,8 @@
     "name": "Digital Ocean",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "digital-ocean-icon.svg"
   },
   {
@@ -1561,8 +1561,8 @@
     "name": "Discord",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "discord-icon.svg"
   },
   {
@@ -1570,8 +1570,8 @@
     "name": "Django",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "django-icon.svg"
   },
   {
@@ -1579,8 +1579,8 @@
     "name": "Dockbit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dockbit.svg"
   },
   {
@@ -1588,8 +1588,8 @@
     "name": "Docker",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "docker-icon.svg"
   },
   {
@@ -1597,8 +1597,8 @@
     "name": "Doctrine",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "doctrine.svg"
   },
   {
@@ -1606,8 +1606,8 @@
     "name": "Docusaurus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "docusaurus.svg"
   },
   {
@@ -1615,8 +1615,8 @@
     "name": "Dojo",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dojo-icon.svg"
   },
   {
@@ -1624,8 +1624,8 @@
     "name": "Dolt",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dolt.svg"
   },
   {
@@ -1633,8 +1633,8 @@
     "name": "Dribbble",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dribbble-icon.svg"
   },
   {
@@ -1642,8 +1642,8 @@
     "name": "DrizzleORM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "drizzle-icon.svg"
   },
   {
@@ -1651,8 +1651,8 @@
     "name": "Drools",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "drools-icon.svg"
   },
   {
@@ -1660,8 +1660,8 @@
     "name": "Dropmark",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dropmark.svg"
   },
   {
@@ -1669,8 +1669,8 @@
     "name": "Dropzone",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dropzone.svg"
   },
   {
@@ -1678,8 +1678,8 @@
     "name": "Drupal",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "drupal-icon.svg"
   },
   {
@@ -1687,8 +1687,8 @@
     "name": "Dynamic XYZ",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dynamic-xyz.svg"
   },
   {
@@ -1696,8 +1696,8 @@
     "name": "Dynatrace",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dynatrace-icon.svg"
   },
   {
@@ -1705,8 +1705,8 @@
     "name": "E2E Testing",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "e2etesting.svg"
   },
   {
@@ -1714,8 +1714,8 @@
     "name": "ELM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "elm-classic.svg"
   },
   {
@@ -1723,8 +1723,8 @@
     "name": "ES6",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "es6.png"
   },
   {
@@ -1732,8 +1732,8 @@
     "name": "ESBuild",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "esbuild.svg"
   },
   {
@@ -1741,8 +1741,8 @@
     "name": "ESDoc",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "esdoc.svg"
   },
   {
@@ -1750,8 +1750,8 @@
     "name": "ESLint",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "eslint.svg"
   },
   {
@@ -1759,8 +1759,8 @@
     "name": "Eclipse",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "eclipse-icon.svg"
   },
   {
@@ -1768,8 +1768,8 @@
     "name": "Editor Config",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "editorconfig.svg"
   },
   {
@@ -1777,8 +1777,8 @@
     "name": "Effect",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "effect-icon.svg"
   },
   {
@@ -1786,8 +1786,8 @@
     "name": "Electron",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "electron.svg"
   },
   {
@@ -1795,8 +1795,8 @@
     "name": "Elixir",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "elixir.svg"
   },
   {
@@ -1804,8 +1804,8 @@
     "name": "Email Services",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "email.svg"
   },
   {
@@ -1813,8 +1813,8 @@
     "name": "Ember",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ember-tomster.svg"
   },
   {
@@ -1822,8 +1822,8 @@
     "name": "Emmet",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "emmet.svg"
   },
   {
@@ -1831,8 +1831,8 @@
     "name": "Envoy",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "envoy-icon.svg"
   },
   {
@@ -1840,8 +1840,8 @@
     "name": "Epsagon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "epsagon-icon.svg"
   },
   {
@@ -1849,8 +1849,8 @@
     "name": "Ethereum",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ethereum.svg"
   },
   {
@@ -1858,8 +1858,8 @@
     "name": "EthersJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ethers.svg"
   },
   {
@@ -1867,8 +1867,8 @@
     "name": "EventSentry",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "eventsentry.svg"
   },
   {
@@ -1876,8 +1876,8 @@
     "name": "Evergreen",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "evergreen-icon.svg"
   },
   {
@@ -1885,8 +1885,8 @@
     "name": "Excel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "excel.svg"
   },
   {
@@ -1894,8 +1894,8 @@
     "name": "Expo",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "expo-icon.svg"
   },
   {
@@ -1903,8 +1903,8 @@
     "name": "ExpressJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "express.svg"
   },
   {
@@ -1912,8 +1912,8 @@
     "name": "F#",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fsharp.svg"
   },
   {
@@ -1921,8 +1921,8 @@
     "name": "FFmpeg",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ffmpeg-icon.svg"
   },
   {
@@ -1930,8 +1930,8 @@
     "name": "Facebook API",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "facebook.svg"
   },
   {
@@ -1939,8 +1939,8 @@
     "name": "Fast API",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fastapi-icon.svg"
   },
   {
@@ -1948,8 +1948,8 @@
     "name": "Fastify",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fastify-icon.svg"
   },
   {
@@ -1957,8 +1957,8 @@
     "name": "Fastly",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fastly.svg"
   },
   {
@@ -1966,8 +1966,8 @@
     "name": "Fauna",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fauna-icon.svg"
   },
   {
@@ -1975,8 +1975,8 @@
     "name": "FeathersJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "feathersjs.svg"
   },
   {
@@ -1984,8 +1984,8 @@
     "name": "Fedora",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fedora.svg"
   },
   {
@@ -1993,8 +1993,8 @@
     "name": "Fetch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fetch.svg"
   },
   {
@@ -2002,8 +2002,8 @@
     "name": "Figma",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "figma.svg"
   },
   {
@@ -2011,8 +2011,8 @@
     "name": "Firebase",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "firebase.svg"
   },
   {
@@ -2020,8 +2020,8 @@
     "name": "Firebase Auth",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "firebase-auth.png"
   },
   {
@@ -2029,8 +2029,8 @@
     "name": "Firebase Database",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "firebase-database.png"
   },
   {
@@ -2038,8 +2038,8 @@
     "name": "Firebase Firestore",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "firebase-firestore.png"
   },
   {
@@ -2047,8 +2047,8 @@
     "name": "Firebase Storage",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "firebase-storage.png"
   },
   {
@@ -2056,8 +2056,8 @@
     "name": "Firefox",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "firefox.svg"
   },
   {
@@ -2065,8 +2065,8 @@
     "name": "Flannel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "flannel.svg"
   },
   {
@@ -2074,8 +2074,8 @@
     "name": "Flask",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "flask.svg"
   },
   {
@@ -2083,8 +2083,8 @@
     "name": "Flat UI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "flat-ui.svg"
   },
   {
@@ -2092,8 +2092,8 @@
     "name": "Flow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "flow.svg"
   },
   {
@@ -2101,8 +2101,8 @@
     "name": "Flutter",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "flutter.svg"
   },
   {
@@ -2110,8 +2110,8 @@
     "name": "Fluxxor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fluxxor.svg"
   },
   {
@@ -2119,8 +2119,8 @@
     "name": "Fly.io",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fly-icon.svg"
   },
   {
@@ -2128,8 +2128,8 @@
     "name": "Font Awesome",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "font-awesome.svg"
   },
   {
@@ -2137,8 +2137,8 @@
     "name": "Foundation",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "foundation.svg"
   },
   {
@@ -2146,8 +2146,8 @@
     "name": "FoundationDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "foundationdb-icon.svg"
   },
   {
@@ -2155,8 +2155,8 @@
     "name": "Framer",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "framer.svg"
   },
   {
@@ -2164,8 +2164,8 @@
     "name": "Framework7",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "framework7-icon.svg"
   },
   {
@@ -2173,8 +2173,8 @@
     "name": "Freedcamp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "freedcamp-icon.svg"
   },
   {
@@ -2182,8 +2182,8 @@
     "name": "Fresh",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "fresh.svg"
   },
   {
@@ -2191,8 +2191,8 @@
     "name": "GNOME",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gnome-icon.svg"
   },
   {
@@ -2200,8 +2200,8 @@
     "name": "GNU",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gnu.svg"
   },
   {
@@ -2209,8 +2209,8 @@
     "name": "GSAP",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "greensock-icon.svg"
   },
   {
@@ -2218,8 +2218,8 @@
     "name": "Ganache",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ganache-icon.svg"
   },
   {
@@ -2227,8 +2227,8 @@
     "name": "GatsbyJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gatsby.svg"
   },
   {
@@ -2236,8 +2236,8 @@
     "name": "Geekbot",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "geekbot.svg"
   },
   {
@@ -2245,8 +2245,8 @@
     "name": "Geetest",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "geetest-icon.svg"
   },
   {
@@ -2254,8 +2254,8 @@
     "name": "Gerrit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gerrit.svg"
   },
   {
@@ -2263,8 +2263,8 @@
     "name": "Giant Swarm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "giantswarm.svg"
   },
   {
@@ -2272,8 +2272,8 @@
     "name": "Gimp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gimp.svg"
   },
   {
@@ -2281,8 +2281,8 @@
     "name": "Gin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gin.svg"
   },
   {
@@ -2290,8 +2290,8 @@
     "name": "Git",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "git-icon.svg"
   },
   {
@@ -2299,8 +2299,8 @@
     "name": "Gitbook",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gitbook.svg"
   },
   {
@@ -2308,8 +2308,8 @@
     "name": "Gitflow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "git-icon.svg"
   },
   {
@@ -2317,8 +2317,8 @@
     "name": "Github",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "github-icon.svg"
   },
   {
@@ -2326,8 +2326,8 @@
     "name": "Github Actions",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "github-actions.svg"
   },
   {
@@ -2335,8 +2335,8 @@
     "name": "Github Copilot",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "github-copilot.svg"
   },
   {
@@ -2344,8 +2344,8 @@
     "name": "Gitkraken",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gitkraken.svg"
   },
   {
@@ -2353,8 +2353,8 @@
     "name": "Gitlab",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gitlab.svg"
   },
   {
@@ -2362,8 +2362,8 @@
     "name": "Glamorous",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "glamorous-icon.svg"
   },
   {
@@ -2371,8 +2371,8 @@
     "name": "GlimmerJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "glimmerjs.svg"
   },
   {
@@ -2380,8 +2380,8 @@
     "name": "Glitch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "glitch-icon.svg"
   },
   {
@@ -2389,8 +2389,8 @@
     "name": "Go",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "go.svg"
   },
   {
@@ -2398,8 +2398,8 @@
     "name": "Google Bard",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "google-bard.svg"
   },
   {
@@ -2407,8 +2407,8 @@
     "name": "Google Play Console",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "google-play-console.png"
   },
   {
@@ -2416,8 +2416,8 @@
     "name": "Gradle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gradle.svg"
   },
   {
@@ -2425,8 +2425,8 @@
     "name": "Grafana",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "grafana.svg"
   },
   {
@@ -2434,8 +2434,8 @@
     "name": "Grails",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "grails.svg"
   },
   {
@@ -2443,8 +2443,8 @@
     "name": "GraphQL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "graphql.svg"
   },
   {
@@ -2452,8 +2452,8 @@
     "name": "Graphene",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "graphene.svg"
   },
   {
@@ -2461,8 +2461,8 @@
     "name": "Grav",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "grav.svg"
   },
   {
@@ -2470,8 +2470,8 @@
     "name": "Gravatar",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gravatar-icon.svg"
   },
   {
@@ -2479,8 +2479,8 @@
     "name": "Gridsome",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gridsome-icon.svg"
   },
   {
@@ -2488,8 +2488,8 @@
     "name": "Grunt",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "grunt.svg"
   },
   {
@@ -2497,8 +2497,8 @@
     "name": "Gulp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gulp.svg"
   },
   {
@@ -2506,8 +2506,8 @@
     "name": "GunJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gunjs.svg"
   },
   {
@@ -2515,8 +2515,8 @@
     "name": "Gunicorn",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gunicorn.svg"
   },
   {
@@ -2524,8 +2524,8 @@
     "name": "Gzip",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "gzip.svg"
   },
   {
@@ -2533,8 +2533,8 @@
     "name": "HBase",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hbase.svg"
   },
   {
@@ -2542,8 +2542,8 @@
     "name": "HHVM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hhvm.svg"
   },
   {
@@ -2551,8 +2551,8 @@
     "name": "HTML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "html-5.svg"
   },
   {
@@ -2560,8 +2560,8 @@
     "name": "HTML5",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "html-5.svg"
   },
   {
@@ -2569,8 +2569,8 @@
     "name": "HTMX",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "htmx.svg"
   },
   {
@@ -2578,8 +2578,8 @@
     "name": "HTTPie",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "httpie-icon.svg"
   },
   {
@@ -2587,8 +2587,8 @@
     "name": "Hack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hack.svg"
   },
   {
@@ -2596,8 +2596,8 @@
     "name": "Hadoop",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hadoop.svg"
   },
   {
@@ -2605,8 +2605,8 @@
     "name": "Haiku",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "haiku-icon.svg"
   },
   {
@@ -2614,8 +2614,8 @@
     "name": "Hanami",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hanami.svg"
   },
   {
@@ -2623,8 +2623,8 @@
     "name": "Hapi",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hapi.svg"
   },
   {
@@ -2632,8 +2632,8 @@
     "name": "Hardhat",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hardhat-icon.svg"
   },
   {
@@ -2641,8 +2641,8 @@
     "name": "Harness",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "harness-icon.svg"
   },
   {
@@ -2650,8 +2650,8 @@
     "name": "Hashnode",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hashnode-icon.svg"
   },
   {
@@ -2659,8 +2659,8 @@
     "name": "Haskell",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "haskell-icon.svg"
   },
   {
@@ -2668,8 +2668,8 @@
     "name": "Hasura",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hasura-icon.svg"
   },
   {
@@ -2677,8 +2677,8 @@
     "name": "Haxe",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "haxe.svg"
   },
   {
@@ -2686,8 +2686,8 @@
     "name": "Haxl",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "haxl.svg"
   },
   {
@@ -2695,8 +2695,8 @@
     "name": "HeadlessUI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "headlessui-icon.svg"
   },
   {
@@ -2704,8 +2704,8 @@
     "name": "Heap",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "heap-icon.svg"
   },
   {
@@ -2713,8 +2713,8 @@
     "name": "Heroku",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "heroku-icon.svg"
   },
   {
@@ -2722,8 +2722,8 @@
     "name": "Hono",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hono.svg"
   },
   {
@@ -2731,8 +2731,8 @@
     "name": "Hostgator",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hostgator-icon.svg"
   },
   {
@@ -2740,8 +2740,8 @@
     "name": "IOS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ios.svg"
   },
   {
@@ -2749,8 +2749,8 @@
     "name": "Imagemin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "imagemin.svg"
   },
   {
@@ -2758,8 +2758,8 @@
     "name": "Imba",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "imba-icon.svg"
   },
   {
@@ -2767,8 +2767,8 @@
     "name": "Importio",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "importio.svg"
   },
   {
@@ -2776,8 +2776,8 @@
     "name": "Incident",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "incident-icon.svg"
   },
   {
@@ -2785,8 +2785,8 @@
     "name": "InfluxDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "influxdb-icon.svg"
   },
   {
@@ -2794,8 +2794,8 @@
     "name": "Ingress",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ingress.svg"
   },
   {
@@ -2803,8 +2803,8 @@
     "name": "Ink",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ink.svg"
   },
   {
@@ -2812,8 +2812,8 @@
     "name": "Insomnia",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "insomnia.svg"
   },
   {
@@ -2821,8 +2821,8 @@
     "name": "Ionic",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ionic-icon.svg"
   },
   {
@@ -2830,8 +2830,8 @@
     "name": "JRuby",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jruby.svg"
   },
   {
@@ -2839,8 +2839,8 @@
     "name": "JSBin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jsbin.svg"
   },
   {
@@ -2848,8 +2848,8 @@
     "name": "JSFiddle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jsfiddle.svg"
   },
   {
@@ -2857,8 +2857,8 @@
     "name": "JSON",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "json.svg"
   },
   {
@@ -2866,8 +2866,8 @@
     "name": "JSPM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jspm.svg"
   },
   {
@@ -2875,8 +2875,8 @@
     "name": "JSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jss.svg"
   },
   {
@@ -2884,8 +2884,8 @@
     "name": "JWT",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jwt-icon.svg"
   },
   {
@@ -2893,8 +2893,8 @@
     "name": "Jamstack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jamstack-icon.svg"
   },
   {
@@ -2902,8 +2902,8 @@
     "name": "Java",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "java.svg"
   },
   {
@@ -2911,8 +2911,8 @@
     "name": "JavaScript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "javascript.svg"
   },
   {
@@ -2920,8 +2920,8 @@
     "name": "Jekyll",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jekyll.svg"
   },
   {
@@ -2929,8 +2929,8 @@
     "name": "Jenkins",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jenkins.svg"
   },
   {
@@ -2938,8 +2938,8 @@
     "name": "Jest",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jest.svg"
   },
   {
@@ -2947,8 +2947,8 @@
     "name": "Jetbrains",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jetbrains.svg"
   },
   {
@@ -2956,8 +2956,8 @@
     "name": "Jetbrains Space",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jetbrains-space-icon.svg"
   },
   {
@@ -2965,8 +2965,8 @@
     "name": "Jhipster",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jhipster-icon.svg"
   },
   {
@@ -2974,8 +2974,8 @@
     "name": "Jira",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jira.svg"
   },
   {
@@ -2983,8 +2983,8 @@
     "name": "Juju",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "juju.svg"
   },
   {
@@ -2992,8 +2992,8 @@
     "name": "Julia",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "julia.svg"
   },
   {
@@ -3001,8 +3001,8 @@
     "name": "Jupyter",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jupyter.svg"
   },
   {
@@ -3010,8 +3010,8 @@
     "name": "KDE",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kde.svg"
   },
   {
@@ -3019,8 +3019,8 @@
     "name": "KaiOS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kaios.svg"
   },
   {
@@ -3028,8 +3028,8 @@
     "name": "Karma",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "karma.svg"
   },
   {
@@ -3037,8 +3037,8 @@
     "name": "Katalon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "katalon-icon.svg"
   },
   {
@@ -3046,8 +3046,8 @@
     "name": "Kemal",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kemal.svg"
   },
   {
@@ -3055,8 +3055,8 @@
     "name": "KeyCDN",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "keycdn-icon.svg"
   },
   {
@@ -3064,8 +3064,8 @@
     "name": "KeyDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "keydb-icon.svg"
   },
   {
@@ -3073,8 +3073,8 @@
     "name": "Kibana",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kibana.svg"
   },
   {
@@ -3082,8 +3082,8 @@
     "name": "Kinto",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kinto-icon.svg"
   },
   {
@@ -3091,8 +3091,8 @@
     "name": "Kirby",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kirby-icon.svg"
   },
   {
@@ -3100,8 +3100,8 @@
     "name": "Kong",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kong-icon.svg"
   },
   {
@@ -3109,8 +3109,8 @@
     "name": "Kops",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kops.svg"
   },
   {
@@ -3118,8 +3118,8 @@
     "name": "Kotlin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kotlin-icon.svg"
   },
   {
@@ -3127,8 +3127,8 @@
     "name": "Ktor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ktor-icon.svg"
   },
   {
@@ -3136,8 +3136,8 @@
     "name": "Kubernetes",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "kubernetes.svg"
   },
   {
@@ -3145,8 +3145,8 @@
     "name": "LESS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "less.svg"
   },
   {
@@ -3154,8 +3154,8 @@
     "name": "Laravel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "laravel.svg"
   },
   {
@@ -3163,8 +3163,8 @@
     "name": "LevelDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "leveldb.svg"
   },
   {
@@ -3172,8 +3172,8 @@
     "name": "Lexical",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "lexical-icon.svg"
   },
   {
@@ -3181,8 +3181,8 @@
     "name": "Lighthouse",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "lighthouse.svg"
   },
   {
@@ -3190,8 +3190,8 @@
     "name": "Lighttpd",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "lighttpd.svg"
   },
   {
@@ -3199,8 +3199,8 @@
     "name": "Linkerd",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "linkerd.svg"
   },
   {
@@ -3208,8 +3208,8 @@
     "name": "Linux",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "linux.svg"
   },
   {
@@ -3217,8 +3217,8 @@
     "name": "Liquid",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": ""
   },
   {
@@ -3226,8 +3226,8 @@
     "name": "Lit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "lit-icon.svg"
   },
   {
@@ -3235,8 +3235,8 @@
     "name": "Loader",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "loader.svg"
   },
   {
@@ -3244,8 +3244,8 @@
     "name": "Lodash",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "lodash.svg"
   },
   {
@@ -3253,8 +3253,8 @@
     "name": "Logentries",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "logentries.svg"
   },
   {
@@ -3262,8 +3262,8 @@
     "name": "Loopback",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "loopback-icon.svg"
   },
   {
@@ -3271,8 +3271,8 @@
     "name": "MDN",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mdn.svg"
   },
   {
@@ -3280,8 +3280,8 @@
     "name": "MDX",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mdx.svg"
   },
   {
@@ -3289,8 +3289,8 @@
     "name": "ML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ml.svg"
   },
   {
@@ -3298,8 +3298,8 @@
     "name": "MSW",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "msw-icon.svg"
   },
   {
@@ -3307,8 +3307,8 @@
     "name": "Mageia",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mageia.svg"
   },
   {
@@ -3316,8 +3316,8 @@
     "name": "MailChimp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mailchimp-freddie.svg"
   },
   {
@@ -3325,8 +3325,8 @@
     "name": "MalinaJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "malinajs.svg"
   },
   {
@@ -3334,8 +3334,8 @@
     "name": "Manjaro",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "manjaro.svg"
   },
   {
@@ -3343,8 +3343,8 @@
     "name": "Mantine",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mantine-icon.svg"
   },
   {
@@ -3352,8 +3352,8 @@
     "name": "MariaDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mariadb-icon.svg"
   },
   {
@@ -3361,8 +3361,8 @@
     "name": "Markdown",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "markdown.svg"
   },
   {
@@ -3370,8 +3370,8 @@
     "name": "Mastodon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mastodon-icon.svg"
   },
   {
@@ -3379,8 +3379,8 @@
     "name": "Material UI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "material-ui.svg"
   },
   {
@@ -3388,8 +3388,8 @@
     "name": "Matter",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "matter-icon.svg"
   },
   {
@@ -3397,8 +3397,8 @@
     "name": "Medusa",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "medusa-icon.svg"
   },
   {
@@ -3406,8 +3406,8 @@
     "name": "Mercurial",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mercurial.svg"
   },
   {
@@ -3415,8 +3415,8 @@
     "name": "Metamask",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "metamask-icon.svg"
   },
   {
@@ -3424,8 +3424,8 @@
     "name": "Meteor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "meteor-icon.svg"
   },
   {
@@ -3433,8 +3433,8 @@
     "name": "Micro",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "micro-icon.svg"
   },
   {
@@ -3442,8 +3442,8 @@
     "name": "MicroPython",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "micro-python.svg"
   },
   {
@@ -3451,8 +3451,8 @@
     "name": "Microcosm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "microcosm.svg"
   },
   {
@@ -3460,8 +3460,8 @@
     "name": "Microservices",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "microservices.svg"
   },
   {
@@ -3469,8 +3469,8 @@
     "name": "Microsoft Azure",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "microsoft-azure.svg"
   },
   {
@@ -3478,8 +3478,8 @@
     "name": "Mida",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mida-icon.svg"
   },
   {
@@ -3487,8 +3487,8 @@
     "name": "Middleman",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "middleman.svg"
   },
   {
@@ -3496,8 +3496,8 @@
     "name": "Million",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "million-icon.svg"
   },
   {
@@ -3505,8 +3505,8 @@
     "name": "Milvus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "milvus-icon.svg"
   },
   {
@@ -3514,8 +3514,8 @@
     "name": "MindsDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mindsdb-icon.svg"
   },
   {
@@ -3523,8 +3523,8 @@
     "name": "Mithril",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mithril.svg"
   },
   {
@@ -3532,8 +3532,8 @@
     "name": "Mocha",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mocha.svg"
   },
   {
@@ -3541,8 +3541,8 @@
     "name": "Mockflow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mockflow-icon.svg"
   },
   {
@@ -3550,8 +3550,8 @@
     "name": "Modernizr",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "modernizr.svg"
   },
   {
@@ -3559,8 +3559,8 @@
     "name": "Modx",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "modx-icon.svg"
   },
   {
@@ -3568,8 +3568,8 @@
     "name": "MomentJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "momentjs.svg"
   },
   {
@@ -3577,8 +3577,8 @@
     "name": "MongoDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mongodb-icon.svg"
   },
   {
@@ -3586,8 +3586,8 @@
     "name": "Mongoose",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mongoose.png"
   },
   {
@@ -3595,8 +3595,8 @@
     "name": "Mono",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mono.svg"
   },
   {
@@ -3604,8 +3604,8 @@
     "name": "Moon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "moon.svg"
   },
   {
@@ -3613,8 +3613,8 @@
     "name": "Morpheus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "morpheus-icon.svg"
   },
   {
@@ -3622,8 +3622,8 @@
     "name": "Multipass",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "multipass.svg"
   },
   {
@@ -3631,8 +3631,8 @@
     "name": "MySQL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mysql-icon.svg"
   },
   {
@@ -3640,8 +3640,8 @@
     "name": "NASM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nasm.svg"
   },
   {
@@ -3649,8 +3649,8 @@
     "name": "NGRok",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ngrok.svg"
   },
   {
@@ -3658,8 +3658,8 @@
     "name": "NPM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "npm-icon.svg"
   },
   {
@@ -3667,8 +3667,8 @@
     "name": "NVM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nvm.svg"
   },
   {
@@ -3676,8 +3676,8 @@
     "name": "NaiveUI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "naiveui.svg"
   },
   {
@@ -3685,8 +3685,8 @@
     "name": "Namecheap",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "namecheap.svg"
   },
   {
@@ -3694,8 +3694,8 @@
     "name": "Nanonets",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nanonets.svg"
   },
   {
@@ -3703,8 +3703,8 @@
     "name": "NativeScript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nativescript.svg"
   },
   {
@@ -3712,8 +3712,8 @@
     "name": "Neat",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "neat.svg"
   },
   {
@@ -3721,8 +3721,8 @@
     "name": "Neon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "neon-icon.svg"
   },
   {
@@ -3730,8 +3730,8 @@
     "name": "NestJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nestjs.svg"
   },
   {
@@ -3739,8 +3739,8 @@
     "name": "Netbeans",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "netbeans.svg"
   },
   {
@@ -3748,8 +3748,8 @@
     "name": "Netlify",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "netlify-icon.svg"
   },
   {
@@ -3757,8 +3757,8 @@
     "name": "New Relic",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "new-relic-icon.svg"
   },
   {
@@ -3766,8 +3766,8 @@
     "name": "NextAuth",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nextauth.png"
   },
   {
@@ -3775,8 +3775,8 @@
     "name": "NextJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nextjs-icon.svg"
   },
   {
@@ -3784,8 +3784,8 @@
     "name": "Nextra",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nextra.svg"
   },
   {
@@ -3793,8 +3793,8 @@
     "name": "Nginx",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nginx.svg"
   },
   {
@@ -3802,8 +3802,8 @@
     "name": "Nightwatch.js",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nightwatch.svg"
   },
   {
@@ -3811,8 +3811,8 @@
     "name": "Nim",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nim-lang.svg"
   },
   {
@@ -3820,8 +3820,8 @@
     "name": "NocoDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nocodb.svg"
   },
   {
@@ -3829,8 +3829,8 @@
     "name": "Node-SASS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "node-sass.svg"
   },
   {
@@ -3838,8 +3838,8 @@
     "name": "NodeBots",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nodebots.svg"
   },
   {
@@ -3847,8 +3847,8 @@
     "name": "NodeJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nodejs-icon-alt.svg"
   },
   {
@@ -3856,8 +3856,8 @@
     "name": "NodeOS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nodeos.svg"
   },
   {
@@ -3865,8 +3865,8 @@
     "name": "Nodemon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nodemon.svg"
   },
   {
@@ -3874,8 +3874,8 @@
     "name": "Nomad",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nomad-icon.svg"
   },
   {
@@ -3883,8 +3883,8 @@
     "name": "Notion",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "notion-icon.svg"
   },
   {
@@ -3892,8 +3892,8 @@
     "name": "NuxtJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "nuxt-icon.svg"
   },
   {
@@ -3901,8 +3901,8 @@
     "name": "OCaml",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ocaml.svg"
   },
   {
@@ -3910,8 +3910,8 @@
     "name": "Oauth",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "oauth.svg"
   },
   {
@@ -3919,8 +3919,8 @@
     "name": "Objective-C",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "objective-c.svg"
   },
   {
@@ -3928,8 +3928,8 @@
     "name": "Observable",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "observablehq.svg"
   },
   {
@@ -3937,8 +3937,8 @@
     "name": "Obsidian",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "obsidian-icon.svg"
   },
   {
@@ -3946,8 +3946,8 @@
     "name": "Octopus Deploy",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "octopus-deploy.svg"
   },
   {
@@ -3955,8 +3955,8 @@
     "name": "Okta",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "okta-icon.svg"
   },
   {
@@ -3964,8 +3964,8 @@
     "name": "OneSignal",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "onesignal.svg"
   },
   {
@@ -3973,8 +3973,8 @@
     "name": "Open GL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "opengl.svg"
   },
   {
@@ -3982,8 +3982,8 @@
     "name": "OpenAI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openai-icon.svg"
   },
   {
@@ -3991,8 +3991,8 @@
     "name": "OpenAPI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openapi-icon.svg"
   },
   {
@@ -4000,8 +4000,8 @@
     "name": "OpenCV",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "opencv.svg"
   },
   {
@@ -4009,8 +4009,8 @@
     "name": "OpenCart",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "opencart.svg"
   },
   {
@@ -4018,8 +4018,8 @@
     "name": "OpenFrameworks",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openframeworks.svg"
   },
   {
@@ -4027,8 +4027,8 @@
     "name": "OpenLayers",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openlayers.svg"
   },
   {
@@ -4036,8 +4036,8 @@
     "name": "OpenSearch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "opensearch-icon.svg"
   },
   {
@@ -4045,8 +4045,8 @@
     "name": "OpenShift",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openshift.svg"
   },
   {
@@ -4054,8 +4054,8 @@
     "name": "OpenTelemetry",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "opentelemetry-icon.svg"
   },
   {
@@ -4063,8 +4063,8 @@
     "name": "OpenZeppelin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "open-zeppelin-icon.svg"
   },
   {
@@ -4072,8 +4072,8 @@
     "name": "Openstack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "openstack-icon.svg"
   },
   {
@@ -4081,8 +4081,8 @@
     "name": "OpsGenie",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "opsgenie.svg"
   },
   {
@@ -4090,8 +4090,8 @@
     "name": "Optimizely",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "optimizely-icon.svg"
   },
   {
@@ -4099,8 +4099,8 @@
     "name": "Oracle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "oracle.svg"
   },
   {
@@ -4108,8 +4108,8 @@
     "name": "Origami",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "origami.svg"
   },
   {
@@ -4117,8 +4117,8 @@
     "name": "Overloop",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "overloop-icon.svg"
   },
   {
@@ -4126,8 +4126,8 @@
     "name": "PHP",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "php.svg"
   },
   {
@@ -4135,8 +4135,8 @@
     "name": "PKG",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pkg.svg"
   },
   {
@@ -4144,8 +4144,8 @@
     "name": "PM2",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pm2-icon.svg"
   },
   {
@@ -4153,8 +4153,8 @@
     "name": "PNPM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pnpm.svg"
   },
   {
@@ -4162,8 +4162,8 @@
     "name": "POEditor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "poeditor.svg"
   },
   {
@@ -4171,8 +4171,8 @@
     "name": "PWA",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pwa.svg"
   },
   {
@@ -4180,8 +4180,8 @@
     "name": "Packer",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "packer.svg"
   },
   {
@@ -4189,8 +4189,8 @@
     "name": "PageKite",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pagekite.svg"
   },
   {
@@ -4198,8 +4198,8 @@
     "name": "Pagekit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pagekit.svg"
   },
   {
@@ -4207,8 +4207,8 @@
     "name": "Pager Duty",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pagerduty-icon.svg"
   },
   {
@@ -4216,8 +4216,8 @@
     "name": "PandaCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pandacss-icon.svg"
   },
   {
@@ -4225,8 +4225,8 @@
     "name": "Pandas",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pandas-icon.svg"
   },
   {
@@ -4234,8 +4234,8 @@
     "name": "Parcel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "parcel-icon.svg"
   },
   {
@@ -4243,8 +4243,8 @@
     "name": "ParseHub",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "parsehub.svg"
   },
   {
@@ -4252,8 +4252,8 @@
     "name": "Partytown",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "partytown-icon.svg"
   },
   {
@@ -4261,8 +4261,8 @@
     "name": "Passport",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "passport.svg"
   },
   {
@@ -4270,8 +4270,8 @@
     "name": "Payload",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "payload.svg"
   },
   {
@@ -4279,8 +4279,8 @@
     "name": "Paypal",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "paypal.svg"
   },
   {
@@ -4288,8 +4288,8 @@
     "name": "Peer5",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "peer5.svg"
   },
   {
@@ -4297,8 +4297,8 @@
     "name": "Pepperoni",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pepperoni.svg"
   },
   {
@@ -4306,8 +4306,8 @@
     "name": "Percona",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "percona.svg"
   },
   {
@@ -4315,8 +4315,8 @@
     "name": "Percy",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "percy-icon.svg"
   },
   {
@@ -4324,8 +4324,8 @@
     "name": "Perl",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "perl.svg"
   },
   {
@@ -4333,8 +4333,8 @@
     "name": "Phalcon",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "phalcon.svg"
   },
   {
@@ -4342,8 +4342,8 @@
     "name": "Phoenix",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "phoenix.svg"
   },
   {
@@ -4351,8 +4351,8 @@
     "name": "PhpStorm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "phpstorm.svg"
   },
   {
@@ -4360,8 +4360,8 @@
     "name": "PicoCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "picocss.svg"
   },
   {
@@ -4369,8 +4369,8 @@
     "name": "Pinecone",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pinecone-icon.svg"
   },
   {
@@ -4378,8 +4378,8 @@
     "name": "Pipedrive",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pipedrive.svg"
   },
   {
@@ -4387,8 +4387,8 @@
     "name": "Pivotal Tracker",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pivotal_tracker.svg"
   },
   {
@@ -4396,8 +4396,8 @@
     "name": "PlanetScale",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "planetscale.svg"
   },
   {
@@ -4405,8 +4405,8 @@
     "name": "Planless",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "planless-icon.svg"
   },
   {
@@ -4414,8 +4414,8 @@
     "name": "Plasmic",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "plasmic.svg"
   },
   {
@@ -4423,8 +4423,8 @@
     "name": "Plastic SCM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "plastic-scm.svg"
   },
   {
@@ -4432,8 +4432,8 @@
     "name": "PlatformIO",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "platformio.svg"
   },
   {
@@ -4441,8 +4441,8 @@
     "name": "Play",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "play.svg"
   },
   {
@@ -4450,8 +4450,8 @@
     "name": "Playwright",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "playwright.svg"
   },
   {
@@ -4459,8 +4459,8 @@
     "name": "PocketBase",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pocket-base.svg"
   },
   {
@@ -4468,8 +4468,8 @@
     "name": "Polymer",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "polymer.svg"
   },
   {
@@ -4477,8 +4477,8 @@
     "name": "PortFinder",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": ""
   },
   {
@@ -4486,8 +4486,8 @@
     "name": "PostCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "postcss.svg"
   },
   {
@@ -4495,8 +4495,8 @@
     "name": "PostHog",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "posthog-icon.svg"
   },
   {
@@ -4504,8 +4504,8 @@
     "name": "Postgraphile",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "postgraphile.svg"
   },
   {
@@ -4513,8 +4513,8 @@
     "name": "PostgreSQL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "postgresql.svg"
   },
   {
@@ -4522,8 +4522,8 @@
     "name": "PouchDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pouchdb.svg"
   },
   {
@@ -4531,8 +4531,8 @@
     "name": "Preact",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "preact.svg"
   },
   {
@@ -4540,8 +4540,8 @@
     "name": "Precursor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "precursor.svg"
   },
   {
@@ -4549,8 +4549,8 @@
     "name": "Prerender",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prerender-icon.svg"
   },
   {
@@ -4558,8 +4558,8 @@
     "name": "PrestaShop",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prestashop.svg"
   },
   {
@@ -4567,8 +4567,8 @@
     "name": "Presto",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "presto-icon.svg"
   },
   {
@@ -4576,8 +4576,8 @@
     "name": "Prettier",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prettier.svg"
   },
   {
@@ -4585,8 +4585,8 @@
     "name": "Prisma",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prisma.svg"
   },
   {
@@ -4594,8 +4594,8 @@
     "name": "Prismic",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prismic-icon.svg"
   },
   {
@@ -4603,8 +4603,8 @@
     "name": "ProcessWire",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "processwire-icon.svg"
   },
   {
@@ -4612,8 +4612,8 @@
     "name": "Processing",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "processing.svg"
   },
   {
@@ -4621,8 +4621,8 @@
     "name": "ProductBoard",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "productboard-icon.svg"
   },
   {
@@ -4630,8 +4630,8 @@
     "name": "Progress",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "progress.svg"
   },
   {
@@ -4639,8 +4639,8 @@
     "name": "Prometheus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prometheus.svg"
   },
   {
@@ -4648,8 +4648,8 @@
     "name": "Promises",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "promises.svg"
   },
   {
@@ -4657,8 +4657,8 @@
     "name": "Proofy",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "proofy.svg"
   },
   {
@@ -4666,8 +4666,8 @@
     "name": "Proto.io",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "protoio.svg"
   },
   {
@@ -4675,8 +4675,8 @@
     "name": "Protractor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "protractor.svg"
   },
   {
@@ -4684,8 +4684,8 @@
     "name": "Prott",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "prott.svg"
   },
   {
@@ -4693,8 +4693,8 @@
     "name": "Pug",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pug.svg"
   },
   {
@@ -4702,8 +4702,8 @@
     "name": "Pulumi",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pulumi-icon.svg"
   },
   {
@@ -4711,8 +4711,8 @@
     "name": "PumpkinDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pumpkindb.svg"
   },
   {
@@ -4720,8 +4720,8 @@
     "name": "Puppet",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "puppet-icon.svg"
   },
   {
@@ -4729,8 +4729,8 @@
     "name": "Puppeteer",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "puppeteer.svg"
   },
   {
@@ -4738,8 +4738,8 @@
     "name": "Purescript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "purescript-icon.svg"
   },
   {
@@ -4747,8 +4747,8 @@
     "name": "Pushbullet",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pushbullet.svg"
   },
   {
@@ -4756,8 +4756,8 @@
     "name": "Pusher",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pusher-icon.svg"
   },
   {
@@ -4765,8 +4765,8 @@
     "name": "PyCharm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pycharm.svg"
   },
   {
@@ -4774,8 +4774,8 @@
     "name": "PyPi",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pypi.svg"
   },
   {
@@ -4783,8 +4783,8 @@
     "name": "PyScript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pyscript.svg"
   },
   {
@@ -4792,8 +4792,8 @@
     "name": "PyTorch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pytorch-icon.svg"
   },
   {
@@ -4801,8 +4801,8 @@
     "name": "PyUp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "pyup.svg"
   },
   {
@@ -4810,8 +4810,8 @@
     "name": "Python",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "python.svg"
   },
   {
@@ -4819,8 +4819,8 @@
     "name": "Q",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "q.svg"
   },
   {
@@ -4828,8 +4828,8 @@
     "name": "Qdrant",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "qdrant-icon.svg"
   },
   {
@@ -4837,8 +4837,8 @@
     "name": "Qlik",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "qlik.svg"
   },
   {
@@ -4846,8 +4846,8 @@
     "name": "Qt",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "qt.svg"
   },
   {
@@ -4855,8 +4855,8 @@
     "name": "Quarkus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "quarkus-icon.svg"
   },
   {
@@ -4864,8 +4864,8 @@
     "name": "Quay",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "quay.svg"
   },
   {
@@ -4873,8 +4873,8 @@
     "name": "Quobyte",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "quobyte.svg"
   },
   {
@@ -4882,8 +4882,8 @@
     "name": "Qwik",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "qwik-icon.svg"
   },
   {
@@ -4891,8 +4891,8 @@
     "name": "R",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "r-lang.svg"
   },
   {
@@ -4900,8 +4900,8 @@
     "name": "RAML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "raml.svg"
   },
   {
@@ -4909,8 +4909,8 @@
     "name": "RSA",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rsa.svg"
   },
   {
@@ -4918,8 +4918,8 @@
     "name": "RabbitMQ",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rabbitmq-icon.svg"
   },
   {
@@ -4927,8 +4927,8 @@
     "name": "Rackspace",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rackspace-icon.svg"
   },
   {
@@ -4936,8 +4936,8 @@
     "name": "Ramda",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ramda.svg"
   },
   {
@@ -4945,8 +4945,8 @@
     "name": "Rancher",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rancher-icon.svg"
   },
   {
@@ -4954,8 +4954,8 @@
     "name": "Raphael",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "raphael.svg"
   },
   {
@@ -4963,8 +4963,8 @@
     "name": "RapidAPI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rapidapi.png"
   },
   {
@@ -4972,8 +4972,8 @@
     "name": "RaspberrryPI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "raspberry-pi.svg"
   },
   {
@@ -4981,8 +4981,8 @@
     "name": "Rax",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rax.svg"
   },
   {
@@ -4990,8 +4990,8 @@
     "name": "ReCAPTCHA",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "recaptcha.svg"
   },
   {
@@ -4999,8 +4999,8 @@
     "name": "ReScript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rescript-icon.svg"
   },
   {
@@ -5008,8 +5008,8 @@
     "name": "React",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "react.svg"
   },
   {
@@ -5017,8 +5017,8 @@
     "name": "React Query",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "react-query-icon.svg"
   },
   {
@@ -5026,8 +5026,8 @@
     "name": "React Router",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "react-router.svg"
   },
   {
@@ -5035,8 +5035,8 @@
     "name": "React Spring",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "react-spring.svg"
   },
   {
@@ -5044,8 +5044,8 @@
     "name": "React Styleguidist",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "react-styleguidist.svg"
   },
   {
@@ -5053,8 +5053,8 @@
     "name": "Realm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "realm.svg"
   },
   {
@@ -5062,8 +5062,8 @@
     "name": "Reapp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "reapp.svg"
   },
   {
@@ -5071,8 +5071,8 @@
     "name": "ReasonML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "reasonml-icon.svg"
   },
   {
@@ -5080,8 +5080,8 @@
     "name": "Recoil",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "recoil-icon.svg"
   },
   {
@@ -5089,8 +5089,8 @@
     "name": "Red Hat",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redhat-icon.svg"
   },
   {
@@ -5098,8 +5098,8 @@
     "name": "Reddit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "reddit-icon.svg"
   },
   {
@@ -5107,8 +5107,8 @@
     "name": "Redis",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redis.svg"
   },
   {
@@ -5116,8 +5116,8 @@
     "name": "Redsmin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redsmin.svg"
   },
   {
@@ -5125,8 +5125,8 @@
     "name": "Redux",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redux.svg"
   },
   {
@@ -5134,8 +5134,8 @@
     "name": "Redux-Saga",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redux-saga.svg"
   },
   {
@@ -5143,8 +5143,8 @@
     "name": "RedwoodJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redwoodjs.svg"
   },
   {
@@ -5152,8 +5152,8 @@
     "name": "Reindex",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "reindex.svg"
   },
   {
@@ -5161,8 +5161,8 @@
     "name": "Relay",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "relay.svg"
   },
   {
@@ -5170,8 +5170,8 @@
     "name": "Release",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "release.svg"
   },
   {
@@ -5179,8 +5179,8 @@
     "name": "Remix",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "remix-icon.svg"
   },
   {
@@ -5188,8 +5188,8 @@
     "name": "RenovateBot",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "renovatebot.svg"
   },
   {
@@ -5197,8 +5197,8 @@
     "name": "Replay",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "replay-icon.svg"
   },
   {
@@ -5206,8 +5206,8 @@
     "name": "Replit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "replit-icon.svg"
   },
   {
@@ -5215,8 +5215,8 @@
     "name": "Require",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "require.svg"
   },
   {
@@ -5224,8 +5224,8 @@
     "name": "Rest",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rest-api.svg"
   },
   {
@@ -5233,8 +5233,8 @@
     "name": "Rest.li",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rest-li.svg"
   },
   {
@@ -5242,8 +5242,8 @@
     "name": "RethinkDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rethinkdb.svg"
   },
   {
@@ -5251,8 +5251,8 @@
     "name": "Retool",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "retool-icon.svg"
   },
   {
@@ -5260,8 +5260,8 @@
     "name": "Riak",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "riak.svg"
   },
   {
@@ -5269,8 +5269,8 @@
     "name": "Rider",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rider.svg"
   },
   {
@@ -5278,8 +5278,8 @@
     "name": "Riot",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "riot.svg"
   },
   {
@@ -5287,8 +5287,8 @@
     "name": "Risingwave",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "risingwave-icon.svg"
   },
   {
@@ -5296,8 +5296,8 @@
     "name": "Robotics",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "robotics.svg"
   },
   {
@@ -5305,8 +5305,8 @@
     "name": "RocksDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rocksdb.svg"
   },
   {
@@ -5314,8 +5314,8 @@
     "name": "Rocky Linux",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rocky-linux-icon.svg"
   },
   {
@@ -5323,8 +5323,8 @@
     "name": "Rollbar",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rollbar-icon.svg"
   },
   {
@@ -5332,8 +5332,8 @@
     "name": "Rollup",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rollupjs.svg"
   },
   {
@@ -5341,8 +5341,8 @@
     "name": "Ros",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ros.svg"
   },
   {
@@ -5350,8 +5350,8 @@
     "name": "Rubocop",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rubocop.svg"
   },
   {
@@ -5359,8 +5359,8 @@
     "name": "Ruby",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ruby.svg"
   },
   {
@@ -5368,8 +5368,8 @@
     "name": "Ruby Gems",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rubygems.svg"
   },
   {
@@ -5377,8 +5377,8 @@
     "name": "Ruby Mine",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rubymine.svg"
   },
   {
@@ -5386,8 +5386,8 @@
     "name": "Ruby on Rails",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rails.svg"
   },
   {
@@ -5395,8 +5395,8 @@
     "name": "Rum",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rum.svg"
   },
   {
@@ -5404,8 +5404,8 @@
     "name": "Runscope",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "runscope.svg"
   },
   {
@@ -5413,8 +5413,8 @@
     "name": "Rush",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rush-icon.svg"
   },
   {
@@ -5422,8 +5422,8 @@
     "name": "Rust",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rust.svg"
   },
   {
@@ -5431,8 +5431,8 @@
     "name": "RxDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "rxdb.svg"
   },
   {
@@ -5440,8 +5440,8 @@
     "name": "SAP",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sap.svg"
   },
   {
@@ -5449,8 +5449,8 @@
     "name": "SASS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sass.svg"
   },
   {
@@ -5458,8 +5458,8 @@
     "name": "SCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "scss.svg"
   },
   {
@@ -5467,8 +5467,8 @@
     "name": "SEMVER",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "semver.svg"
   },
   {
@@ -5476,8 +5476,8 @@
     "name": "SEO",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "seo.svg"
   },
   {
@@ -5485,8 +5485,8 @@
     "name": "SMTP",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "smtp.svg"
   },
   {
@@ -5494,8 +5494,8 @@
     "name": "SQL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sql.svg"
   },
   {
@@ -5503,8 +5503,8 @@
     "name": "SQLite",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sqlite.svg"
   },
   {
@@ -5512,8 +5512,8 @@
     "name": "SSH",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ssh.svg"
   },
   {
@@ -5521,8 +5521,8 @@
     "name": "SST",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sst-icon.svg"
   },
   {
@@ -5530,8 +5530,8 @@
     "name": "SVG",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "svg.svg"
   },
   {
@@ -5539,8 +5539,8 @@
     "name": "SVGator",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "svgator.svg"
   },
   {
@@ -5548,8 +5548,8 @@
     "name": "SWC",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "swc.svg"
   },
   {
@@ -5557,8 +5557,8 @@
     "name": "SWR",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "swr.svg"
   },
   {
@@ -5566,8 +5566,8 @@
     "name": "Sagui",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sagui.svg"
   },
   {
@@ -5575,8 +5575,8 @@
     "name": "Sails",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sails.svg"
   },
   {
@@ -5584,8 +5584,8 @@
     "name": "SanityCMS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sanity.svg"
   },
   {
@@ -5593,8 +5593,8 @@
     "name": "SassDoc",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sass-doc.svg"
   },
   {
@@ -5602,8 +5602,8 @@
     "name": "Scala",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "scala.svg"
   },
   {
@@ -5611,8 +5611,8 @@
     "name": "Scaledrone",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "scaledrone.svg"
   },
   {
@@ -5620,8 +5620,8 @@
     "name": "Seaborn",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "seaborn-icon.svg"
   },
   {
@@ -5629,8 +5629,8 @@
     "name": "Section",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "section-icon.svg"
   },
   {
@@ -5638,8 +5638,8 @@
     "name": "Segment",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "segment-icon.svg"
   },
   {
@@ -5647,8 +5647,8 @@
     "name": "Selenium",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "selenium.svg"
   },
   {
@@ -5656,8 +5656,8 @@
     "name": "Semantic Release",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "semantic-release.svg"
   },
   {
@@ -5665,8 +5665,8 @@
     "name": "Semantic UI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "semantic-ui.svg"
   },
   {
@@ -5674,8 +5674,8 @@
     "name": "Semantic Web",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "semantic-web.svg"
   },
   {
@@ -5683,8 +5683,8 @@
     "name": "Semaphoreci",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "semaphoreci.svg"
   },
   {
@@ -5692,8 +5692,8 @@
     "name": "Sencha",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sencha.svg"
   },
   {
@@ -5701,8 +5701,8 @@
     "name": "SendGrid",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sendgrid-icon.svg"
   },
   {
@@ -5710,8 +5710,8 @@
     "name": "Seneca",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "seneca.svg"
   },
   {
@@ -5719,8 +5719,8 @@
     "name": "Sensu",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sensu-icon.svg"
   },
   {
@@ -5728,8 +5728,8 @@
     "name": "Sentry",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sentry-icon.svg"
   },
   {
@@ -5737,8 +5737,8 @@
     "name": "Sequelize",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sequelize.svg"
   },
   {
@@ -5746,8 +5746,8 @@
     "name": "Serverless",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "serverless.svg"
   },
   {
@@ -5755,8 +5755,8 @@
     "name": "Shell",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "shell.svg"
   },
   {
@@ -5764,8 +5764,8 @@
     "name": "Shields",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "shields.svg"
   },
   {
@@ -5773,8 +5773,8 @@
     "name": "Shipit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "shipit.svg"
   },
   {
@@ -5782,8 +5782,8 @@
     "name": "Shogun",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "shogun.svg"
   },
   {
@@ -5791,8 +5791,8 @@
     "name": "Shopify",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "shopify.svg"
   },
   {
@@ -5800,8 +5800,8 @@
     "name": "Shortcut",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "shortcut-icon.svg"
   },
   {
@@ -5809,8 +5809,8 @@
     "name": "Sidekiq",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sidekiq-icon.svg"
   },
   {
@@ -5818,8 +5818,8 @@
     "name": "Signal",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "signal.svg"
   },
   {
@@ -5827,8 +5827,8 @@
     "name": "Sigstore",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sigstore-icon.svg"
   },
   {
@@ -5836,8 +5836,8 @@
     "name": "Sinatra",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sinatra.svg"
   },
   {
@@ -5845,8 +5845,8 @@
     "name": "Singlestore",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "singlestore-icon.svg"
   },
   {
@@ -5854,8 +5854,8 @@
     "name": "Sketch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sketch.svg"
   },
   {
@@ -5863,8 +5863,8 @@
     "name": "Skylight",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "skylight.svg"
   },
   {
@@ -5872,8 +5872,8 @@
     "name": "Slack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "slack-icon.svg"
   },
   {
@@ -5881,8 +5881,8 @@
     "name": "Slides",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "slides.svg"
   },
   {
@@ -5890,8 +5890,8 @@
     "name": "Slim",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "slim.svg"
   },
   {
@@ -5899,8 +5899,8 @@
     "name": "Smartling",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "smartling.svg"
   },
   {
@@ -5908,8 +5908,8 @@
     "name": "SnapSVG",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "snap-svg.svg"
   },
   {
@@ -5917,8 +5917,8 @@
     "name": "Snaplet",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "snaplet-icon.svg"
   },
   {
@@ -5926,8 +5926,8 @@
     "name": "Snowflake",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "snowflake-icon.svg"
   },
   {
@@ -5935,8 +5935,8 @@
     "name": "Snowpack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "snowpack.svg"
   },
   {
@@ -5944,8 +5944,8 @@
     "name": "Snyk",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "snyk.svg"
   },
   {
@@ -5953,8 +5953,8 @@
     "name": "SocketIO",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "socket.io.svg"
   },
   {
@@ -5962,8 +5962,8 @@
     "name": "Software Architecture",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "architecture.svg"
   },
   {
@@ -5971,8 +5971,8 @@
     "name": "Solid",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "solid.svg"
   },
   {
@@ -5980,8 +5980,8 @@
     "name": "SolidJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "solidjs-icon.svg"
   },
   {
@@ -5989,8 +5989,8 @@
     "name": "Solidity",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "solidity.svg"
   },
   {
@@ -5998,8 +5998,8 @@
     "name": "SonarCloud",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sonarcloud-icon.svg"
   },
   {
@@ -6007,8 +6007,8 @@
     "name": "SonarLint",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sonarlint-icon.svg"
   },
   {
@@ -6016,8 +6016,8 @@
     "name": "Sourcetree",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sourcetree.svg"
   },
   {
@@ -6025,8 +6025,8 @@
     "name": "Spark",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "spark.svg"
   },
   {
@@ -6034,8 +6034,8 @@
     "name": "Speech Recognition API",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "speech-recognition.svg"
   },
   {
@@ -6043,8 +6043,8 @@
     "name": "Speedcurve",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "speedcurve.svg"
   },
   {
@@ -6052,8 +6052,8 @@
     "name": "SpiderMonkey",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "spidermonkey-icon.svg"
   },
   {
@@ -6061,8 +6061,8 @@
     "name": "Spinnaker",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "spinnaker.svg"
   },
   {
@@ -6070,8 +6070,8 @@
     "name": "Splunk",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "splunk.svg"
   },
   {
@@ -6079,8 +6079,8 @@
     "name": "Spring",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "spring-icon.svg"
   },
   {
@@ -6088,8 +6088,8 @@
     "name": "Square",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "square.svg"
   },
   {
@@ -6097,8 +6097,8 @@
     "name": "Squarespace",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "squarespace.svg"
   },
   {
@@ -6106,8 +6106,8 @@
     "name": "StackBlitz",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stackblitz-icon.svg"
   },
   {
@@ -6115,8 +6115,8 @@
     "name": "Stackbit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stackbit-icon.svg"
   },
   {
@@ -6124,8 +6124,8 @@
     "name": "Stately",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stately-icon.svg"
   },
   {
@@ -6133,8 +6133,8 @@
     "name": "Statuspage",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "statuspage.svg"
   },
   {
@@ -6142,8 +6142,8 @@
     "name": "StencilJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stenciljs-icon.svg"
   },
   {
@@ -6151,8 +6151,8 @@
     "name": "Stetho",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stetho.svg"
   },
   {
@@ -6160,8 +6160,8 @@
     "name": "Stimulus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stimulus-icon.svg"
   },
   {
@@ -6169,8 +6169,8 @@
     "name": "Stitch",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stitch.svg"
   },
   {
@@ -6178,8 +6178,8 @@
     "name": "Stoplight",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stoplight.svg"
   },
   {
@@ -6187,8 +6187,8 @@
     "name": "Storyblok",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "storyblok-icon.svg"
   },
   {
@@ -6196,8 +6196,8 @@
     "name": "Storybook",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "storybook-icon.svg"
   },
   {
@@ -6205,8 +6205,8 @@
     "name": "Strapi",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "strapi-icon.svg"
   },
   {
@@ -6214,8 +6214,8 @@
     "name": "Streamlit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "streamlit.svg"
   },
   {
@@ -6223,8 +6223,8 @@
     "name": "Strider",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "strider.svg"
   },
   {
@@ -6232,8 +6232,8 @@
     "name": "Stripe",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stripe.svg"
   },
   {
@@ -6241,8 +6241,8 @@
     "name": "Struts",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "struts.svg"
   },
   {
@@ -6250,8 +6250,8 @@
     "name": "Styleci",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "styleci.svg"
   },
   {
@@ -6259,8 +6259,8 @@
     "name": "Styled Components",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "styled-components.svg"
   },
   {
@@ -6268,8 +6268,8 @@
     "name": "Stylelint",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stylelint.svg"
   },
   {
@@ -6277,8 +6277,8 @@
     "name": "Stylis",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stylis.svg"
   },
   {
@@ -6286,8 +6286,8 @@
     "name": "Stylus",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stylus.svg"
   },
   {
@@ -6295,8 +6295,8 @@
     "name": "Sublime Text",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sublimetext-icon.svg"
   },
   {
@@ -6304,8 +6304,8 @@
     "name": "Subversion",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "subversion.svg"
   },
   {
@@ -6313,8 +6313,8 @@
     "name": "Sugarss",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sugarss.svg"
   },
   {
@@ -6322,8 +6322,8 @@
     "name": "Supabase",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "supabase-icon.svg"
   },
   {
@@ -6331,8 +6331,8 @@
     "name": "Supertokens",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "supertokens-icon.svg"
   },
   {
@@ -6340,8 +6340,8 @@
     "name": "Surge",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "surge.svg"
   },
   {
@@ -6349,8 +6349,8 @@
     "name": "SurrealDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "surrealdb-icon.svg"
   },
   {
@@ -6358,8 +6358,8 @@
     "name": "Suse",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "suse.svg"
   },
   {
@@ -6367,8 +6367,8 @@
     "name": "Svelte",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "svelte-icon.svg"
   },
   {
@@ -6376,8 +6376,8 @@
     "name": "SvelteKit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "svelte-icon.svg"
   },
   {
@@ -6385,8 +6385,8 @@
     "name": "Swagger",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "swagger.svg"
   },
   {
@@ -6394,8 +6394,8 @@
     "name": "Swift",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "swift.svg"
   },
   {
@@ -6403,8 +6403,8 @@
     "name": "Swiftype",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "swiftype.svg"
   },
   {
@@ -6412,8 +6412,8 @@
     "name": "Swimm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "swimm.svg"
   },
   {
@@ -6421,8 +6421,8 @@
     "name": "Sysdig",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "sysdig-icon.svg"
   },
   {
@@ -6430,8 +6430,8 @@
     "name": "T3",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "t3.svg"
   },
   {
@@ -6439,8 +6439,8 @@
     "name": "TOML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "toml.svg"
   },
   {
@@ -6448,8 +6448,8 @@
     "name": "Tableau",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tableau-icon.svg"
   },
   {
@@ -6457,8 +6457,8 @@
     "name": "Taiga",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "taiga.svg"
   },
   {
@@ -6466,8 +6466,8 @@
     "name": "Tailscale",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tailscale.svg"
   },
   {
@@ -6475,8 +6475,8 @@
     "name": "TailwindCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tailwindcss-icon.svg"
   },
   {
@@ -6484,8 +6484,8 @@
     "name": "TailwindUI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tailwindcss-icon.svg"
   },
   {
@@ -6493,8 +6493,8 @@
     "name": "Taskade",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "taskade-icon.svg"
   },
   {
@@ -6502,8 +6502,8 @@
     "name": "Tauri",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tauri.svg"
   },
   {
@@ -6511,8 +6511,8 @@
     "name": "Tealium",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tealium.svg"
   },
   {
@@ -6520,8 +6520,8 @@
     "name": "Teamcity",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "teamcity.svg"
   },
   {
@@ -6529,8 +6529,8 @@
     "name": "Teamgrid",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "teamgrid.svg"
   },
   {
@@ -6538,8 +6538,8 @@
     "name": "Teamwork",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "teamwork-icon.svg"
   },
   {
@@ -6547,8 +6547,8 @@
     "name": "TensorFlow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tensorflow.svg"
   },
   {
@@ -6556,8 +6556,8 @@
     "name": "Terminal",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "terminal.svg"
   },
   {
@@ -6565,8 +6565,8 @@
     "name": "Terraform",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "terraform-icon.svg"
   },
   {
@@ -6574,8 +6574,8 @@
     "name": "Terser",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "terser-icon.svg"
   },
   {
@@ -6583,8 +6583,8 @@
     "name": "Testcafe",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "testcafe.svg"
   },
   {
@@ -6592,8 +6592,8 @@
     "name": "Testing Library",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "testing-library.svg"
   },
   {
@@ -6601,8 +6601,8 @@
     "name": "Testlodge",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "testlodge.svg"
   },
   {
@@ -6610,8 +6610,8 @@
     "name": "ThreeJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "threejs.svg"
   },
   {
@@ -6619,8 +6619,8 @@
     "name": "Thymeleaf",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "thymeleaf-icon.svg"
   },
   {
@@ -6628,8 +6628,8 @@
     "name": "Todoist",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "todoist-icon.svg"
   },
   {
@@ -6637,8 +6637,8 @@
     "name": "Tor",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tor-browser.svg"
   },
   {
@@ -6646,8 +6646,8 @@
     "name": "Travis CI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "travis-ci.svg"
   },
   {
@@ -6655,8 +6655,8 @@
     "name": "Trello",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "trello.svg"
   },
   {
@@ -6664,8 +6664,8 @@
     "name": "Truffle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "truffle-icon.svg"
   },
   {
@@ -6673,8 +6673,8 @@
     "name": "Tsuru",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tsuru.svg"
   },
   {
@@ -6682,8 +6682,8 @@
     "name": "Tuple",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tuple.svg"
   },
   {
@@ -6691,8 +6691,8 @@
     "name": "TurboRepo",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "turborepo-icon.svg"
   },
   {
@@ -6700,8 +6700,8 @@
     "name": "Turbopack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "turbopack-icon.svg"
   },
   {
@@ -6709,8 +6709,8 @@
     "name": "Turret",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "turret.svg"
   },
   {
@@ -6718,8 +6718,8 @@
     "name": "TursoDB",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tursodb.jpeg"
   },
   {
@@ -6727,8 +6727,8 @@
     "name": "Twilio",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "twilio-icon.svg"
   },
   {
@@ -6736,8 +6736,8 @@
     "name": "Twitter API",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "twitter.svg"
   },
   {
@@ -6745,8 +6745,8 @@
     "name": "TypeORM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "typeorm.svg"
   },
   {
@@ -6754,8 +6754,8 @@
     "name": "TypeScript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "typescript-icon.svg"
   },
   {
@@ -6763,8 +6763,8 @@
     "name": "Typesense",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "typesense-icon.svg"
   },
   {
@@ -6772,8 +6772,8 @@
     "name": "Typo3",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "typo3-icon.svg"
   },
   {
@@ -6781,8 +6781,8 @@
     "name": "UI/UX",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ui-ux.svg"
   },
   {
@@ -6790,8 +6790,8 @@
     "name": "UIKit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "uikit.svg"
   },
   {
@@ -6799,8 +6799,8 @@
     "name": "UNIT Testing",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unit-testing.svg"
   },
   {
@@ -6808,8 +6808,8 @@
     "name": "Ubuntu",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "ubuntu.svg"
   },
   {
@@ -6817,8 +6817,8 @@
     "name": "Unbounce",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unbounce-icon.svg"
   },
   {
@@ -6826,8 +6826,8 @@
     "name": "Undertow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "undertow.svg"
   },
   {
@@ -6835,8 +6835,8 @@
     "name": "UnitJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unitjs.svg"
   },
   {
@@ -6844,8 +6844,8 @@
     "name": "Unito",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unito-icon.svg"
   },
   {
@@ -6853,8 +6853,8 @@
     "name": "Unity",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unity.svg"
   },
   {
@@ -6862,8 +6862,8 @@
     "name": "UnoCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unocss.svg"
   },
   {
@@ -6871,8 +6871,8 @@
     "name": "Unreal Engine",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "unrealengine-icon.svg"
   },
   {
@@ -6880,8 +6880,8 @@
     "name": "Upstash",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "upstash-icon.svg"
   },
   {
@@ -6889,8 +6889,8 @@
     "name": "User Testing",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "user-testing-icon.svg"
   },
   {
@@ -6898,8 +6898,8 @@
     "name": "V",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vlang.svg"
   },
   {
@@ -6907,8 +6907,8 @@
     "name": "V8",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "v8.svg"
   },
   {
@@ -6916,8 +6916,8 @@
     "name": "VSCode",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "visual-studio-code.svg"
   },
   {
@@ -6925,8 +6925,8 @@
     "name": "VWO",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vwo.svg"
   },
   {
@@ -6934,8 +6934,8 @@
     "name": "Vaadin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vaadin.svg"
   },
   {
@@ -6943,8 +6943,8 @@
     "name": "Vagrant",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vagrant-icon.svg"
   },
   {
@@ -6952,8 +6952,8 @@
     "name": "Vault",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vault-icon.svg"
   },
   {
@@ -6961,8 +6961,8 @@
     "name": "Vercel",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vercel-icon.svg"
   },
   {
@@ -6970,8 +6970,8 @@
     "name": "Verdaccio",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "verdaccio-icon.svg"
   },
   {
@@ -6979,8 +6979,8 @@
     "name": "Video",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "video.svg"
   },
   {
@@ -6988,8 +6988,8 @@
     "name": "Vim",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vim.svg"
   },
   {
@@ -6997,8 +6997,8 @@
     "name": "Visual Studio",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "visual-studio.svg"
   },
   {
@@ -7006,8 +7006,8 @@
     "name": "Vite",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vitejs.svg"
   },
   {
@@ -7015,8 +7015,8 @@
     "name": "Vitess",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vitess.svg"
   },
   {
@@ -7024,8 +7024,8 @@
     "name": "Vitest",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vitest.svg"
   },
   {
@@ -7033,8 +7033,8 @@
     "name": "Vivaldi",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vivaldi-icon.svg"
   },
   {
@@ -7042,8 +7042,8 @@
     "name": "Void",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "void.svg"
   },
   {
@@ -7051,8 +7051,8 @@
     "name": "VueJS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vue.svg"
   },
   {
@@ -7060,8 +7060,8 @@
     "name": "VueUse",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vueuse.svg"
   },
   {
@@ -7069,8 +7069,8 @@
     "name": "Vuetify",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vuetifyjs.svg"
   },
   {
@@ -7078,8 +7078,8 @@
     "name": "Vulkan",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vulkan.svg"
   },
   {
@@ -7087,8 +7087,8 @@
     "name": "Vultr",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "vultr-icon.svg"
   },
   {
@@ -7096,8 +7096,8 @@
     "name": "W3C",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "w3c.svg"
   },
   {
@@ -7105,8 +7105,8 @@
     "name": "WMR",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wmr.svg"
   },
   {
@@ -7114,8 +7114,8 @@
     "name": "WP Engine",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wpengine.svg"
   },
   {
@@ -7123,8 +7123,8 @@
     "name": "WSL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": ""
   },
   {
@@ -7132,8 +7132,8 @@
     "name": "Waffle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "waffle-icon.svg"
   },
   {
@@ -7141,8 +7141,8 @@
     "name": "Wagtail",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wagtail.svg"
   },
   {
@@ -7150,8 +7150,8 @@
     "name": "Wakatime",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wakatime.svg"
   },
   {
@@ -7159,8 +7159,8 @@
     "name": "Watchman",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "watchman.svg"
   },
   {
@@ -7168,8 +7168,8 @@
     "name": "Waypoint",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "waypoint-icon.svg"
   },
   {
@@ -7177,8 +7177,8 @@
     "name": "Wayscript",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wayscript-icon.svg"
   },
   {
@@ -7186,8 +7186,8 @@
     "name": "Wearos",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wearos.svg"
   },
   {
@@ -7195,8 +7195,8 @@
     "name": "Weave",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "weave.svg"
   },
   {
@@ -7204,8 +7204,8 @@
     "name": "Web Assembly",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webassembly.svg"
   },
   {
@@ -7213,8 +7213,8 @@
     "name": "Web Components",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webcomponents.svg"
   },
   {
@@ -7222,8 +7222,8 @@
     "name": "Web Design",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "web-design.svg"
   },
   {
@@ -7231,8 +7231,8 @@
     "name": "Web Development",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "web-development.svg"
   },
   {
@@ -7240,8 +7240,8 @@
     "name": "Web3",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "web3.svg"
   },
   {
@@ -7249,8 +7249,8 @@
     "name": "Web3JS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "web3js.svg"
   },
   {
@@ -7258,8 +7258,8 @@
     "name": "WebGPU",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webgpu.svg"
   },
   {
@@ -7267,8 +7267,8 @@
     "name": "WebRTC",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webrtc.svg"
   },
   {
@@ -7276,8 +7276,8 @@
     "name": "Webflow",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webflow.svg"
   },
   {
@@ -7285,8 +7285,8 @@
     "name": "Webhint",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webhint-icon.svg"
   },
   {
@@ -7294,8 +7294,8 @@
     "name": "Webhooks",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webhooks.svg"
   },
   {
@@ -7303,8 +7303,8 @@
     "name": "Webix",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webix-icon.svg"
   },
   {
@@ -7312,8 +7312,8 @@
     "name": "Webkit",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webkit.svg"
   },
   {
@@ -7321,8 +7321,8 @@
     "name": "Webmin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webmin.svg"
   },
   {
@@ -7330,8 +7330,8 @@
     "name": "Webpack",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webpack.svg"
   },
   {
@@ -7339,8 +7339,8 @@
     "name": "Websocket",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "websocket.svg"
   },
   {
@@ -7348,8 +7348,8 @@
     "name": "Webstorm",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webstorm.svg"
   },
   {
@@ -7357,8 +7357,8 @@
     "name": "Webtorrent",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "webtorrent.svg"
   },
   {
@@ -7366,8 +7366,8 @@
     "name": "Weebly",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "weebly.svg"
   },
   {
@@ -7375,8 +7375,8 @@
     "name": "Wi-Fi",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wifi.svg"
   },
   {
@@ -7384,8 +7384,8 @@
     "name": "Wicket",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wicket-icon.svg"
   },
   {
@@ -7393,8 +7393,8 @@
     "name": "WindiCSS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "windi-css.svg"
   },
   {
@@ -7402,8 +7402,8 @@
     "name": "Wing",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "winglang-icon.svg"
   },
   {
@@ -7411,8 +7411,8 @@
     "name": "Wix",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wix.svg"
   },
   {
@@ -7420,8 +7420,8 @@
     "name": "WooCommerce",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "woocommerce-icon.svg"
   },
   {
@@ -7429,8 +7429,8 @@
     "name": "WordPress",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "wordpress-icon.svg"
   },
   {
@@ -7438,8 +7438,8 @@
     "name": "Workboard",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "workboard.svg"
   },
   {
@@ -7447,8 +7447,8 @@
     "name": "Workos",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "workos-icon.svg"
   },
   {
@@ -7456,8 +7456,8 @@
     "name": "Workplace",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "workplace-icon.svg"
   },
   {
@@ -7465,8 +7465,8 @@
     "name": "XCode",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "xcode.svg"
   },
   {
@@ -7474,8 +7474,8 @@
     "name": "XML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "xml.svg"
   },
   {
@@ -7483,8 +7483,8 @@
     "name": "Xamarin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "xamarin.svg"
   },
   {
@@ -7492,8 +7492,8 @@
     "name": "Xampp",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "xampp.svg"
   },
   {
@@ -7501,8 +7501,8 @@
     "name": "Xata",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "xata-icon.svg"
   },
   {
@@ -7510,8 +7510,8 @@
     "name": "Xtend",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "xtend.svg"
   },
   {
@@ -7519,8 +7519,8 @@
     "name": "YAML",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "yaml.svg"
   },
   {
@@ -7528,8 +7528,8 @@
     "name": "Yarn",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "yarn.svg"
   },
   {
@@ -7537,8 +7537,8 @@
     "name": "Yugabyte",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "yugabyte.svg"
   },
   {
@@ -7546,8 +7546,8 @@
     "name": "ZSH",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zsh.svg"
   },
   {
@@ -7555,8 +7555,8 @@
     "name": "Zapier",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zapier.svg"
   },
   {
@@ -7564,8 +7564,8 @@
     "name": "Zend Framework",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zend-framework.svg"
   },
   {
@@ -7573,8 +7573,8 @@
     "name": "Zendesk",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zendesk-icon.svg"
   },
   {
@@ -7582,8 +7582,8 @@
     "name": "Zig",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zig.svg"
   },
   {
@@ -7591,8 +7591,8 @@
     "name": "Zod",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zod.svg"
   },
   {
@@ -7600,8 +7600,8 @@
     "name": "Zoho",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zoho.svg"
   },
   {
@@ -7609,8 +7609,8 @@
     "name": "Zorin OS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zorin-os.svg"
   },
   {
@@ -7618,8 +7618,8 @@
     "name": "cURL",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "curl.svg"
   },
   {
@@ -7627,8 +7627,8 @@
     "name": "dbt",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "dbt-icon.svg"
   },
   {
@@ -7636,8 +7636,8 @@
     "name": "etcd",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "etcd.svg"
   },
   {
@@ -7645,8 +7645,8 @@
     "name": "gRPC",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "grpc.svg"
   },
   {
@@ -7654,8 +7654,8 @@
     "name": "hCaptcha",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "hcaptcha-icon.svg"
   },
   {
@@ -7663,8 +7663,8 @@
     "name": "jQuery",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jquery.svg"
   },
   {
@@ -7672,8 +7672,8 @@
     "name": "jsDOM",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jsdom.svg"
   },
   {
@@ -7681,8 +7681,8 @@
     "name": "jsDelivr",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "jsdelivr.svg"
   },
   {
@@ -7690,8 +7690,8 @@
     "name": "mLab",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mlab.svg"
   },
   {
@@ -7699,8 +7699,8 @@
     "name": "mParticle",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "mparticle-icon.svg"
   },
   {
@@ -7708,8 +7708,8 @@
     "name": "octoDNS",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "octodns.svg"
   },
   {
@@ -7717,8 +7717,8 @@
     "name": "osquery",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "osquery.svg"
   },
   {
@@ -7726,8 +7726,8 @@
     "name": "p5.js",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "p5js.svg"
   },
   {
@@ -7735,8 +7735,8 @@
     "name": "redux-observable",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "redux-observable.svg"
   },
   {
@@ -7744,8 +7744,8 @@
     "name": "stdlib",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stdlib-icon.svg"
   },
   {
@@ -7753,8 +7753,8 @@
     "name": "stylefmt",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "stylefmt.svg"
   },
   {
@@ -7762,8 +7762,8 @@
     "name": "tRPC",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "trpc.svg"
   },
   {
@@ -7771,8 +7771,8 @@
     "name": "ts-node",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "tsnode.svg"
   },
   {
@@ -7780,8 +7780,8 @@
     "name": "uWSGI",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "uwsgi.svg"
   },
   {
@@ -7789,8 +7789,8 @@
     "name": "web.dev",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "web.dev-icon.svg"
   },
   {
@@ -7798,8 +7798,8 @@
     "name": "zeroheight",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zeroheight-icon.svg"
   },
   {
@@ -7807,8 +7807,8 @@
     "name": "zkLogin",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zklogin.svg"
   },
   {
@@ -7816,8 +7816,8 @@
     "name": "zkProof",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": ""
   },
   {
@@ -7825,8 +7825,8 @@
     "name": "zkSync",
     "category": "",
     "description": "",
-    "requirements": [],
     "link": "",
+    "requirements": [],
     "icon": "zksync.png"
   }
 ]
