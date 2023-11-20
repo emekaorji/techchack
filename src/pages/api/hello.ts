@@ -31,11 +31,11 @@ export async function batchUploadToTursoDB() {
 	const jsonFilePath = path.join(process.cwd(), 'src/data/stacks.json');
 	const jsonData = await fsPromises.readFile(jsonFilePath, 'utf8');
 	const jsonObjectData = JSON.parse(jsonData) as IStack[];
-	console.log(jsonObjectData);
+	// console.log(jsonObjectData);
 
-	let count = 0;
-	// const length = jsonObjectData.length;
-	const length = 4;
+	let count = 100;
+	const length = jsonObjectData.length - 100;
+	// const length = 200;
 	while (count < length) {
 		const item = jsonObjectData[count];
 		console.log('================================');
@@ -63,9 +63,9 @@ export async function batchUploadToTursoDB() {
 				.values(item)
 				.returning()
 				.get();
-			console.log(newStack);
+			// console.log(newStack);
 		} catch (error: any) {
-			console.log(error.message);
+			console.error(error.message);
 		}
 
 		console.log('File Type: ' + extension.toUpperCase());

@@ -5,6 +5,7 @@
     "category": "Language",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dotnet.svg"
   },
   {
@@ -13,6 +14,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws.svg"
   },
   {
@@ -21,6 +23,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-api-gateway.svg"
   },
   {
@@ -29,6 +32,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-amplify.svg"
   },
   {
@@ -37,6 +41,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-app-mesh.svg"
   },
   {
@@ -45,6 +50,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-appflow.svg"
   },
   {
@@ -53,6 +59,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-appsync.svg"
   },
   {
@@ -61,6 +68,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-athena.svg"
   },
   {
@@ -69,6 +77,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-aurora.svg"
   },
   {
@@ -77,6 +86,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-backup.svg"
   },
   {
@@ -85,6 +95,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-batch.svg"
   },
   {
@@ -93,15 +104,8 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-certificate-manager.svg"
-  },
-  {
-    "id": "aws-cloudfront",
-    "name": "AWS CloudFront",
-    "category": "Tools & Services",
-    "description": "",
-    "requirements": [],
-    "icon": "aws-cloudfront.svg"
   },
   {
     "id": "aws-cloudformation",
@@ -109,7 +113,17 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-cloudformation.svg"
+  },
+  {
+    "id": "aws-cloudfront",
+    "name": "AWS CloudFront",
+    "category": "Tools & Services",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "aws-cloudfront.svg"
   },
   {
     "id": "aws-cloudsearch",
@@ -117,6 +131,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-cloudsearch.svg"
   },
   {
@@ -125,6 +140,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-cloudtrail.svg"
   },
   {
@@ -133,6 +149,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-cloudwatch.svg"
   },
   {
@@ -141,6 +158,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-codebuild.svg"
   },
   {
@@ -149,6 +167,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-codecommit.svg"
   },
   {
@@ -157,6 +176,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-codedeploy.svg"
   },
   {
@@ -165,6 +185,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-codepipeline.svg"
   },
   {
@@ -173,6 +194,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-codestar.svg"
   },
   {
@@ -181,6 +203,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-cognito.svg"
   },
   {
@@ -189,6 +212,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-config.svg"
   },
   {
@@ -197,6 +221,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-dynamodb.svg"
   },
   {
@@ -205,6 +230,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-ec2.svg"
   },
   {
@@ -213,6 +239,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-ecs.svg"
   },
   {
@@ -221,6 +248,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-eks.svg"
   },
   {
@@ -229,6 +257,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-elb.svg"
   },
   {
@@ -237,6 +266,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-elastic-beanstalk.svg"
   },
   {
@@ -245,6 +275,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-elasticache.svg"
   },
   {
@@ -253,6 +284,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-eventbridge.svg"
   },
   {
@@ -261,6 +293,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-fargate.svg"
   },
   {
@@ -269,6 +302,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-glacier.svg"
   },
   {
@@ -277,6 +311,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-glue.svg"
   },
   {
@@ -285,6 +320,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-iam.svg"
   },
   {
@@ -293,6 +329,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-kms.svg"
   },
   {
@@ -301,6 +338,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-keyspaces.svg"
   },
   {
@@ -309,6 +347,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-kinesis.svg"
   },
   {
@@ -317,6 +356,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-lake-formation.svg"
   },
   {
@@ -325,6 +365,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-lambda.svg"
   },
   {
@@ -333,6 +374,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-lightsail.svg"
   },
   {
@@ -341,6 +383,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-mq.svg"
   },
   {
@@ -349,6 +392,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-msk.svg"
   },
   {
@@ -357,6 +401,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-neptune.svg"
   },
   {
@@ -365,6 +410,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-open-search.svg"
   },
   {
@@ -373,6 +419,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-opsworks.svg"
   },
   {
@@ -381,6 +428,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-quicksight.svg"
   },
   {
@@ -389,6 +437,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-rds.svg"
   },
   {
@@ -397,6 +446,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-redshift.svg"
   },
   {
@@ -405,6 +455,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-route53.svg"
   },
   {
@@ -413,6 +464,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-s3.svg"
   },
   {
@@ -421,6 +473,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-ses.svg"
   },
   {
@@ -429,6 +482,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-sns.svg"
   },
   {
@@ -437,6 +491,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-sqs.svg"
   },
   {
@@ -445,6 +500,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-secrets-manager.svg"
   },
   {
@@ -453,6 +509,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-shield.svg"
   },
   {
@@ -461,6 +518,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-step-functions.svg"
   },
   {
@@ -469,6 +527,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-systems-manager.svg"
   },
   {
@@ -477,6 +536,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-timestream.svg"
   },
   {
@@ -485,6 +545,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-vpc.svg"
   },
   {
@@ -493,6 +554,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-waf.svg"
   },
   {
@@ -501,6 +563,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "aws-xray.svg"
   },
   {
@@ -509,6 +572,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-after-effects.svg"
   },
   {
@@ -517,6 +581,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-animate.svg"
   },
   {
@@ -525,6 +590,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-dreamweaver.svg"
   },
   {
@@ -533,6 +599,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-illustrator.svg"
   },
   {
@@ -541,6 +608,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-incopy.svg"
   },
   {
@@ -549,6 +617,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-indesign.svg"
   },
   {
@@ -557,6 +626,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-lightroom.svg"
   },
   {
@@ -565,6 +635,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-photoshop.svg"
   },
   {
@@ -573,6 +644,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-premiere.svg"
   },
   {
@@ -581,6 +653,7 @@
     "category": "Tools & Services",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "adobe-xd.svg"
   },
   {
@@ -589,6 +662,7 @@
     "category": "Libraries & Frameworks",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "algolia.svg"
   },
   {
@@ -597,6 +671,7 @@
     "category": "Libraries & Frameworks",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "alpinejs.svg"
   },
   {
@@ -605,6 +680,7 @@
     "category": "Concepts & Fields",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "analytics.svg"
   },
   {
@@ -613,6 +689,7 @@
     "category": "Concepts & Fields",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "android-icon.svg"
   },
   {
@@ -621,6 +698,7 @@
     "category": "Libraries & Frameworks",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "angular.svg"
   },
   {
@@ -629,6 +707,7 @@
     "category": "Libraries & Frameworks",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ansible.svg"
   },
   {
@@ -637,6 +716,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "apache.svg"
   },
   {
@@ -645,7 +725,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "apollo.svg"
+    "link": "",
+    "icon": "apollostack.svg"
   },
   {
     "id": "appcenter",
@@ -653,6 +734,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "appcenter-icon.svg"
   },
   {
@@ -661,6 +743,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "appcircle-icon.svg"
   },
   {
@@ -669,6 +752,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "appwrite-icon.svg"
   },
   {
@@ -677,6 +761,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "arangodb-icon.svg"
   },
   {
@@ -685,6 +770,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "arbitrum.svg"
   },
   {
@@ -693,6 +779,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "archlinux.svg"
   },
   {
@@ -701,6 +788,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "arduino.svg"
   },
   {
@@ -709,6 +797,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ml.svg"
   },
   {
@@ -717,6 +806,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "astro-icon.svg"
   },
   {
@@ -725,6 +815,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "atom-icon.svg"
   },
   {
@@ -733,6 +824,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "audio.svg"
   },
   {
@@ -741,6 +833,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "auth0-icon.svg"
   },
   {
@@ -749,6 +842,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "axios.svg"
   },
   {
@@ -757,6 +851,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "babel.svg"
   },
   {
@@ -765,6 +860,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "backbone-icon.svg"
   },
   {
@@ -773,6 +869,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bash-icon.svg"
   },
   {
@@ -781,6 +878,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "batch.svg"
   },
   {
@@ -789,6 +887,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bazel.svg"
   },
   {
@@ -797,6 +896,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "big-data.svg"
   },
   {
@@ -805,6 +905,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bigpanda.svg"
   },
   {
@@ -813,6 +914,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bitbucket.svg"
   },
   {
@@ -821,6 +923,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "blender.svg"
   },
   {
@@ -829,6 +932,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "blitzjs-icon.svg"
   },
   {
@@ -837,15 +941,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "blockchain.svg"
   },
   {
-    "id": "blueprints",
-    "name": "Blueprints",
+    "id": "blueprint",
+    "name": "Blueprint",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "blueprints.svg"
+    "link": "",
+    "icon": "blueprint.svg"
   },
   {
     "id": "bluetooth",
@@ -853,6 +959,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bluetooth.svg"
   },
   {
@@ -861,15 +968,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bourbon.svg"
-  },
-  {
-    "id": "box",
-    "name": "Box",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "box.svg"
   },
   {
     "id": "bower",
@@ -877,7 +977,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bower.svg"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "box.svg"
   },
   {
     "id": "broccoli",
@@ -885,6 +995,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "broccoli.svg"
   },
   {
@@ -893,7 +1004,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "browserify.svg"
+    "link": "",
+    "icon": "browserify-icon.svg"
   },
   {
     "id": "builder-io",
@@ -901,6 +1013,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "builder-io-icon.svg"
   },
   {
@@ -909,6 +1022,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "bun.svg"
   },
   {
@@ -917,6 +1031,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "c.svg"
   },
   {
@@ -925,6 +1040,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "c-sharp.svg"
   },
   {
@@ -933,7 +1049,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "c-plusplus.svg"
+  },
+  {
+    "id": "cpanel",
+    "name": "CPanel",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "cpanel.svg"
   },
   {
     "id": "create-react-app",
@@ -941,6 +1067,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "create-react-app.svg"
   },
   {
@@ -949,6 +1076,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "css-flexbox.svg"
   },
   {
@@ -957,6 +1085,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "css-3.svg"
   },
   {
@@ -965,6 +1094,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cssnext.svg"
   },
   {
@@ -973,6 +1103,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "canjs.svg"
   },
   {
@@ -981,6 +1112,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "canva.svg"
   },
   {
@@ -989,6 +1121,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "chai.svg"
   },
   {
@@ -997,6 +1130,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "openai-icon.svg"
   },
   {
@@ -1005,6 +1139,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cheerio.svg"
   },
   {
@@ -1013,7 +1148,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "chevereto.svg"
+  },
+  {
+    "id": "chromatic",
+    "name": "Chromatic",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "chromatic-icon.svg"
   },
   {
     "id": "chrome",
@@ -1021,6 +1166,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "chrome.svg"
   },
   {
@@ -1029,15 +1175,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "chrome-web-store.svg"
-  },
-  {
-    "id": "chromatic",
-    "name": "Chromatic",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "chromatic-icon.svg"
   },
   {
     "id": "circleci",
@@ -1045,6 +1184,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "circleci.svg"
   },
   {
@@ -1053,6 +1193,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "clojure.svg"
   },
   {
@@ -1061,6 +1202,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cloud-computing.svg"
   },
   {
@@ -1069,6 +1211,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cloudflare-icon.svg"
   },
   {
@@ -1077,6 +1220,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cloudinary-icon.svg"
   },
   {
@@ -1085,15 +1229,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codebeat.svg"
-  },
-  {
-    "id": "cpanel",
-    "name": "CPanel",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "cpanel.svg"
   },
   {
     "id": "codeclimate",
@@ -1101,6 +1238,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codeclimate-icon.svg"
   },
   {
@@ -1109,6 +1247,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codecov-icon.svg"
   },
   {
@@ -1117,6 +1256,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codefactor-icon.svg"
   },
   {
@@ -1125,6 +1265,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codeigniter-icon.svg"
   },
   {
@@ -1133,6 +1274,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codepen-icon.svg"
   },
   {
@@ -1141,6 +1283,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codesandbox-icon.svg"
   },
   {
@@ -1149,6 +1292,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codesee-icon.svg"
   },
   {
@@ -1157,6 +1301,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "codium-icon.svg"
   },
   {
@@ -1165,7 +1310,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "coffescript.svg"
+    "link": "",
+    "icon": "coffeescript.svg"
   },
   {
     "id": "commitzen",
@@ -1173,7 +1319,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "commitzen.svg"
+    "link": "",
+    "icon": "commitizen.svg"
   },
   {
     "id": "confluence",
@@ -1181,6 +1328,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "confluence.svg"
   },
   {
@@ -1189,6 +1337,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "contentful.svg"
   },
   {
@@ -1197,6 +1346,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "couchdb-icon.svg"
   },
   {
@@ -1205,6 +1355,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "couchbase.svg"
   },
   {
@@ -1213,15 +1364,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cryptography.svg"
-  },
-  {
-    "id": "curl",
-    "name": "cURL",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "curl.svg"
   },
   {
     "id": "cypress",
@@ -1229,6 +1373,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "cypress-icon.svg"
   },
   {
@@ -1237,7 +1382,35 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "d3.svg"
+  },
+  {
+    "id": "dcos",
+    "name": "DCOS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "dcos-icon.svg"
+  },
+  {
+    "id": "dgraph",
+    "name": "DGraph",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "dgraph-icon.svg"
+  },
+  {
+    "id": "dns",
+    "name": "DNS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "dns.svg"
   },
   {
     "id": "daisyUI",
@@ -1245,6 +1418,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "daisyUI.svg"
   },
   {
@@ -1253,15 +1427,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "danfo.svg"
-  },
-  {
-    "id": "dns",
-    "name": "DNS",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "dns.svg"
   },
   {
     "id": "dart",
@@ -1269,6 +1436,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dart.svg"
   },
   {
@@ -1277,6 +1445,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dashlane-icon.svg"
   },
   {
@@ -1285,6 +1454,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "data-structures-and-algorithm.svg"
   },
   {
@@ -1293,6 +1463,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "datadog-icon.svg"
   },
   {
@@ -1301,7 +1472,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "datasette.svg"
+    "link": "",
+    "icon": "datasette-icon.svg"
   },
   {
     "id": "dataspell",
@@ -1309,23 +1481,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dataspell.svg"
   },
   {
-    "id": "datacms",
+    "id": "datocms",
     "name": "DatoCMS",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "datacms-icon.svg"
-  },
-  {
-    "id": "dcos",
-    "name": "DCOS",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "dcos.svg"
+    "link": "",
+    "icon": "datocms-icon.svg"
   },
   {
     "id": "debian",
@@ -1333,6 +1499,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "debian.svg"
   },
   {
@@ -1341,6 +1508,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "deno.svg"
   },
   {
@@ -1349,6 +1517,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "deployhq-icon.svg"
   },
   {
@@ -1357,6 +1526,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "design.svg"
   },
   {
@@ -1365,15 +1535,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "devops.svg"
-  },
-  {
-    "id": "dgraph",
-    "name": "DGraph",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "dgraph-icon.svg"
   },
   {
     "id": "dialogflow",
@@ -1381,6 +1544,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dialogflow.svg"
   },
   {
@@ -1389,6 +1553,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "digital-ocean-icon.svg"
   },
   {
@@ -1397,6 +1562,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "discord-icon.svg"
   },
   {
@@ -1405,7 +1571,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "django.svg"
+    "link": "",
+    "icon": "django-icon.svg"
   },
   {
     "id": "dockbit",
@@ -1413,6 +1580,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dockbit.svg"
   },
   {
@@ -1421,6 +1589,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "docker-icon.svg"
   },
   {
@@ -1429,6 +1598,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "doctrine.svg"
   },
   {
@@ -1437,6 +1607,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "docusaurus.svg"
   },
   {
@@ -1445,6 +1616,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dojo-icon.svg"
   },
   {
@@ -1453,6 +1625,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dolt.svg"
   },
   {
@@ -1461,6 +1634,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dribbble-icon.svg"
   },
   {
@@ -1469,6 +1643,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "drizzle-icon.svg"
   },
   {
@@ -1477,6 +1652,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "drools-icon.svg"
   },
   {
@@ -1485,6 +1661,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dropmark.svg"
   },
   {
@@ -1493,6 +1670,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dropzone.svg"
   },
   {
@@ -1501,6 +1679,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "drupal-icon.svg"
   },
   {
@@ -1509,6 +1688,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dynamic-xyz.svg"
   },
   {
@@ -1517,15 +1697,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "dynatrace-icon.svg"
-  },
-  {
-    "id": "dbt",
-    "name": "dbt",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "dbt-icon.svg"
   },
   {
     "id": "e2etesting",
@@ -1533,7 +1706,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "e2etesting.svg"
+  },
+  {
+    "id": "elm-classic",
+    "name": "ELM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "elm-classic.svg"
   },
   {
     "id": "es6",
@@ -1541,6 +1724,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "es6.png"
   },
   {
@@ -1549,6 +1733,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "esbuild.svg"
   },
   {
@@ -1557,6 +1742,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "esdoc.svg"
   },
   {
@@ -1565,6 +1751,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "eslint.svg"
   },
   {
@@ -1573,6 +1760,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "eclipse-icon.svg"
   },
   {
@@ -1581,6 +1769,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "editorconfig.svg"
   },
   {
@@ -1589,6 +1778,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "effect-icon.svg"
   },
   {
@@ -1597,15 +1787,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "electron.svg"
-  },
-  {
-    "id": "elm-classic",
-    "name": "ELM",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "elm-classic.svg"
   },
   {
     "id": "elixir",
@@ -1613,6 +1796,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "elixir.svg"
   },
   {
@@ -1621,6 +1805,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "email.svg"
   },
   {
@@ -1629,6 +1814,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ember-tomster.svg"
   },
   {
@@ -1637,6 +1823,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "emmet.svg"
   },
   {
@@ -1645,6 +1832,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "envoy-icon.svg"
   },
   {
@@ -1653,6 +1841,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "epsagon-icon.svg"
   },
   {
@@ -1661,6 +1850,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ethereum.svg"
   },
   {
@@ -1669,6 +1859,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ethers.svg"
   },
   {
@@ -1677,6 +1868,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "eventsentry.svg"
   },
   {
@@ -1685,6 +1877,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "evergreen-icon.svg"
   },
   {
@@ -1693,6 +1886,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "excel.svg"
   },
   {
@@ -1701,6 +1895,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "expo-icon.svg"
   },
   {
@@ -1709,15 +1904,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "express.svg"
-  },
-  {
-    "id": "etcd",
-    "name": "etcd",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "etcd.svg"
   },
   {
     "id": "fsharp",
@@ -1725,6 +1913,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fsharp.svg"
   },
   {
@@ -1733,6 +1922,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ffmpeg-icon.svg"
   },
   {
@@ -1741,6 +1931,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "facebook.svg"
   },
   {
@@ -1749,6 +1940,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fastapi-icon.svg"
   },
   {
@@ -1757,6 +1949,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fastify-icon.svg"
   },
   {
@@ -1765,6 +1958,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fastly.svg"
   },
   {
@@ -1773,6 +1967,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fauna-icon.svg"
   },
   {
@@ -1781,6 +1976,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "feathersjs.svg"
   },
   {
@@ -1789,6 +1985,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fedora.svg"
   },
   {
@@ -1797,6 +1994,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fetch.svg"
   },
   {
@@ -1805,6 +2003,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "figma.svg"
   },
   {
@@ -1813,6 +2012,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "firebase.svg"
   },
   {
@@ -1821,6 +2021,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "firebase-auth.png"
   },
   {
@@ -1829,6 +2030,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "firebase-database.png"
   },
   {
@@ -1837,6 +2039,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "firebase-firestore.png"
   },
   {
@@ -1845,6 +2048,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "firebase-storage.png"
   },
   {
@@ -1853,6 +2057,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "firefox.svg"
   },
   {
@@ -1861,6 +2066,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "flannel.svg"
   },
   {
@@ -1869,6 +2075,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "flask.svg"
   },
   {
@@ -1877,6 +2084,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "flat-ui.svg"
   },
   {
@@ -1885,6 +2093,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "flow.svg"
   },
   {
@@ -1893,6 +2102,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "flutter.svg"
   },
   {
@@ -1901,6 +2111,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fluxxor.svg"
   },
   {
@@ -1909,6 +2120,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fly-icon.svg"
   },
   {
@@ -1917,6 +2129,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "font-awesome.svg"
   },
   {
@@ -1925,6 +2138,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "foundation.svg"
   },
   {
@@ -1933,6 +2147,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "foundationdb-icon.svg"
   },
   {
@@ -1941,6 +2156,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "framer.svg"
   },
   {
@@ -1949,6 +2165,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "framework7-icon.svg"
   },
   {
@@ -1957,6 +2174,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "freedcamp-icon.svg"
   },
   {
@@ -1965,6 +2183,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "fresh.svg"
   },
   {
@@ -1973,7 +2192,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gnome-icon.svg"
+  },
+  {
+    "id": "gnu",
+    "name": "GNU",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "gnu.svg"
   },
   {
     "id": "greensock",
@@ -1981,6 +2210,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "greensock-icon.svg"
   },
   {
@@ -1989,6 +2219,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ganache-icon.svg"
   },
   {
@@ -1997,6 +2228,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gatsby.svg"
   },
   {
@@ -2005,6 +2237,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "geekbot.svg"
   },
   {
@@ -2013,7 +2246,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "geetest.svg"
+    "link": "",
+    "icon": "geetest-icon.svg"
   },
   {
     "id": "gerrit",
@@ -2021,6 +2255,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gerrit.svg"
   },
   {
@@ -2029,6 +2264,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "giantswarm.svg"
   },
   {
@@ -2037,6 +2273,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gimp.svg"
   },
   {
@@ -2045,6 +2282,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gin.svg"
   },
   {
@@ -2053,6 +2291,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "git-icon.svg"
   },
   {
@@ -2061,6 +2300,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gitbook.svg"
   },
   {
@@ -2069,6 +2309,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "git-icon.svg"
   },
   {
@@ -2077,6 +2318,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "github-icon.svg"
   },
   {
@@ -2085,6 +2327,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "github-actions.svg"
   },
   {
@@ -2093,6 +2336,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "github-copilot.svg"
   },
   {
@@ -2101,6 +2345,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gitkraken.svg"
   },
   {
@@ -2109,6 +2354,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gitlab.svg"
   },
   {
@@ -2117,6 +2363,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "glamorous-icon.svg"
   },
   {
@@ -2125,6 +2372,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "glimmerjs.svg"
   },
   {
@@ -2133,15 +2381,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "glitch-icon.svg"
-  },
-  {
-    "id": "gnu",
-    "name": "GNU",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "gnu.svg"
   },
   {
     "id": "go",
@@ -2149,6 +2390,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "go.svg"
   },
   {
@@ -2157,6 +2399,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "google-bard.svg"
   },
   {
@@ -2165,6 +2408,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "google-play-console.png"
   },
   {
@@ -2173,6 +2417,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gradle.svg"
   },
   {
@@ -2181,6 +2426,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "grafana.svg"
   },
   {
@@ -2189,15 +2435,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "grails.svg"
-  },
-  {
-    "id": "graphene",
-    "name": "Graphene",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "graphene.svg"
   },
   {
     "id": "graphql",
@@ -2205,7 +2444,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "graphql.svg"
+  },
+  {
+    "id": "graphene",
+    "name": "Graphene",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "graphene.svg"
   },
   {
     "id": "grav",
@@ -2213,6 +2462,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "grav.svg"
   },
   {
@@ -2221,6 +2471,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gravatar-icon.svg"
   },
   {
@@ -2229,6 +2480,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gridsome-icon.svg"
   },
   {
@@ -2237,6 +2489,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "grunt.svg"
   },
   {
@@ -2245,15 +2498,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gulp.svg"
-  },
-  {
-    "id": "gunicorn",
-    "name": "Gunicorn",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "gunicorn.svg"
   },
   {
     "id": "gunjs",
@@ -2261,7 +2507,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gunjs.svg"
+  },
+  {
+    "id": "gunicorn",
+    "name": "Gunicorn",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "gunicorn.svg"
   },
   {
     "id": "gzip",
@@ -2269,7 +2525,35 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "gzip.svg"
+  },
+  {
+    "id": "hbase",
+    "name": "HBase",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "hbase.svg"
+  },
+  {
+    "id": "hhvm",
+    "name": "HHVM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "hhvm.svg"
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "html-5.svg"
   },
   {
     "id": "html-5",
@@ -2277,6 +2561,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "html-5.svg"
   },
   {
@@ -2285,7 +2570,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "htmx.svg"
+  },
+  {
+    "id": "httpie",
+    "name": "HTTPie",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "httpie-icon.svg"
   },
   {
     "id": "hack",
@@ -2293,6 +2588,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hack.svg"
   },
   {
@@ -2301,6 +2597,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hadoop.svg"
   },
   {
@@ -2309,6 +2606,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "haiku-icon.svg"
   },
   {
@@ -2317,6 +2615,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hanami.svg"
   },
   {
@@ -2325,6 +2624,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hapi.svg"
   },
   {
@@ -2333,6 +2633,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hardhat-icon.svg"
   },
   {
@@ -2341,6 +2642,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "harness-icon.svg"
   },
   {
@@ -2349,6 +2651,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hashnode-icon.svg"
   },
   {
@@ -2357,6 +2660,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "haskell-icon.svg"
   },
   {
@@ -2365,6 +2669,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hasura-icon.svg"
   },
   {
@@ -2373,6 +2678,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "haxe.svg"
   },
   {
@@ -2381,15 +2687,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "haxl.svg"
-  },
-  {
-    "id": "hbase",
-    "name": "HBase",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "hbase.svg"
   },
   {
     "id": "headlessui",
@@ -2397,6 +2696,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "headlessui-icon.svg"
   },
   {
@@ -2405,6 +2705,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "heap-icon.svg"
   },
   {
@@ -2413,15 +2714,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "heroku-icon.svg"
-  },
-  {
-    "id": "hhvm",
-    "name": "HHVM",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "hhvm.svg"
   },
   {
     "id": "hono",
@@ -2429,6 +2723,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hono.svg"
   },
   {
@@ -2437,23 +2732,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hostgator-icon.svg"
   },
   {
-    "id": "html",
-    "name": "HTML",
+    "id": "ios",
+    "name": "IOS",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "html-5.svg"
-  },
-  {
-    "id": "httpie",
-    "name": "HTTPie",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "httpie-icon.svg"
+    "link": "",
+    "icon": "ios.svg"
   },
   {
     "id": "imagemin",
@@ -2461,6 +2750,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "imagemin.svg"
   },
   {
@@ -2469,6 +2759,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "imba-icon.svg"
   },
   {
@@ -2477,6 +2768,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "importio.svg"
   },
   {
@@ -2485,6 +2777,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "incident-icon.svg"
   },
   {
@@ -2493,6 +2786,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "influxdb-icon.svg"
   },
   {
@@ -2501,6 +2795,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ingress.svg"
   },
   {
@@ -2509,6 +2804,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ink.svg"
   },
   {
@@ -2517,6 +2813,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "insomnia.svg"
   },
   {
@@ -2525,135 +2822,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ionic-icon.svg"
-  },
-  {
-    "id": "ios",
-    "name": "IOS",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "ios.svg"
-  },
-  {
-    "id": "jsfiddle",
-    "name": "JSFiddle",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jsfiddle.svg"
-  },
-  {
-    "id": "json",
-    "name": "JSON",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "json.svg"
-  },
-  {
-    "id": "jspm",
-    "name": "JSPM",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jspm.svg"
-  },
-  {
-    "id": "jss",
-    "name": "JSS",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jss.svg"
-  },
-  {
-    "id": "jwt",
-    "name": "JWT",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jwt-icon.svg"
-  },
-  {
-    "id": "jamstack",
-    "name": "Jamstack",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jamstack-icon.svg"
-  },
-  {
-    "id": "java",
-    "name": "Java",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "java.svg"
-  },
-  {
-    "id": "javascript",
-    "name": "JavaScript",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "javascript.svg"
-  },
-  {
-    "id": "jekyll",
-    "name": "Jekyll",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jekyll.svg"
-  },
-  {
-    "id": "jenkins",
-    "name": "Jenkins",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jenkins.svg"
-  },
-  {
-    "id": "jest",
-    "name": "Jest",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jest.svg"
-  },
-  {
-    "id": "jetbrains-space",
-    "name": "Jetbrains Space",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jetbrains-space-icon.svg"
-  },
-  {
-    "id": "jetbrains",
-    "name": "Jetbrains",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jetbrains.svg"
-  },
-  {
-    "id": "jhipster",
-    "name": "Jhipster",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jhipster-icon.svg"
-  },
-  {
-    "id": "jira",
-    "name": "Jira",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "jira.svg"
   },
   {
     "id": "jruby",
@@ -2661,6 +2831,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "jruby.svg"
   },
   {
@@ -2669,7 +2840,143 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "jsbin.svg"
+  },
+  {
+    "id": "jsfiddle",
+    "name": "JSFiddle",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jsfiddle.svg"
+  },
+  {
+    "id": "json",
+    "name": "JSON",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "json.svg"
+  },
+  {
+    "id": "jspm",
+    "name": "JSPM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jspm.svg"
+  },
+  {
+    "id": "jss",
+    "name": "JSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jss.svg"
+  },
+  {
+    "id": "jwt",
+    "name": "JWT",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jwt-icon.svg"
+  },
+  {
+    "id": "jamstack",
+    "name": "Jamstack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jamstack-icon.svg"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "java.svg"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "javascript.svg"
+  },
+  {
+    "id": "jekyll",
+    "name": "Jekyll",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jekyll.svg"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jenkins.svg"
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jest.svg"
+  },
+  {
+    "id": "jetbrains",
+    "name": "Jetbrains",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jetbrains.svg"
+  },
+  {
+    "id": "jetbrains-space",
+    "name": "Jetbrains Space",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jetbrains-space-icon.svg"
+  },
+  {
+    "id": "jhipster",
+    "name": "Jhipster",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jhipster-icon.svg"
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "jira.svg"
   },
   {
     "id": "juju",
@@ -2677,6 +2984,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "juju.svg"
   },
   {
@@ -2685,6 +2993,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "julia.svg"
   },
   {
@@ -2693,6 +3002,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "jupyter.svg"
   },
   {
@@ -2701,6 +3011,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kde.svg"
   },
   {
@@ -2709,6 +3020,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kaios.svg"
   },
   {
@@ -2717,6 +3029,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "karma.svg"
   },
   {
@@ -2725,6 +3038,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "katalon-icon.svg"
   },
   {
@@ -2733,6 +3047,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kemal.svg"
   },
   {
@@ -2741,6 +3056,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "keycdn-icon.svg"
   },
   {
@@ -2749,6 +3065,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "keydb-icon.svg"
   },
   {
@@ -2757,6 +3074,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kibana.svg"
   },
   {
@@ -2765,7 +3083,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kinto-icon.svg"
+  },
+  {
+    "id": "kirby",
+    "name": "Kirby",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "kirby-icon.svg"
   },
   {
     "id": "kong",
@@ -2773,7 +3101,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kong-icon.svg"
+  },
+  {
+    "id": "kops",
+    "name": "Kops",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "kops.svg"
   },
   {
     "id": "kotlin",
@@ -2781,6 +3119,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kotlin-icon.svg"
   },
   {
@@ -2789,6 +3128,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ktor-icon.svg"
   },
   {
@@ -2797,6 +3137,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "kubernetes.svg"
   },
   {
@@ -2805,6 +3146,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "less.svg"
   },
   {
@@ -2813,23 +3155,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "laravel.svg"
-  },
-  {
-    "id": "lexical",
-    "name": "Lexical",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "lexical-icon.svg"
-  },
-  {
-    "id": "lit",
-    "name": "Lit",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "lit-icon.svg"
   },
   {
     "id": "leveldb",
@@ -2837,7 +3164,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "leveldb.svg"
+  },
+  {
+    "id": "lexical",
+    "name": "Lexical",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "lexical-icon.svg"
   },
   {
     "id": "lighthouse",
@@ -2845,7 +3182,26 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "lighthouse.svg"
+  },
+  {
+    "id": "lighttpd",
+    "name": "Lighttpd",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "lighttpd.svg"
+  },
+  {
+    "id": "linkerd",
+    "name": "Linkerd",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "linkerd.svg"
   },
   {
     "id": "linux",
@@ -2853,6 +3209,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "linux.svg"
   },
   {
@@ -2861,7 +3218,26 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": ""
+  },
+  {
+    "id": "lit",
+    "name": "Lit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "lit-icon.svg"
+  },
+  {
+    "id": "loader",
+    "name": "Loader",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "loader.svg"
   },
   {
     "id": "lodash",
@@ -2869,7 +3245,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "lodash.svg"
+  },
+  {
+    "id": "logentries",
+    "name": "Logentries",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "logentries.svg"
   },
   {
     "id": "loopback",
@@ -2877,15 +3263,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "loopback-icon.svg"
-  },
-  {
-    "id": "mdx",
-    "name": "MDX",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "mdx.svg"
   },
   {
     "id": "mdn",
@@ -2893,7 +3272,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mdn.svg"
+  },
+  {
+    "id": "mdx",
+    "name": "MDX",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "mdx.svg"
   },
   {
     "id": "ml",
@@ -2901,6 +3290,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ml.svg"
   },
   {
@@ -2909,7 +3299,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "msw-icon.svg"
+  },
+  {
+    "id": "mageia",
+    "name": "Mageia",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "mageia.svg"
   },
   {
     "id": "mailchimp-freddie",
@@ -2917,6 +3317,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mailchimp-freddie.svg"
   },
   {
@@ -2925,6 +3326,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "malinajs.svg"
   },
   {
@@ -2933,6 +3335,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "manjaro.svg"
   },
   {
@@ -2941,7 +3344,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "mantine.svg"
+    "link": "",
+    "icon": "mantine-icon.svg"
   },
   {
     "id": "mariadb",
@@ -2949,7 +3353,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "mariadb.svg"
+    "link": "",
+    "icon": "mariadb-icon.svg"
   },
   {
     "id": "markdown",
@@ -2957,6 +3362,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "markdown.svg"
   },
   {
@@ -2965,6 +3371,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mastodon-icon.svg"
   },
   {
@@ -2973,6 +3380,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "material-ui.svg"
   },
   {
@@ -2981,6 +3389,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "matter-icon.svg"
   },
   {
@@ -2989,6 +3398,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "medusa-icon.svg"
   },
   {
@@ -2997,6 +3407,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mercurial.svg"
   },
   {
@@ -3005,6 +3416,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "metamask-icon.svg"
   },
   {
@@ -3013,6 +3425,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "meteor-icon.svg"
   },
   {
@@ -3021,6 +3434,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "micro-icon.svg"
   },
   {
@@ -3029,6 +3443,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "micro-python.svg"
   },
   {
@@ -3037,6 +3452,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "microcosm.svg"
   },
   {
@@ -3045,6 +3461,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "microservices.svg"
   },
   {
@@ -3053,6 +3470,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "microsoft-azure.svg"
   },
   {
@@ -3061,6 +3479,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mida-icon.svg"
   },
   {
@@ -3069,6 +3488,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "middleman.svg"
   },
   {
@@ -3077,6 +3497,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "million-icon.svg"
   },
   {
@@ -3085,6 +3506,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "milvus-icon.svg"
   },
   {
@@ -3093,6 +3515,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mindsdb-icon.svg"
   },
   {
@@ -3101,6 +3524,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mithril.svg"
   },
   {
@@ -3109,6 +3533,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mocha.svg"
   },
   {
@@ -3117,6 +3542,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mockflow-icon.svg"
   },
   {
@@ -3125,6 +3551,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "modernizr.svg"
   },
   {
@@ -3133,6 +3560,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "modx-icon.svg"
   },
   {
@@ -3141,6 +3569,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "momentjs.svg"
   },
   {
@@ -3149,6 +3578,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mongodb-icon.svg"
   },
   {
@@ -3157,7 +3587,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "mongoose.svg"
+    "link": "",
+    "icon": "mongoose.png"
   },
   {
     "id": "mono",
@@ -3165,6 +3596,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mono.svg"
   },
   {
@@ -3173,6 +3605,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "moon.svg"
   },
   {
@@ -3181,6 +3614,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "morpheus-icon.svg"
   },
   {
@@ -3189,6 +3623,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "multipass.svg"
   },
   {
@@ -3197,6 +3632,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mysql-icon.svg"
   },
   {
@@ -3205,6 +3641,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nasm.svg"
   },
   {
@@ -3213,6 +3650,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ngrok.svg"
   },
   {
@@ -3221,7 +3659,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "npm-icon.svg"
+  },
+  {
+    "id": "nvm",
+    "name": "NVM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "nvm.svg"
   },
   {
     "id": "naiveui",
@@ -3229,6 +3677,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "naiveui.svg"
   },
   {
@@ -3237,6 +3686,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "namecheap.svg"
   },
   {
@@ -3245,6 +3695,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nanonets.svg"
   },
   {
@@ -3253,6 +3704,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nativescript.svg"
   },
   {
@@ -3261,6 +3713,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "neat.svg"
   },
   {
@@ -3269,6 +3722,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "neon-icon.svg"
   },
   {
@@ -3277,6 +3731,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nestjs.svg"
   },
   {
@@ -3285,6 +3740,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "netbeans.svg"
   },
   {
@@ -3293,6 +3749,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "netlify-icon.svg"
   },
   {
@@ -3301,6 +3758,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "new-relic-icon.svg"
   },
   {
@@ -3309,6 +3767,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nextauth.png"
   },
   {
@@ -3317,6 +3776,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nextjs-icon.svg"
   },
   {
@@ -3325,6 +3785,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nextra.svg"
   },
   {
@@ -3333,6 +3794,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nginx.svg"
   },
   {
@@ -3341,6 +3803,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nightwatch.svg"
   },
   {
@@ -3349,6 +3812,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nim-lang.svg"
   },
   {
@@ -3357,6 +3821,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nocodb.svg"
   },
   {
@@ -3365,6 +3830,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "node-sass.svg"
   },
   {
@@ -3373,6 +3839,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nodebots.svg"
   },
   {
@@ -3381,6 +3848,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nodejs-icon-alt.svg"
   },
   {
@@ -3389,6 +3857,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nodeos.svg"
   },
   {
@@ -3397,6 +3866,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nodemon.svg"
   },
   {
@@ -3405,6 +3875,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nomad-icon.svg"
   },
   {
@@ -3413,6 +3884,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "notion-icon.svg"
   },
   {
@@ -3421,6 +3893,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "nuxt-icon.svg"
   },
   {
@@ -3429,6 +3902,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ocaml.svg"
   },
   {
@@ -3437,6 +3911,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "oauth.svg"
   },
   {
@@ -3445,6 +3920,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "objective-c.svg"
   },
   {
@@ -3453,6 +3929,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "observablehq.svg"
   },
   {
@@ -3461,6 +3938,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "obsidian-icon.svg"
   },
   {
@@ -3469,6 +3947,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "octopus-deploy.svg"
   },
   {
@@ -3477,6 +3956,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "okta-icon.svg"
   },
   {
@@ -3485,15 +3965,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "onesignal.svg"
   },
   {
-    "id": "open-zeppelin",
-    "name": "OpenZeppelin",
+    "id": "opengl",
+    "name": "Open GL",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "open-zeppelin-icon.svg"
+    "link": "",
+    "icon": "opengl.svg"
   },
   {
     "id": "openai",
@@ -3501,6 +3983,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "openai-icon.svg"
   },
   {
@@ -3509,6 +3992,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "openapi-icon.svg"
   },
   {
@@ -3517,15 +4001,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "opencv.svg"
-  },
-  {
-    "id": "opengl",
-    "name": "Open GL",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "opengl.svg"
   },
   {
     "id": "opencart",
@@ -3533,6 +4010,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "opencart.svg"
   },
   {
@@ -3541,6 +4019,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "openframeworks.svg"
   },
   {
@@ -3549,6 +4028,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "openlayers.svg"
   },
   {
@@ -3557,6 +4037,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "opensearch-icon.svg"
   },
   {
@@ -3565,15 +4046,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "openshift.svg"
-  },
-  {
-    "id": "openstack",
-    "name": "Openstack",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "openstack.svg"
   },
   {
     "id": "opentelemetry",
@@ -3581,7 +4055,26 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "opentelemetry-icon.svg"
+  },
+  {
+    "id": "open-zeppelin",
+    "name": "OpenZeppelin",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "open-zeppelin-icon.svg"
+  },
+  {
+    "id": "openstack",
+    "name": "Openstack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "openstack-icon.svg"
   },
   {
     "id": "opsgenie",
@@ -3589,6 +4082,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "opsgenie.svg"
   },
   {
@@ -3597,6 +4091,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "optimizely-icon.svg"
   },
   {
@@ -3605,6 +4100,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "oracle.svg"
   },
   {
@@ -3613,6 +4109,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "origami.svg"
   },
   {
@@ -3621,6 +4118,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "overloop-icon.svg"
   },
   {
@@ -3629,6 +4127,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "php.svg"
   },
   {
@@ -3637,6 +4136,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pkg.svg"
   },
   {
@@ -3645,6 +4145,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pm2-icon.svg"
   },
   {
@@ -3653,6 +4154,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pnpm.svg"
   },
   {
@@ -3661,6 +4163,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "poeditor.svg"
   },
   {
@@ -3669,6 +4172,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pwa.svg"
   },
   {
@@ -3677,7 +4181,26 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "packer.svg"
+  },
+  {
+    "id": "pagekite",
+    "name": "PageKite",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "pagekite.svg"
+  },
+  {
+    "id": "pagekit",
+    "name": "Pagekit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "pagekit.svg"
   },
   {
     "id": "pagerduty",
@@ -3685,6 +4208,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pagerduty-icon.svg"
   },
   {
@@ -3693,6 +4217,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pandacss-icon.svg"
   },
   {
@@ -3701,6 +4226,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pandas-icon.svg"
   },
   {
@@ -3709,7 +4235,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "parcel-icon.svg"
+  },
+  {
+    "id": "parsehub",
+    "name": "ParseHub",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "parsehub.svg"
   },
   {
     "id": "partytown",
@@ -3717,6 +4253,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "partytown-icon.svg"
   },
   {
@@ -3725,6 +4262,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "passport.svg"
   },
   {
@@ -3733,6 +4271,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "payload.svg"
   },
   {
@@ -3741,6 +4280,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "paypal.svg"
   },
   {
@@ -3749,6 +4289,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "peer5.svg"
   },
   {
@@ -3757,6 +4298,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pepperoni.svg"
   },
   {
@@ -3765,6 +4307,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "percona.svg"
   },
   {
@@ -3773,6 +4316,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "percy-icon.svg"
   },
   {
@@ -3781,6 +4325,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "perl.svg"
   },
   {
@@ -3789,15 +4334,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "phalcon.svg"
   },
   {
-    "id": "pheonix",
-    "name": "Pheonix",
+    "id": "phoenix",
+    "name": "Phoenix",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "pheonix.svg"
+    "link": "",
+    "icon": "phoenix.svg"
   },
   {
     "id": "phpstorm",
@@ -3805,23 +4352,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "phpstorm.svg"
-  },
-  {
-    "id": "pinecone",
-    "name": "Pinecone",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "pinecone-icon.svg"
-  },
-  {
-    "id": "pivotal_tracker",
-    "name": "Pivotal Tracker",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "pivotal_tracker.svg"
   },
   {
     "id": "picocss",
@@ -3829,7 +4361,35 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "picocss.svg"
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "pinecone-icon.svg"
+  },
+  {
+    "id": "pipedrive",
+    "name": "Pipedrive",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "pipedrive.svg"
+  },
+  {
+    "id": "pivotal_tracker",
+    "name": "Pivotal Tracker",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "pivotal_tracker.svg"
   },
   {
     "id": "planetscale",
@@ -3837,6 +4397,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "planetscale.svg"
   },
   {
@@ -3845,15 +4406,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "planless-icon.svg"
-  },
-  {
-    "id": "plastic-scm",
-    "name": "Plastic SCM",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "plastic-scm.svg"
   },
   {
     "id": "plasmic",
@@ -3861,7 +4415,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "plasmic.svg"
+  },
+  {
+    "id": "plastic-scm",
+    "name": "Plastic SCM",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "plastic-scm.svg"
   },
   {
     "id": "platformio",
@@ -3869,6 +4433,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "platformio.svg"
   },
   {
@@ -3877,6 +4442,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "play.svg"
   },
   {
@@ -3885,6 +4451,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "playwright.svg"
   },
   {
@@ -3893,6 +4460,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pocket-base.svg"
   },
   {
@@ -3901,6 +4469,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "polymer.svg"
   },
   {
@@ -3909,6 +4478,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": ""
   },
   {
@@ -3917,6 +4487,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "postcss.svg"
   },
   {
@@ -3925,6 +4496,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "posthog-icon.svg"
   },
   {
@@ -3933,6 +4505,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "postgraphile.svg"
   },
   {
@@ -3941,6 +4514,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "postgresql.svg"
   },
   {
@@ -3949,6 +4523,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pouchdb.svg"
   },
   {
@@ -3957,6 +4532,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "preact.svg"
   },
   {
@@ -3965,6 +4541,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "precursor.svg"
   },
   {
@@ -3973,6 +4550,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prerender-icon.svg"
   },
   {
@@ -3981,6 +4559,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prestashop.svg"
   },
   {
@@ -3989,6 +4568,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "presto-icon.svg"
   },
   {
@@ -3997,6 +4577,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prettier.svg"
   },
   {
@@ -4005,6 +4586,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prisma.svg"
   },
   {
@@ -4013,15 +4595,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prismic-icon.svg"
-  },
-  {
-    "id": "processing",
-    "name": "Processing",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "processing.svg"
   },
   {
     "id": "processwire",
@@ -4029,7 +4604,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "processwire-icon.svg"
+  },
+  {
+    "id": "processing",
+    "name": "Processing",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "processing.svg"
   },
   {
     "id": "productboard",
@@ -4037,6 +4622,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "productboard-icon.svg"
   },
   {
@@ -4045,6 +4631,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "progress.svg"
   },
   {
@@ -4053,6 +4640,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prometheus.svg"
   },
   {
@@ -4061,6 +4649,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "promises.svg"
   },
   {
@@ -4069,6 +4658,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "proofy.svg"
   },
   {
@@ -4077,6 +4667,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "protoio.svg"
   },
   {
@@ -4085,6 +4676,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "protractor.svg"
   },
   {
@@ -4093,6 +4685,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "prott.svg"
   },
   {
@@ -4101,6 +4694,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pug.svg"
   },
   {
@@ -4109,6 +4703,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pulumi-icon.svg"
   },
   {
@@ -4117,6 +4712,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pumpkindb.svg"
   },
   {
@@ -4125,6 +4721,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "puppet-icon.svg"
   },
   {
@@ -4133,6 +4730,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "puppeteer.svg"
   },
   {
@@ -4141,6 +4739,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "purescript-icon.svg"
   },
   {
@@ -4149,6 +4748,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pushbullet.svg"
   },
   {
@@ -4157,6 +4757,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pusher-icon.svg"
   },
   {
@@ -4165,6 +4766,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pycharm.svg"
   },
   {
@@ -4173,6 +4775,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pypi.svg"
   },
   {
@@ -4181,6 +4784,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pyscript.svg"
   },
   {
@@ -4189,6 +4793,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pytorch-icon.svg"
   },
   {
@@ -4197,6 +4802,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "pyup.svg"
   },
   {
@@ -4205,6 +4811,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "python.svg"
   },
   {
@@ -4213,6 +4820,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "q.svg"
   },
   {
@@ -4221,6 +4829,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "qdrant-icon.svg"
   },
   {
@@ -4229,6 +4838,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "qlik.svg"
   },
   {
@@ -4237,6 +4847,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "qt.svg"
   },
   {
@@ -4245,6 +4856,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "quarkus-icon.svg"
   },
   {
@@ -4253,7 +4865,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "quay.svg"
+  },
+  {
+    "id": "quobyte",
+    "name": "Quobyte",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "quobyte.svg"
   },
   {
     "id": "qwik",
@@ -4261,6 +4883,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "qwik-icon.svg"
   },
   {
@@ -4269,6 +4892,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "r-lang.svg"
   },
   {
@@ -4277,6 +4901,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "raml.svg"
   },
   {
@@ -4285,6 +4910,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rsa.svg"
   },
   {
@@ -4293,6 +4919,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rabbitmq-icon.svg"
   },
   {
@@ -4301,6 +4928,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rackspace-icon.svg"
   },
   {
@@ -4309,6 +4937,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ramda.svg"
   },
   {
@@ -4317,6 +4946,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rancher-icon.svg"
   },
   {
@@ -4325,6 +4955,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "raphael.svg"
   },
   {
@@ -4333,7 +4964,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "rapidapi.svg"
+    "link": "",
+    "icon": "rapidapi.png"
   },
   {
     "id": "raspberry-pi",
@@ -4341,6 +4973,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "raspberry-pi.svg"
   },
   {
@@ -4349,6 +4982,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rax.svg"
   },
   {
@@ -4357,7 +4991,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "recaptcha.svg"
+  },
+  {
+    "id": "rescript",
+    "name": "ReScript",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "rescript-icon.svg"
   },
   {
     "id": "react",
@@ -4365,6 +5009,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "react.svg"
   },
   {
@@ -4373,6 +5018,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "react-query-icon.svg"
   },
   {
@@ -4381,6 +5027,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "react-router.svg"
   },
   {
@@ -4389,6 +5036,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "react-spring.svg"
   },
   {
@@ -4397,6 +5045,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "react-styleguidist.svg"
   },
   {
@@ -4405,6 +5054,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "realm.svg"
   },
   {
@@ -4413,6 +5063,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "reapp.svg"
   },
   {
@@ -4421,6 +5072,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "reasonml-icon.svg"
   },
   {
@@ -4429,15 +5081,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "recoil-icon.svg"
-  },
-  {
-    "id": "reddit",
-    "name": "Reddit",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "reddit-icon.svg"
   },
   {
     "id": "redhat",
@@ -4445,7 +5090,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "redhat-icon.svg"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "reddit-icon.svg"
   },
   {
     "id": "redis",
@@ -4453,6 +5108,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "redis.svg"
   },
   {
@@ -4461,6 +5117,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "redsmin.svg"
   },
   {
@@ -4469,7 +5126,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "redux.svg"
+  },
+  {
+    "id": "redux-saga",
+    "name": "Redux-Saga",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "redux-saga.svg"
   },
   {
     "id": "redwoodjs",
@@ -4477,6 +5144,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "redwoodjs.svg"
   },
   {
@@ -4485,6 +5153,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "reindex.svg"
   },
   {
@@ -4493,6 +5162,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "relay.svg"
   },
   {
@@ -4501,6 +5171,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "release.svg"
   },
   {
@@ -4509,6 +5180,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "remix-icon.svg"
   },
   {
@@ -4517,6 +5189,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "renovatebot.svg"
   },
   {
@@ -4525,6 +5198,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "replay-icon.svg"
   },
   {
@@ -4533,6 +5207,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "replit-icon.svg"
   },
   {
@@ -4541,15 +5216,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "require.svg"
-  },
-  {
-    "id": "rescript",
-    "name": "ReScript",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "rescript-icon.svg"
   },
   {
     "id": "rest-api",
@@ -4557,7 +5225,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rest-api.svg"
+  },
+  {
+    "id": "rest-li",
+    "name": "Rest.li",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "rest-li.svg"
   },
   {
     "id": "rethinkdb",
@@ -4565,6 +5243,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rethinkdb.svg"
   },
   {
@@ -4573,6 +5252,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "retool-icon.svg"
   },
   {
@@ -4581,6 +5261,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "riak.svg"
   },
   {
@@ -4589,6 +5270,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rider.svg"
   },
   {
@@ -4597,6 +5279,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "riot.svg"
   },
   {
@@ -4605,6 +5288,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "risingwave-icon.svg"
   },
   {
@@ -4613,6 +5297,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "robotics.svg"
   },
   {
@@ -4621,6 +5306,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rocksdb.svg"
   },
   {
@@ -4629,6 +5315,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rocky-linux-icon.svg"
   },
   {
@@ -4637,7 +5324,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rollbar-icon.svg"
+  },
+  {
+    "id": "rollupjs",
+    "name": "Rollup",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "rollupjs.svg"
   },
   {
     "id": "ros",
@@ -4645,6 +5342,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ros.svg"
   },
   {
@@ -4653,6 +5351,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rubocop.svg"
   },
   {
@@ -4661,6 +5360,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ruby.svg"
   },
   {
@@ -4669,6 +5369,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rubygems.svg"
   },
   {
@@ -4677,6 +5378,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rubymine.svg"
   },
   {
@@ -4685,6 +5387,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rails.svg"
   },
   {
@@ -4693,7 +5396,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rum.svg"
+  },
+  {
+    "id": "runscope",
+    "name": "Runscope",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "runscope.svg"
   },
   {
     "id": "rush",
@@ -4701,6 +5414,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rush-icon.svg"
   },
   {
@@ -4709,6 +5423,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rust.svg"
   },
   {
@@ -4717,6 +5432,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "rxdb.svg"
   },
   {
@@ -4725,6 +5441,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sap.svg"
   },
   {
@@ -4733,6 +5450,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sass.svg"
   },
   {
@@ -4741,6 +5459,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "scss.svg"
   },
   {
@@ -4749,6 +5468,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "semver.svg"
   },
   {
@@ -4757,6 +5477,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "seo.svg"
   },
   {
@@ -4765,6 +5486,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "smtp.svg"
   },
   {
@@ -4773,6 +5495,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sql.svg"
   },
   {
@@ -4781,6 +5504,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sqlite.svg"
   },
   {
@@ -4789,6 +5513,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ssh.svg"
   },
   {
@@ -4797,6 +5522,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sst-icon.svg"
   },
   {
@@ -4805,6 +5531,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "svg.svg"
   },
   {
@@ -4813,6 +5540,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "svgator.svg"
   },
   {
@@ -4821,6 +5549,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "swc.svg"
   },
   {
@@ -4829,6 +5558,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "swr.svg"
   },
   {
@@ -4837,6 +5567,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sagui.svg"
   },
   {
@@ -4845,6 +5576,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sails.svg"
   },
   {
@@ -4853,6 +5585,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sanity.svg"
   },
   {
@@ -4861,6 +5594,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sass-doc.svg"
   },
   {
@@ -4869,6 +5603,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "scala.svg"
   },
   {
@@ -4877,7 +5612,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "scaledrone.svg"
+  },
+  {
+    "id": "seaborn",
+    "name": "Seaborn",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "seaborn-icon.svg"
   },
   {
     "id": "section",
@@ -4885,6 +5630,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "section-icon.svg"
   },
   {
@@ -4893,6 +5639,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "segment-icon.svg"
   },
   {
@@ -4901,7 +5648,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "selenium.svg"
+  },
+  {
+    "id": "semantic-release",
+    "name": "Semantic Release",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "semantic-release.svg"
   },
   {
     "id": "semantic-ui",
@@ -4909,6 +5666,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "semantic-ui.svg"
   },
   {
@@ -4917,6 +5675,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "semantic-web.svg"
   },
   {
@@ -4925,6 +5684,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "semaphoreci.svg"
   },
   {
@@ -4933,6 +5693,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sencha.svg"
   },
   {
@@ -4941,6 +5702,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sendgrid-icon.svg"
   },
   {
@@ -4949,7 +5711,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "seneca.svg"
+  },
+  {
+    "id": "sensu",
+    "name": "Sensu",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "sensu-icon.svg"
   },
   {
     "id": "sentry",
@@ -4957,6 +5729,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sentry-icon.svg"
   },
   {
@@ -4965,6 +5738,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sequelize.svg"
   },
   {
@@ -4973,6 +5747,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "serverless.svg"
   },
   {
@@ -4981,6 +5756,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "shell.svg"
   },
   {
@@ -4989,6 +5765,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "shields.svg"
   },
   {
@@ -4997,6 +5774,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "shipit.svg"
   },
   {
@@ -5005,6 +5783,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "shogun.svg"
   },
   {
@@ -5013,6 +5792,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "shopify.svg"
   },
   {
@@ -5021,6 +5801,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "shortcut-icon.svg"
   },
   {
@@ -5029,6 +5810,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sidekiq-icon.svg"
   },
   {
@@ -5037,7 +5819,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "signal.svg"
+  },
+  {
+    "id": "sigstore",
+    "name": "Sigstore",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "sigstore-icon.svg"
   },
   {
     "id": "sinatra",
@@ -5045,6 +5837,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sinatra.svg"
   },
   {
@@ -5053,6 +5846,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "singlestore-icon.svg"
   },
   {
@@ -5061,6 +5855,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sketch.svg"
   },
   {
@@ -5069,7 +5864,26 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "skylight.svg"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "slack-icon.svg"
+  },
+  {
+    "id": "slides",
+    "name": "Slides",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "slides.svg"
   },
   {
     "id": "slim",
@@ -5077,6 +5891,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "slim.svg"
   },
   {
@@ -5085,6 +5900,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "smartling.svg"
   },
   {
@@ -5093,6 +5909,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "snap-svg.svg"
   },
   {
@@ -5101,7 +5918,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "snaplet-icon.svg"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "snowflake-icon.svg"
   },
   {
     "id": "snowpack",
@@ -5109,6 +5936,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "snowpack.svg"
   },
   {
@@ -5117,6 +5945,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "snyk.svg"
   },
   {
@@ -5125,6 +5954,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "socket.io.svg"
   },
   {
@@ -5133,6 +5963,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "architecture.svg"
   },
   {
@@ -5141,15 +5972,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "solid.svg"
-  },
-  {
-    "id": "solidity",
-    "name": "Solidity",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "solidity.svg"
   },
   {
     "id": "solidjs",
@@ -5157,7 +5981,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "solidjs-icon.svg"
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "solidity.svg"
   },
   {
     "id": "sonarcloud",
@@ -5165,6 +5999,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sonarcloud-icon.svg"
   },
   {
@@ -5173,6 +6008,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sonarlint-icon.svg"
   },
   {
@@ -5181,6 +6017,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sourcetree.svg"
   },
   {
@@ -5189,6 +6026,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "spark.svg"
   },
   {
@@ -5197,6 +6035,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "speech-recognition.svg"
   },
   {
@@ -5205,6 +6044,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "speedcurve.svg"
   },
   {
@@ -5213,6 +6053,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "spidermonkey-icon.svg"
   },
   {
@@ -5221,6 +6062,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "spinnaker.svg"
   },
   {
@@ -5229,6 +6071,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "splunk.svg"
   },
   {
@@ -5237,6 +6080,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "spring-icon.svg"
   },
   {
@@ -5245,6 +6089,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "square.svg"
   },
   {
@@ -5253,15 +6098,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "squarespace.svg"
-  },
-  {
-    "id": "stackbit",
-    "name": "Stackbit",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "stackbit-icon.svg"
   },
   {
     "id": "stackblitz",
@@ -5269,7 +6107,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stackblitz-icon.svg"
+  },
+  {
+    "id": "stackbit",
+    "name": "Stackbit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "stackbit-icon.svg"
   },
   {
     "id": "stately",
@@ -5277,6 +6125,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stately-icon.svg"
   },
   {
@@ -5285,6 +6134,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "statuspage.svg"
   },
   {
@@ -5293,6 +6143,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stenciljs-icon.svg"
   },
   {
@@ -5301,6 +6152,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stetho.svg"
   },
   {
@@ -5309,6 +6161,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stimulus-icon.svg"
   },
   {
@@ -5317,6 +6170,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stitch.svg"
   },
   {
@@ -5325,6 +6179,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stoplight.svg"
   },
   {
@@ -5333,6 +6188,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "storyblok-icon.svg"
   },
   {
@@ -5341,6 +6197,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "storybook-icon.svg"
   },
   {
@@ -5349,6 +6206,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "strapi-icon.svg"
   },
   {
@@ -5357,6 +6215,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "streamlit.svg"
   },
   {
@@ -5365,6 +6224,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "strider.svg"
   },
   {
@@ -5373,6 +6233,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stripe.svg"
   },
   {
@@ -5381,6 +6242,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "struts.svg"
   },
   {
@@ -5389,6 +6251,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "styleci.svg"
   },
   {
@@ -5397,7 +6260,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "styled-components.svg"
+  },
+  {
+    "id": "stylelint",
+    "name": "Stylelint",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "stylelint.svg"
   },
   {
     "id": "stylis",
@@ -5405,6 +6278,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stylis.svg"
   },
   {
@@ -5413,6 +6287,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stylus.svg"
   },
   {
@@ -5421,6 +6296,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sublimetext-icon.svg"
   },
   {
@@ -5429,6 +6305,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "subversion.svg"
   },
   {
@@ -5437,6 +6314,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sugarss.svg"
   },
   {
@@ -5445,6 +6323,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "supabase-icon.svg"
   },
   {
@@ -5453,6 +6332,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "supertokens-icon.svg"
   },
   {
@@ -5461,6 +6341,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "surge.svg"
   },
   {
@@ -5469,7 +6350,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "surrealdb.svg"
+    "link": "",
+    "icon": "surrealdb-icon.svg"
   },
   {
     "id": "suse",
@@ -5477,6 +6359,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "suse.svg"
   },
   {
@@ -5485,6 +6368,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "svelte-icon.svg"
   },
   {
@@ -5493,6 +6377,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "svelte-icon.svg"
   },
   {
@@ -5501,6 +6386,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "swagger.svg"
   },
   {
@@ -5509,6 +6395,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "swift.svg"
   },
   {
@@ -5517,6 +6404,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "swiftype.svg"
   },
   {
@@ -5525,6 +6413,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "swimm.svg"
   },
   {
@@ -5533,15 +6422,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "sysdig-icon.svg"
-  },
-  {
-    "id": "toml",
-    "name": "TOML",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "toml.svg"
   },
   {
     "id": "t3",
@@ -5549,7 +6431,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "t3.svg"
+  },
+  {
+    "id": "toml",
+    "name": "TOML",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "toml.svg"
   },
   {
     "id": "tableau",
@@ -5557,6 +6449,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tableau-icon.svg"
   },
   {
@@ -5565,6 +6458,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "taiga.svg"
   },
   {
@@ -5573,6 +6467,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tailscale.svg"
   },
   {
@@ -5581,6 +6476,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tailwindcss-icon.svg"
   },
   {
@@ -5589,6 +6485,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tailwindcss-icon.svg"
   },
   {
@@ -5597,7 +6494,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "taskade.svg"
+    "link": "",
+    "icon": "taskade-icon.svg"
   },
   {
     "id": "tauri",
@@ -5605,6 +6503,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tauri.svg"
   },
   {
@@ -5613,6 +6512,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tealium.svg"
   },
   {
@@ -5621,6 +6521,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "teamcity.svg"
   },
   {
@@ -5629,7 +6530,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "teamgrid.svg"
+  },
+  {
+    "id": "teamwork",
+    "name": "Teamwork",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "teamwork-icon.svg"
   },
   {
     "id": "tensorflow",
@@ -5637,6 +6548,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tensorflow.svg"
   },
   {
@@ -5645,6 +6557,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "terminal.svg"
   },
   {
@@ -5653,6 +6566,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "terraform-icon.svg"
   },
   {
@@ -5661,6 +6575,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "terser-icon.svg"
   },
   {
@@ -5669,6 +6584,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "testcafe.svg"
   },
   {
@@ -5677,6 +6593,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "testing-library.svg"
   },
   {
@@ -5685,6 +6602,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "testlodge.svg"
   },
   {
@@ -5693,6 +6611,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "threejs.svg"
   },
   {
@@ -5701,6 +6620,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "thymeleaf-icon.svg"
   },
   {
@@ -5709,6 +6629,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "todoist-icon.svg"
   },
   {
@@ -5717,6 +6638,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tor-browser.svg"
   },
   {
@@ -5725,6 +6647,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "travis-ci.svg"
   },
   {
@@ -5733,6 +6656,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "trello.svg"
   },
   {
@@ -5741,7 +6665,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "truffle-icon.svg"
+  },
+  {
+    "id": "tsuru",
+    "name": "Tsuru",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "tsuru.svg"
   },
   {
     "id": "tuple",
@@ -5749,6 +6683,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tuple.svg"
   },
   {
@@ -5757,6 +6692,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "turborepo-icon.svg"
   },
   {
@@ -5765,6 +6701,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "turbopack-icon.svg"
   },
   {
@@ -5773,6 +6710,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "turret.svg"
   },
   {
@@ -5781,6 +6719,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tursodb.jpeg"
   },
   {
@@ -5789,6 +6728,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "twilio-icon.svg"
   },
   {
@@ -5797,6 +6737,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "twitter.svg"
   },
   {
@@ -5805,6 +6746,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "typeorm.svg"
   },
   {
@@ -5813,7 +6755,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "typescript-icon.svg"
+  },
+  {
+    "id": "typesense",
+    "name": "Typesense",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "typesense-icon.svg"
   },
   {
     "id": "typo3",
@@ -5821,6 +6773,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "typo3-icon.svg"
   },
   {
@@ -5829,7 +6782,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ui-ux.svg"
+  },
+  {
+    "id": "uikit",
+    "name": "UIKit",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "uikit.svg"
   },
   {
     "id": "unit-testing",
@@ -5837,6 +6800,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "unit-testing.svg"
   },
   {
@@ -5845,6 +6809,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "ubuntu.svg"
   },
   {
@@ -5853,6 +6818,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "unbounce-icon.svg"
   },
   {
@@ -5861,6 +6827,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "undertow.svg"
   },
   {
@@ -5869,6 +6836,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "unitjs.svg"
   },
   {
@@ -5877,6 +6845,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "unito-icon.svg"
   },
   {
@@ -5885,7 +6854,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "unity.svg"
+  },
+  {
+    "id": "unocss",
+    "name": "UnoCSS",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "unocss.svg"
   },
   {
     "id": "unrealengine",
@@ -5893,6 +6872,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "unrealengine-icon.svg"
   },
   {
@@ -5901,6 +6881,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "upstash-icon.svg"
   },
   {
@@ -5909,6 +6890,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "user-testing-icon.svg"
   },
   {
@@ -5917,6 +6899,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vlang.svg"
   },
   {
@@ -5925,6 +6908,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "v8.svg"
   },
   {
@@ -5933,6 +6917,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "visual-studio-code.svg"
   },
   {
@@ -5941,6 +6926,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vwo.svg"
   },
   {
@@ -5949,6 +6935,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vaadin.svg"
   },
   {
@@ -5957,7 +6944,8 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "vagrant.svg"
+    "link": "",
+    "icon": "vagrant-icon.svg"
   },
   {
     "id": "vault",
@@ -5965,6 +6953,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vault-icon.svg"
   },
   {
@@ -5973,6 +6962,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vercel-icon.svg"
   },
   {
@@ -5981,6 +6971,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "verdaccio-icon.svg"
   },
   {
@@ -5989,6 +6980,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "video.svg"
   },
   {
@@ -5997,6 +6989,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vim.svg"
   },
   {
@@ -6005,6 +6998,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "visual-studio.svg"
   },
   {
@@ -6013,6 +7007,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vitejs.svg"
   },
   {
@@ -6021,6 +7016,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vitess.svg"
   },
   {
@@ -6029,6 +7025,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vitest.svg"
   },
   {
@@ -6037,6 +7034,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vivaldi-icon.svg"
   },
   {
@@ -6045,6 +7043,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "void.svg"
   },
   {
@@ -6053,15 +7052,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vue.svg"
-  },
-  {
-    "id": "vuetifyjs",
-    "name": "Vuetify",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "vuetifyjs.svg"
   },
   {
     "id": "vueuse",
@@ -6069,7 +7061,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vueuse.svg"
+  },
+  {
+    "id": "vuetifyjs",
+    "name": "Vuetify",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "vuetifyjs.svg"
   },
   {
     "id": "vulkan",
@@ -6077,6 +7079,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vulkan.svg"
   },
   {
@@ -6085,6 +7088,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "vultr-icon.svg"
   },
   {
@@ -6093,6 +7097,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "w3c.svg"
   },
   {
@@ -6101,7 +7106,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wmr.svg"
+  },
+  {
+    "id": "wpengine",
+    "name": "WP Engine",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "wpengine.svg"
   },
   {
     "id": "wsl",
@@ -6109,6 +7124,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": ""
   },
   {
@@ -6117,6 +7133,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "waffle-icon.svg"
   },
   {
@@ -6125,6 +7142,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wagtail.svg"
   },
   {
@@ -6133,6 +7151,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wakatime.svg"
   },
   {
@@ -6141,6 +7160,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "watchman.svg"
   },
   {
@@ -6149,6 +7169,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "waypoint-icon.svg"
   },
   {
@@ -6157,6 +7178,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wayscript-icon.svg"
   },
   {
@@ -6165,6 +7187,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wearos.svg"
   },
   {
@@ -6173,23 +7196,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "weave.svg"
-  },
-  {
-    "id": "webgpu",
-    "name": "WebGPU",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "webgpu.svg"
-  },
-  {
-    "id": "webrtc",
-    "name": "WebRTC",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "webrtc.svg"
   },
   {
     "id": "webassembly",
@@ -6197,6 +7205,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webassembly.svg"
   },
   {
@@ -6205,6 +7214,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webcomponents.svg"
   },
   {
@@ -6213,6 +7223,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "web-design.svg"
   },
   {
@@ -6221,6 +7232,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "web-development.svg"
   },
   {
@@ -6229,6 +7241,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "web3.svg"
   },
   {
@@ -6237,7 +7250,26 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "web3js.svg"
+  },
+  {
+    "id": "webgpu",
+    "name": "WebGPU",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "webgpu.svg"
+  },
+  {
+    "id": "webrtc",
+    "name": "WebRTC",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "webrtc.svg"
   },
   {
     "id": "webflow",
@@ -6245,6 +7277,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webflow.svg"
   },
   {
@@ -6253,15 +7286,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webhint-icon.svg"
-  },
-  {
-    "id": "webix",
-    "name": "Webix",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "webix-icon.svg"
   },
   {
     "id": "webhooks",
@@ -6269,7 +7295,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webhooks.svg"
+  },
+  {
+    "id": "webix",
+    "name": "Webix",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "webix-icon.svg"
   },
   {
     "id": "webkit",
@@ -6277,6 +7313,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webkit.svg"
   },
   {
@@ -6285,6 +7322,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webmin.svg"
   },
   {
@@ -6293,6 +7331,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webpack.svg"
   },
   {
@@ -6301,6 +7340,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "websocket.svg"
   },
   {
@@ -6309,6 +7349,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webstorm.svg"
   },
   {
@@ -6317,6 +7358,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "webtorrent.svg"
   },
   {
@@ -6325,15 +7367,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "weebly.svg"
-  },
-  {
-    "id": "wicket",
-    "name": "Wicket",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "wicket-icon.svg"
   },
   {
     "id": "wifi",
@@ -6341,7 +7376,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wifi.svg"
+  },
+  {
+    "id": "wicket",
+    "name": "Wicket",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "wicket-icon.svg"
   },
   {
     "id": "windi-css",
@@ -6349,6 +7394,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "windi-css.svg"
   },
   {
@@ -6357,6 +7403,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "winglang-icon.svg"
   },
   {
@@ -6365,6 +7412,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wix.svg"
   },
   {
@@ -6373,6 +7421,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "woocommerce-icon.svg"
   },
   {
@@ -6381,6 +7430,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "wordpress-icon.svg"
   },
   {
@@ -6389,6 +7439,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "workboard.svg"
   },
   {
@@ -6397,6 +7448,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "workos-icon.svg"
   },
   {
@@ -6405,15 +7457,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "workplace-icon.svg"
   },
   {
-    "id": "wpengine",
-    "name": "WP Engine",
+    "id": "xcode",
+    "name": "XCode",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "wpengine.svg"
+    "link": "",
+    "icon": "xcode.svg"
   },
   {
     "id": "xml",
@@ -6421,6 +7475,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "xml.svg"
   },
   {
@@ -6429,6 +7484,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "xamarin.svg"
   },
   {
@@ -6437,6 +7493,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "xampp.svg"
   },
   {
@@ -6445,15 +7502,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "xata-icon.svg"
-  },
-  {
-    "id": "xcode",
-    "name": "XCode",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "xcode.svg"
   },
   {
     "id": "xtend",
@@ -6461,6 +7511,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "xtend.svg"
   },
   {
@@ -6469,6 +7520,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "yaml.svg"
   },
   {
@@ -6477,6 +7529,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "yarn.svg"
   },
   {
@@ -6485,7 +7538,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "yugabyte.svg"
+  },
+  {
+    "id": "zsh",
+    "name": "ZSH",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "zsh.svg"
   },
   {
     "id": "zapier",
@@ -6493,6 +7556,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zapier.svg"
   },
   {
@@ -6501,6 +7565,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zend-framework.svg"
   },
   {
@@ -6509,6 +7574,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zendesk-icon.svg"
   },
   {
@@ -6517,6 +7583,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zig.svg"
   },
   {
@@ -6525,6 +7592,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zod.svg"
   },
   {
@@ -6533,6 +7601,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zoho.svg"
   },
   {
@@ -6541,7 +7610,35 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zorin-os.svg"
+  },
+  {
+    "id": "curl",
+    "name": "cURL",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "curl.svg"
+  },
+  {
+    "id": "dbt",
+    "name": "dbt",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "dbt-icon.svg"
+  },
+  {
+    "id": "etcd",
+    "name": "etcd",
+    "category": "",
+    "description": "",
+    "requirements": [],
+    "link": "",
+    "icon": "etcd.svg"
   },
   {
     "id": "grpc",
@@ -6549,6 +7646,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "grpc.svg"
   },
   {
@@ -6557,6 +7655,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "hcaptcha-icon.svg"
   },
   {
@@ -6565,6 +7664,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "jquery.svg"
   },
   {
@@ -6573,6 +7673,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "jsdom.svg"
   },
   {
@@ -6581,94 +7682,34 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "jsdelivr.svg"
   },
   {
-    "id": "kirby",
-    "name": "kirby",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "kirby-icon.svg"
-  },
-  {
-    "id": "kops",
-    "name": "kops",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "kops.svg"
-  },
-  {
-    "id": "lighttpd",
-    "name": "lighttpd",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "lighttpd.svg"
-  },
-  {
-    "id": "linkerd",
-    "name": "linkerd",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "linkerd.svg"
-  },
-  {
-    "id": "loader",
-    "name": "loader",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "loader.svg"
-  },
-  {
-    "id": "logentries",
-    "name": "logentries",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "logentries.svg"
-  },
-  {
-    "id": "mageia",
-    "name": "mageia",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "mageia.svg"
-  },
-  {
     "id": "mlab",
-    "name": "mlab",
+    "name": "mLab",
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mlab.svg"
   },
   {
     "id": "mparticle",
-    "name": "mparticle",
+    "name": "mParticle",
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "mparticle-icon.svg"
   },
   {
-    "id": "nvm",
-    "name": "nvm",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "nvm.svg"
-  },
-  {
     "id": "octodns",
-    "name": "octodns",
+    "name": "octoDNS",
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "octodns.svg"
   },
   {
@@ -6677,6 +7718,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "osquery.svg"
   },
   {
@@ -6685,143 +7727,17 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "p5js.svg"
   },
   {
-    "id": "pagekit",
-    "name": "pagekit",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "pagekit.svg"
-  },
-  {
-    "id": "pagekite",
-    "name": "pagekite",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "pagekite.svg"
-  },
-  {
-    "id": "parsehub",
-    "name": "parsehub",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "parsehub.svg"
-  },
-  {
-    "id": "pipedrive",
-    "name": "pipedrive",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "pipedrive.svg"
-  },
-  {
-    "id": "quotbyte",
-    "name": "quotbyte",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "quotbyte.svg"
-  },
-  {
     "id": "redux-observable",
-    "name": "redux observable",
+    "name": "redux-observable",
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "redux-observable.svg"
-  },
-  {
-    "id": "redux-saga",
-    "name": "redux saga",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "redux-saga.svg"
-  },
-  {
-    "id": "rest-li",
-    "name": "rest li",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "rest-li.svg"
-  },
-  {
-    "id": "rollupjs",
-    "name": "rollup.js",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "rollupjs.svg"
-  },
-  {
-    "id": "runscope",
-    "name": "runscope",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "runscope.svg"
-  },
-  {
-    "id": "seaborn",
-    "name": "seaborn",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "seaborn-icon.svg"
-  },
-  {
-    "id": "semantic-release",
-    "name": "semantic release",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "semantic-release.svg"
-  },
-  {
-    "id": "sensu",
-    "name": "sensu",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "sensu-icon.svg"
-  },
-  {
-    "id": "sigstore",
-    "name": "sigstore",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "sigstore-icon.svg"
-  },
-  {
-    "id": "slack",
-    "name": "slack",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "slack-icon.svg"
-  },
-  {
-    "id": "slides",
-    "name": "slides",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "slides.svg"
-  },
-  {
-    "id": "snowflake",
-    "name": "snowflake",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "snowflake-icon.svg"
   },
   {
     "id": "stdlib",
@@ -6829,6 +7745,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stdlib-icon.svg"
   },
   {
@@ -6837,23 +7754,8 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "stylefmt.svg"
-  },
-  {
-    "id": "stylelint",
-    "name": "stylelint",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "stylelint.svg"
-  },
-  {
-    "id": "teamwork",
-    "name": "teamwork",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "teamwork-icon.svg"
   },
   {
     "id": "trpc",
@@ -6861,54 +7763,25 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "trpc.svg"
   },
   {
     "id": "tsnode",
-    "name": "tsnode",
+    "name": "ts-node",
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "tsnode.svg"
   },
   {
-    "id": "tsuru",
-    "name": "tsuru",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "tsuru.svg"
-  },
-  {
-    "id": "typesense",
-    "name": "typesense",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "typesense-icon.svg"
-  },
-  {
-    "id": "ukit",
-    "name": "ukit",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "ukit.svg"
-  },
-  {
-    "id": "unocss",
-    "name": "unocss",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "unocss.svg"
-  },
-  {
     "id": "uwsgi",
-    "name": "uwsgi",
+    "name": "uWSGI",
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "uwsgi.svg"
   },
   {
@@ -6917,6 +7790,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "web.dev-icon.svg"
   },
   {
@@ -6925,6 +7799,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zeroheight-icon.svg"
   },
   {
@@ -6933,6 +7808,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zklogin.svg"
   },
   {
@@ -6941,6 +7817,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": ""
   },
   {
@@ -6949,14 +7826,7 @@
     "category": "",
     "description": "",
     "requirements": [],
+    "link": "",
     "icon": "zksync.png"
-  },
-  {
-    "id": "zsh",
-    "name": "zsh",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "zsh.svg"
   }
 ]

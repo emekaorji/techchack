@@ -7,4 +7,4 @@ const client = createClient({
 	authToken: process.env.DATABASE_AUTH_TOKEN,
 });
 
-export const techChackDB = drizzle(client, { schema, logger: true });
+export const techChackDB = drizzle(client, { schema, logger: false });
