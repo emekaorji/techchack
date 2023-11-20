@@ -14,7 +14,7 @@ const stagingCredentials = {
 const credentials =
 	process.env.NODE_ENV === 'development' ? devCredentials : stagingCredentials;
 
-const options: NextAuthOptions = {
+export const nextAuthOptions: NextAuthOptions = {
 	adapter: DrizzleAdapter(techChackDB),
 	providers: [
 		GithubProvider({
@@ -26,4 +26,4 @@ const options: NextAuthOptions = {
 	secret: process.env.TECHCHACK_SECRET,
 } satisfies NextAuthOptions;
 
-export default NextAuth(options);
+export default NextAuth(nextAuthOptions);
