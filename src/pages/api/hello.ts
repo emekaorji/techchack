@@ -57,12 +57,16 @@ export async function batchUploadToTursoDB() {
 			const modifiedIconData = `<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg"><image style="width: 100%; height: 100%;" href="data:image/${extension};base64,${iconData}" /></svg>`;
 			item.icon = modifiedIconData;
 		}
-		const newStack = await techChackDB
-			.insert(stacks)
-			.values(item)
-			.returning()
-			.get();
-		console.log(newStack);
+		try {
+			const newStack = await techChackDB
+				.insert(stacks)
+				.values(item)
+				.returning()
+				.get();
+			console.log(newStack);
+		} catch (error: any) {
+			console.log(error.message);
+		}
 
 		console.log('File Type: ' + extension.toUpperCase());
 		console.log(`Uploaded: ${item.name}`);

@@ -608,7 +608,7 @@
     "icon": "analytics.svg"
   },
   {
-    "id": "android-icon",
+    "id": "android",
     "name": "Android Development",
     "category": "Concepts & Fields",
     "description": "",
@@ -648,7 +648,7 @@
     "icon": "apollo.svg"
   },
   {
-    "id": "appcenter-icon",
+    "id": "appcenter",
     "name": "Appcenter",
     "category": "",
     "description": "",
@@ -656,7 +656,7 @@
     "icon": "appcenter-icon.svg"
   },
   {
-    "id": "appcircle-icon",
+    "id": "appcircle",
     "name": "Appcircle",
     "category": "",
     "description": "",
@@ -664,7 +664,7 @@
     "icon": "appcircle-icon.svg"
   },
   {
-    "id": "appwrite-icon",
+    "id": "appwrite",
     "name": "Appwrite",
     "category": "",
     "description": "",
@@ -672,7 +672,7 @@
     "icon": "appwrite-icon.svg"
   },
   {
-    "id": "arangodb-icon",
+    "id": "arangodb",
     "name": "ArangoDB",
     "category": "",
     "description": "",
@@ -704,7 +704,7 @@
     "icon": "arduino.svg"
   },
   {
-    "id": "ml",
+    "id": "ai",
     "name": "Artificial Intelligence",
     "category": "",
     "description": "",
@@ -712,7 +712,7 @@
     "icon": "ml.svg"
   },
   {
-    "id": "astro-icon",
+    "id": "astro",
     "name": "Astro",
     "category": "",
     "description": "",
@@ -720,7 +720,7 @@
     "icon": "astro-icon.svg"
   },
   {
-    "id": "atom-icon",
+    "id": "atom",
     "name": "Atom",
     "category": "",
     "description": "",
@@ -736,7 +736,7 @@
     "icon": "audio.svg"
   },
   {
-    "id": "auth0-icon",
+    "id": "auth0",
     "name": "Auth0",
     "category": "",
     "description": "",
@@ -760,7 +760,7 @@
     "icon": "babel.svg"
   },
   {
-    "id": "backbone-icon",
+    "id": "backbone",
     "name": "BackboneJS",
     "category": "",
     "description": "",
@@ -768,7 +768,7 @@
     "icon": "backbone-icon.svg"
   },
   {
-    "id": "bash-icon",
+    "id": "bash",
     "name": "Bash",
     "category": "",
     "description": "",
@@ -824,7 +824,7 @@
     "icon": "blender.svg"
   },
   {
-    "id": "blitzjs-icon",
+    "id": "blitzjs",
     "name": "Blitz",
     "category": "",
     "description": "",
@@ -896,7 +896,7 @@
     "icon": "browserify.svg"
   },
   {
-    "id": "builder-io-icon",
+    "id": "builder-io",
     "name": "BuilderIO",
     "category": "",
     "description": "",
@@ -992,7 +992,7 @@
     "icon": "chai.svg"
   },
   {
-    "id": "openai-icon",
+    "id": "chatgpt",
     "name": "ChatGPT",
     "category": "",
     "description": "",
@@ -1032,7 +1032,7 @@
     "icon": "chrome-web-store.svg"
   },
   {
-    "id": "chromatic-icon",
+    "id": "chromatic",
     "name": "Chromatic",
     "category": "",
     "description": "",
@@ -1064,7 +1064,7 @@
     "icon": "cloud-computing.svg"
   },
   {
-    "id": "cloudflare-icon",
+    "id": "cloudflare",
     "name": "Cloudflare",
     "category": "",
     "description": "",
@@ -1072,7 +1072,7 @@
     "icon": "cloudflare-icon.svg"
   },
   {
-    "id": "cloudinary-icon",
+    "id": "cloudinary",
     "name": "Cloudinary",
     "category": "",
     "description": "",
@@ -1096,7 +1096,7 @@
     "icon": "cpanel.svg"
   },
   {
-    "id": "codeclimate-icon",
+    "id": "codeclimate",
     "name": "Codeclimate",
     "category": "",
     "description": "",
@@ -1104,7 +1104,7 @@
     "icon": "codeclimate-icon.svg"
   },
   {
-    "id": "codecov-icon",
+    "id": "codecov",
     "name": "Codecov",
     "category": "",
     "description": "",
@@ -1112,7 +1112,7 @@
     "icon": "codecov-icon.svg"
   },
   {
-    "id": "codefactor-icon",
+    "id": "codefactor",
     "name": "Codefactor",
     "category": "",
     "description": "",
@@ -1120,7 +1120,7 @@
     "icon": "codefactor-icon.svg"
   },
   {
-    "id": "codeigniter-icon",
+    "id": "codeigniter",
     "name": "Codeigniter",
     "category": "",
     "description": "",
@@ -1128,7 +1128,7 @@
     "icon": "codeigniter-icon.svg"
   },
   {
-    "id": "codepen-icon",
+    "id": "codepen",
     "name": "Codepen",
     "category": "",
     "description": "",
@@ -1136,7 +1136,7 @@
     "icon": "codepen-icon.svg"
   },
   {
-    "id": "codesandbox-icon",
+    "id": "codesandbox",
     "name": "Codesandbox",
     "category": "",
     "description": "",
@@ -1144,7 +1144,7 @@
     "icon": "codesandbox-icon.svg"
   },
   {
-    "id": "codesee-icon",
+    "id": "codesee",
     "name": "Codesee",
     "category": "",
     "description": "",
@@ -1157,7 +1157,7 @@
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "codium.svg"
+    "icon": "codium-icon.svg"
   },
   {
     "id": "coffescript",
@@ -1192,7 +1192,7 @@
     "icon": "contentful.svg"
   },
   {
-    "id": "couchdb-icon",
+    "id": "couchdb",
     "name": "CouchDB",
     "category": "",
     "description": "",
@@ -1224,7 +1224,7 @@
     "icon": "curl.svg"
   },
   {
-    "id": "cypress-icon",
+    "id": "cypress",
     "name": "Cypress",
     "category": "",
     "description": "",
@@ -1272,7 +1272,7 @@
     "icon": "dart.svg"
   },
   {
-    "id": "dashlane-icon",
+    "id": "dashlane",
     "name": "Dashlane",
     "category": "",
     "description": "",
@@ -1288,7 +1288,7 @@
     "icon": "data-structures-and-algorithm.svg"
   },
   {
-    "id": "datadog-icon",
+    "id": "datadog",
     "name": "Datadog",
     "category": "",
     "description": "",
@@ -1312,7 +1312,7 @@
     "icon": "dataspell.svg"
   },
   {
-    "id": "datacms-icon",
+    "id": "datacms",
     "name": "DatoCMS",
     "category": "",
     "description": "",
@@ -1344,7 +1344,7 @@
     "icon": "deno.svg"
   },
   {
-    "id": "deployhq-icon",
+    "id": "deployhq",
     "name": "DeployHQ",
     "category": "",
     "description": "",
@@ -1368,7 +1368,7 @@
     "icon": "devops.svg"
   },
   {
-    "id": "dgraph-icon",
+    "id": "dgraph",
     "name": "DGraph",
     "category": "",
     "description": "",
@@ -1384,7 +1384,7 @@
     "icon": "dialogflow.svg"
   },
   {
-    "id": "digital-ocean-icon",
+    "id": "digital-ocean",
     "name": "Digital Ocean",
     "category": "",
     "description": "",
@@ -1392,7 +1392,7 @@
     "icon": "digital-ocean-icon.svg"
   },
   {
-    "id": "discord-icon",
+    "id": "discord",
     "name": "Discord",
     "category": "",
     "description": "",
@@ -1416,7 +1416,7 @@
     "icon": "dockbit.svg"
   },
   {
-    "id": "docker-icon",
+    "id": "docker",
     "name": "Docker",
     "category": "",
     "description": "",
@@ -1440,7 +1440,7 @@
     "icon": "docusaurus.svg"
   },
   {
-    "id": "dojo-icon",
+    "id": "dojo",
     "name": "Dojo",
     "category": "",
     "description": "",
@@ -1456,7 +1456,7 @@
     "icon": "dolt.svg"
   },
   {
-    "id": "dribbble-icon",
+    "id": "dribbble",
     "name": "Dribbble",
     "category": "",
     "description": "",
@@ -1464,7 +1464,7 @@
     "icon": "dribbble-icon.svg"
   },
   {
-    "id": "drizzle-icon",
+    "id": "drizzle",
     "name": "DrizzleORM",
     "category": "",
     "description": "",
@@ -1472,7 +1472,7 @@
     "icon": "drizzle-icon.svg"
   },
   {
-    "id": "drools-icon",
+    "id": "drools",
     "name": "Drools",
     "category": "",
     "description": "",
@@ -1496,7 +1496,7 @@
     "icon": "dropzone.svg"
   },
   {
-    "id": "drupal-icon",
+    "id": "drupal",
     "name": "Drupal",
     "category": "",
     "description": "",
@@ -1512,7 +1512,7 @@
     "icon": "dynamic-xyz.svg"
   },
   {
-    "id": "dynatrace-icon",
+    "id": "dynatrace",
     "name": "Dynatrace",
     "category": "",
     "description": "",
@@ -1520,7 +1520,7 @@
     "icon": "dynatrace-icon.svg"
   },
   {
-    "id": "dbt-icon",
+    "id": "dbt",
     "name": "dbt",
     "category": "",
     "description": "",
@@ -1568,7 +1568,7 @@
     "icon": "eslint.svg"
   },
   {
-    "id": "eclipse-icon",
+    "id": "eclipse",
     "name": "Eclipse",
     "category": "",
     "description": "",
@@ -1584,7 +1584,7 @@
     "icon": "editorconfig.svg"
   },
   {
-    "id": "effect-icon",
+    "id": "effect",
     "name": "Effect",
     "category": "",
     "description": "",
@@ -1640,7 +1640,7 @@
     "icon": "emmet.svg"
   },
   {
-    "id": "envoy-icon",
+    "id": "envoy",
     "name": "Envoy",
     "category": "",
     "description": "",
@@ -1648,7 +1648,7 @@
     "icon": "envoy-icon.svg"
   },
   {
-    "id": "epsagon-icon",
+    "id": "epsagon",
     "name": "Epsagon",
     "category": "",
     "description": "",
@@ -1680,7 +1680,7 @@
     "icon": "eventsentry.svg"
   },
   {
-    "id": "evergreen-icon",
+    "id": "evergreen",
     "name": "Evergreen",
     "category": "",
     "description": "",
@@ -1696,7 +1696,7 @@
     "icon": "excel.svg"
   },
   {
-    "id": "expo-icon",
+    "id": "expo",
     "name": "Expo",
     "category": "",
     "description": "",
@@ -1728,7 +1728,7 @@
     "icon": "fsharp.svg"
   },
   {
-    "id": "ffmpeg-icon",
+    "id": "ffmpeg",
     "name": "FFmpeg",
     "category": "",
     "description": "",
@@ -1744,7 +1744,7 @@
     "icon": "facebook.svg"
   },
   {
-    "id": "fastapi-icon",
+    "id": "fastapi",
     "name": "Fast API",
     "category": "",
     "description": "",
@@ -1752,7 +1752,7 @@
     "icon": "fastapi-icon.svg"
   },
   {
-    "id": "fastify-icon",
+    "id": "fastify",
     "name": "Fastify",
     "category": "",
     "description": "",
@@ -1768,7 +1768,7 @@
     "icon": "fastly.svg"
   },
   {
-    "id": "fauna-icon",
+    "id": "fauna",
     "name": "Fauna",
     "category": "",
     "description": "",
@@ -1904,7 +1904,7 @@
     "icon": "fluxxor.svg"
   },
   {
-    "id": "fly-icon",
+    "id": "fly",
     "name": "Fly.io",
     "category": "",
     "description": "",
@@ -1928,7 +1928,7 @@
     "icon": "foundation.svg"
   },
   {
-    "id": "foundationdb-icon",
+    "id": "foundationdb",
     "name": "FoundationDB",
     "category": "",
     "description": "",
@@ -1944,7 +1944,7 @@
     "icon": "framer.svg"
   },
   {
-    "id": "framework7-icon",
+    "id": "framework7",
     "name": "Framework7",
     "category": "",
     "description": "",
@@ -1952,7 +1952,7 @@
     "icon": "framework7-icon.svg"
   },
   {
-    "id": "freedcamp-icon",
+    "id": "freedcamp",
     "name": "Freedcamp",
     "category": "",
     "description": "",
@@ -1968,7 +1968,7 @@
     "icon": "fresh.svg"
   },
   {
-    "id": "gnome-icon",
+    "id": "gnome",
     "name": "GNOME",
     "category": "",
     "description": "",
@@ -1976,7 +1976,7 @@
     "icon": "gnome-icon.svg"
   },
   {
-    "id": "greensock-icon",
+    "id": "greensock",
     "name": "GSAP",
     "category": "",
     "description": "",
@@ -1984,7 +1984,7 @@
     "icon": "greensock-icon.svg"
   },
   {
-    "id": "ganache-icon",
+    "id": "ganache",
     "name": "Ganache",
     "category": "",
     "description": "",
@@ -2048,7 +2048,7 @@
     "icon": "gin.svg"
   },
   {
-    "id": "git-icon",
+    "id": "git",
     "name": "Git",
     "category": "",
     "description": "",
@@ -2064,7 +2064,7 @@
     "icon": "gitbook.svg"
   },
   {
-    "id": "git-icon",
+    "id": "git-flow",
     "name": "Gitflow",
     "category": "",
     "description": "",
@@ -2072,7 +2072,7 @@
     "icon": "git-icon.svg"
   },
   {
-    "id": "github-icon",
+    "id": "github",
     "name": "Github",
     "category": "",
     "description": "",
@@ -2112,7 +2112,7 @@
     "icon": "gitlab.svg"
   },
   {
-    "id": "glamorous-icon",
+    "id": "glamorous",
     "name": "Glamorous",
     "category": "",
     "description": "",
@@ -2128,7 +2128,7 @@
     "icon": "glimmerjs.svg"
   },
   {
-    "id": "glitch-icon",
+    "id": "glitch",
     "name": "Glitch",
     "category": "",
     "description": "",
@@ -2216,7 +2216,7 @@
     "icon": "grav.svg"
   },
   {
-    "id": "gravatar-icon",
+    "id": "gravatar",
     "name": "Gravatar",
     "category": "",
     "description": "",
@@ -2224,7 +2224,7 @@
     "icon": "gravatar-icon.svg"
   },
   {
-    "id": "gridsome-icon",
+    "id": "gridsome",
     "name": "Gridsome",
     "category": "",
     "description": "",
@@ -2304,7 +2304,7 @@
     "icon": "hadoop.svg"
   },
   {
-    "id": "haiku-icon",
+    "id": "haiku",
     "name": "Haiku",
     "category": "",
     "description": "",
@@ -2328,7 +2328,7 @@
     "icon": "hapi.svg"
   },
   {
-    "id": "hardhat-icon",
+    "id": "hardhat",
     "name": "Hardhat",
     "category": "",
     "description": "",
@@ -2336,7 +2336,7 @@
     "icon": "hardhat-icon.svg"
   },
   {
-    "id": "harness-icon",
+    "id": "harness",
     "name": "Harness",
     "category": "",
     "description": "",
@@ -2344,7 +2344,7 @@
     "icon": "harness-icon.svg"
   },
   {
-    "id": "hashnode-icon",
+    "id": "hashnode",
     "name": "Hashnode",
     "category": "",
     "description": "",
@@ -2352,7 +2352,7 @@
     "icon": "hashnode-icon.svg"
   },
   {
-    "id": "haskell-icon",
+    "id": "haskell",
     "name": "Haskell",
     "category": "",
     "description": "",
@@ -2360,7 +2360,7 @@
     "icon": "haskell-icon.svg"
   },
   {
-    "id": "hasura-icon",
+    "id": "hasura",
     "name": "Hasura",
     "category": "",
     "description": "",
@@ -2392,7 +2392,7 @@
     "icon": "hbase.svg"
   },
   {
-    "id": "headlessui-icon",
+    "id": "headlessui",
     "name": "HeadlessUI",
     "category": "",
     "description": "",
@@ -2400,7 +2400,7 @@
     "icon": "headlessui-icon.svg"
   },
   {
-    "id": "heap-icon",
+    "id": "heap",
     "name": "Heap",
     "category": "",
     "description": "",
@@ -2408,7 +2408,7 @@
     "icon": "heap-icon.svg"
   },
   {
-    "id": "heroku-icon",
+    "id": "heroku",
     "name": "Heroku",
     "category": "",
     "description": "",
@@ -2432,7 +2432,7 @@
     "icon": "hono.svg"
   },
   {
-    "id": "hostgator-icon",
+    "id": "hostgator",
     "name": "Hostgator",
     "category": "",
     "description": "",
@@ -2440,7 +2440,7 @@
     "icon": "hostgator-icon.svg"
   },
   {
-    "id": "html-5",
+    "id": "html",
     "name": "HTML",
     "category": "",
     "description": "",
@@ -2448,7 +2448,7 @@
     "icon": "html-5.svg"
   },
   {
-    "id": "httpie-icon",
+    "id": "httpie",
     "name": "HTTPie",
     "category": "",
     "description": "",
@@ -2464,7 +2464,7 @@
     "icon": "imagemin.svg"
   },
   {
-    "id": "imba-icon",
+    "id": "imba",
     "name": "Imba",
     "category": "",
     "description": "",
@@ -2480,7 +2480,7 @@
     "icon": "importio.svg"
   },
   {
-    "id": "incident-icon",
+    "id": "incident",
     "name": "Incident",
     "category": "",
     "description": "",
@@ -2488,7 +2488,7 @@
     "icon": "incident-icon.svg"
   },
   {
-    "id": "influxdb-icon",
+    "id": "influxdb",
     "name": "InfluxDB",
     "category": "",
     "description": "",
@@ -2520,7 +2520,7 @@
     "icon": "insomnia.svg"
   },
   {
-    "id": "ionic-icon",
+    "id": "ionic",
     "name": "Ionic",
     "category": "",
     "description": "",
@@ -2568,7 +2568,7 @@
     "icon": "jss.svg"
   },
   {
-    "id": "jwt-icon",
+    "id": "jwt",
     "name": "JWT",
     "category": "",
     "description": "",
@@ -2576,7 +2576,7 @@
     "icon": "jwt-icon.svg"
   },
   {
-    "id": "jamstack-icon",
+    "id": "jamstack",
     "name": "Jamstack",
     "category": "",
     "description": "",
@@ -2624,7 +2624,7 @@
     "icon": "jest.svg"
   },
   {
-    "id": "jetbrains-space-icon",
+    "id": "jetbrains-space",
     "name": "Jetbrains Space",
     "category": "",
     "description": "",
@@ -2640,7 +2640,7 @@
     "icon": "jetbrains.svg"
   },
   {
-    "id": "jhipster-icon",
+    "id": "jhipster",
     "name": "Jhipster",
     "category": "",
     "description": "",
@@ -2720,7 +2720,7 @@
     "icon": "karma.svg"
   },
   {
-    "id": "katalon-icon",
+    "id": "katalon",
     "name": "Katalon",
     "category": "",
     "description": "",
@@ -2736,7 +2736,7 @@
     "icon": "kemal.svg"
   },
   {
-    "id": "keycdn-icon",
+    "id": "keycdn",
     "name": "KeyCDN",
     "category": "",
     "description": "",
@@ -2744,7 +2744,7 @@
     "icon": "keycdn-icon.svg"
   },
   {
-    "id": "keydb-icon",
+    "id": "keydb",
     "name": "KeyDB",
     "category": "",
     "description": "",
@@ -2760,7 +2760,7 @@
     "icon": "kibana.svg"
   },
   {
-    "id": "kinto-icon",
+    "id": "kinto",
     "name": "Kinto",
     "category": "",
     "description": "",
@@ -2768,7 +2768,7 @@
     "icon": "kinto-icon.svg"
   },
   {
-    "id": "kong-icon",
+    "id": "kong",
     "name": "Kong",
     "category": "",
     "description": "",
@@ -2776,7 +2776,7 @@
     "icon": "kong-icon.svg"
   },
   {
-    "id": "kotlin-icon",
+    "id": "kotlin",
     "name": "Kotlin",
     "category": "",
     "description": "",
@@ -2784,7 +2784,7 @@
     "icon": "kotlin-icon.svg"
   },
   {
-    "id": "ktor-icon",
+    "id": "ktor",
     "name": "Ktor",
     "category": "",
     "description": "",
@@ -2816,7 +2816,7 @@
     "icon": "laravel.svg"
   },
   {
-    "id": "lexical-icon",
+    "id": "lexical",
     "name": "Lexical",
     "category": "",
     "description": "",
@@ -2824,7 +2824,7 @@
     "icon": "lexical-icon.svg"
   },
   {
-    "id": "lit-icon",
+    "id": "lit",
     "name": "Lit",
     "category": "",
     "description": "",
@@ -2872,7 +2872,7 @@
     "icon": "lodash.svg"
   },
   {
-    "id": "loopback-icon",
+    "id": "loopback",
     "name": "Loopback",
     "category": "",
     "description": "",
@@ -2904,7 +2904,7 @@
     "icon": "ml.svg"
   },
   {
-    "id": "msw-icon",
+    "id": "msw",
     "name": "MSW",
     "category": "",
     "description": "",
@@ -2960,7 +2960,7 @@
     "icon": "markdown.svg"
   },
   {
-    "id": "mastodon-icon",
+    "id": "mastodon",
     "name": "Mastodon",
     "category": "",
     "description": "",
@@ -2976,7 +2976,7 @@
     "icon": "material-ui.svg"
   },
   {
-    "id": "matter-icon",
+    "id": "matter",
     "name": "Matter",
     "category": "",
     "description": "",
@@ -2984,7 +2984,7 @@
     "icon": "matter-icon.svg"
   },
   {
-    "id": "medusa-icon",
+    "id": "medusa",
     "name": "Medusa",
     "category": "",
     "description": "",
@@ -3000,7 +3000,7 @@
     "icon": "mercurial.svg"
   },
   {
-    "id": "metamask-icon",
+    "id": "metamask",
     "name": "Metamask",
     "category": "",
     "description": "",
@@ -3008,7 +3008,7 @@
     "icon": "metamask-icon.svg"
   },
   {
-    "id": "meteor-icon",
+    "id": "meteor",
     "name": "Meteor",
     "category": "",
     "description": "",
@@ -3016,7 +3016,7 @@
     "icon": "meteor-icon.svg"
   },
   {
-    "id": "micro-icon",
+    "id": "micro",
     "name": "Micro",
     "category": "",
     "description": "",
@@ -3056,7 +3056,7 @@
     "icon": "microsoft-azure.svg"
   },
   {
-    "id": "mida-icon",
+    "id": "mida",
     "name": "Mida",
     "category": "",
     "description": "",
@@ -3072,7 +3072,7 @@
     "icon": "middleman.svg"
   },
   {
-    "id": "million-icon",
+    "id": "million",
     "name": "Million",
     "category": "",
     "description": "",
@@ -3080,7 +3080,7 @@
     "icon": "million-icon.svg"
   },
   {
-    "id": "milvus-icon",
+    "id": "milvus",
     "name": "Milvus",
     "category": "",
     "description": "",
@@ -3088,7 +3088,7 @@
     "icon": "milvus-icon.svg"
   },
   {
-    "id": "mindsdb-icon",
+    "id": "mindsdb",
     "name": "MindsDB",
     "category": "",
     "description": "",
@@ -3112,7 +3112,7 @@
     "icon": "mocha.svg"
   },
   {
-    "id": "mockflow-icon",
+    "id": "mockflow",
     "name": "Mockflow",
     "category": "",
     "description": "",
@@ -3128,7 +3128,7 @@
     "icon": "modernizr.svg"
   },
   {
-    "id": "modx-icon",
+    "id": "modx",
     "name": "Modx",
     "category": "",
     "description": "",
@@ -3144,7 +3144,7 @@
     "icon": "momentjs.svg"
   },
   {
-    "id": "mongodb-icon",
+    "id": "mongodb",
     "name": "MongoDB",
     "category": "",
     "description": "",
@@ -3176,7 +3176,7 @@
     "icon": "moon.svg"
   },
   {
-    "id": "morpheus-icon",
+    "id": "morpheus",
     "name": "Morpheus",
     "category": "",
     "description": "",
@@ -3192,7 +3192,7 @@
     "icon": "multipass.svg"
   },
   {
-    "id": "mysql-icon",
+    "id": "mysql",
     "name": "MySQL",
     "category": "",
     "description": "",
@@ -3216,7 +3216,7 @@
     "icon": "ngrok.svg"
   },
   {
-    "id": "npm-icon",
+    "id": "npm",
     "name": "NPM",
     "category": "",
     "description": "",
@@ -3264,7 +3264,7 @@
     "icon": "neat.svg"
   },
   {
-    "id": "neon-icon",
+    "id": "neon",
     "name": "Neon",
     "category": "",
     "description": "",
@@ -3288,7 +3288,7 @@
     "icon": "netbeans.svg"
   },
   {
-    "id": "netlify-icon",
+    "id": "netlify",
     "name": "Netlify",
     "category": "",
     "description": "",
@@ -3296,7 +3296,7 @@
     "icon": "netlify-icon.svg"
   },
   {
-    "id": "new-relic-icon",
+    "id": "new-relic",
     "name": "New Relic",
     "category": "",
     "description": "",
@@ -3312,7 +3312,7 @@
     "icon": "nextauth.png"
   },
   {
-    "id": "nextjs-icon",
+    "id": "nextjs",
     "name": "NextJS",
     "category": "",
     "description": "",
@@ -3400,7 +3400,7 @@
     "icon": "nodemon.svg"
   },
   {
-    "id": "nomad-icon",
+    "id": "nomad",
     "name": "Nomad",
     "category": "",
     "description": "",
@@ -3408,7 +3408,7 @@
     "icon": "nomad-icon.svg"
   },
   {
-    "id": "notion-icon",
+    "id": "notion",
     "name": "Notion",
     "category": "",
     "description": "",
@@ -3416,7 +3416,7 @@
     "icon": "notion-icon.svg"
   },
   {
-    "id": "nuxt-icon",
+    "id": "nuxt",
     "name": "NuxtJS",
     "category": "",
     "description": "",
@@ -3456,7 +3456,7 @@
     "icon": "observablehq.svg"
   },
   {
-    "id": "obsidian-icon",
+    "id": "obsidian",
     "name": "Obsidian",
     "category": "",
     "description": "",
@@ -3472,7 +3472,7 @@
     "icon": "octopus-deploy.svg"
   },
   {
-    "id": "okta-icon",
+    "id": "okta",
     "name": "Okta",
     "category": "",
     "description": "",
@@ -3488,7 +3488,7 @@
     "icon": "onesignal.svg"
   },
   {
-    "id": "open-zeppelin-icon",
+    "id": "open-zeppelin",
     "name": "OpenZeppelin",
     "category": "",
     "description": "",
@@ -3496,7 +3496,7 @@
     "icon": "open-zeppelin-icon.svg"
   },
   {
-    "id": "openai-icon",
+    "id": "openai",
     "name": "OpenAI",
     "category": "",
     "description": "",
@@ -3504,7 +3504,7 @@
     "icon": "openai-icon.svg"
   },
   {
-    "id": "openapi-icon",
+    "id": "openapi",
     "name": "OpenAPI",
     "category": "",
     "description": "",
@@ -3544,15 +3544,15 @@
     "icon": "openframeworks.svg"
   },
   {
-    "id": "opengl",
+    "id": "openlayers",
     "name": "OpenLayers",
     "category": "",
     "description": "",
     "requirements": [],
-    "icon": "opengl.svg"
+    "icon": "openlayers.svg"
   },
   {
-    "id": "opensearch-icon",
+    "id": "opensearch",
     "name": "OpenSearch",
     "category": "",
     "description": "",
@@ -3576,7 +3576,7 @@
     "icon": "openstack.svg"
   },
   {
-    "id": "opentelemetry-icon",
+    "id": "opentelemetry",
     "name": "OpenTelemetry",
     "category": "",
     "description": "",
@@ -3592,7 +3592,7 @@
     "icon": "opsgenie.svg"
   },
   {
-    "id": "optimizely-icon",
+    "id": "optimizely",
     "name": "Optimizely",
     "category": "",
     "description": "",
@@ -3616,7 +3616,7 @@
     "icon": "origami.svg"
   },
   {
-    "id": "overloop-icon",
+    "id": "overloop",
     "name": "Overloop",
     "category": "",
     "description": "",
@@ -3640,7 +3640,7 @@
     "icon": "pkg.svg"
   },
   {
-    "id": "pm2-icon",
+    "id": "pm2",
     "name": "PM2",
     "category": "",
     "description": "",
@@ -3680,7 +3680,7 @@
     "icon": "packer.svg"
   },
   {
-    "id": "pagerduty-icon",
+    "id": "pagerduty",
     "name": "Pager Duty",
     "category": "",
     "description": "",
@@ -3688,7 +3688,7 @@
     "icon": "pagerduty-icon.svg"
   },
   {
-    "id": "pandacss-icon",
+    "id": "pandacss",
     "name": "PandaCSS",
     "category": "",
     "description": "",
@@ -3696,7 +3696,7 @@
     "icon": "pandacss-icon.svg"
   },
   {
-    "id": "pandas-icon",
+    "id": "pandas",
     "name": "Pandas",
     "category": "",
     "description": "",
@@ -3704,7 +3704,7 @@
     "icon": "pandas-icon.svg"
   },
   {
-    "id": "parcel-icon",
+    "id": "parcel",
     "name": "Parcel",
     "category": "",
     "description": "",
@@ -3712,7 +3712,7 @@
     "icon": "parcel-icon.svg"
   },
   {
-    "id": "partytown-icon",
+    "id": "partytown",
     "name": "Partytown",
     "category": "",
     "description": "",
@@ -3768,7 +3768,7 @@
     "icon": "percona.svg"
   },
   {
-    "id": "percy-icon",
+    "id": "percy",
     "name": "Percy",
     "category": "",
     "description": "",
@@ -3808,7 +3808,7 @@
     "icon": "phpstorm.svg"
   },
   {
-    "id": "pinecone-icon",
+    "id": "pinecone",
     "name": "Pinecone",
     "category": "",
     "description": "",
@@ -3840,7 +3840,7 @@
     "icon": "planetscale.svg"
   },
   {
-    "id": "planless-icon",
+    "id": "planless",
     "name": "Planless",
     "category": "",
     "description": "",
@@ -3920,7 +3920,7 @@
     "icon": "postcss.svg"
   },
   {
-    "id": "posthog-icon",
+    "id": "posthog",
     "name": "PostHog",
     "category": "",
     "description": "",
@@ -3968,7 +3968,7 @@
     "icon": "precursor.svg"
   },
   {
-    "id": "prerender-icon",
+    "id": "prerender",
     "name": "Prerender",
     "category": "",
     "description": "",
@@ -3984,7 +3984,7 @@
     "icon": "prestashop.svg"
   },
   {
-    "id": "presto-icon",
+    "id": "presto",
     "name": "Presto",
     "category": "",
     "description": "",
@@ -4008,7 +4008,7 @@
     "icon": "prisma.svg"
   },
   {
-    "id": "prismic-icon",
+    "id": "prismic",
     "name": "Prismic",
     "category": "",
     "description": "",
@@ -4024,7 +4024,7 @@
     "icon": "processing.svg"
   },
   {
-    "id": "processwire-icon",
+    "id": "processwire",
     "name": "ProcessWire",
     "category": "",
     "description": "",
@@ -4032,7 +4032,7 @@
     "icon": "processwire-icon.svg"
   },
   {
-    "id": "productboard-icon",
+    "id": "productboard",
     "name": "ProductBoard",
     "category": "",
     "description": "",
@@ -4104,7 +4104,7 @@
     "icon": "pug.svg"
   },
   {
-    "id": "pulumi-icon",
+    "id": "pulumi",
     "name": "Pulumi",
     "category": "",
     "description": "",
@@ -4120,7 +4120,7 @@
     "icon": "pumpkindb.svg"
   },
   {
-    "id": "puppet-icon",
+    "id": "puppet",
     "name": "Puppet",
     "category": "",
     "description": "",
@@ -4136,7 +4136,7 @@
     "icon": "puppeteer.svg"
   },
   {
-    "id": "purescript-icon",
+    "id": "purescript",
     "name": "Purescript",
     "category": "",
     "description": "",
@@ -4152,7 +4152,7 @@
     "icon": "pushbullet.svg"
   },
   {
-    "id": "pusher-icon",
+    "id": "pusher",
     "name": "Pusher",
     "category": "",
     "description": "",
@@ -4184,7 +4184,7 @@
     "icon": "pyscript.svg"
   },
   {
-    "id": "pytorch-icon",
+    "id": "pytorch",
     "name": "PyTorch",
     "category": "",
     "description": "",
@@ -4216,7 +4216,7 @@
     "icon": "q.svg"
   },
   {
-    "id": "qdrant-icon",
+    "id": "qdrant",
     "name": "Qdrant",
     "category": "",
     "description": "",
@@ -4240,7 +4240,7 @@
     "icon": "qt.svg"
   },
   {
-    "id": "quarkus-icon",
+    "id": "quarkus",
     "name": "Quarkus",
     "category": "",
     "description": "",
@@ -4256,7 +4256,7 @@
     "icon": "quay.svg"
   },
   {
-    "id": "qwik-icon",
+    "id": "qwik",
     "name": "Qwik",
     "category": "",
     "description": "",
@@ -4288,7 +4288,7 @@
     "icon": "rsa.svg"
   },
   {
-    "id": "rabbitmq-icon",
+    "id": "rabbitmq",
     "name": "RabbitMQ",
     "category": "",
     "description": "",
@@ -4296,7 +4296,7 @@
     "icon": "rabbitmq-icon.svg"
   },
   {
-    "id": "rackspace-icon",
+    "id": "rackspace",
     "name": "Rackspace",
     "category": "",
     "description": "",
@@ -4312,7 +4312,7 @@
     "icon": "ramda.svg"
   },
   {
-    "id": "rancher-icon",
+    "id": "rancher",
     "name": "Rancher",
     "category": "",
     "description": "",
@@ -4368,7 +4368,7 @@
     "icon": "react.svg"
   },
   {
-    "id": "react-query-icon",
+    "id": "react-query",
     "name": "React Query",
     "category": "",
     "description": "",
@@ -4416,7 +4416,7 @@
     "icon": "reapp.svg"
   },
   {
-    "id": "reasonml-icon",
+    "id": "reasonml",
     "name": "ReasonML",
     "category": "",
     "description": "",
@@ -4424,7 +4424,7 @@
     "icon": "reasonml-icon.svg"
   },
   {
-    "id": "recoil-icon",
+    "id": "recoil",
     "name": "Recoil",
     "category": "",
     "description": "",
@@ -4432,7 +4432,7 @@
     "icon": "recoil-icon.svg"
   },
   {
-    "id": "reddit-icon",
+    "id": "reddit",
     "name": "Reddit",
     "category": "",
     "description": "",
@@ -4440,7 +4440,7 @@
     "icon": "reddit-icon.svg"
   },
   {
-    "id": "redhat-icon",
+    "id": "redhat",
     "name": "Red Hat",
     "category": "",
     "description": "",
@@ -4504,7 +4504,7 @@
     "icon": "release.svg"
   },
   {
-    "id": "remix-icon",
+    "id": "remix",
     "name": "Remix",
     "category": "",
     "description": "",
@@ -4520,7 +4520,7 @@
     "icon": "renovatebot.svg"
   },
   {
-    "id": "replay-icon",
+    "id": "replay",
     "name": "Replay",
     "category": "",
     "description": "",
@@ -4528,7 +4528,7 @@
     "icon": "replay-icon.svg"
   },
   {
-    "id": "replit-icon",
+    "id": "replit",
     "name": "Replit",
     "category": "",
     "description": "",
@@ -4544,7 +4544,7 @@
     "icon": "require.svg"
   },
   {
-    "id": "rescript-icon",
+    "id": "rescript",
     "name": "ReScript",
     "category": "",
     "description": "",
@@ -4568,7 +4568,7 @@
     "icon": "rethinkdb.svg"
   },
   {
-    "id": "retool-icon",
+    "id": "retool",
     "name": "Retool",
     "category": "",
     "description": "",
@@ -4600,8 +4600,8 @@
     "icon": "riot.svg"
   },
   {
-    "id": "risingwave-icon",
-    "name": "Risingwave-icon",
+    "id": "risingwave",
+    "name": "Risingwave",
     "category": "",
     "description": "",
     "requirements": [],
@@ -4624,7 +4624,7 @@
     "icon": "rocksdb.svg"
   },
   {
-    "id": "rocky-linux-icon",
+    "id": "rocky-linux",
     "name": "Rocky Linux",
     "category": "",
     "description": "",
@@ -4632,7 +4632,7 @@
     "icon": "rocky-linux-icon.svg"
   },
   {
-    "id": "rollbar-icon",
+    "id": "rollbar",
     "name": "Rollbar",
     "category": "",
     "description": "",
@@ -4696,7 +4696,7 @@
     "icon": "rum.svg"
   },
   {
-    "id": "rush-icon",
+    "id": "rush",
     "name": "Rush",
     "category": "",
     "description": "",
@@ -4792,7 +4792,7 @@
     "icon": "ssh.svg"
   },
   {
-    "id": "sst-icon",
+    "id": "sst",
     "name": "SST",
     "category": "",
     "description": "",
@@ -4864,14 +4864,6 @@
     "icon": "sass-doc.svg"
   },
   {
-    "id": "sass",
-    "name": "Sass",
-    "category": "",
-    "description": "",
-    "requirements": [],
-    "icon": "sass.svg"
-  },
-  {
     "id": "scala",
     "name": "Scala",
     "category": "",
@@ -4888,7 +4880,7 @@
     "icon": "scaledrone.svg"
   },
   {
-    "id": "section-icon",
+    "id": "section",
     "name": "Section",
     "category": "",
     "description": "",
@@ -4896,7 +4888,7 @@
     "icon": "section-icon.svg"
   },
   {
-    "id": "segment-icon",
+    "id": "segment",
     "name": "Segment",
     "category": "",
     "description": "",
@@ -4944,7 +4936,7 @@
     "icon": "sencha.svg"
   },
   {
-    "id": "sendgrid-icon",
+    "id": "sendgrid",
     "name": "SendGrid",
     "category": "",
     "description": "",
@@ -4960,7 +4952,7 @@
     "icon": "seneca.svg"
   },
   {
-    "id": "sentry-icon",
+    "id": "sentry",
     "name": "Sentry",
     "category": "",
     "description": "",
@@ -5024,7 +5016,7 @@
     "icon": "shopify.svg"
   },
   {
-    "id": "shortcut-icon",
+    "id": "shortcut",
     "name": "Shortcut",
     "category": "",
     "description": "",
@@ -5032,7 +5024,7 @@
     "icon": "shortcut-icon.svg"
   },
   {
-    "id": "sidekiq-icon",
+    "id": "sidekiq",
     "name": "Sidekiq",
     "category": "",
     "description": "",
@@ -5056,7 +5048,7 @@
     "icon": "sinatra.svg"
   },
   {
-    "id": "singlestore-icon",
+    "id": "singlestore",
     "name": "Singlestore",
     "category": "",
     "description": "",
@@ -5104,7 +5096,7 @@
     "icon": "snap-svg.svg"
   },
   {
-    "id": "snaplet-icon",
+    "id": "snaplet",
     "name": "Snaplet",
     "category": "",
     "description": "",
@@ -5160,7 +5152,7 @@
     "icon": "solidity.svg"
   },
   {
-    "id": "solidjs-icon",
+    "id": "solidjs",
     "name": "SolidJS",
     "category": "",
     "description": "",
@@ -5168,7 +5160,7 @@
     "icon": "solidjs-icon.svg"
   },
   {
-    "id": "sonarcloud-icon",
+    "id": "sonarcloud",
     "name": "SonarCloud",
     "category": "",
     "description": "",
@@ -5176,7 +5168,7 @@
     "icon": "sonarcloud-icon.svg"
   },
   {
-    "id": "sonarlint-icon",
+    "id": "sonarlint",
     "name": "SonarLint",
     "category": "",
     "description": "",
@@ -5216,7 +5208,7 @@
     "icon": "speedcurve.svg"
   },
   {
-    "id": "spidermonkey-icon",
+    "id": "spidermonkey",
     "name": "SpiderMonkey",
     "category": "",
     "description": "",
@@ -5240,7 +5232,7 @@
     "icon": "splunk.svg"
   },
   {
-    "id": "spring-icon",
+    "id": "spring",
     "name": "Spring",
     "category": "",
     "description": "",
@@ -5264,7 +5256,7 @@
     "icon": "squarespace.svg"
   },
   {
-    "id": "stackbit-icon",
+    "id": "stackbit",
     "name": "Stackbit",
     "category": "",
     "description": "",
@@ -5272,7 +5264,7 @@
     "icon": "stackbit-icon.svg"
   },
   {
-    "id": "stackblitz-icon",
+    "id": "stackblitz",
     "name": "StackBlitz",
     "category": "",
     "description": "",
@@ -5280,7 +5272,7 @@
     "icon": "stackblitz-icon.svg"
   },
   {
-    "id": "stately-icon",
+    "id": "stately",
     "name": "Stately",
     "category": "",
     "description": "",
@@ -5296,7 +5288,7 @@
     "icon": "statuspage.svg"
   },
   {
-    "id": "stenciljs-icon",
+    "id": "stenciljs",
     "name": "StencilJS",
     "category": "",
     "description": "",
@@ -5312,7 +5304,7 @@
     "icon": "stetho.svg"
   },
   {
-    "id": "stimulus-icon",
+    "id": "stimulus",
     "name": "Stimulus",
     "category": "",
     "description": "",
@@ -5336,7 +5328,7 @@
     "icon": "stoplight.svg"
   },
   {
-    "id": "storyblok-icon",
+    "id": "storyblok",
     "name": "Storyblok",
     "category": "",
     "description": "",
@@ -5344,7 +5336,7 @@
     "icon": "storyblok-icon.svg"
   },
   {
-    "id": "storybook-icon",
+    "id": "storybook",
     "name": "Storybook",
     "category": "",
     "description": "",
@@ -5352,7 +5344,7 @@
     "icon": "storybook-icon.svg"
   },
   {
-    "id": "strapi-icon",
+    "id": "strapi",
     "name": "Strapi",
     "category": "",
     "description": "",
@@ -5424,7 +5416,7 @@
     "icon": "stylus.svg"
   },
   {
-    "id": "sublimetext-icon",
+    "id": "sublimetext",
     "name": "Sublime Text",
     "category": "",
     "description": "",
@@ -5448,7 +5440,7 @@
     "icon": "sugarss.svg"
   },
   {
-    "id": "supabase-icon",
+    "id": "supabase",
     "name": "Supabase",
     "category": "",
     "description": "",
@@ -5456,7 +5448,7 @@
     "icon": "supabase-icon.svg"
   },
   {
-    "id": "supertokens-icon",
+    "id": "supertokens",
     "name": "Supertokens",
     "category": "",
     "description": "",
@@ -5488,7 +5480,7 @@
     "icon": "suse.svg"
   },
   {
-    "id": "svelte-icon",
+    "id": "svelte",
     "name": "Svelte",
     "category": "",
     "description": "",
@@ -5496,7 +5488,7 @@
     "icon": "svelte-icon.svg"
   },
   {
-    "id": "svelte-icon",
+    "id": "sveltekit",
     "name": "SvelteKit",
     "category": "",
     "description": "",
@@ -5536,7 +5528,7 @@
     "icon": "swimm.svg"
   },
   {
-    "id": "sysdig-icon",
+    "id": "sysdig",
     "name": "Sysdig",
     "category": "",
     "description": "",
@@ -5560,7 +5552,7 @@
     "icon": "t3.svg"
   },
   {
-    "id": "tableau-icon",
+    "id": "tableau",
     "name": "Tableau",
     "category": "",
     "description": "",
@@ -5584,7 +5576,7 @@
     "icon": "tailscale.svg"
   },
   {
-    "id": "tailwindcss-icon",
+    "id": "tailwindcss",
     "name": "TailwindCSS",
     "category": "",
     "description": "",
@@ -5592,7 +5584,7 @@
     "icon": "tailwindcss-icon.svg"
   },
   {
-    "id": "tailwindcss-icon",
+    "id": "tailwindui",
     "name": "TailwindUI",
     "category": "",
     "description": "",
@@ -5656,7 +5648,7 @@
     "icon": "terminal.svg"
   },
   {
-    "id": "terraform-icon",
+    "id": "terraform",
     "name": "Terraform",
     "category": "",
     "description": "",
@@ -5664,7 +5656,7 @@
     "icon": "terraform-icon.svg"
   },
   {
-    "id": "terser-icon",
+    "id": "terser",
     "name": "Terser",
     "category": "",
     "description": "",
@@ -5704,7 +5696,7 @@
     "icon": "threejs.svg"
   },
   {
-    "id": "thymeleaf-icon",
+    "id": "thymeleaf",
     "name": "Thymeleaf",
     "category": "",
     "description": "",
@@ -5712,7 +5704,7 @@
     "icon": "thymeleaf-icon.svg"
   },
   {
-    "id": "todoist-icon",
+    "id": "todoist",
     "name": "Todoist",
     "category": "",
     "description": "",
@@ -5744,7 +5736,7 @@
     "icon": "trello.svg"
   },
   {
-    "id": "truffle-icon",
+    "id": "truffle",
     "name": "Truffle",
     "category": "",
     "description": "",
@@ -5760,7 +5752,7 @@
     "icon": "tuple.svg"
   },
   {
-    "id": "turborepo-icon",
+    "id": "turborepo",
     "name": "TurboRepo",
     "category": "",
     "description": "",
@@ -5768,7 +5760,7 @@
     "icon": "turborepo-icon.svg"
   },
   {
-    "id": "turbopack-icon",
+    "id": "turbopack",
     "name": "Turbopack",
     "category": "",
     "description": "",
@@ -5792,7 +5784,7 @@
     "icon": "tursodb.jpeg"
   },
   {
-    "id": "twilio-icon",
+    "id": "twilio",
     "name": "Twilio",
     "category": "",
     "description": "",
@@ -5816,7 +5808,7 @@
     "icon": "typeorm.svg"
   },
   {
-    "id": "typescript-icon",
+    "id": "typescript",
     "name": "TypeScript",
     "category": "",
     "description": "",
@@ -5824,7 +5816,7 @@
     "icon": "typescript-icon.svg"
   },
   {
-    "id": "typo3-icon",
+    "id": "typo3",
     "name": "Typo3",
     "category": "",
     "description": "",
@@ -5856,7 +5848,7 @@
     "icon": "ubuntu.svg"
   },
   {
-    "id": "unbounce-icon",
+    "id": "unbounce",
     "name": "Unbounce",
     "category": "",
     "description": "",
@@ -5880,7 +5872,7 @@
     "icon": "unitjs.svg"
   },
   {
-    "id": "unito-icon",
+    "id": "unito",
     "name": "Unito",
     "category": "",
     "description": "",
@@ -5896,7 +5888,7 @@
     "icon": "unity.svg"
   },
   {
-    "id": "unrealengine-icon",
+    "id": "unrealengine",
     "name": "Unreal Engine",
     "category": "",
     "description": "",
@@ -5904,7 +5896,7 @@
     "icon": "unrealengine-icon.svg"
   },
   {
-    "id": "upstash-icon",
+    "id": "upstash",
     "name": "Upstash",
     "category": "",
     "description": "",
@@ -5912,7 +5904,7 @@
     "icon": "upstash-icon.svg"
   },
   {
-    "id": "user-testing-icon",
+    "id": "user-testing",
     "name": "User Testing",
     "category": "",
     "description": "",
@@ -5968,7 +5960,7 @@
     "icon": "vagrant.svg"
   },
   {
-    "id": "vault-icon",
+    "id": "vault",
     "name": "Vault",
     "category": "",
     "description": "",
@@ -5976,7 +5968,7 @@
     "icon": "vault-icon.svg"
   },
   {
-    "id": "vercel-icon",
+    "id": "vercel",
     "name": "Vercel",
     "category": "",
     "description": "",
@@ -5984,7 +5976,7 @@
     "icon": "vercel-icon.svg"
   },
   {
-    "id": "verdaccio-icon",
+    "id": "verdaccio",
     "name": "Verdaccio",
     "category": "",
     "description": "",
@@ -6040,7 +6032,7 @@
     "icon": "vitest.svg"
   },
   {
-    "id": "vivaldi-icon",
+    "id": "vivaldi",
     "name": "Vivaldi",
     "category": "",
     "description": "",
@@ -6088,7 +6080,7 @@
     "icon": "vulkan.svg"
   },
   {
-    "id": "vultr-icon",
+    "id": "vultr",
     "name": "Vultr",
     "category": "",
     "description": "",
@@ -6120,7 +6112,7 @@
     "icon": ""
   },
   {
-    "id": "waffle-icon",
+    "id": "waffle",
     "name": "Waffle",
     "category": "",
     "description": "",
@@ -6152,7 +6144,7 @@
     "icon": "watchman.svg"
   },
   {
-    "id": "waypoint-icon",
+    "id": "waypoint",
     "name": "Waypoint",
     "category": "",
     "description": "",
@@ -6160,7 +6152,7 @@
     "icon": "waypoint-icon.svg"
   },
   {
-    "id": "wayscript-icon",
+    "id": "wayscript",
     "name": "Wayscript",
     "category": "",
     "description": "",
@@ -6256,7 +6248,7 @@
     "icon": "webflow.svg"
   },
   {
-    "id": "webhint-icon",
+    "id": "webhint",
     "name": "Webhint",
     "category": "",
     "description": "",
@@ -6264,7 +6256,7 @@
     "icon": "webhint-icon.svg"
   },
   {
-    "id": "webix-icon",
+    "id": "webix",
     "name": "Webix",
     "category": "",
     "description": "",
@@ -6336,7 +6328,7 @@
     "icon": "weebly.svg"
   },
   {
-    "id": "wicket-icon",
+    "id": "wicket",
     "name": "Wicket",
     "category": "",
     "description": "",
@@ -6360,7 +6352,7 @@
     "icon": "windi-css.svg"
   },
   {
-    "id": "winglang-icon",
+    "id": "winglang",
     "name": "Wing",
     "category": "",
     "description": "",
@@ -6376,7 +6368,7 @@
     "icon": "wix.svg"
   },
   {
-    "id": "woocommerce-icon",
+    "id": "woocommerce",
     "name": "WooCommerce",
     "category": "",
     "description": "",
@@ -6384,7 +6376,7 @@
     "icon": "woocommerce-icon.svg"
   },
   {
-    "id": "wordpress-icon",
+    "id": "wordpress",
     "name": "WordPress",
     "category": "",
     "description": "",
@@ -6400,7 +6392,7 @@
     "icon": "workboard.svg"
   },
   {
-    "id": "workos-icon",
+    "id": "workos",
     "name": "Workos",
     "category": "",
     "description": "",
@@ -6408,7 +6400,7 @@
     "icon": "workos-icon.svg"
   },
   {
-    "id": "workplace-icon",
+    "id": "workplace",
     "name": "Workplace",
     "category": "",
     "description": "",
@@ -6448,7 +6440,7 @@
     "icon": "xampp.svg"
   },
   {
-    "id": "xata-icon",
+    "id": "xata",
     "name": "Xata",
     "category": "",
     "description": "",
@@ -6512,7 +6504,7 @@
     "icon": "zend-framework.svg"
   },
   {
-    "id": "zendesk-icon",
+    "id": "zendesk",
     "name": "Zendesk",
     "category": "",
     "description": "",
@@ -6560,7 +6552,7 @@
     "icon": "grpc.svg"
   },
   {
-    "id": "hcaptcha-icon",
+    "id": "hcaptcha",
     "name": "hCaptcha",
     "category": "",
     "description": "",
@@ -6592,7 +6584,7 @@
     "icon": "jsdelivr.svg"
   },
   {
-    "id": "kirby-icon",
+    "id": "kirby",
     "name": "kirby",
     "category": "",
     "description": "",
@@ -6656,7 +6648,7 @@
     "icon": "mlab.svg"
   },
   {
-    "id": "mparticle-icon",
+    "id": "mparticle",
     "name": "mparticle",
     "category": "",
     "description": "",
@@ -6776,7 +6768,7 @@
     "icon": "runscope.svg"
   },
   {
-    "id": "seaborn-icon",
+    "id": "seaborn",
     "name": "seaborn",
     "category": "",
     "description": "",
@@ -6792,7 +6784,7 @@
     "icon": "semantic-release.svg"
   },
   {
-    "id": "sensu-icon",
+    "id": "sensu",
     "name": "sensu",
     "category": "",
     "description": "",
@@ -6800,7 +6792,7 @@
     "icon": "sensu-icon.svg"
   },
   {
-    "id": "sigstore-icon",
+    "id": "sigstore",
     "name": "sigstore",
     "category": "",
     "description": "",
@@ -6808,7 +6800,7 @@
     "icon": "sigstore-icon.svg"
   },
   {
-    "id": "slack-icon",
+    "id": "slack",
     "name": "slack",
     "category": "",
     "description": "",
@@ -6824,7 +6816,7 @@
     "icon": "slides.svg"
   },
   {
-    "id": "snowflake-icon",
+    "id": "snowflake",
     "name": "snowflake",
     "category": "",
     "description": "",
@@ -6832,7 +6824,7 @@
     "icon": "snowflake-icon.svg"
   },
   {
-    "id": "stdlib-icon",
+    "id": "stdlib",
     "name": "stdlib",
     "category": "",
     "description": "",
@@ -6856,7 +6848,7 @@
     "icon": "stylelint.svg"
   },
   {
-    "id": "teamwork-icon",
+    "id": "teamwork",
     "name": "teamwork",
     "category": "",
     "description": "",
@@ -6888,7 +6880,7 @@
     "icon": "tsuru.svg"
   },
   {
-    "id": "typesense-icon",
+    "id": "typesense",
     "name": "typesense",
     "category": "",
     "description": "",
@@ -6920,7 +6912,7 @@
     "icon": "uwsgi.svg"
   },
   {
-    "id": "web.dev-icon",
+    "id": "webdev",
     "name": "web.dev",
     "category": "",
     "description": "",
@@ -6928,7 +6920,7 @@
     "icon": "web.dev-icon.svg"
   },
   {
-    "id": "zeroheight-icon",
+    "id": "zeroheight",
     "name": "zeroheight",
     "category": "",
     "description": "",
