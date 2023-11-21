@@ -14,10 +14,6 @@ export const getServerSideProps: GetServerSideProps<{
 				nextAuthOptions
 			),
 		},
-		redirect: {
-			permanent: false,
-			destination: `/profile`,
-		},
 	};
 };
 
