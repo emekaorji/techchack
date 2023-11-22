@@ -22,7 +22,7 @@ import Fuse, { IFuseOptions } from 'fuse.js';
 
 const options: IFuseOptions<IStack> = {
 	includeScore: true,
-	threshold: 0.0,
+	threshold: 0.6,
 	keys: ['name'],
 };
 
@@ -61,17 +61,14 @@ const Profile = () => {
 	const [isLoading, setIsLoading] = useState(false);
 	const [value, setValue] = useState('');
 	const [stacks, setStacks] = useState<IStack[]>([]);
-	const [isLastPage, setIsLastPage] = useState(false);
+	const isLastPage = useRef(false);
 
-	const actualStacks = useMemo(() => {
+	const parsedStacks = useMemo(() => {
 		if (value) {
-			fuse.current.setCollection(stash.current);
 			const fuseResult = fuse.current.search(value);
 			const result = fuseResult.map((i) => i.item);
-			console.log('running aaaa', fuseResult);
 			return result;
 		} else {
-			console.log('running bbbb', stacks);
 			return stacks;
 		}
 	}, [stacks, value]);
@@ -81,20 +78,23 @@ const Profile = () => {
 			const _value = event.target.value;
 			setValue(_value);
 			pageNumber.current = 0;
+			isLastPage.current = false;
 		},
 		[]
 	);
 
 	const updateStacks = useCallback((newStacks: IStack[]) => {
 		setStacks((prev) => {
-			const filteredStacks = newStacks.filter((stack) => !prev.includes(stack));
+			const filteredStacks = newStacks.filter(
+				(stack) => !prev.some((stack2) => stack2.id === stack.id)
+			);
 			return [...prev, ...filteredStacks];
 		});
 	}, []);
 
 	const updateStash = useCallback((newStacks: IStack[]) => {
 		const filteredStacks = newStacks.filter(
-			(stack) => !stash.current.includes(stack)
+			(stack) => !stash.current.some((stack2) => stack2.id === stack.id)
 		);
 		stash.current = [...stash.current, ...filteredStacks];
 	}, []);
@@ -111,13 +111,13 @@ const Profile = () => {
 				{ signal: abortController.current.signal }
 			);
 			const results = (await response.json()) as AllStacksResult;
-			console.log('results', results);
+			// console.log('results', results);
 			updateStacks(results.results);
 			updateStash(results.results);
-			setIsLastPage(
-				results.pagination.pageNumber === results.pagination.pageCount
-			);
+			isLastPage.current =
+				results.pagination.pageNumber === results.pagination.pageCount;
 			pageNumber.current = results.pagination.pageNumber;
+			fuse.current.setCollection(stash.current);
 		} catch (error: any) {
 			console.log(error);
 			throw Error(error.message);
@@ -137,13 +137,12 @@ const Profile = () => {
 			setTimeout(async () => {
 				const windowHeight = document.documentElement.clientHeight;
 				const top = observerTarget.current!.getBoundingClientRect().top;
-				console.log(windowHeight - top);
 				const isInView = windowHeight - top > 0;
 				/**
 				 * If the observer target is still in viewport then fetch more stacks
 				 * and rerun this function
 				 */
-				if (isInView && !isLastPage && !isLoading) {
+				if (isInView && !isLastPage.current && !isLoading) {
 					try {
 						await fetchStacks();
 						resolve();
@@ -160,7 +159,7 @@ const Profile = () => {
 				}
 			}, 0);
 		});
-	}, [fetchStacks, isLastPage, isLoading]);
+	}, [fetchStacks, isLoading]);
 
 	useEffect(() => {
 		const _observerTarget = observerTarget.current;
@@ -222,12 +221,13 @@ const Profile = () => {
 						onChange={handleInputChange}
 						type='text'
 						value={value}
+						autoFocus
 					/>
 					<div className={styles.background} />
 				</label>
 			</form>
 			<div className={styles.stacks}>
-				{actualStacks.map((item) => (
+				{parsedStacks.map((item) => (
 					<Chip icon={item.icon} key={item.id} name={item.name} />
 				))}
 				{isLoading ? (
