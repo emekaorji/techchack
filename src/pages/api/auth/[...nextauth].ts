@@ -23,6 +23,14 @@ export const nextAuthOptions: NextAuthOptions = {
 			allowDangerousEmailAccountLinking: true,
 		}),
 	],
+	callbacks: {
+		session: async ({ session, user }) => {
+			if (session?.user) {
+				session.user.id = user.id;
+			}
+			return session;
+		},
+	},
 	secret: process.env.TECHCHACK_SECRET,
 } satisfies NextAuthOptions;
 

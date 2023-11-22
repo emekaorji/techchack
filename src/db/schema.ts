@@ -3,15 +3,20 @@ import {
 	sqliteTable,
 	text,
 	primaryKey,
+	blob,
 } from 'drizzle-orm/sqlite-core';
 import type { AdapterAccount } from '@auth/core/adapters';
 
 export const users = sqliteTable('user', {
 	id: text('id').notNull().primaryKey(),
-	name: text('name'),
+	name: text('name').notNull(),
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
-	image: text('image'),
+	image: text('image').notNull(),
+	role: text('role').notNull(),
+	stacks: blob('stacks', { mode: 'json' })
+		.notNull()
+		.$type<{ id: string; score: number }[]>(),
 });
 
 export const accounts = sqliteTable(
@@ -57,14 +62,6 @@ export const verificationTokens = sqliteTable(
 		compoundKey: primaryKey({ columns: [vt.identifier, vt.token] }),
 	})
 );
-
-// enum Categories {
-// 	Languages = 'Languages',
-// 	LibrariesAndFrameworks = 'Libraries & Frameworks',
-// 	ToolsAndServices = 'Tools & Services',
-// 	Environments = 'Environments',
-// 	ConceptsAndFields = 'Concepts & Fields',
-// }
 
 const categories = [
 	'Languages',
