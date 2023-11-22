@@ -1,12 +1,4 @@
 import Head from 'next/head';
-import {
-	ChangeEvent,
-	useCallback,
-	useEffect,
-	useMemo,
-	useRef,
-	useState,
-} from 'react';
 import SearchIcon from '@/components/interface/icons/search';
 // import { signOut } from 'next-auth/react';
 import Chip from '@/components/interface/chip/chip';
@@ -15,16 +7,9 @@ import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './profile.module.css';
 import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
-import { IStack } from '@/types/stack';
 import LoaderIcon from '@/components/interface/icons/loader';
-import { AllStacksResult } from '@/types/api/stack';
-import Fuse, { IFuseOptions } from 'fuse.js';
-
-const options: IFuseOptions<IStack> = {
-	includeScore: true,
-	threshold: 0.6,
-	keys: ['name'],
-};
+import ProfileProvider from './provider/provider';
+import useProfileContext from './hooks/useProfileContext';
 
 /**
  * Stack Object
@@ -50,134 +35,16 @@ const options: IFuseOptions<IStack> = {
  * 4. Environments - VSCode, JetBrains, Atom, Remix, StackBlitz, Visual Studio
  * 5. Concepts & Fields - Microservices, DevOps, Virtualization, Memoization
  */
-const Profile = () => {
+const ProfileConsumer = () => {
 	const { user } = useAuthContext();
-
-	const pageNumber = useRef(0);
-	const stash = useRef<IStack[]>([]);
-	const fuse = useRef(new Fuse<IStack>([], options));
-	const abortController = useRef(new AbortController());
-
-	const [isLoading, setIsLoading] = useState(false);
-	const [value, setValue] = useState('');
-	const [stacks, setStacks] = useState<IStack[]>([]);
-	const isLastPage = useRef(false);
-
-	const parsedStacks = useMemo(() => {
-		if (value) {
-			const fuseResult = fuse.current.search(value);
-			const result = fuseResult.map((i) => i.item);
-			return result;
-		} else {
-			return stacks;
-		}
-	}, [stacks, value]);
-
-	const handleInputChange = useCallback(
-		(event: ChangeEvent<HTMLInputElement>) => {
-			const _value = event.target.value;
-			setValue(_value);
-			pageNumber.current = 0;
-			isLastPage.current = false;
-		},
-		[]
-	);
-
-	const updateStacks = useCallback((newStacks: IStack[]) => {
-		setStacks((prev) => {
-			const filteredStacks = newStacks.filter(
-				(stack) => !prev.some((stack2) => stack2.id === stack.id)
-			);
-			return [...prev, ...filteredStacks];
-		});
-	}, []);
-
-	const updateStash = useCallback((newStacks: IStack[]) => {
-		const filteredStacks = newStacks.filter(
-			(stack) => !stash.current.some((stack2) => stack2.id === stack.id)
-		);
-		stash.current = [...stash.current, ...filteredStacks];
-	}, []);
-
-	const fetchStacks = useCallback(async () => {
-		abortController.current.abort(
-			'Aborting search call because the search input changed'
-		);
-		abortController.current = new AbortController();
-		try {
-			setIsLoading(true);
-			const response = await fetch(
-				`/api/stacks?page=${pageNumber.current + 1}&search=${value}`,
-				{ signal: abortController.current.signal }
-			);
-			const results = (await response.json()) as AllStacksResult;
-			// console.log('results', results);
-			updateStacks(results.results);
-			updateStash(results.results);
-			isLastPage.current =
-				results.pagination.pageNumber === results.pagination.pageCount;
-			pageNumber.current = results.pagination.pageNumber;
-			fuse.current.setCollection(stash.current);
-		} catch (error: any) {
-			console.log(error);
-			throw Error(error.message);
-		}
-		setIsLoading(false);
-	}, [value, updateStacks, updateStash]);
-
-	// Infinite scroll implementation BEGINS
-	const observerTarget = useRef<HTMLBRElement | null>(null);
-
-	const handleIntersection = useCallback(() => {
-		/**
-		 * Wait for the stacks to render, then check if the observer target is
-		 * still in viewport
-		 */
-		return new Promise<void>((resolve, reject) => {
-			setTimeout(async () => {
-				const windowHeight = document.documentElement.clientHeight;
-				const top = observerTarget.current!.getBoundingClientRect().top;
-				const isInView = windowHeight - top > 0;
-				/**
-				 * If the observer target is still in viewport then fetch more stacks
-				 * and rerun this function
-				 */
-				if (isInView && !isLastPage.current && !isLoading) {
-					try {
-						await fetchStacks();
-						resolve();
-						handleIntersection();
-					} catch (error: any) {
-						reject(error.message);
-					}
-				} else {
-					/**
-					 * If the observer target is not in viewport anymore, then resolve and
-					 * exit
-					 */
-					resolve();
-				}
-			}, 0);
-		});
-	}, [fetchStacks, isLoading]);
-
-	useEffect(() => {
-		const _observerTarget = observerTarget.current;
-		const observer = new IntersectionObserver(handleIntersection, {
-			threshold: 1,
-		});
-
-		if (_observerTarget) {
-			observer.observe(_observerTarget);
-		}
-
-		return () => {
-			if (_observerTarget) {
-				observer.unobserve(_observerTarget);
-			}
-		};
-	}, [handleIntersection]);
-	// Infinite scroll implementation ENDS
+	const {
+		handleSearchInputChange,
+		isLoading,
+		isSearching,
+		observerTarget,
+		searchValue,
+		stacks,
+	} = useProfileContext();
 
 	return (
 		<>
@@ -212,22 +79,22 @@ const Profile = () => {
 				<label className={styles.inputContainer}>
 					{
 						<span className={styles.icon}>
-							<SearchIcon />
+							{isSearching ? <LoaderIcon /> : <SearchIcon />}
 						</span>
 					}
 					<input
 						className={styles.input}
 						placeholder='Search stacks'
-						onChange={handleInputChange}
+						onChange={handleSearchInputChange}
 						type='text'
-						value={value}
+						value={searchValue}
 						autoFocus
 					/>
 					<div className={styles.background} />
 				</label>
 			</form>
 			<div className={styles.stacks}>
-				{parsedStacks.map((item) => (
+				{stacks.map((item) => (
 					<Chip icon={item.icon} key={item.id} name={item.name} />
 				))}
 				{isLoading ? (
@@ -242,5 +109,11 @@ const Profile = () => {
 		</>
 	);
 };
+
+const Profile = () => (
+	<ProfileProvider>
+		<ProfileConsumer />
+	</ProfileProvider>
+);
 
 export default Profile;
