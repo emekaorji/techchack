@@ -13,9 +13,15 @@ export interface IServerStack {
 	icon: SQLiteString;
 }
 
-export interface AllStacksResult {
-	results: IStack[];
-	page: number;
+export interface Pagination {
 	limit: number;
 	orderBy: string;
+	pageNumber: number;
+	pageCount: number;
+	total: number;
+}
+
+export interface AllStacksResult {
+	results: IStack[];
+	pagination: Pagination;
 }

@@ -10,14 +10,17 @@ export default async function handler(
 ) {
 	const session = await getServerSession(req, res, nextAuthOptions);
 	if (session) {
-		const { orderBy, page, search } = req.query as { [key: string]: string };
+		const { limit, orderBy, page, search } = req.query as {
+			[key: string]: string;
+		};
 
 		try {
-			const allStacks = await getAllStacks(orderBy, page, search);
+			const allStacks = await getAllStacks(limit, orderBy, page, search);
 			res.status(200).json(allStacks);
 		} catch (error: any) {
-			throw Error(error);
-			// res.status(error.code || 500).send(error);
+			// throw Error(error);
+			console.log(error.message);
+			res.status(error.code || 500).send(error);
 		}
 	} else {
 		res.status(401);

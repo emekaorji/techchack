@@ -18,13 +18,6 @@ import PenIcon from '@/components/interface/icons/pen';
 import { IStack } from '@/types/stack';
 import LoaderIcon from '@/components/interface/icons/loader';
 import { AllStacksResult } from '@/types/api/stack';
-import Fuse, { IFuseOptions } from 'fuse.js';
-
-const options: IFuseOptions<IStack> = {
-	includeScore: true,
-	threshold: 0.0,
-	keys: ['name'],
-};
 
 /**
  * Stack Object
@@ -54,8 +47,6 @@ const Profile = () => {
 	const { user } = useAuthContext();
 
 	const pageNumber = useRef(0);
-	const stash = useRef<IStack[]>([]);
-	const fuse = useRef(new Fuse<IStack>([], options));
 	const abortController = useRef(new AbortController());
 
 	const [isLoading, setIsLoading] = useState(false);
@@ -63,24 +54,12 @@ const Profile = () => {
 	const [stacks, setStacks] = useState<IStack[]>([]);
 	const [isLastPage, setIsLastPage] = useState(false);
 
-	const actualStacks = useMemo(() => {
-		if (value) {
-			fuse.current.setCollection(stash.current);
-			const fuseResult = fuse.current.search(value);
-			const result = fuseResult.map((i) => i.item);
-			console.log('running aaaa', fuseResult);
-			return result;
-		} else {
-			console.log('running bbbb', stacks);
-			return stacks;
-		}
-	}, [stacks, value]);
-
 	const handleInputChange = useCallback(
 		(event: ChangeEvent<HTMLInputElement>) => {
 			const _value = event.target.value;
 			setValue(_value);
 			pageNumber.current = 0;
+			setStacks(() => []);
 		},
 		[]
 	);
@@ -90,13 +69,6 @@ const Profile = () => {
 			const filteredStacks = newStacks.filter((stack) => !prev.includes(stack));
 			return [...prev, ...filteredStacks];
 		});
-	}, []);
-
-	const updateStash = useCallback((newStacks: IStack[]) => {
-		const filteredStacks = newStacks.filter(
-			(stack) => !stash.current.includes(stack)
-		);
-		stash.current = [...stash.current, ...filteredStacks];
 	}, []);
 
 	const fetchStacks = useCallback(async () => {
@@ -111,9 +83,8 @@ const Profile = () => {
 				{ signal: abortController.current.signal }
 			);
 			const results = (await response.json()) as AllStacksResult;
-			console.log('results', results);
+			// console.log(results);
 			updateStacks(results.results);
-			updateStash(results.results);
 			setIsLastPage(
 				results.pagination.pageNumber === results.pagination.pageCount
 			);
@@ -123,7 +94,7 @@ const Profile = () => {
 			throw Error(error.message);
 		}
 		setIsLoading(false);
-	}, [value, updateStacks, updateStash]);
+	}, [updateStacks, value]);
 
 	// Infinite scroll implementation BEGINS
 	const observerTarget = useRef<HTMLBRElement | null>(null);
@@ -227,7 +198,7 @@ const Profile = () => {
 				</label>
 			</form>
 			<div className={styles.stacks}>
-				{actualStacks.map((item) => (
+				{stacks.map((item) => (
 					<Chip icon={item.icon} key={item.id} name={item.name} />
 				))}
 				{isLoading ? (
@@ -238,7 +209,7 @@ const Profile = () => {
 					''
 				)}
 			</div>
-			<br id='brElem' ref={observerTarget} />
+			<br ref={observerTarget} />
 		</>
 	);
 };

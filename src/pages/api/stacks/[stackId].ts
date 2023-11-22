@@ -24,8 +24,8 @@ export default async function handler(
 			// console.log(newStack);
 			res.status(200).json(newStack);
 		} catch (error: any) {
-			throw Error(error);
-			// res.status(error.code || 500).send(error);
+			// throw Error(error);
+			res.status(error.code || 500).send(error);
 		}
 	} else {
 		res.status(401);
