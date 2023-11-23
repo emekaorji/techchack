@@ -3,21 +3,15 @@ import {
 	sqliteTable,
 	text,
 	primaryKey,
-	blob,
 } from 'drizzle-orm/sqlite-core';
 import type { AdapterAccount } from '@auth/core/adapters';
 
 export const users = sqliteTable('user', {
 	id: text('id').notNull().primaryKey(),
-	name: text('name').notNull(),
+	name: text('name'),
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
-	image: text('image').notNull().default(''),
-	role: text('role').notNull().default(''),
-	stacks: blob('stacks', { mode: 'json' })
-		.notNull()
-		.$type<{ id: string; score: number }[]>()
-		.default([]),
+	image: text('image'),
 });
 
 export const accounts = sqliteTable(
@@ -64,10 +58,26 @@ export const verificationTokens = sqliteTable(
 	})
 );
 
+// enum Categories {
+// 	Languages = 'Languages',
+// 	LibrariesAndFrameworks = 'Libraries & Frameworks',
+// 	ToolsAndServices = 'Tools & Services',
+// 	Environments = 'Environments',
+// 	ConceptsAndFields = 'Concepts & Fields',
+// }
+
+const categories = [
+	'Languages',
+	'Libraries & Frameworks',
+	'Tools & Services',
+	'Environments',
+	'Concepts & Fields',
+] as [string, ...string[]];
+
 export const stacks = sqliteTable('stack', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name').notNull(),
-	description: text('description').notNull().default(''),
+	description: text('description').notNull(),
 	category: text('category', {
 		enum: [
 			'Languages',
@@ -76,11 +86,10 @@ export const stacks = sqliteTable('stack', {
 			'Environments',
 			'Concepts & Fields',
 		],
-	}),
+	}).notNull(),
 	link: text('link').notNull(),
 	requirements: text('requirements', { mode: 'json' })
 		.notNull()
-		.$type<string[]>()
-		.default([]),
-	icon: text('icon').notNull().default(''),
+		.$type<string[]>(),
+	icon: text('icon').notNull(),
 });
