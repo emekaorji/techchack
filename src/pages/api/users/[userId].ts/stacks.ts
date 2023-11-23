@@ -6,7 +6,7 @@ import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../../auth/[...nextauth]';
 import { IUser, IUserStack } from '@/types/api/user';
 
-const ALLOWED_METHODS = ['POST'];
+const ALLOWED_METHODS = ['PATCH', 'POST'];
 
 /**
  * Updates a specified stack's score of the current user and return all stacks
@@ -16,14 +16,14 @@ export default async function handler(
 	req: NextApiRequest,
 	res: NextApiResponse<IUserStack[] | undefined>
 ) {
+	if (!ALLOWED_METHODS.includes(req.method!)) {
+		res.status(405).end();
+		return;
+	}
 	const session = await getServerSession(req, res, nextAuthOptions);
 	if (session) {
 		const userId = req.query.userId as string;
 
-		if (!ALLOWED_METHODS.includes(req.method!)) {
-			res.status(405).end();
-			return;
-		}
 		if (userId !== session.user.id) {
 			res.status(401).end();
 			return;

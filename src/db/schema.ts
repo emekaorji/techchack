@@ -12,11 +12,12 @@ export const users = sqliteTable('user', {
 	name: text('name').notNull(),
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
-	image: text('image').notNull(),
-	role: text('role').notNull(),
+	image: text('image').notNull().default(''),
+	role: text('role').notNull().default(''),
 	stacks: blob('stacks', { mode: 'json' })
 		.notNull()
-		.$type<{ id: string; score: number }[]>(),
+		.$type<{ id: string; score: number }[]>()
+		.default([]),
 });
 
 export const accounts = sqliteTable(
@@ -63,18 +64,10 @@ export const verificationTokens = sqliteTable(
 	})
 );
 
-const categories = [
-	'Languages',
-	'Libraries & Frameworks',
-	'Tools & Services',
-	'Environments',
-	'Concepts & Fields',
-] as [string, ...string[]];
-
 export const stacks = sqliteTable('stack', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name').notNull(),
-	description: text('description').notNull(),
+	description: text('description').notNull().default(''),
 	category: text('category', {
 		enum: [
 			'Languages',
@@ -83,10 +76,11 @@ export const stacks = sqliteTable('stack', {
 			'Environments',
 			'Concepts & Fields',
 		],
-	}).notNull(),
+	}),
 	link: text('link').notNull(),
 	requirements: text('requirements', { mode: 'json' })
 		.notNull()
-		.$type<string[]>(),
-	icon: text('icon').notNull(),
+		.$type<string[]>()
+		.default([]),
+	icon: text('icon').notNull().default(''),
 });

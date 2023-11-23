@@ -4,17 +4,28 @@ import { nextAuthOptions } from './api/auth/[...nextauth]';
 import Profile from '@/components/views/profile/profile';
 
 export const getServerSideProps: GetServerSideProps<{
-	session: Session | null;
+	session: Session;
 }> = async (context) => {
-	return {
-		props: {
-			session: await getServerSession(
-				context.req,
-				context.res,
-				nextAuthOptions
-			),
-		},
-	};
+	const session = await getServerSession(
+		context.req,
+		context.res,
+		nextAuthOptions
+	);
+
+	if (session) {
+		return {
+			props: {
+				session,
+			},
+		};
+	} else {
+		return {
+			redirect: {
+				permanent: false,
+				destination: `/login`,
+			},
+		};
+	}
 };
 
 export default function ProfilePage() {

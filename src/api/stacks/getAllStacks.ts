@@ -1,6 +1,6 @@
 import { techChackDB } from '@/db';
 import { stacks } from '@/db/schema';
-import { AllStacksResult, Pagination } from '@/types/api/stack';
+import { AllStacksResult, Pagination } from '@/types/stack';
 import { asc, desc, like, sql } from 'drizzle-orm';
 
 function getOrder(orderBy: string) {
@@ -124,8 +124,6 @@ export default async function getAllStacks(
 	page = '1',
 	search = ''
 ): Promise<AllStacksResult> {
-	console.log('search', search);
-
 	const results = search
 		? await getSearchResults(search, orderBy, limit, page)
 		: await getNormalResults(orderBy, limit, page);

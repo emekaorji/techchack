@@ -9,6 +9,7 @@ const drizzleConfig = {
 	},
 	verbose: true,
 	strict: true,
+	out: './drizzle',
 } satisfies Config;
 
 export default drizzleConfig;

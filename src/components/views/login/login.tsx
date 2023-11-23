@@ -17,7 +17,10 @@ const Login = () => {
 			</Head>
 			<div className={styles.container}>
 				<h1>TechChack</h1>
-				<button onClick={() => signIn('github')}>
+				<button
+					onClick={() =>
+						signIn('github', { callbackUrl: '/profile', redirect: false })
+					}>
 					<span className={styles.icon}>
 						<GithubIcon />
 					</span>{' '}

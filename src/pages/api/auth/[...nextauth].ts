@@ -31,6 +31,10 @@ export const nextAuthOptions: NextAuthOptions = {
 			return session;
 		},
 	},
+	pages: {
+		signIn: '/login',
+		// error: 'OAuthCreateAccount'
+	},
 	secret: process.env.TECHCHACK_SECRET,
 } satisfies NextAuthOptions;
 

@@ -1,13 +1,19 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../auth/[...nextauth]';
-import { AllStacksResult } from '@/types/api/stack';
 import getAllStacks from '@/api/stacks/getAllStacks';
+import { AllStacksResult } from '@/types/stack';
+
+const ALLOWED_METHODS = ['GET'];
 
 export default async function handler(
 	req: NextApiRequest,
 	res: NextApiResponse<AllStacksResult>
 ) {
+	if (!ALLOWED_METHODS.includes(req.method!)) {
+		res.status(405).end();
+		return;
+	}
 	const session = await getServerSession(req, res, nextAuthOptions);
 	if (session) {
 		const { limit, orderBy, page, search } = req.query as {
