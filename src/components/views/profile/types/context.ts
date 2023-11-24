@@ -1,7 +1,10 @@
+import { IUserStack } from '@/types/api/user';
 import { IStack } from '@/types/stack';
-import { ChangeEvent, ChangeEventHandler, MutableRefObject } from 'react';
+import { ChangeEventHandler, MutableRefObject } from 'react';
 
 export interface ProfileContextValue {
+	addStack: (id: string) => Promise<void>;
+	deleteStack: (id: string) => Promise<void>;
 	handleSearchInputChange: ChangeEventHandler<HTMLInputElement>;
 	isLoading: boolean;
 	isSearching: boolean;

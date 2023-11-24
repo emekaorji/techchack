@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import SearchIcon from '@/components/interface/icons/search';
 // import { signOut } from 'next-auth/react';
-import Chip from '@/components/interface/chip/chip';
+import Chip from '@/components/views/profile/chip/chip';
 import Avatar from '@/components/interface/avatar/avatar';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './profile.module.css';

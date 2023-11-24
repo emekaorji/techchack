@@ -3,16 +3,17 @@ export type Tcategory =
 	| 'Libraries & Frameworks'
 	| 'Tools & Services'
 	| 'Environments'
-	| 'Concepts & Fields';
+	| 'Concepts & Fields'
+	| null;
 
 export interface IStack {
 	id: string;
 	name: string;
-	description: string | null;
-	category: Tcategory | null;
-	link: string | null;
+	description: string;
+	category: Tcategory;
+	link: string;
 	requirements: string[];
-	icon: string | null;
+	icon: string;
 }
 
 export interface Pagination {

@@ -1,8 +1,8 @@
-import InfoIcon from '../icons/info';
+import InfoIcon from '../../../interface/icons/info';
 import styles from './chip.module.css';
 
 interface ChipProps {
-	icon: string;
+	icon: string | null;
 	name: string;
 }
 
@@ -10,10 +10,12 @@ const Chip = ({ icon, name }: ChipProps) => {
 	return (
 		<>
 			<div className={styles.chip}>
-				<span
-					className={styles.icon}
-					dangerouslySetInnerHTML={{ __html: icon }}
-				/>
+				{icon && (
+					<span
+						className={styles.icon}
+						dangerouslySetInnerHTML={{ __html: icon }}
+					/>
+				)}
 				<button className={styles.infoButton}>
 					<InfoIcon />
 				</button>

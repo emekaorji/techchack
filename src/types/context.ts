@@ -1,8 +1,7 @@
-interface IUser {
-	name?: string | null | undefined;
-	email?: string | null | undefined;
-	image?: string | null | undefined;
-}
+import { IPublicUser } from './api/user';
+import { Dispatch, SetStateAction } from 'react';
+
 export interface AuthContextValue {
-	user: IUser | null;
+	user: IPublicUser | null;
+	setUser: Dispatch<SetStateAction<IPublicUser | null>>;
 }

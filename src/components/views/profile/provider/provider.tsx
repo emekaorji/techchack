@@ -9,9 +9,11 @@ import {
 	useState,
 } from 'react';
 import { ProfileContextValue } from '../types/context';
-import { AllStacksResult } from '@/types/api/stack';
+import { AllStacksResult } from '@/types/stack';
 import { IStack } from '@/types/stack';
 import Fuse, { IFuseOptions } from 'fuse.js';
+import useAuthContext from '@/hooks/context/useAuthContext';
+import { IUserStack } from '@/types/api/user';
 
 interface ProfileProviderProps {
 	children: ReactNode;
@@ -21,11 +23,13 @@ const ProfileContext = createContext<ProfileContextValue | null>(null);
 
 const options: IFuseOptions<IStack> = {
 	includeScore: true,
-	threshold: 0.6,
-	keys: ['name'],
+	threshold: 0.4,
+	keys: ['name', 'description', 'category'],
 };
 
 const ProfileProvider = ({ children }: ProfileProviderProps) => {
+	const { user, setUser } = useAuthContext();
+
 	const pageNumber = useRef(0);
 	const stash = useRef<IStack[]>([]);
 	const fuse = useRef(new Fuse<IStack>([], options));
@@ -155,8 +159,52 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 	}, [handleIntersection]);
 	// Infinite scroll implementation ENDS
 
+	const addStack = useCallback(
+		async (id: string) => {
+			if (!user) throw Error('User is not logged in');
+			if (!id) throw Error('`ID` is required as params');
+
+			const response = await fetch(`/api/users/${user?.id}/stacks`, {
+				body: JSON.stringify({ id }),
+				headers: { 'Content-Type': 'application/json' },
+				method: 'POST',
+			});
+			const result = (await response.json()) as IUserStack[];
+			setUser((prev) => {
+				if (prev) {
+					prev.stacks = result;
+					return { ...prev };
+				}
+				return prev;
+			});
+		},
+		[setUser, user]
+	);
+
+	const deleteStack = useCallback(
+		async (id: string) => {
+			if (!user) throw Error('User is not logged in');
+			if (!id) throw Error('`ID` is required as params');
+
+			const response = await fetch(`/api/users/${user?.id}/stacks/${id}`, {
+				method: 'DELETE',
+			});
+			const result = (await response.json()) as IUserStack[];
+			setUser((prev) => {
+				if (prev) {
+					prev.stacks = result;
+					return { ...prev };
+				}
+				return prev;
+			});
+		},
+		[setUser, user]
+	);
+
 	const providerValue = useMemo<ProfileContextValue>(
 		() => ({
+			addStack,
+			deleteStack,
 			handleSearchInputChange,
 			isLoading,
 			isSearching,
@@ -164,7 +212,15 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 			searchValue,
 			stacks: parsedStacks,
 		}),
-		[handleSearchInputChange, isLoading, isSearching, parsedStacks, searchValue]
+		[
+			addStack,
+			deleteStack,
+			handleSearchInputChange,
+			isLoading,
+			isSearching,
+			parsedStacks,
+			searchValue,
+		]
 	);
 
 	return (

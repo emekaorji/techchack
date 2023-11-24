@@ -1,10 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { techChackDB } from '@/db';
-import { users } from '@/db/schema';
+import { publicUsers, users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../../auth/[...nextauth]';
-import { IUser } from '@/types/api/user';
+import { IPublicUser, IUser } from '@/types/api/user';
 
 const ALLOWED_METHODS = ['GET', 'PATCH'];
 
@@ -49,7 +49,17 @@ const handleGetRequest = async (
 			.from(users)
 			.where(eq(users.id, userId))
 			.get();
-		res.status(200).json(user);
+
+		const parsedUser = user
+			? ({
+					id: user.id,
+					name: user.name || '',
+					email: user.email || '',
+					image: user.image || '',
+			  } satisfies IUser)
+			: undefined;
+
+		res.status(200).json(parsedUser);
 	} catch (error: any) {
 		res.status(error.code || 500).send(error);
 	}
@@ -57,37 +67,56 @@ const handleGetRequest = async (
 
 const handlePatchRequest = async (
 	req: NextApiRequest,
-	res: NextApiResponse<IUser>
+	res: NextApiResponse<IPublicUser>
 ) => {
 	const userId = req.query.userId as string;
 
-	const { name, role } = req.body;
+	const { name, role, image } = JSON.parse(req.body) as Partial<IPublicUser>;
 
 	try {
 		const user = await techChackDB
 			.select()
-			.from(users)
-			.where(eq(users.id, userId))
+			.from(publicUsers)
+			.where(eq(publicUsers.id, userId))
 			.get();
 
 		if (!user) throw Error('User does not exist');
 
-		const updatedFields = {
-			name: name || user.name,
-			role: role || user.role,
+		const updatedUserFields = {
+			name: name || user.name || '',
+			image: image || user.image || '',
 		} satisfies Partial<IUser>;
-		const newUser = {
-			...user,
-			...updatedFields,
-		} satisfies IUser;
+		const updatedPublicUserFields = {
+			...updatedUserFields,
+			role: role || user.role || '',
+		} satisfies Partial<IPublicUser>;
 
-		const updatedUser = await techChackDB
+		const userUpdater = techChackDB
 			.update(users)
-			.set(newUser)
+			.set(updatedUserFields)
 			.where(eq(users.id, userId))
 			.returning()
 			.get();
-		res.status(200).json(updatedUser);
+		const publicUserUpdater = techChackDB
+			.update(publicUsers)
+			.set(updatedPublicUserFields)
+			.where(eq(publicUsers.id, userId))
+			.returning()
+			.get();
+		const updatedPublicUser = (
+			await Promise.all([userUpdater, publicUserUpdater])
+		)[1];
+
+		const parsedUpdatedPublicUser = {
+			id: updatedPublicUser.id,
+			name: updatedPublicUser.name || '',
+			email: updatedPublicUser.email || '',
+			image: updatedPublicUser.image || '',
+			role: updatedPublicUser.role || '',
+			stacks: updatedPublicUser.stacks || [],
+		} satisfies IPublicUser;
+
+		res.status(200).json(parsedUpdatedPublicUser);
 	} catch (error: any) {
 		res.status(error.code || 500).send(error);
 	}

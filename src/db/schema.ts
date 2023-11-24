@@ -9,7 +9,7 @@ import type { AdapterAccount } from '@auth/core/adapters';
 
 export const users = sqliteTable('user', {
 	id: text('id').notNull().primaryKey(),
-	name: text('name').notNull(),
+	name: text('name'),
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
 	image: text('image'),
@@ -17,7 +17,7 @@ export const users = sqliteTable('user', {
 
 export const publicUsers = sqliteTable('public_user', {
 	id: text('id').notNull().primaryKey(),
-	name: text('name').notNull(),
+	name: text('name'),
 	email: text('email').notNull(),
 	image: text('image'),
 	role: text('role'),

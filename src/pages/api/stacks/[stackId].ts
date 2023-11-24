@@ -42,7 +42,20 @@ const handleGetRequest = async (
 			.from(stacks)
 			.where(eq(stacks.id, stackId))
 			.get();
-		res.status(200).json(stack);
+
+		const parsedStack = stack
+			? ({
+					category: stack.category,
+					description: stack.description || '',
+					icon: stack.icon || '',
+					id: stack.id,
+					link: stack.link || '',
+					name: stack.name,
+					requirements: stack.requirements || [],
+			  } satisfies IStack)
+			: undefined;
+
+		res.status(200).json(parsedStack);
 	} catch (error: any) {
 		res.status(error.code || 500).send(error);
 	}
@@ -84,7 +97,18 @@ const handlePatchRequest = async (
 			.where(eq(stacks.id, stackId))
 			.returning()
 			.get();
-		res.status(200).json(updatedStack);
+
+		const parsedStack = {
+			category: updatedStack.category,
+			description: updatedStack.description || '',
+			icon: updatedStack.icon || '',
+			id: updatedStack.id,
+			link: updatedStack.link || '',
+			name: updatedStack.name,
+			requirements: updatedStack.requirements || [],
+		} satisfies IStack;
+
+		res.status(200).json(parsedStack);
 	} catch (error: any) {
 		res.status(error.code || 500).send(error);
 	}
