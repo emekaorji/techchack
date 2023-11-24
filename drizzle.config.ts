@@ -9,7 +9,7 @@ const drizzleConfig = {
 	},
 	verbose: true,
 	strict: true,
-	out: './drizzle',
+	out: './migrations',
 } satisfies Config;
 
 export default drizzleConfig;
