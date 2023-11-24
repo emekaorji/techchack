@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "sqlite",
-  "id": "9028cb83-616e-402d-8acb-f1bd6a5a950f",
+  "id": "df0edf51-c0d2-4311-9ae6-146dec2b72df",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "account": {
@@ -177,9 +177,8 @@
           "name": "description",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false,
-          "default": "''"
+          "notNull": false,
+          "autoincrement": false
         },
         "category": {
           "name": "category",
@@ -192,7 +191,7 @@
           "name": "link",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
           "autoincrement": false
         },
         "requirements": {
@@ -200,16 +199,14 @@
           "type": "text",
           "primaryKey": false,
           "notNull": true,
-          "autoincrement": false,
-          "default": []
+          "autoincrement": false
         },
         "icon": {
           "name": "icon",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false,
-          "default": "''"
+          "notNull": false,
+          "autoincrement": false
         }
       },
       "indexes": {},
@@ -252,25 +249,22 @@
           "name": "image",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false,
-          "default": "''"
+          "notNull": false,
+          "autoincrement": false
         },
         "role": {
           "name": "role",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
-          "autoincrement": false,
-          "default": "''"
+          "notNull": false,
+          "autoincrement": false
         },
         "stacks": {
           "name": "stacks",
           "type": "blob",
           "primaryKey": false,
           "notNull": true,
-          "autoincrement": false,
-          "default": []
+          "autoincrement": false
         }
       },
       "indexes": {},

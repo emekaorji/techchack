@@ -3,15 +3,20 @@ import {
 	sqliteTable,
 	text,
 	primaryKey,
+	blob,
 } from 'drizzle-orm/sqlite-core';
 import type { AdapterAccount } from '@auth/core/adapters';
 
 export const users = sqliteTable('user', {
 	id: text('id').notNull().primaryKey(),
-	name: text('name'),
+	name: text('name').notNull(),
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
 	image: text('image'),
+	role: text('role'),
+	stacks: blob('stacks', { mode: 'json' })
+		.notNull()
+		.$type<{ id: string; score: number }[]>(),
 });
 
 export const accounts = sqliteTable(
@@ -58,26 +63,10 @@ export const verificationTokens = sqliteTable(
 	})
 );
 
-// enum Categories {
-// 	Languages = 'Languages',
-// 	LibrariesAndFrameworks = 'Libraries & Frameworks',
-// 	ToolsAndServices = 'Tools & Services',
-// 	Environments = 'Environments',
-// 	ConceptsAndFields = 'Concepts & Fields',
-// }
-
-const categories = [
-	'Languages',
-	'Libraries & Frameworks',
-	'Tools & Services',
-	'Environments',
-	'Concepts & Fields',
-] as [string, ...string[]];
-
 export const stacks = sqliteTable('stack', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name').notNull(),
-	description: text('description').notNull(),
+	description: text('description'),
 	category: text('category', {
 		enum: [
 			'Languages',
@@ -86,10 +75,10 @@ export const stacks = sqliteTable('stack', {
 			'Environments',
 			'Concepts & Fields',
 		],
-	}).notNull(),
-	link: text('link').notNull(),
+	}),
+	link: text('link'),
 	requirements: text('requirements', { mode: 'json' })
 		.notNull()
 		.$type<string[]>(),
-	icon: text('icon').notNull(),
+	icon: text('icon'),
 });

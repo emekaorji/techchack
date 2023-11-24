@@ -8,7 +8,7 @@ export interface IUser {
 	name: string;
 	email: string;
 	emailVerified: Date | null;
-	image: string;
-	role: string;
+	image: string | null;
+	role: string | null;
 	stacks: IUserStack[];
 }

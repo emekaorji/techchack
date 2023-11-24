@@ -3,11 +3,15 @@ import { drizzle } from 'drizzle-orm/libsql';
 import { createClient } from '@libsql/client';
 
 async function main() {
-	const db = drizzle(createClient({ url: '', authToken: '' }));
+	const connection = createClient({
+		url: process.env.DATABASE_URL_PROD,
+		authToken: process.env.DATABASE_AUTH_TOKEN_PROD,
+	});
+	const db = drizzle(connection);
 
 	console.log('Running migrations');
 
-	await migrate(db, { migrationsFolder: 'drizzle' });
+	await migrate(db, { migrationsFolder: './drizzle' });
 
 	console.log('Migrated successfully');
 
@@ -16,6 +20,6 @@ async function main() {
 
 main().catch((e) => {
 	console.error('Migration failed');
-	console.error(e);
+	console.error(e.message);
 	process.exit(1);
 });

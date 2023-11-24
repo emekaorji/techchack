@@ -8,11 +8,11 @@ export type Tcategory =
 export interface IStack {
 	id: string;
 	name: string;
-	description: string;
+	description: string | null;
 	category: Tcategory | null;
-	link: string;
+	link: string | null;
 	requirements: string[];
-	icon: string;
+	icon: string | null;
 }
 
 export interface Pagination {
