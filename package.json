@@ -9,7 +9,8 @@
     "lint": "next lint",
     "push_schema": "bunx drizzle-kit push:sqlite",
     "studio": "bunx drizzle-kit studio",
-    "migrate": "bun migrate.ts"
+    "generate": "bunx drizzle-kit generate:sqlite",
+    "migrate": "bun ./src/scripts/migrate.ts"
   },
   "dependencies": {
     "@auth/core": "^0.18.0",

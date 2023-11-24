@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `stack` (
 	`description` text,
 	`category` text,
 	`link` text,
-	`requirements` text NOT NULL,
+	`requirements` text,
 	`icon` text
 );
 --> statement-breakpoint
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 	`emailVerified` integer,
 	`image` text,
 	`role` text,
-	`stacks` blob NOT NULL
+	`stacks` blob
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS `verificationToken` (

@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "sqlite",
-  "id": "df0edf51-c0d2-4311-9ae6-146dec2b72df",
+  "id": "2e5a43c4-cf39-4eb4-a186-97c3de4d3b6b",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "account": {
@@ -198,7 +198,7 @@
           "name": "requirements",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
           "autoincrement": false
         },
         "icon": {
@@ -263,7 +263,7 @@
           "name": "stacks",
           "type": "blob",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
           "autoincrement": false
         }
       },

@@ -14,9 +14,9 @@ export const users = sqliteTable('user', {
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
 	image: text('image'),
 	role: text('role'),
-	stacks: blob('stacks', { mode: 'json' })
-		.notNull()
-		.$type<{ id: string; score: number }[]>(),
+	stacks: blob('stacks', { mode: 'json' }).$type<
+		{ id: string; score: number }[]
+	>(),
 });
 
 export const accounts = sqliteTable(
@@ -77,8 +77,6 @@ export const stacks = sqliteTable('stack', {
 		],
 	}),
 	link: text('link'),
-	requirements: text('requirements', { mode: 'json' })
-		.notNull()
-		.$type<string[]>(),
+	requirements: text('requirements', { mode: 'json' }).$type<string[]>(),
 	icon: text('icon'),
 });
