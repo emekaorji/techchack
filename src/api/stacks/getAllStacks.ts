@@ -1,9 +1,9 @@
 import { techChackDB } from '@/db';
 import { stacks } from '@/db/schema';
-import { AllStacksResult, Pagination } from '@/types/stack';
-import { asc, desc, like, sql } from 'drizzle-orm';
+import { AllStacksResult, IStack, Pagination } from '@/types/stack';
+import { SQL, asc, desc, like, sql } from 'drizzle-orm';
 
-function getOrder(orderBy: string) {
+function getOrder(orderBy: string): SQL<unknown> {
 	return orderBy === 'asc'
 		? asc(stacks.name)
 		: orderBy === 'desc'
@@ -11,7 +11,16 @@ function getOrder(orderBy: string) {
 		: asc(stacks.name);
 }
 
-function getParsedParams(orderBy: string, pageNumber: string, limit: string) {
+function getParsedParams(
+	orderBy: string,
+	pageNumber: string,
+	limit: string
+): {
+	order: SQL<unknown>;
+	parsedPageNumber: number;
+	parsedLimit: number;
+	parsedPageOffset: number;
+} {
 	const order = getOrder(orderBy);
 	const parsedPageNumber = Number(pageNumber) || 1;
 	const parsedLimit = Number(limit) || 100;
@@ -47,75 +56,37 @@ function getPagination(
 	return pagination;
 }
 
-async function getNormalResults(
-	orderBy: string,
-	limit: string,
-	pageNumber: string
+function getStackPromiseBasedOnSearch(
+	limit: number,
+	order: SQL<unknown>,
+	pageOffset: number,
+	search = ''
 ) {
-	const { order, parsedLimit, parsedPageNumber, parsedPageOffset } =
-		getParsedParams(orderBy, pageNumber, limit);
-
-	const stacksPromise = techChackDB
-		.select()
-		.from(stacks)
-		.orderBy(order)
-		.limit(parsedLimit)
-		.offset(parsedPageOffset)
-		.all();
-	const countPromise = techChackDB
-		.select({ count: sql<number>`count(*)` })
-		.from(stacks);
-
-	const results = await Promise.all([stacksPromise, countPromise]);
-
-	const pagination = getPagination(
-		results[1],
-		parsedPageNumber,
-		parsedLimit,
-		orderBy
-	);
-
-	return {
-		results: results[0],
-		pagination,
-	};
+	return search
+		? techChackDB
+				.select()
+				.from(stacks)
+				.where(like(stacks.name, `%${search}%`))
+				.orderBy(order)
+				.limit(limit)
+				.offset(pageOffset)
+				.all()
+		: techChackDB
+				.select()
+				.from(stacks)
+				.orderBy(order)
+				.limit(limit)
+				.offset(pageOffset)
+				.all();
 }
 
-async function getSearchResults(
-	search: string,
-	orderBy: string,
-	limit: string,
-	pageNumber: string
-) {
-	const { order, parsedLimit, parsedPageNumber, parsedPageOffset } =
-		getParsedParams(orderBy, pageNumber, limit);
-
-	const stacksPromise = techChackDB
-		.select()
-		.from(stacks)
-		.where(like(stacks.name, `%${search}%`))
-		.orderBy(order)
-		.limit(parsedLimit)
-		.offset(parsedPageOffset)
-		.all();
-	const countPromise = techChackDB
-		.select({ count: sql<number>`count(*)` })
-		.from(stacks)
-		.where(like(stacks.name, `%${search}%`));
-
-	const results = await Promise.all([stacksPromise, countPromise]);
-
-	const pagination = getPagination(
-		results[1],
-		parsedPageNumber,
-		parsedLimit,
-		orderBy
-	);
-
-	return {
-		results: results[0],
-		pagination,
-	};
+function getCountPromiseBasedOnSearch(search = '') {
+	return search
+		? techChackDB
+				.select({ count: sql<number>`count(*)` })
+				.from(stacks)
+				.where(like(stacks.name, `%${search}%`))
+		: techChackDB.select({ count: sql<number>`count(*)` }).from(stacks);
 }
 
 export default async function getAllStacks(
@@ -124,12 +95,40 @@ export default async function getAllStacks(
 	page = '1',
 	search = ''
 ): Promise<AllStacksResult> {
-	const results = search
-		? await getSearchResults(search, orderBy, limit, page)
-		: await getNormalResults(orderBy, limit, page);
+	const { order, parsedLimit, parsedPageNumber, parsedPageOffset } =
+		getParsedParams(orderBy, page, limit);
+
+	const stacksPromise = getStackPromiseBasedOnSearch(
+		parsedLimit,
+		order,
+		parsedPageOffset,
+		search
+	);
+	const countPromise = getCountPromiseBasedOnSearch(search);
+
+	const results = await Promise.all([stacksPromise, countPromise]);
+	const parsedResults = results[0].map(
+		(result) =>
+			({
+				category: result.category,
+				description: result.description || '',
+				icon: result.icon || '',
+				id: result.id,
+				link: result.link || '',
+				name: result.name,
+				requirements: result.requirements || [],
+			} satisfies IStack)
+	);
+
+	const pagination = getPagination(
+		results[1],
+		parsedPageNumber,
+		parsedLimit,
+		orderBy
+	);
 
 	return {
-		results: results.results,
-		pagination: results.pagination,
+		results: parsedResults,
+		pagination,
 	};
 }
