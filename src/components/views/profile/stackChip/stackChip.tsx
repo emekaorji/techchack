@@ -16,6 +16,7 @@ const StackChip = ({ id, icon, name }: ChipProps) => {
 	const [loading, setLoading] = useState(false);
 
 	const handleAddStack = useCallback(async () => {
+		if (loading) return;
 		try {
 			setLoading(true);
 			await addStack(id);
@@ -23,7 +24,7 @@ const StackChip = ({ id, icon, name }: ChipProps) => {
 			console.error(error);
 		}
 		setLoading(false);
-	}, [addStack, id]);
+	}, [addStack, id, loading]);
 
 	return (
 		<>
@@ -42,7 +43,11 @@ const StackChip = ({ id, icon, name }: ChipProps) => {
 						<InfoIcon />
 					</button>
 					<span className={styles.name}>{name}</span>
-					<button className={styles.overlayButton} onClick={handleAddStack} />
+					<button
+						className={styles.overlayButton}
+						disabled={loading}
+						onClick={handleAddStack}
+					/>
 				</div>
 			</div>
 		</>

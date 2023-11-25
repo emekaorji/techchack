@@ -23,13 +23,17 @@ h1 {
   font-family: Agbalumo, 'san-serif';
 }
 
-button {
+a, button {
   font-size: inherit;
   font-family: inherit;
   background-color: transparent;
+  color: inherit;
   border: none;
   outline: none;
   cursor: pointer;
+}
+a {
+  text-decoration: none;
 }
 
 img, svg {

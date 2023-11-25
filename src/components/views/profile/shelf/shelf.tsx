@@ -3,13 +3,16 @@ import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './shelf.module.css';
-import JavaScriptIcon from '@/components/interface/icons/javaScript';
-import { CSSProperties } from 'react';
+import { CSSProperties, useState } from 'react';
 import useProfileContext from '../hooks/useProfileContext';
+import UpArrowIcon from '@/components/interface/icons/upArrow';
+import getClassName from '@/utils/getClassName';
 
 const Shelf = () => {
 	const { user } = useAuthContext();
 	const { mergedStacks } = useProfileContext();
+
+	const [expanded, setExpanded] = useState(false);
 
 	return (
 		<>
@@ -24,34 +27,50 @@ const Shelf = () => {
 					</IconButton>
 				</div>
 				<br />
-				<div className={styles.level2}>
+				<div
+					className={styles.level2 + getClassName(expanded, styles.expanded)}>
 					{/* <div className={styles.empty}>
 						You don&apos;t have any tech stack in your shelf. Add one or more
 						tech stack by clicking a stack below
 					</div> */}
 					{mergedStacks.map((item) => (
-						<StackStrip key={item.id} score={item.score} />
+						<StackStrip
+							icon={item.icon}
+							key={item.id}
+							name={item.name}
+							score={item.score}
+						/>
 					))}
 				</div>
+				<button
+					className={
+						styles.expandButton + getClassName(expanded, styles.expanded)
+					}
+					onClick={() => setExpanded((prev) => !prev)}>
+					<UpArrowIcon />
+				</button>
 			</div>
 		</>
 	);
 };
 
 interface StackStripProps {
+	icon: string;
+	name: string;
 	score: number;
 }
 
-const StackStrip = ({ score }: StackStripProps) => {
+const StackStrip = ({ icon, name, score }: StackStripProps) => {
 	return (
 		<>
 			<div className={styles.strip}>
-				<div className={styles.stackIcon}>
-					<JavaScriptIcon />
-				</div>
+				<div
+					className={styles.stackIcon}
+					dangerouslySetInnerHTML={{ __html: icon }}
+				/>
 				<div className={styles.stackInfo}>
 					<div className={styles.stackTitle}>
-						<h3>JavaScript</h3>
+						<h3>{name}</h3>
 						<p>Less than 1 year</p>
 					</div>
 					<div

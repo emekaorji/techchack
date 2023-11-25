@@ -3,7 +3,7 @@
   position: relative;
   isolation: isolate;
   border-radius: 2em;
-  padding: 0.01em;
+  padding: 0.04em;
 }
 .background {
   width: 100%;
@@ -11,7 +11,7 @@
   background-image: linear-gradient(165deg, #ff0000, #ff9a00, #d0de21, #4fdc4a, #3fdad8, #2fc9e2, #1c7fee, #5f15f2, #ba0cf8, #fb07d9, #ff0000);
   background-size: 200% 200%;
   opacity: 0;
-  filter: blur(1px);
+  filter: blur(3px);
   position: absolute;
   top: 0;
   left: 0;

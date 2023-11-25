@@ -1,9 +1,10 @@
 .profileDetails {
   width: min(1000px, 90%);
   max-width: min(1000px, 90%);
-  background-color: #1c7fee33;
+  background-color: #021836;
   border-radius: 1em;
   padding: 1em;
+  position: relative;
 }
 .level1 {
   display: flex;
@@ -14,6 +15,17 @@
   gap: 0.4em;
   align-items: center;
 }
+.level2 {
+  max-height: 25em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  overflow: hidden;
+}
+.level2.expanded {
+  max-height: fit-content;
+  overflow: visible;
+}
 .level2 .empty {
   color: #fff6;
   font-size: 1.3em;
@@ -22,6 +34,40 @@
   justify-content: center;
   align-items: center;
   padding: 1.5em;
+}
+.expandButton {
+  width: 98%;
+  height: 2.75em;
+  /* background: linear-gradient(to bottom, transparent, #021836ee 0%), #ffffff; */
+  background-color: #021836;
+  filter: brightness(130%);
+  box-shadow: 0 0 10px 2px #00000057;
+  color: #ffffff99;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+  border-radius: 0.5em;
+  padding: 0.6em;
+}
+.expandButton:hover {
+  filter: brightness(150%);
+}
+.expandButton.expanded {
+  position: static;
+  transform: rotate(0deg);
+  margin-top: 1em;
+}
+.profileDetails:hover .expandButton:not(.expanded) {
+  animation: hop 400ms ease 0ms infinite alternate;
+}
+@keyframes hop {
+  0% {
+    transform: translateX(-50%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(-0.2em) translateX(-50%) rotate(180deg);
+  }
 }
 
 
@@ -70,7 +116,7 @@
   content: '';
   width: 0;
   height: 100%;
-  background-image: linear-gradient(to right, #ffff0055, #ffff00);
+  background-image: linear-gradient(to right, #ffff0055 0%, #ffff00 calc(1000% / var(--score)));
   position: absolute;
   top: 0;
   left: 0;
