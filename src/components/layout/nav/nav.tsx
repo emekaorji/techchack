@@ -1,3 +1,4 @@
+import { signOut } from 'next-auth/react';
 import Link from 'next/link';
 import styles from './nav.module.css';
 import IconButton from '@/components/interface/buttons/iconButton/iconButton';
@@ -10,7 +11,10 @@ const Nav = () => {
 				<h2 className={styles.left}>TechChack</h2>
 				<div className={styles.right}>
 					<Link href='/contribute'>Contribute</Link>
-					<IconButton title='Logout'>
+					<IconButton
+						className={styles.logoutButton}
+						onClick={() => signOut()}
+						title='Logout'>
 						<LogoutIcon />
 					</IconButton>
 				</div>

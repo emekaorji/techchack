@@ -1,11 +1,10 @@
-// import { signOut } from 'next-auth/react';
 import ProfileProvider from './provider/provider';
 import useProfileContext from './hooks/useProfileContext';
 import Shelf from './shelf/shelf';
 import StackSearch from './stackSearch/stackSearch';
 import StackList from './stackList/stackList';
 import Head from '@/components/others/head/head';
-import { IMergedStack, IStack } from '@/types/stack';
+import { IMergedStack } from '@/types/stack';
 
 const ProfileConsumer = () => {
 	const { observerTarget } = useProfileContext();
@@ -16,7 +15,6 @@ const ProfileConsumer = () => {
 				description='Share your tech stack with the world'
 				title='TechChack | Profile'
 			/>
-			{/* <button onClick={() => signOut()}>Sign Out</button> */}
 			<Shelf />
 			<StackSearch />
 			<StackList />
