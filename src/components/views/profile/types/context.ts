@@ -1,4 +1,4 @@
-import { IStack } from '@/types/stack';
+import { IMergedStack, IStack } from '@/types/stack';
 import { ChangeEventHandler, MutableRefObject } from 'react';
 
 export interface ProfileContextValue {
@@ -10,5 +10,5 @@ export interface ProfileContextValue {
 	observerTarget: MutableRefObject<HTMLBRElement | null>;
 	searchValue: string;
 	stacks: IStack[];
-	userStacks: IStack[];
+	mergedStacks: IMergedStack[];
 }

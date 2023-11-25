@@ -5,7 +5,7 @@ import Shelf from './shelf/shelf';
 import StackSearch from './stackSearch/stackSearch';
 import StackList from './stackList/stackList';
 import Head from '@/components/others/head/head';
-import { IStack } from '@/types/stack';
+import { IMergedStack, IStack } from '@/types/stack';
 
 const ProfileConsumer = () => {
 	const { observerTarget } = useProfileContext();
@@ -26,11 +26,11 @@ const ProfileConsumer = () => {
 };
 
 interface ProfileProps {
-	userStacks: IStack[];
+	mergedStacks: IMergedStack[];
 }
 
-const Profile = ({ userStacks }: ProfileProps) => (
-	<ProfileProvider userStacks={userStacks}>
+const Profile = ({ mergedStacks }: ProfileProps) => (
+	<ProfileProvider mergedStacks={mergedStacks}>
 		<ProfileConsumer />
 	</ProfileProvider>
 );

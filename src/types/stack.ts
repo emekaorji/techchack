@@ -16,6 +16,10 @@ export interface IStack {
 	icon: string;
 }
 
+export interface IMergedStack extends IStack {
+	score: number;
+}
+
 export interface Pagination {
 	limit: number;
 	orderBy: string;

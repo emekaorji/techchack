@@ -5,11 +5,11 @@ import Profile from '@/components/views/profile/profile';
 import { stacks } from '@/db/schema';
 import { techChackDB } from '@/db';
 import { inArray } from 'drizzle-orm';
-import { IStack } from '@/types/stack';
+import { IMergedStack } from '@/types/stack';
 
 export const getServerSideProps: GetServerSideProps<{
 	session: Session;
-	userStacks: IStack[];
+	mergedStacks: IMergedStack[];
 }> = async (context) => {
 	const session = await getServerSession(
 		context.req,
@@ -18,30 +18,32 @@ export const getServerSideProps: GetServerSideProps<{
 	);
 
 	if (session) {
-		const stackIds = session.user.stacks.map((item) => item.id);
+		const userStacks = session.user.stacks;
+		const stackIds = userStacks.map((item) => item.id);
 
-		const userStacks = await techChackDB
+		const publicStacks = await techChackDB
 			.select()
 			.from(stacks)
 			.where(inArray(stacks.id, stackIds));
 
-		const parsedUserStacks = userStacks.map(
-			(result) =>
+		const mergedStacks = publicStacks.map(
+			(stack) =>
 				({
-					category: result.category,
-					description: result.description || '',
-					icon: result.icon || '',
-					id: result.id,
-					link: result.link || '',
-					name: result.name,
-					requirements: result.requirements || [],
-				} satisfies IStack)
+					category: stack.category,
+					description: stack.description || '',
+					icon: stack.icon || '',
+					id: stack.id,
+					link: stack.link || '',
+					name: stack.name,
+					requirements: stack.requirements || [],
+					score: userStacks.find((item) => item.id === stack.id)?.score || 1,
+				} satisfies IMergedStack)
 		);
 
 		return {
 			props: {
 				session,
-				userStacks: parsedUserStacks,
+				mergedStacks,
 			},
 		};
 	} else {
@@ -55,9 +57,9 @@ export const getServerSideProps: GetServerSideProps<{
 };
 
 interface ProfilePageProps {
-	userStacks: IStack[];
+	mergedStacks: IMergedStack[];
 }
 
-export default function ProfilePage({ userStacks }: ProfilePageProps) {
-	return <Profile userStacks={userStacks} />;
+export default function ProfilePage({ mergedStacks }: ProfilePageProps) {
+	return <Profile mergedStacks={mergedStacks} />;
 }

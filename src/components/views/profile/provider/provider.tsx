@@ -9,7 +9,7 @@ import {
 	useState,
 } from 'react';
 import { ProfileContextValue } from '../types/context';
-import { AllStacksResult } from '@/types/stack';
+import { AllStacksResult, IMergedStack } from '@/types/stack';
 import { IStack } from '@/types/stack';
 import Fuse, { IFuseOptions } from 'fuse.js';
 import useAuthContext from '@/hooks/context/useAuthContext';
@@ -18,7 +18,7 @@ import complementArray from '@/utils/complementArray';
 
 interface ProfileProviderProps {
 	children: ReactNode;
-	userStacks: IStack[];
+	mergedStacks: IMergedStack[];
 }
 
 const ProfileContext = createContext<ProfileContextValue | null>(null);
@@ -31,7 +31,7 @@ const options: IFuseOptions<IStack> = {
 
 const ProfileProvider = ({
 	children,
-	userStacks: _userStacks,
+	mergedStacks: _mergedStacks,
 }: ProfileProviderProps) => {
 	const { user, setUser } = useAuthContext();
 
@@ -40,7 +40,7 @@ const ProfileProvider = ({
 	const fuse = useRef(new Fuse<IStack>([], options));
 	const abortController = useRef(new AbortController());
 
-	const [userStacks, setUserStacks] = useState(_userStacks);
+	const [mergedStacks, setMergedStacks] = useState(_mergedStacks);
 	const [isLoading, setIsLoading] = useState(false);
 	const [isSearching, setIsSearching] = useState(false);
 	const [searchValue, setValue] = useState('');
@@ -48,7 +48,7 @@ const ProfileProvider = ({
 	const isLastPage = useRef(false);
 
 	console.log(user);
-	console.log(userStacks);
+	console.log(mergedStacks);
 
 	const parsedStacks = useMemo(() => {
 		if (searchValue) {
@@ -191,8 +191,9 @@ const ProfileProvider = ({
 
 			const localStack = stash.current.find((stack) => stack.id === id);
 			if (localStack) {
-				setUserStacks((prev) => {
-					prev.push(localStack);
+				const score = result.find((stack) => stack.id === id)?.score || 1;
+				setMergedStacks((prev) => {
+					prev.push({ ...localStack, score });
 					return [...prev];
 				});
 			}
@@ -216,7 +217,7 @@ const ProfileProvider = ({
 				}
 				return prev;
 			});
-			setUserStacks((prev) => {
+			setMergedStacks((prev) => {
 				const stackIndex = prev.findIndex((stack) => stack.id === id);
 				if (stackIndex >= 0) prev.splice(stackIndex, 1);
 				return [...prev];
@@ -235,7 +236,7 @@ const ProfileProvider = ({
 			observerTarget,
 			searchValue,
 			stacks: parsedStacks,
-			userStacks,
+			mergedStacks,
 		}),
 		[
 			addStack,
@@ -245,7 +246,7 @@ const ProfileProvider = ({
 			isSearching,
 			parsedStacks,
 			searchValue,
-			userStacks,
+			mergedStacks,
 		]
 	);
 

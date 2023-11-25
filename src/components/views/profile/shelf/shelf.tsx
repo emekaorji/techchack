@@ -5,9 +5,11 @@ import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './shelf.module.css';
 import JavaScriptIcon from '@/components/interface/icons/javaScript';
 import { CSSProperties } from 'react';
+import useProfileContext from '../hooks/useProfileContext';
 
 const Shelf = () => {
 	const { user } = useAuthContext();
+	const { mergedStacks } = useProfileContext();
 
 	return (
 		<>
@@ -27,7 +29,7 @@ const Shelf = () => {
 						You don&apos;t have any tech stack in your shelf. Add one or more
 						tech stack by clicking a stack below
 					</div> */}
-					{user?.stacks.map((item) => (
+					{mergedStacks.map((item) => (
 						<StackStrip key={item.id} score={item.score} />
 					))}
 				</div>
