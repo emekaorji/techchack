@@ -14,6 +14,7 @@ import { IStack } from '@/types/stack';
 import Fuse, { IFuseOptions } from 'fuse.js';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import { IUserStack } from '@/types/api/user';
+import complementArray from '@/utils/complementArray';
 
 interface ProfileProviderProps {
 	children: ReactNode;
@@ -29,6 +30,7 @@ const options: IFuseOptions<IStack> = {
 
 const ProfileProvider = ({ children }: ProfileProviderProps) => {
 	const { user, setUser } = useAuthContext();
+	console.log(user);
 
 	const pageNumber = useRef(0);
 	const stash = useRef<IStack[]>([]);
@@ -45,11 +47,11 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 		if (searchValue) {
 			const fuseResult = fuse.current.search(searchValue);
 			const result = fuseResult.map((i) => i.item);
-			return result;
+			return complementArray(result, user?.stacks || [], 'id');
 		} else {
-			return stacks;
+			return complementArray(stacks, user?.stacks || [], 'id');
 		}
-	}, [stacks, searchValue]);
+	}, [searchValue, user?.stacks, stacks]);
 
 	const handleSearchInputChange = useCallback(
 		(event: ChangeEvent<HTMLInputElement>) => {
@@ -170,6 +172,8 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 				method: 'POST',
 			});
 			const result = (await response.json()) as IUserStack[];
+			if (!response.ok) throw result;
+
 			setUser((prev) => {
 				if (prev) {
 					prev.stacks = result;

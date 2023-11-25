@@ -1,0 +1,25 @@
+.profileDetails {
+  width: min(1000px, 90%);
+  max-width: min(1000px, 90%);
+  background-color: #1c7fee33;
+  border-radius: 1em;
+  padding: 1em;
+}
+.level1 {
+  display: flex;
+  justify-content: space-between;
+}
+.level1 .left {
+  display: flex;
+  gap: 0.4em;
+  align-items: center;
+}
+.level2 .empty {
+  color: #fff6;
+  font-size: 1.3em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+}
