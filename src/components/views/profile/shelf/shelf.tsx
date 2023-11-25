@@ -7,6 +7,8 @@ import { CSSProperties, useState } from 'react';
 import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
+import Link from 'next/link';
+import useModalContext from '@/hooks/context/useModalContext';
 
 const Shelf = () => {
 	const { user } = useAuthContext();
@@ -36,6 +38,7 @@ const Shelf = () => {
 					{mergedStacks.map((item) => (
 						<StackStrip
 							icon={item.icon}
+							id={item.id}
 							key={item.id}
 							name={item.name}
 							score={item.score}
@@ -56,17 +59,21 @@ const Shelf = () => {
 
 interface StackStripProps {
 	icon: string;
+	id: string;
 	name: string;
 	score: number;
 }
 
-const StackStrip = ({ icon, name, score }: StackStripProps) => {
+const StackStrip = ({ icon, id, name, score }: StackStripProps) => {
+	const { createModal } = useModalContext();
+
 	return (
 		<>
 			<div className={styles.strip}>
-				<div
+				<button
 					className={styles.stackIcon}
 					dangerouslySetInnerHTML={{ __html: icon }}
+					onClick={() => createModal('')}
 				/>
 				<div className={styles.stackInfo}>
 					<div className={styles.stackTitle}>
