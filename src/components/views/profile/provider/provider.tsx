@@ -13,11 +13,12 @@ import { AllStacksResult } from '@/types/stack';
 import { IStack } from '@/types/stack';
 import Fuse, { IFuseOptions } from 'fuse.js';
 import useAuthContext from '@/hooks/context/useAuthContext';
-import { IUserStack } from '@/types/api/user';
+import { IUserStack } from '@/types/user';
 import complementArray from '@/utils/complementArray';
 
 interface ProfileProviderProps {
 	children: ReactNode;
+	userStacks: IStack[];
 }
 
 const ProfileContext = createContext<ProfileContextValue | null>(null);
@@ -28,20 +29,26 @@ const options: IFuseOptions<IStack> = {
 	keys: ['name', 'description', 'category'],
 };
 
-const ProfileProvider = ({ children }: ProfileProviderProps) => {
+const ProfileProvider = ({
+	children,
+	userStacks: _userStacks,
+}: ProfileProviderProps) => {
 	const { user, setUser } = useAuthContext();
-	console.log(user);
 
 	const pageNumber = useRef(0);
 	const stash = useRef<IStack[]>([]);
 	const fuse = useRef(new Fuse<IStack>([], options));
 	const abortController = useRef(new AbortController());
 
+	const [userStacks, setUserStacks] = useState(_userStacks);
 	const [isLoading, setIsLoading] = useState(false);
 	const [isSearching, setIsSearching] = useState(false);
 	const [searchValue, setValue] = useState('');
 	const [stacks, setStacks] = useState<IStack[]>([]);
 	const isLastPage = useRef(false);
+
+	console.log(user);
+	console.log(userStacks);
 
 	const parsedStacks = useMemo(() => {
 		if (searchValue) {
@@ -181,6 +188,14 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 				}
 				return prev;
 			});
+
+			const localStack = stash.current.find((stack) => stack.id === id);
+			if (localStack) {
+				setUserStacks((prev) => {
+					prev.push(localStack);
+					return [...prev];
+				});
+			}
 		},
 		[setUser, user]
 	);
@@ -201,6 +216,11 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 				}
 				return prev;
 			});
+			setUserStacks((prev) => {
+				const stackIndex = prev.findIndex((stack) => stack.id === id);
+				if (stackIndex >= 0) prev.splice(stackIndex, 1);
+				return [...prev];
+			});
 		},
 		[setUser, user]
 	);
@@ -215,6 +235,7 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 			observerTarget,
 			searchValue,
 			stacks: parsedStacks,
+			userStacks,
 		}),
 		[
 			addStack,
@@ -224,6 +245,7 @@ const ProfileProvider = ({ children }: ProfileProviderProps) => {
 			isSearching,
 			parsedStacks,
 			searchValue,
+			userStacks,
 		]
 	);
 

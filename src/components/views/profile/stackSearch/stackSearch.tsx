@@ -1,7 +1,7 @@
 import LoaderIcon from '@/components/interface/icons/loader';
 import SearchIcon from '@/components/interface/icons/search';
 import useProfileContext from '../hooks/useProfileContext';
-import styles from './search.module.css';
+import styles from './stackSearch.module.css';
 
 const StackSearch = () => {
 	const { handleSearchInputChange, isSearching, searchValue } =

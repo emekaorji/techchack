@@ -1,4 +1,4 @@
-import { IPublicUser } from './api/user';
+import { IPublicUser } from './user';
 import { Dispatch, SetStateAction } from 'react';
 
 export interface AuthContextValue {

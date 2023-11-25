@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 import InfoIcon from '../../../interface/icons/info';
 import useProfileContext from '../hooks/useProfileContext';
-import styles from './chip.module.css';
+import styles from './stackChip.module.css';
 import getClassName from '@/utils/getClassName';
 
 interface ChipProps {
@@ -10,7 +10,7 @@ interface ChipProps {
 	name: string;
 }
 
-const Chip = ({ id, icon, name }: ChipProps) => {
+const StackChip = ({ id, icon, name }: ChipProps) => {
 	const { addStack } = useProfileContext();
 
 	const [loading, setLoading] = useState(false);
@@ -49,4 +49,4 @@ const Chip = ({ id, icon, name }: ChipProps) => {
 	);
 };
 
-export default Chip;
+export default StackChip;

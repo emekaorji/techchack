@@ -1,6 +1,5 @@
-import { IPublicUser, IUser } from '@/types/api/user';
+import { IPublicUser } from '@/types/user';
 import { AuthContextValue } from '@/types/context';
-import { Session } from 'next-auth';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { ReactNode, createContext, useEffect, useMemo, useState } from 'react';

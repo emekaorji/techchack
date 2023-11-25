@@ -2,9 +2,10 @@
 import ProfileProvider from './provider/provider';
 import useProfileContext from './hooks/useProfileContext';
 import Shelf from './shelf/shelf';
-import StackSearch from './search/search';
+import StackSearch from './stackSearch/stackSearch';
 import StackList from './stackList/stackList';
 import Head from '@/components/others/head/head';
+import { IStack } from '@/types/stack';
 
 const ProfileConsumer = () => {
 	const { observerTarget } = useProfileContext();
@@ -24,8 +25,12 @@ const ProfileConsumer = () => {
 	);
 };
 
-const Profile = () => (
-	<ProfileProvider>
+interface ProfileProps {
+	userStacks: IStack[];
+}
+
+const Profile = ({ userStacks }: ProfileProps) => (
+	<ProfileProvider userStacks={userStacks}>
 		<ProfileConsumer />
 	</ProfileProvider>
 );

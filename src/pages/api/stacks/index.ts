@@ -24,8 +24,6 @@ export default async function handler(
 			const allStacks = await getAllStacks(limit, orderBy, page, search);
 			res.status(200).json(allStacks);
 		} catch (error: any) {
-			// throw Error(error);
-			console.log(error.message);
 			res.status(error.code || 500).send(error);
 		}
 	} else {

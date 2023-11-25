@@ -1,4 +1,3 @@
-import { IUserStack } from '@/types/api/user';
 import { IStack } from '@/types/stack';
 import { ChangeEventHandler, MutableRefObject } from 'react';
 
@@ -11,4 +10,5 @@ export interface ProfileContextValue {
 	observerTarget: MutableRefObject<HTMLBRElement | null>;
 	searchValue: string;
 	stacks: IStack[];
+	userStacks: IStack[];
 }

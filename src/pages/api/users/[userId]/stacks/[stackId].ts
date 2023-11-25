@@ -4,7 +4,7 @@ import { publicUsers } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../../../auth/[...nextauth]';
-import { IPublicUser, IUserStack } from '@/types/api/user';
+import { IPublicUser, IUserStack } from '@/types/user';
 
 const ALLOWED_METHODS = ['DELETE', 'PATCH'];
 

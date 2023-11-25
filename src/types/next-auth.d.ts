@@ -1,5 +1,5 @@
 import NextAuth, { DefaultSession } from 'next-auth';
-import { IUserStack } from './api/user';
+import { IUserStack } from './user';
 
 declare module 'next-auth' {
 	interface Session {

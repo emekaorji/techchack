@@ -1,5 +1,5 @@
 import LoaderIcon from '@/components/interface/icons/loader';
-import Chip from '../chip/chip';
+import StackChip from '../stackChip/stackChip';
 import styles from './stackList.module.css';
 import useProfileContext from '../hooks/useProfileContext';
 
@@ -10,7 +10,12 @@ const StackList = () => {
 		<>
 			<div className={styles.stacks}>
 				{stacks.map((item) => (
-					<Chip id={item.id} icon={item.icon} key={item.id} name={item.name} />
+					<StackChip
+						id={item.id}
+						icon={item.icon}
+						key={item.id}
+						name={item.name}
+					/>
 				))}
 				{isLoading ? (
 					<div className={styles.loader}>
