@@ -7,9 +7,9 @@ import {
 	useState,
 } from 'react';
 import ModalLayout from './modal';
-import { ModalContent, ModalOptions } from '@/types/modal';
-import getRandomId from '@/utils/getRandomId';
+import { ModalOptions } from '@/types/modal';
 import styles from './modal.module.css';
+import useSluggishState from 'use-sluggish-state';
 
 interface ModalProviderProps {
 	children: ReactNode;
@@ -18,49 +18,24 @@ interface ModalProviderProps {
 const ModalContext = createContext<ModalContextValue | null>(null);
 
 const ModalProvider = ({ children }: ModalProviderProps) => {
-	const [modals, setModals] = useState<ReactNode[]>([]);
+	const [modal, setModal] = useSluggishState<{
+		className: string;
+		content: ReactNode;
+		x: number;
+		y: number;
+	} | null>(null, 2000);
 
-	const destroyModal = useCallback((modalId: string) => {
-		setModals((prev) => {
-			const newModals = prev.filter(
-				(item) => (item as JSX.Element).props.id !== modalId
-			);
-			return [...newModals];
-		});
-	}, []);
+	const destroyModal = useCallback(() => {
+		setModal(null);
+	}, [setModal]);
 
 	const createModal = useCallback(
-		function <T = undefined>(content: ModalContent<T>, options?: ModalOptions) {
-			const className = options?.className;
-			const closeButton = options?.closeButton || true;
-			const modalId = getRandomId();
-			const triggerElement = options?.triggerElement;
+		function (content: ReactNode, options: ModalOptions) {
+			const { className = '', x, y } = options;
 
-			const handleDestroyModal = () => {
-				if (triggerElement) triggerElement.focus();
-				destroyModal(modalId);
-			};
-
-			return new Promise<T>((resolve, reject) => {
-				setModals((prev) => {
-					prev.push(
-						<ModalLayout<T>
-							className={className}
-							closeButton={closeButton}
-							content={content}
-							destroyModal={handleDestroyModal}
-							id={modalId}
-							key={modalId}
-							reject={reject}
-							resolve={resolve}
-							triggerElement={triggerElement}
-						/>
-					);
-					return [...prev];
-				});
-			});
+			setModal({ className, content, x, y });
 		},
-		[destroyModal]
+		[setModal]
 	);
 
 	const providerValue = useMemo<ModalContextValue>(
@@ -71,7 +46,17 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
 	return (
 		<ModalContext.Provider value={providerValue}>
 			{children}
-			<div className={styles.modalContainer}>{modals}</div>
+			<div className={styles.modalContainer}>
+				{modal && (
+					<ModalLayout
+						className={modal.className}
+						content={modal.content}
+						destroyModal={destroyModal}
+						x={modal.x}
+						y={modal.y}
+					/>
+				)}
+			</div>
 		</ModalContext.Provider>
 	);
 };

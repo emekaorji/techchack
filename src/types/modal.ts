@@ -11,7 +11,7 @@ interface Params<T> {
 export type ModalContent<T> = ReactNode | ((params: Params<T>) => ReactNode);
 
 export interface ModalOptions {
-	closeButton?: boolean;
-	triggerElement?: HTMLElement;
 	className?: string;
+	x: number;
+	y: number;
 }

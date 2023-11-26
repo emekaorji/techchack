@@ -7,7 +7,6 @@ import { CSSProperties, useState } from 'react';
 import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
-import Link from 'next/link';
 import useModalContext from '@/hooks/context/useModalContext';
 
 const Shelf = () => {
@@ -31,10 +30,12 @@ const Shelf = () => {
 				<br />
 				<div
 					className={styles.level2 + getClassName(expanded, styles.expanded)}>
-					{/* <div className={styles.empty}>
-						You don&apos;t have any tech stack in your shelf. Add one or more
-						tech stack by clicking a stack below
-					</div> */}
+					{!mergedStacks.length && (
+						<div className={styles.empty}>
+							You don&apos;t have any tech stack in your shelf. Add one or more
+							tech stack by clicking a stack below
+						</div>
+					)}
 					{mergedStacks.map((item) => (
 						<StackStrip
 							icon={item.icon}
