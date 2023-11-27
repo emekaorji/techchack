@@ -14,4 +14,6 @@ export interface ModalOptions {
 	className?: string;
 	x: number;
 	y: number;
+	width: number;
+	height: number;
 }

@@ -21,10 +21,12 @@ export const getServerSideProps: GetServerSideProps<{
 		const userStacks = session.user.stacks;
 		const stackIds = userStacks.map((item) => item.id);
 
-		const publicStacks = await techChackDB
-			.select()
-			.from(stacks)
-			.where(inArray(stacks.id, stackIds));
+		const publicStacks = stackIds.length
+			? await techChackDB
+					.select()
+					.from(stacks)
+					.where(inArray(stacks.id, stackIds))
+			: [];
 
 		const mergedStacks = publicStacks.map(
 			(stack) =>

@@ -1,32 +1,68 @@
 .modalContainer {
   width: 100%;
   height: 100%;
+  backdrop-filter: blur(0em);
   position: fixed;
   top: 0;
   left: 0;
   isolation: isolate;
   pointer-events: none;
+  z-index: 1;
+  transition: all 500ms ease;
 }
-.modalLayout {
-  width: 100%;
-  height: 100%;
+.modalContainer.active {
   background-color: #00000055;
   backdrop-filter: blur(0.2em);
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
   pointer-events: all;
 }
 .modalContent {
   /* width: min(80vw, 30em); */
-  max-height: 85vh;
-  background-color: rgb(var(--color-background-primary));
+  width: var(--width, 0%);
+  height: var(--height, 0%);
+  background-color: #ffffff55;
   display: flex;
-  position: relative;
+  position: fixed;
+  top: var(--top, 0%);
+  left: var(--left, 0%);
+  overflow: hidden;
   border-radius: 0.75em;
-  margin: 7.25vh 0 auto;
+  /* margin: 7.25vh 0 auto; */
+  animation: xoom 300ms ease-in-out forwards;
+  border: 1px solid red;
+}
+.modalContent.isClosing {
+  animation: reverseXoom 300ms ease-in-out forwards;
+}
+.modalContent.isClosing * {
+  overflow: hidden;
+}
+@keyframes xoom {
+  0% {
+    width: var(--width, 0%);
+    height: var(--height, 0%);
+    top: var(--top, 0%);
+    left: var(--left, 0%);
+  }
+  100% {
+    width: min(70%, 800px);
+    height: 50em;
+    top: 10%;
+    left: var(--endLeft, 0%);
+  }
+}
+@keyframes reverseXoom {
+  0% {
+    width: min(70%, 800px);
+    height: 50em;
+    top: 10%;
+    left: var(--endLeft, 0%);
+  }
+  100% {
+    width: var(--width, 0%);
+    height: var(--height, 0%);
+    top: var(--top, 0%);
+    left: var(--left, 0%);
+  }
 }
 .scrollContainer {
   /* width: 100%; */
@@ -47,7 +83,11 @@
   position: absolute;
   top: 1em;
   right: 1em;
+  transition: all 300ms ease;
 }
 .closeButton:hover {
   backdrop-filter: brightness(80%);
+}
+.modalContent.isClosing .closeButton {
+  opacity: 0;
 }

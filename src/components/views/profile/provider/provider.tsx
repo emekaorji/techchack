@@ -47,9 +47,6 @@ const ProfileProvider = ({
 	const [stacks, setStacks] = useState<IStack[]>([]);
 	const isLastPage = useRef(false);
 
-	console.log(user);
-	console.log(mergedStacks);
-
 	const parsedStacks = useMemo(() => {
 		if (searchValue) {
 			const fuseResult = fuse.current.search(searchValue);
@@ -87,6 +84,7 @@ const ProfileProvider = ({
 	}, []);
 
 	const fetchStacks = useCallback(async () => {
+		return;
 		abortController.current.abort(
 			'Aborting search call because the search input changed'
 		);
@@ -124,8 +122,9 @@ const ProfileProvider = ({
 		 */
 		return new Promise<void>((resolve, reject) => {
 			setTimeout(async () => {
+				if (!observerTarget.current) return;
 				const windowHeight = document.documentElement.clientHeight;
-				const top = observerTarget.current!.getBoundingClientRect().top;
+				const top = observerTarget.current.getBoundingClientRect().top;
 				const isInView = windowHeight - top > 0;
 				/**
 				 * If the observer target is still in viewport then fetch more stacks

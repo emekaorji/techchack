@@ -3,7 +3,7 @@ import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './shelf.module.css';
-import { CSSProperties, useState } from 'react';
+import { CSSProperties, useRef, useState } from 'react';
 import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
@@ -67,6 +67,7 @@ interface StackStripProps {
 
 const StackStrip = ({ icon, id, name, score }: StackStripProps) => {
 	const { createModal } = useModalContext();
+	const ref = useRef<HTMLButtonElement | null>(null);
 
 	return (
 		<>
@@ -74,7 +75,15 @@ const StackStrip = ({ icon, id, name, score }: StackStripProps) => {
 				<button
 					className={styles.stackIcon}
 					dangerouslySetInnerHTML={{ __html: icon }}
-					onClick={() => createModal('')}
+					onClick={(e) => {
+						const target = e.currentTarget?.getBoundingClientRect();
+						const x = target?.x || e.clientX;
+						const y = target?.y || e.clientY;
+						const width = target?.width || 0;
+						const height = target?.height || 0;
+						createModal('modal', { x, y, width, height });
+					}}
+					ref={ref}
 				/>
 				<div className={styles.stackInfo}>
 					<div className={styles.stackTitle}>

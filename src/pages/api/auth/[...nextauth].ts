@@ -39,6 +39,8 @@ export const nextAuthOptions: NextAuthOptions = {
 					session.user.stacks = publicUser?.stacks || [];
 				} catch (error) {
 					console.error('There was an error in fetching the public user info');
+					session.user.role = '';
+					session.user.stacks = [];
 				}
 				session.user.id = userId;
 				session.user.name = user.name || '';
