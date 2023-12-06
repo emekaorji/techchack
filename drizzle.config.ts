@@ -1,11 +1,12 @@
+import { variables } from '@/constants/variables';
 import type { Config } from 'drizzle-kit';
 
 const drizzleConfig = {
 	schema: './src/db/schema.ts',
 	driver: 'turso',
 	dbCredentials: {
-		url: process.env.DATABASE_URL_PROD,
-		authToken: process.env.DATABASE_AUTH_TOKEN_PROD,
+		url: variables.DATABASE_URL,
+		authToken: variables.DATABASE_AUTH_TOKEN,
 	},
 	verbose: true,
 	strict: true,

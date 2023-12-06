@@ -4,17 +4,12 @@ import { DrizzleAdapter } from '@auth/drizzle-adapter';
 import { techChackDB } from '@/db';
 import { publicUsers } from '@/db/schema';
 import { eq } from 'drizzle-orm';
+import { variables } from '@/constants/variables';
 
-const devCredentials = {
-	githubClientId: process.env.DEV_GITHUB_CLIENT_ID,
-	githubClientSecret: process.env.DEV_GITHUB_CLIENT_SECRET,
+const credentials = {
+	githubClientId: variables.GITHUB_CLIENT_ID,
+	githubClientSecret: variables.GITHUB_CLIENT_SECRET,
 };
-const stagingCredentials = {
-	githubClientId: process.env.STAG_GITHUB_CLIENT_ID,
-	githubClientSecret: process.env.STAG_GITHUB_CLIENT_SECRET,
-};
-const credentials =
-	process.env.NODE_ENV === 'development' ? devCredentials : stagingCredentials;
 
 export const nextAuthOptions: NextAuthOptions = {
 	adapter: DrizzleAdapter(techChackDB),
