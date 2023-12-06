@@ -16,41 +16,41 @@ export default async function handler(
 	req: NextApiRequest,
 	res: NextApiResponse<IStack[]>
 ) {
+	// Request Validation Check
 	if (!ALLOWED_METHODS.includes(req.method!)) {
 		res.status(405).end();
 		return;
 	}
 
+	// Authentication Check
 	const session = await getServerSession(req, res, nextAuthOptions);
+	if (!session) res.status(401);
 
-	if (session) {
-		const { stackIds } = req.body as { stackIds: string[] };
+	const { stackIds } = req.body as { stackIds: string[] };
 
-		try {
-			const multipleStacks = await techChackDB
-				.select()
-				.from(stacks)
-				.where(inArray(stacks.id, stackIds));
+	// Handle the request
+	try {
+		const multipleStacks = await techChackDB
+			.select()
+			.from(stacks)
+			.where(inArray(stacks.id, stackIds));
 
-			const parsedMultipleStacks = multipleStacks.map(
-				(result) =>
-					({
-						category: result.category,
-						description: result.description || '',
-						icon: result.icon || '',
-						id: result.id,
-						link: result.link || '',
-						name: result.name,
-						requirements: result.requirements || [],
-					} satisfies IStack)
-			);
+		const parsedMultipleStacks = multipleStacks.map(
+			(result) =>
+				({
+					category: result.category,
+					description: result.description || '',
+					icon: result.icon || '',
+					id: result.id,
+					link: result.link || '',
+					name: result.name,
+					requirements: result.requirements || [],
+				} satisfies IStack)
+		);
 
-			res.status(200).json(parsedMultipleStacks);
-		} catch (error: any) {
-			res.status(error.code || 500).send(error);
-		}
-	} else {
-		res.status(401);
+		res.status(200).json(parsedMultipleStacks);
+	} catch (error: any) {
+		res.status(error.code || 500).send(error);
 	}
 	res.end();
 }

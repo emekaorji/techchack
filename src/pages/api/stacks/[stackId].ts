@@ -12,20 +12,22 @@ export default async function handler(
 	req: NextApiRequest,
 	res: NextApiResponse
 ) {
+	// Request Validation Check
 	if (!ALLOWED_METHODS.includes(req.method!)) {
 		res.status(405).end();
 		return;
 	}
+
+	// Authentication Check
 	const session = await getServerSession(req, res, nextAuthOptions);
-	if (session) {
-		if (req.method === 'GET') {
-			handleGetRequest(req, res);
-		}
-		if (req.method === 'PATCH') {
-			handlePatchRequest(req, res);
-		}
-	} else {
-		res.status(401);
+	if (!session) res.status(401);
+
+	// Handle the request
+	if (req.method === 'GET') {
+		await handleGetRequest(req, res);
+	}
+	if (req.method === 'PATCH') {
+		await handlePatchRequest(req, res);
 	}
 	res.end();
 }

@@ -1,4 +1,4 @@
-import { variables } from '@/constants/variables';
+import { variables } from './src/constants/variables';
 import type { Config } from 'drizzle-kit';
 
 const drizzleConfig = {

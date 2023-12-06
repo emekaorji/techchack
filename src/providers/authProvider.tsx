@@ -1,7 +1,6 @@
 import { IPublicUser } from '@/types/user';
 import { AuthContextValue } from '@/types/context';
 import { useSession } from 'next-auth/react';
-import { useRouter } from 'next/router';
 import { ReactNode, createContext, useEffect, useMemo, useState } from 'react';
 
 const AuthContext = createContext<AuthContextValue | null>(null);
@@ -12,7 +11,8 @@ interface AuthProviderProps {
 
 const AuthProvider = ({ children }: AuthProviderProps) => {
 	const { status, data: session } = useSession();
-	const { pathname, push } = useRouter();
+
+	console.log(session);
 
 	const [user, setUser] = useState<IPublicUser | null>(session?.user || null);
 
@@ -21,16 +21,6 @@ const AuthProvider = ({ children }: AuthProviderProps) => {
 			setUser(session.user);
 		}
 	}, [session]);
-
-	useEffect(() => {
-		if (status !== 'loading') {
-			if (!session && pathname !== '/login') {
-				push('/login');
-			} else if (session && pathname === '/login') {
-				push('/profile');
-			}
-		}
-	}, [pathname, push, session, status]);
 
 	const providerValue = useMemo<AuthContextValue>(
 		() => ({ user, setUser }),
