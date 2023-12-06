@@ -38,6 +38,7 @@ const Avatar = ({ url }: { url?: string }) => {
 		''
 	) : (
 		<div className={styles.avatar}>
+			{/* eslint-disable-next-line @next/next/no-img-element */}
 			<img src={actualUrl} alt='' />
 		</div>
 	);
