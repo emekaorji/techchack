@@ -4,8 +4,8 @@ import { createClient } from '@libsql/client';
 
 async function main() {
 	const client = createClient({
-		url: process.env.DEV_DATABASE_URL,
-		authToken: process.env.DEV_DATABASE_AUTH_TOKEN,
+		url: process.env.PROD_DATABASE_URL,
+		authToken: process.env.PROD_DATABASE_AUTH_TOKEN,
 	});
 
 	const db = drizzle(client);

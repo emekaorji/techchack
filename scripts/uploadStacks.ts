@@ -9,7 +9,7 @@ async function batchUploadToTurso() {
 		let count = 0;
 		while (count < (stacksData as IStack[]).length) {
 			const stack = (stacksData as IStack[])[count];
-			console.log('Uploading: ', stack.name);
+			console.log(`Uploading(${count + 1}): `, stack.name);
 			await techChackDB.insert(stacks).values(stack).returning().get();
 			count++;
 		}
