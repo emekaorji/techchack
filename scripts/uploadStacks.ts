@@ -6,12 +6,13 @@ import { IStack } from '@/types/stack';
 async function batchUploadToTurso() {
 	try {
 		console.log('Starting upload');
-		await Promise.all(
-			(stacksData as IStack[]).map((stack) => {
-				console.log('Uploading: ', stack.name);
-				return techChackDB.insert(stacks).values(stack).returning().get();
-			})
-		);
+		let count = 0;
+		while (count < (stacksData as IStack[]).length) {
+			const stack = (stacksData as IStack[])[count];
+			console.log('Uploading: ', stack.name);
+			await techChackDB.insert(stacks).values(stack).returning().get();
+			count++;
+		}
 		console.log('Defeated Shao Kahn Gracefully!!');
 	} catch (error: any) {
 		console.error(error.message);

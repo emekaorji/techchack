@@ -2,10 +2,9 @@ import NextAuth, { NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
 import { techChackDB } from '@/db';
-import { accounts, publicUsers } from '@/db/schema';
+import { publicUsers } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { variables } from '@/constants/variables';
-import { AdapterAccount } from '@auth/core/adapters';
 
 const credentials = {
 	githubClientId: variables.GITHUB_CLIENT_ID,
@@ -14,27 +13,6 @@ const credentials = {
 
 export const nextAuthOptions: NextAuthOptions = {
 	adapter: DrizzleAdapter(techChackDB),
-	// adapter: {...DrizzleAdapter(techChackDB), linkAccount: (rawAccount) => {
-	// 	const updatedAccount = await techChackDB
-	// 			.insert(accounts)
-	// 			.values(rawAccount)
-	// 			.returning()
-	// 			.get();
-
-	// 		const account: AdapterAccount = {
-	// 			...updatedAccount,
-	// 			type: updatedAccount.type,
-	// 			access_token: updatedAccount.access_token ?? undefined,
-	// 			token_type: updatedAccount.token_type ?? undefined,
-	// 			id_token: updatedAccount.id_token ?? undefined,
-	// 			refresh_token: updatedAccount.refresh_token ?? undefined,
-	// 			scope: updatedAccount.scope ?? undefined,
-	// 			expires_at: updatedAccount.expires_at ?? undefined,
-	// 			session_state: updatedAccount.session_state ?? undefined,
-	// 		};
-
-	// 		return account;
-	// }},
 	providers: [
 		GithubProvider({
 			clientId: credentials.githubClientId,

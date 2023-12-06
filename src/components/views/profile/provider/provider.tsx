@@ -84,7 +84,6 @@ const ProfileProvider = ({
 	}, []);
 
 	const fetchStacks = useCallback(async () => {
-		return;
 		abortController.current.abort(
 			'Aborting search call because the search input changed'
 		);

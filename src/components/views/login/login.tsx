@@ -2,8 +2,12 @@ import Head from 'next/head';
 import styles from './login.module.css';
 import { signIn } from 'next-auth/react';
 import GithubIcon from '@/components/interface/icons/github';
+import { useState } from 'react';
+import LoaderIcon from '@/components/interface/icons/loader';
 
 const Login = () => {
+	const [loading, setLoading] = useState(false);
+
 	return (
 		<>
 			<Head>
@@ -18,11 +22,12 @@ const Login = () => {
 			<div className={styles.container}>
 				<h1>TechChack</h1>
 				<button
-					onClick={() =>
-						signIn('github', { callbackUrl: '/profile', redirect: false })
-					}>
+					onClick={() => {
+						setLoading(true);
+						signIn('github', { callbackUrl: '/profile', redirect: false });
+					}}>
 					<span className={styles.icon}>
-						<GithubIcon />
+						{loading ? <LoaderIcon /> : <GithubIcon />}
 					</span>{' '}
 					Login with Github
 				</button>
