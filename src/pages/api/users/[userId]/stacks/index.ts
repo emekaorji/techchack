@@ -86,7 +86,7 @@ const handlePostRequest = async (req: NextApiRequest) => {
 	if (!user)
 		throw {
 			code: 404,
-			message: `User with ${'`ID:`'} ${userId} does not exist`,
+			message: `User with ID: ${'`'}${userId}${'`'} does not exist`,
 		};
 
 	const userStacks = user.stacks || [];

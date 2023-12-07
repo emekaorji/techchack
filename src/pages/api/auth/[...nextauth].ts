@@ -2,7 +2,7 @@ import NextAuth, { NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
 import { techChackDB } from '@/db';
-import { publicUsers } from '@/db/schema';
+import { publicUsers, users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { variables } from '@/constants/variables';
 
@@ -12,7 +12,25 @@ const credentials = {
 };
 
 export const nextAuthOptions: NextAuthOptions = {
-	adapter: DrizzleAdapter(techChackDB),
+	adapter: {
+		...DrizzleAdapter(techChackDB),
+		async createUser(data) {
+			const userId = crypto.randomUUID();
+			// Create User
+			const res = await techChackDB
+				.insert(users)
+				.values({ ...data, id: userId })
+				.returning()
+				.get();
+
+			// Create User Public Profile
+			await techChackDB
+				.insert(publicUsers)
+				.values({ ...data, id: userId, role: null, stacks: null });
+
+			return res;
+		},
+	},
 	providers: [
 		GithubProvider({
 			clientId: credentials.githubClientId,

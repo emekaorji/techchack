@@ -16,7 +16,9 @@ export const users = sqliteTable('user', {
 });
 
 export const publicUsers = sqliteTable('public_user', {
-	id: text('id').notNull().primaryKey(),
+	id: text('id')
+		.notNull()
+		.references(() => users.id, { onDelete: 'cascade' }),
 	name: text('name'),
 	email: text('email').notNull(),
 	image: text('image'),
