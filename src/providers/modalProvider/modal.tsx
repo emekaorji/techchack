@@ -14,6 +14,7 @@ interface ModalLayoutProps {
 	y: number;
 	width: number;
 	height: number;
+	radius: number;
 }
 
 function ModalLayout({
@@ -25,6 +26,7 @@ function ModalLayout({
 	y,
 	width,
 	height,
+	radius,
 }: ModalLayoutProps) {
 	const handleContentClick = useCallback((event: MouseEvent) => {
 		event.stopPropagation();
@@ -43,17 +45,18 @@ function ModalLayout({
 				}
 				onClick={handleContentClick}
 				style={(() => {
-					const endX = Math.min(
-						0.15 * documentWidth,
-						(documentWidth - 800) / 2
-					);
-					console.log(documentWidth);
+					const endX =
+						0.7 * documentWidth < 800
+							? 0.15 * documentWidth
+							: (documentWidth - 800) / 2;
+
 					return {
 						'--top': `${y}px`,
 						'--left': `${x}px`,
 						'--endLeft': `${endX}px`,
 						'--height': `${height}px`,
 						'--width': `${width}px`,
+						'--radius': `${radius}px`,
 					} as CSSProperties;
 				})()}>
 				<IconButton

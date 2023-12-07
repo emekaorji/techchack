@@ -16,4 +16,5 @@ export interface ModalOptions {
 	y: number;
 	width: number;
 	height: number;
+	radius: number;
 }

@@ -1,11 +1,5 @@
 import { ModalContextValue } from '@/types/context';
-import {
-	ReactNode,
-	createContext,
-	useCallback,
-	useMemo,
-	useState,
-} from 'react';
+import { ReactNode, createContext, useCallback, useMemo } from 'react';
 import ModalLayout from './modal';
 import { ModalOptions } from '@/types/modal';
 import styles from './modal.module.css';
@@ -26,6 +20,7 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
 		y: number;
 		width: number;
 		height: number;
+		radius: number;
 	} | null>(null);
 
 	const destroyModal = useCallback(() => {
@@ -34,9 +29,9 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
 
 	const createModal = useCallback(
 		function (content: ReactNode, options: ModalOptions) {
-			const { className = '', x, y, width, height } = options;
+			const { className = '', x, y, width, height, radius } = options;
 
-			setModal({ className, content, x, y, width, height });
+			setModal({ className, content, x, y, width, height, radius });
 		},
 		[setModal]
 	);
@@ -64,6 +59,7 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
 						y={modal.y}
 						width={modal.width}
 						height={modal.height}
+						radius={modal.radius}
 					/>
 				)}
 			</div>

@@ -76,12 +76,17 @@ const StackStrip = ({ icon, id, name, score }: StackStripProps) => {
 					className={styles.stackIcon}
 					dangerouslySetInnerHTML={{ __html: icon }}
 					onClick={(e) => {
-						const target = e.currentTarget?.getBoundingClientRect();
+						const currentTarget = e.currentTarget;
+						const target = currentTarget?.getBoundingClientRect();
 						const x = target?.x || e.clientX;
 						const y = target?.y || e.clientY;
 						const width = target?.width || 0;
 						const height = target?.height || 0;
-						createModal('modal', { x, y, width, height });
+						const radius =
+							Number(
+								window.getComputedStyle(currentTarget).borderRadius.slice(0, -2)
+							) || 0;
+						createModal('modal', { x, y, width, height, radius });
 					}}
 					ref={ref}
 				/>
