@@ -36,12 +36,12 @@
   padding: 1.5em;
 }
 .expandButton {
-  width: 98%;
+  width: calc(100% - 1.3em);
   height: 2.75em;
   /* background: linear-gradient(to bottom, transparent, #021836ee 0%), #ffffff; */
   background-color: #021836;
   filter: brightness(130%);
-  box-shadow: 0 0 10px 2px #00000057;
+  box-shadow: 0 0 15px 2px #00000017;
   color: #ffffff99;
   position: absolute;
   bottom: 2%;
@@ -54,6 +54,7 @@
   filter: brightness(150%);
 }
 .expandButton.expanded {
+  width: 100%;
   position: static;
   transform: rotate(0deg);
   margin-top: 1em;

@@ -50,13 +50,15 @@ const Shelf = () => {
 						/>
 					))}
 				</div>
-				<button
-					className={
-						styles.expandButton + getClassName(expanded, styles.expanded)
-					}
-					onClick={() => setExpanded((prev) => !prev)}>
-					<UpArrowIcon />
-				</button>
+				{mergedStacks.length > 6 && (
+					<button
+						className={
+							styles.expandButton + getClassName(expanded, styles.expanded)
+						}
+						onClick={() => setExpanded((prev) => !prev)}>
+						<UpArrowIcon />
+					</button>
+				)}
 			</div>
 		</>
 	);
