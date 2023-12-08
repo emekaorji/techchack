@@ -2,6 +2,7 @@ import { Tcategory } from '@/types/stack';
 import styles from './stackModal.module.css';
 import ExternalLinkIcon from '@/components/interface/icons/externalLink';
 import InfoRoundIcon from '@/components/interface/icons/infoRound';
+import Link from 'next/link';
 
 interface StackModalProps {
 	icon: string;
@@ -27,14 +28,16 @@ const StackModal = ({
 			<div className={styles.stackModal}>
 				<div className={styles.heading}>
 					<div className={styles.modalIconContainer}>
-						<div
+						<Link
 							className={styles.modalIcon}
 							dangerouslySetInnerHTML={{ __html: icon || '?' }}
+							href={`/s/${id}`}
 						/>
 					</div>
 					<h5 className={styles.category}>{category}</h5>
-					<h2>{name}</h2>
-					{/* <p>{description}</p> */}
+					<Link className={styles.title} href={`/s/${id}`}>
+						{name}
+					</Link>
 				</div>
 				<section className={styles.section}>
 					<h3>Overview</h3>

@@ -26,8 +26,9 @@
   border-radius: 2em;
   padding: 0.2em 0.7em;
 }
-.heading h2 {
+.heading .title {
   font-size: 2em;
+  font-weight: bold;
 }
 .section {
   padding-top: 1.3em;

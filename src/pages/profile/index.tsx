@@ -1,15 +1,15 @@
-import SingleStackView from '@/components/views/singleStack/singleStack';
 import { GetServerSideProps } from 'next';
 import { Session, getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../api/auth/[...nextauth]';
+import Profile from '@/components/views/profile/profile';
 import { stacks } from '@/db/schema';
 import { techChackDB } from '@/db';
-import { eq } from 'drizzle-orm';
-import { IStack } from '@/types/stack';
+import { inArray } from 'drizzle-orm';
+import { IMergedStack } from '@/types/stack';
 
 export const getServerSideProps: GetServerSideProps<{
 	session: Session;
-	stack: IStack | null;
+	mergedStacks: IMergedStack[];
 }> = async (context) => {
 	const session = await getServerSession(
 		context.req,
@@ -18,16 +18,19 @@ export const getServerSideProps: GetServerSideProps<{
 	);
 
 	if (session) {
-		const stackId = (context.params?.stackId as string) || '';
+		const userStacks = session.user.stacks;
+		const stackIds = userStacks.map((item) => item.id);
 
-		const stack = await techChackDB
-			.select()
-			.from(stacks)
-			.where(eq(stacks.id, stackId))
-			.get();
+		const publicStacks = stackIds.length
+			? await techChackDB
+					.select()
+					.from(stacks)
+					.where(inArray(stacks.id, stackIds))
+			: [];
 
-		const parsedStack = stack
-			? ({
+		const mergedStacks = publicStacks.map(
+			(stack) =>
+				({
 					category: stack.category,
 					description: stack.description || '',
 					icon: stack.icon || '',
@@ -35,13 +38,14 @@ export const getServerSideProps: GetServerSideProps<{
 					link: stack.link || '',
 					name: stack.name,
 					requirements: stack.requirements || [],
-			  } satisfies IStack)
-			: null;
+					score: userStacks.find((item) => item.id === stack.id)?.score || 1,
+				} satisfies IMergedStack)
+		);
 
 		return {
 			props: {
 				session,
-				stack: parsedStack,
+				mergedStacks,
 			},
 		};
 	} else {
@@ -53,10 +57,11 @@ export const getServerSideProps: GetServerSideProps<{
 		};
 	}
 };
-interface SingleStackPageProps {
-	stack: IStack | null;
+
+interface ProfilePageProps {
+	mergedStacks: IMergedStack[];
 }
 
-export default function SingleStackPage({ stack }: SingleStackPageProps) {
-	return <SingleStackView stack={stack} />;
+export default function ProfilePage({ mergedStacks }: ProfilePageProps) {
+	return <Profile mergedStacks={mergedStacks} />;
 }

@@ -8,8 +8,11 @@ import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
 import StackStrip from '../stackStrip/stackStrip';
+import { useRouter } from 'next/router';
 
 const Shelf = () => {
+	const router = useRouter();
+
 	const { user } = useAuthContext();
 	const { mergedStacks } = useProfileContext();
 
@@ -23,7 +26,9 @@ const Shelf = () => {
 						<Avatar url={user?.image || ''} />
 						<div>{user?.name}</div>
 					</div>
-					<IconButton title='Edit Your Profile'>
+					<IconButton
+						onClick={() => router.push('/profile/edit')}
+						title='Edit Your Profile'>
 						<PenIcon />
 					</IconButton>
 				</div>

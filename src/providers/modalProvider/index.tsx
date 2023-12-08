@@ -1,10 +1,17 @@
 import { ModalContextValue } from '@/types/context';
-import { ReactNode, createContext, useCallback, useMemo } from 'react';
+import {
+	ReactNode,
+	createContext,
+	useCallback,
+	useEffect,
+	useMemo,
+} from 'react';
 import ModalLayout from './modal';
 import { ModalOptions } from '@/types/modal';
 import styles from './modal.module.css';
 import useSluggishState from 'use-sluggish-state';
 import getClassName from '@/utils/getClassName';
+import { useRouter } from 'next/router';
 
 interface ModalProviderProps {
 	children: ReactNode;
@@ -13,6 +20,8 @@ interface ModalProviderProps {
 const ModalContext = createContext<ModalContextValue | null>(null);
 
 const ModalProvider = ({ children }: ModalProviderProps) => {
+	const { pathname } = useRouter();
+
 	const [modal, setModal, loading, finalModal] = useSluggishState<{
 		className: string;
 		content: ReactNode;
@@ -35,6 +44,10 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
 		},
 		[setModal]
 	);
+
+	useEffect(() => {
+		destroyModal();
+	}, [destroyModal, pathname]);
 
 	const providerValue = useMemo<ModalContextValue>(
 		() => ({ createModal }),

@@ -1,11 +1,11 @@
 import { GetServerSideProps } from 'next';
 import { Session, getServerSession } from 'next-auth';
-import { nextAuthOptions } from './api/auth/[...nextauth]';
-import Profile from '@/components/views/profile/profile';
+import { nextAuthOptions } from '../api/auth/[...nextauth]';
 import { stacks } from '@/db/schema';
 import { techChackDB } from '@/db';
 import { inArray } from 'drizzle-orm';
 import { IMergedStack } from '@/types/stack';
+import ProfileEditView from '@/components/views/profileEdit/profileEdit';
 
 export const getServerSideProps: GetServerSideProps<{
 	session: Session;
@@ -58,10 +58,12 @@ export const getServerSideProps: GetServerSideProps<{
 	}
 };
 
-interface ProfilePageProps {
+interface ProfileEditPageProps {
 	mergedStacks: IMergedStack[];
 }
 
-export default function ProfilePage({ mergedStacks }: ProfilePageProps) {
-	return <Profile mergedStacks={mergedStacks} />;
+export default function ProfileEditPage({
+	mergedStacks,
+}: ProfileEditPageProps) {
+	return <ProfileEditView mergedStacks={mergedStacks} />;
 }
