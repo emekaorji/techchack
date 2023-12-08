@@ -4,12 +4,24 @@ import ExternalLinkIcon from '@/components/interface/icons/externalLink';
 import InfoRoundIcon from '@/components/interface/icons/infoRound';
 import StackNotFound from './notFound/notFound';
 import styles from './singleStack.module.css';
+import useViewContext from '@/hooks/context/useViewContext';
+import { useEffect } from 'react';
 
 interface SingleStackViewProps {
 	stack: IStack | null;
 }
 
 const SingleStackView = ({ stack }: SingleStackViewProps) => {
+	const { changeBackground } = useViewContext();
+
+	useEffect(() => {
+		if (stack) {
+			changeBackground(
+				`url('data:image/svg+xml,${encodeURIComponent(stack.icon)}')`
+			);
+		}
+	}, [changeBackground, stack]);
+
 	if (!stack) return <StackNotFound />;
 
 	const { category, description, icon, id, link, name, requirements } = stack;
@@ -19,16 +31,21 @@ const SingleStackView = ({ stack }: SingleStackViewProps) => {
 			<div className={styles.container}>
 				<div className={styles.heading}>
 					<div className={styles.headingIconContainer}>
-						<Link
+						<div
 							className={styles.headingIcon}
 							dangerouslySetInnerHTML={{ __html: icon || '?' }}
-							href={`/s/${id}`}
 						/>
 					</div>
 					<h5 className={styles.category}>{category}</h5>
-					<Link className={styles.title} href={`/s/${id}`}>
+					<h2 className={styles.title}>
 						{name}
-					</Link>
+						<Link
+							className={styles.externalLink}
+							href='https://github.com/'
+							title={`${name}'s Main Page`}>
+							<ExternalLinkIcon />
+						</Link>
+					</h2>
 				</div>
 				<section className={styles.section}>
 					<h3>Overview</h3>

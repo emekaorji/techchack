@@ -16,8 +16,8 @@
   padding: 0.3em;
 }
 .headingIcon {
-  width: 4.5em;
-  height: 4.5em;
+  width: 6em;
+  height: 6em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,9 +30,18 @@
   border-radius: 2em;
   padding: 0.2em 0.7em;
 }
-.heading .title {
+.title {
   font-size: 2em;
   font-weight: bold;
+  display: inline-flex;
+  gap: 0.2em;
+}
+.externalLink {
+  width: 0.75em;
+  height: 0.75em;
+}
+.externalLink:hover {
+  color: cornflowerblue;
 }
 .section {
   padding-top: 1.3em;
@@ -41,6 +50,7 @@
   color: #afb628;
   display: inline-flex;
   gap: 0.3em;
+  flex-wrap: wrap;
   align-items: center;
 }
 .section h3 span {

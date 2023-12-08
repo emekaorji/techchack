@@ -10,3 +10,8 @@ export interface AuthContextValue {
 export interface ModalContextValue {
 	createModal: (content: ReactNode, options: ModalOptions) => void;
 }
+
+export interface ViewContextValue {
+	background: string;
+	changeBackground: (background: string) => void;
+}
