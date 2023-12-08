@@ -26,6 +26,48 @@
   border-radius: 2em;
   padding: 0.2em 0.7em;
 }
+.section {
+  padding-top: 1.3em;
+}
+.section h4 {
+  color: #afb628;
+  display: inline-flex;
+  gap: 0.3em;
+  align-items: center;
+}
+.section h4 span {
+  color: #ffffff88;
+  font-size: 0.83em;
+  font-weight: 500;
+}
+.section p {
+  color: #ffffffbb;
+  font-size: 0.98em;
+  font-weight: 300;
+}
+.section ul {
+  list-style-position: inside;
+  /* list-style-image: ; */
+}
+.section ul li::marker {
+  /* content: '→ '; */
+  content: '⇛ ';
+  font-size: 1.2em;
+}
+.section a {
+  color: cornflowerblue;
+  display: inline-flex;
+  gap: 0.2em;
+  align-items: center;
+}
+.section a:hover {
+  text-decoration: underline;
+}
+.section a .icon {
+  width: 1em;
+  height: 1em;
+  display: inline-flex;
+}
 .link {
   width: 1em;
   height: 1em;
