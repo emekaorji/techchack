@@ -8,7 +8,9 @@ const Nav = () => {
 	return (
 		<>
 			<nav className={styles.nav}>
-				<h2 className={styles.left}>TechChack</h2>
+				<Link className={styles.left} href='/'>
+					TechChack
+				</Link>
 				<div className={styles.right}>
 					<Link href='/contribute'>Contribute</Link>
 					<IconButton
