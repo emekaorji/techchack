@@ -1,0 +1,83 @@
+.strip {
+  width: 100%;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.stackIcon {
+  width: 2.75em;
+  height: 2.75em;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+.stackInfo {
+  width: 100%;
+  display: flex;
+  gap: 0.75em;
+  flex-direction: column;
+}
+/* .stackTitle h3 {
+  font-weight: 600;
+} */
+.stackTitle p {
+  color: #ffffffbb;
+  font-size: 0.7em;
+  line-height: 0.9em;
+}
+.proficiency {
+  width: 100%;
+  height: 0.3em;
+  background-color: #ffffff44;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+.proficiency::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(to right, #ffff0055 0%, #ffff00 calc(1000% / var(--score)));
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: grow 1s ease 500ms forwards;
+}
+@keyframes grow {
+  100% {
+    width: calc(var(--score, 1) * 10%);
+  }
+}
+.line {
+  width: 0.2em;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+}
+.line:nth-child(1) {
+  left: 10%;
+}
+.line:nth-child(2) {
+  left: 20%;
+}
+.line:nth-child(3) {
+  left: 30%;
+}
+.line:nth-child(4) {
+  left: 40%;
+}
+.line:nth-child(5) {
+  left: 50%;
+}
+.line:nth-child(6) {
+  left: 60%;
+}
+.line:nth-child(7) {
+  left: 70%;
+}
+.line:nth-child(8) {
+  left: 80%;
+}
+.line:nth-child(9) {
+  left: 90%;
+}

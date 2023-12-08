@@ -24,12 +24,15 @@ const StackModal = ({
 		<>
 			<div className={styles.stackModal}>
 				<div className={styles.heading}>
-					<div
-						className={styles.modalIcon}
-						dangerouslySetInnerHTML={{ __html: icon || '?' }}
-					/>
+					<div className={styles.modalIconContainer}>
+						<div
+							className={styles.modalIcon}
+							dangerouslySetInnerHTML={{ __html: icon || '?' }}
+						/>
+					</div>
 					<h5 className={styles.category}>{category}</h5>
 					<h2>{name}</h2>
+					<p>{description}</p>
 				</div>
 			</div>
 		</>

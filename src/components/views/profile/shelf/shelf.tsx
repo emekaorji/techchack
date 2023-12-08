@@ -3,17 +3,11 @@ import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './shelf.module.css';
-import {
-	CSSProperties,
-	MouseEvent,
-	useCallback,
-	useRef,
-	useState,
-} from 'react';
+import { useState } from 'react';
 import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
-import useModalContext from '@/hooks/context/useModalContext';
+import StackStrip from '../stackStrip/stackStrip';
 
 const Shelf = () => {
 	const { user } = useAuthContext();
@@ -49,6 +43,10 @@ const Shelf = () => {
 							key={item.id}
 							name={item.name}
 							score={item.score}
+							category={item.category}
+							description={item.description}
+							link={item.link}
+							requirements={item.requirements}
 						/>
 					))}
 				</div>
@@ -59,67 +57,6 @@ const Shelf = () => {
 					onClick={() => setExpanded((prev) => !prev)}>
 					<UpArrowIcon />
 				</button>
-			</div>
-		</>
-	);
-};
-
-interface StackStripProps {
-	icon: string;
-	id: string;
-	name: string;
-	score: number;
-}
-
-const StackStrip = ({ icon, id, name, score }: StackStripProps) => {
-	const { createModal } = useModalContext();
-	const ref = useRef<HTMLButtonElement | null>(null);
-
-	const handleModal = useCallback(
-		(event: MouseEvent<HTMLButtonElement>) => {
-			const currentTarget = event.currentTarget;
-			const target = currentTarget?.getBoundingClientRect();
-			const x = target?.x || event.clientX;
-			const y = target?.y || event.clientY;
-			const width = target?.width || 0;
-			const height = target?.height || 0;
-			const radius =
-				Number(
-					window.getComputedStyle(currentTarget).borderRadius.slice(0, -2)
-				) || 0;
-			createModal('modal', { x, y, width, height, radius });
-		},
-		[createModal]
-	);
-
-	return (
-		<>
-			<div className={styles.strip}>
-				<button
-					className={styles.stackIcon}
-					dangerouslySetInnerHTML={{ __html: icon || '?' }}
-					onClick={handleModal}
-					ref={ref}
-				/>
-				<div className={styles.stackInfo}>
-					<div className={styles.stackTitle}>
-						<h3>{name}</h3>
-						<p>Less than 1 year</p>
-					</div>
-					<div
-						className={styles.proficiency}
-						style={{ '--score': score } as CSSProperties}>
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-					</div>
-				</div>
 			</div>
 		</>
 	);
