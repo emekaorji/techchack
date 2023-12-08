@@ -12,8 +12,8 @@
   padding: 0.3em;
 }
 .modalIcon {
-  width: 3.5em;
-  height: 3.5em;
+  width: 4.5em;
+  height: 4.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,29 +26,44 @@
   border-radius: 2em;
   padding: 0.2em 0.7em;
 }
+.heading h2 {
+  font-size: 2em;
+}
 .section {
   padding-top: 1.3em;
 }
-.section h4 {
+.section h3 {
   color: #afb628;
   display: inline-flex;
   gap: 0.3em;
   align-items: center;
 }
-.section h4 span {
+.section h3 span {
   color: #ffffff88;
   font-size: 0.83em;
   font-weight: 500;
+  margin-top: 0.1em;
 }
-.section p {
+.section h3 span.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2em;
+}
+.section p,
+.section li {
   color: #ffffffbb;
-  font-size: 0.98em;
+  font-size: 1.1em;
   font-weight: 300;
 }
+.section ol,
 .section ul {
+  font-size: 1.1em;
+  line-height: 1.35em;
   list-style-position: inside;
   /* list-style-image: ; */
 }
+/* .section ol li::marker, */
 .section ul li::marker {
   /* content: '→ '; */
   content: '⇛ ';

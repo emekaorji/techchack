@@ -26,10 +26,10 @@
   overflow: hidden;
   border-radius: var(--radius, 0.5em);
   /* margin: 7.25vh 0 auto; */
-  animation: xoom 300ms ease-in-out forwards;
+  animation: xoom 200ms ease-in-out forwards;
 }
 .modalContent.isClosing {
-  animation: reverseXoom 300ms ease-in-out forwards;
+  animation: reverseXoom 200ms ease-in-out forwards;
 }
 .modalContent * {
   transition: opacity 500ms ease, inherit;
@@ -45,7 +45,7 @@
     top: var(--top, 0%);
     left: var(--left, 0%);
     border-radius: var(--radius, 0.5em);
-    opacity: 0.4;
+    opacity: 0.8;
   }
   100% {
     width: min(70%, 800px);
@@ -71,7 +71,7 @@
     top: var(--top, 0%);
     left: var(--left, 0%);
     border-radius: var(--radius, 0.5em);
-    opacity: 0.4;
+    opacity: 0.8;
   }
 }
 .scrollContainer {

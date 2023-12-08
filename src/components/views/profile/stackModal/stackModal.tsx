@@ -1,6 +1,7 @@
 import { Tcategory } from '@/types/stack';
 import styles from './stackModal.module.css';
 import ExternalLinkIcon from '@/components/interface/icons/externalLink';
+import InfoRoundIcon from '@/components/interface/icons/infoRound';
 
 interface StackModalProps {
 	icon: string;
@@ -36,7 +37,7 @@ const StackModal = ({
 					{/* <p>{description}</p> */}
 				</div>
 				<section className={styles.section}>
-					<h4>Overview</h4>
+					<h3>Overview</h3>
 					<p>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quos
 						voluptatem officiis nihil! Eum laborum non iusto vero ipsum numquam
@@ -48,17 +49,17 @@ const StackModal = ({
 					</p>
 				</section>
 				<section className={styles.section}>
-					<h4>
-						Resources{' '}
-						<span>(The following links will open in an external window)</span>
-					</h4>
+					<h3>
+						Resources
+						<span>(The following links will open in an external tab)</span>
+					</h3>
 					<ul>
 						<li>
 							<a
 								href='http://google.com'
 								target='_blank'
 								rel='noopener noreferrer'>
-								Here is a link to more resource{' '}
+								Here is a link to a resource
 								<span className={styles.icon}>
 									<ExternalLinkIcon />
 								</span>
@@ -69,13 +70,37 @@ const StackModal = ({
 								href='http://google.com'
 								target='_blank'
 								rel='noopener noreferrer'>
-								Here is a link to more resource{' '}
+								Here is a link to more resource
 								<span className={styles.icon}>
 									<ExternalLinkIcon />
 								</span>
 							</a>
 						</li>
 					</ul>
+				</section>
+				<section className={styles.section}>
+					<h3>
+						Requirements
+						<span
+							className={styles.icon}
+							title='Basic things to have to claim you have knowledge of this stack'>
+							<InfoRoundIcon />
+						</span>
+					</h3>
+					<p>To have knowledge of this stack, you need know the following:</p>
+					<ul>
+						<li>Syntax</li>
+						<li>Data Types</li>
+						<li>Arrays & Objects and their methods</li>
+						<li>DOM Manipulation</li>
+					</ul>
+				</section>
+				<section className={styles.section}>
+					<h3>Roadmap</h3>
+					<p>
+						[If this stack is a language, show a diagram of the roadmap to
+						learning it.]
+					</p>
 				</section>
 			</div>
 		</>
