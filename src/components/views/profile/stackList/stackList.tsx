@@ -15,6 +15,10 @@ const StackList = () => {
 						icon={item.icon}
 						key={item.id}
 						name={item.name}
+						category={item.category}
+						description={item.description}
+						link={item.link}
+						requirements={item.requirements}
 					/>
 				))}
 				{isLoading ? (

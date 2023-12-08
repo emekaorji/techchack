@@ -19,7 +19,7 @@
   border-radius: 2em;
   animation: wave 1s linear infinite;
 }
-.background.loading {
+.chipContainer.loading .background {
   opacity: 1;
 }
 @keyframes wave {
@@ -61,13 +61,16 @@
   padding: 0.2em;
   z-index: 1;
 }
+.chipContainer.loading .infoButton {
+  cursor: not-allowed;
+}
 .infoButton:hover {
   background-color: #fff4;
 }
-.chip:hover .icon {
+.chipContainer:not(.loading) .chip:hover .icon {
   display: none;
 }
-.chip:hover .infoButton {
+.chipContainer:not(.loading) .chip:hover .infoButton {
   display: flex;
 }
 .overlayButton {
@@ -79,7 +82,10 @@
   top: 0;
   left: 0;
 }
-.overlayButton:hover {
+.chipContainer.loading .overlayButton {
+  cursor: not-allowed;
+}
+.chipContainer:not(.loading) .overlayButton:hover {
   opacity: 1;
 }
 @media screen and (min-width: 768px) {

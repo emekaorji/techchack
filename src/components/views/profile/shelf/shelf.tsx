@@ -3,7 +3,13 @@ import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './shelf.module.css';
-import { CSSProperties, useRef, useState } from 'react';
+import {
+	CSSProperties,
+	MouseEvent,
+	useCallback,
+	useRef,
+	useState,
+} from 'react';
 import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
@@ -69,25 +75,30 @@ const StackStrip = ({ icon, id, name, score }: StackStripProps) => {
 	const { createModal } = useModalContext();
 	const ref = useRef<HTMLButtonElement | null>(null);
 
+	const handleModal = useCallback(
+		(event: MouseEvent<HTMLButtonElement>) => {
+			const currentTarget = event.currentTarget;
+			const target = currentTarget?.getBoundingClientRect();
+			const x = target?.x || event.clientX;
+			const y = target?.y || event.clientY;
+			const width = target?.width || 0;
+			const height = target?.height || 0;
+			const radius =
+				Number(
+					window.getComputedStyle(currentTarget).borderRadius.slice(0, -2)
+				) || 0;
+			createModal('modal', { x, y, width, height, radius });
+		},
+		[createModal]
+	);
+
 	return (
 		<>
 			<div className={styles.strip}>
 				<button
 					className={styles.stackIcon}
-					dangerouslySetInnerHTML={{ __html: icon }}
-					onClick={(e) => {
-						const currentTarget = e.currentTarget;
-						const target = currentTarget?.getBoundingClientRect();
-						const x = target?.x || e.clientX;
-						const y = target?.y || e.clientY;
-						const width = target?.width || 0;
-						const height = target?.height || 0;
-						const radius =
-							Number(
-								window.getComputedStyle(currentTarget).borderRadius.slice(0, -2)
-							) || 0;
-						createModal('modal', { x, y, width, height, radius });
-					}}
+					dangerouslySetInnerHTML={{ __html: icon || '?' }}
+					onClick={handleModal}
 					ref={ref}
 				/>
 				<div className={styles.stackInfo}>
