@@ -54,8 +54,11 @@
 .section p,
 .section li {
   color: #ffffffbb;
-  font-size: 1.1em;
+  font-size: 1.13em;
   font-weight: 300;
+}
+.section li {
+  font-size: 1em;
 }
 .section ol,
 .section ul {
@@ -84,8 +87,10 @@
   height: 1em;
   display: inline-flex;
 }
-.link {
-  width: 1em;
-  height: 1em;
-  display: inline-flex;
+.moreLink {
+  background-color: #afb628;
+  color: #000000;
+  font-weight: 400;
+  border-radius: 0.3em;
+  padding: 0.2em 0.4em;
 }

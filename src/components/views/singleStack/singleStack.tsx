@@ -1,25 +1,26 @@
 import { IStack } from '@/types/stack';
-import styles from './singleStack.module.css';
 import Link from 'next/link';
 import ExternalLinkIcon from '@/components/interface/icons/externalLink';
 import InfoRoundIcon from '@/components/interface/icons/infoRound';
+import StackNotFound from './notFound/notFound';
+import styles from './singleStack.module.css';
 
 interface SingleStackViewProps {
 	stack: IStack | null;
 }
 
 const SingleStackView = ({ stack }: SingleStackViewProps) => {
-	if (!stack) return <>Stack not Found</>;
+	if (!stack) return <StackNotFound />;
 
 	const { category, description, icon, id, link, name, requirements } = stack;
 
 	return (
 		<>
-			<div className={styles.stackModal}>
+			<div className={styles.container}>
 				<div className={styles.heading}>
-					<div className={styles.modalIconContainer}>
+					<div className={styles.headingIconContainer}>
 						<Link
-							className={styles.modalIcon}
+							className={styles.headingIcon}
 							dangerouslySetInnerHTML={{ __html: icon || '?' }}
 							href={`/s/${id}`}
 						/>

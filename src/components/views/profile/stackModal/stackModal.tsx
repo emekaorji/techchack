@@ -98,13 +98,10 @@ const StackModal = ({
 						<li>DOM Manipulation</li>
 					</ul>
 				</section>
-				<section className={styles.section}>
-					<h3>Roadmap</h3>
-					<p>
-						[If this stack is a language, show a diagram of the roadmap to
-						learning it.]
-					</p>
-				</section>
+				<br />
+				<Link className={styles.moreLink} href={`/s/${id}`}>
+					See more..
+				</Link>
 			</div>
 		</>
 	);
