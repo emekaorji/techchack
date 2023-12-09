@@ -1,4 +1,11 @@
-.paginationContainer, .container {
+.paginationContainer {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+.pageNumbersContainer, .container {
   display: flex;
   gap: 0.3em;
 }

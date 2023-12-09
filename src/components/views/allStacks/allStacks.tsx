@@ -16,6 +16,7 @@ const AllStacksConsumer = () => {
 				<StackSearch />
 				<StackList />
 				<AllStacksPagination />
+				<br />
 			</div>
 		</>
 	);

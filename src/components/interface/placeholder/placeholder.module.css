@@ -1,0 +1,28 @@
+.placeholder {
+  width: var(--width, 100%);
+  height: var(--height, 3em);
+  background-color: var(--background, #ffffff11);
+  position: relative;
+  isolation: isolate;
+  border-radius: 0.5em;
+}
+.placeholder::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(110deg, transparent 20%, #ffffff88, transparent 40%);
+  background-size: 200%;
+  background-position-x: -90%;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  animation: wave var(--duration, 650ms) ease-in-out infinite;
+  animation-delay: var(--delay, 0ms);
+}
+@keyframes wave {
+  100% {
+    background-position-x: -270%;
+  }
+}

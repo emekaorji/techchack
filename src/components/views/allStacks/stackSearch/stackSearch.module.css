@@ -55,12 +55,14 @@
   border-radius: 2em;
   /* transition: all 200ms ease; */
   animation: wave 5s linear infinite;
+  animation-play-state: paused;
 }
 @keyframes wave {
   100% {
     background-position-x: -200%;
   }
 }
-/* .input:focus ~ .background {
-  filter: blur(40px);
-} */
+.searchBar:focus-within .background {
+  animation-play-state: running;
+  filter: blur(2px);
+}
