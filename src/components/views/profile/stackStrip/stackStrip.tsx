@@ -109,7 +109,7 @@ const StackStrip = ({
 							className={
 								styles.proficiency + getClassName(score === 10, styles.full)
 							}
-							style={{ '--score': 5 || score } as CSSProperties}>
+							style={{ '--score': score } as CSSProperties}>
 							{Array.from({ length: 10 }).map((_i, index) => (
 								<div
 									className={styles.line}
