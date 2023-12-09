@@ -61,7 +61,7 @@ const handleGetRequest = async (
 
 		res.status(200).json(parsedUser);
 	} catch (error: any) {
-		res.status(error.code || 500).send(error);
+		res.status(500).send(error);
 	}
 };
 
@@ -118,6 +118,6 @@ const handlePatchRequest = async (
 
 		res.status(200).json(parsedUpdatedPublicUser);
 	} catch (error: any) {
-		res.status(error.code || 500).send(error);
+		res.status(500).send(error);
 	}
 };

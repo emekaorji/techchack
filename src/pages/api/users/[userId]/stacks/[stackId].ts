@@ -77,7 +77,7 @@ const handleDeleteRequest = async (
 
 		res.status(200).json(parsedStacks);
 	} catch (error: any) {
-		res.status(error.code || 500).send(error);
+		res.status(500).send(error);
 	}
 };
 
@@ -126,6 +126,6 @@ const handlePatchRequest = async (
 
 		res.status(200).json(parsedStacks);
 	} catch (error: any) {
-		res.status(error.code || 500).send(error);
+		res.status(500).send(error);
 	}
 };

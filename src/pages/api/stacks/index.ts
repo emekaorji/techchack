@@ -35,7 +35,7 @@ export default async function handler(
 		const allStacks = await getAllStacks(perPage, orderBy, page, search);
 		res.status(200).json(allStacks);
 	} catch (error: any) {
-		res.status(error.code || 500).send(error);
+		res.status(500).send(error);
 	}
 	res.end();
 }

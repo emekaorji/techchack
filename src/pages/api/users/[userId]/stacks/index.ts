@@ -35,7 +35,7 @@ export default async function handler(
 			}
 			res.status(200).json(result!);
 		} catch (error: any) {
-			res.status(error.code || 500).send(error);
+			res.status(500).send(error);
 		}
 	} else {
 		res.status(401);
