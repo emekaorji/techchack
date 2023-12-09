@@ -47,11 +47,11 @@
 .breakButton:hover {
   background-color: #1c7fee88;
 }
-.pageButton a:focus,
-.prevButton a:focus,
-.nextButton a:focus,
-.breakButton a:focus,
-.pageInfoContainer select:focus {
+.pageButton a:focus-visible,
+.prevButton a:focus-visible,
+.nextButton a:focus-visible,
+.breakButton a:focus-visible,
+.pageInfoContainer select:focus-visible {
   outline: 2px solid #1c7feecc;
 }
 .pageButton a,
