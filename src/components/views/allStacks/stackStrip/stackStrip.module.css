@@ -7,6 +7,9 @@
   border-radius: 0.75em;
   overflow: hidden;
 }
+.stackStrip:hover {
+  background-color: #1c7fee44;
+}
 .left {
   width: 4em;
   height: 4em;

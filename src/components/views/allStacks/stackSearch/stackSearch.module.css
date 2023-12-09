@@ -64,5 +64,5 @@
 }
 .searchBar:focus-within .background {
   animation-play-state: running;
-  filter: blur(2px);
+  filter: blur(3px);
 }

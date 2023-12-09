@@ -11,7 +11,7 @@ import {
 } from 'react';
 import { AllStacksContextValue } from '../types/context';
 import { AllStacksResult } from '@/types/stack';
-import { useRouter } from 'next/router';
+import { NextRouter, useRouter } from 'next/router';
 
 interface AllStacksProviderProps {
 	children: ReactNode;
@@ -31,7 +31,9 @@ const AllStacksProvider = ({
 	children,
 	allStacksResult,
 }: AllStacksProviderProps) => {
-	const router = useRouter();
+	const { push, query } = useRouter() as NextRouter & {
+		query: { [key: string]: string };
+	};
 
 	const abortController = useRef(new AbortController());
 
@@ -41,7 +43,13 @@ const AllStacksProvider = ({
 		allStacksResult?.pagination || null
 	);
 	const [searchValue, setSearchValue] = useState(
-		router.query.search?.toString() || ''
+		query.search?.toString() || ''
+	);
+	const [perPageValue, setPerPageValue] = useState(
+		query.perPage?.toString() || '20'
+	);
+	const [orderValue, setOrderValue] = useState(
+		query.order?.toString() || 'asc'
 	);
 
 	const fetchStacks = useCallback(
@@ -73,47 +81,70 @@ const AllStacksProvider = ({
 	);
 
 	useEffect(() => {
-		const query = router.query as { [key: string]: string };
 		fetchStacks(query.perPage, query.order, query.page, query.search);
-	}, [fetchStacks, router.query]);
+	}, [fetchStacks, push, query]);
 
 	const handleSearchInputChange = useCallback(
 		(event: ChangeEvent<HTMLInputElement>) => {
 			const _value = event.target.value;
 			setSearchValue(_value);
 			if (_value === '') {
-				const query = router.query as { [key: string]: string };
 				if (_value === query.search) return;
 
 				setIsLoading(true);
-				router
-					.push({ query: { ...query, search: _value } }, undefined, {
-						scroll: true,
-					})
-					.catch(() => {
-						setIsLoading(false);
-					});
+				push({ query: { ...query, search: _value } }, undefined, {
+					scroll: true,
+				}).catch(() => {
+					setIsLoading(false);
+				});
 			}
 		},
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-		[router.push, router.query]
+		[push, query]
 	);
+
 	const handleSearchSubmit = useCallback(
 		(event: FormEvent) => {
 			event.preventDefault();
-			const query = router.query as { [key: string]: string };
 			if (searchValue === query.search) return;
 
 			setIsLoading(true);
-			router
-				.push({ query: { ...query, search: searchValue } }, undefined, {
-					scroll: true,
-				})
-				.catch(() => {
-					setIsLoading(false);
-				});
+			push({ query: { ...query, page: 1, search: searchValue } }, undefined, {
+				scroll: true,
+			}).catch(() => {
+				setIsLoading(false);
+			});
 		},
-		[router, searchValue]
+		[push, query, searchValue]
+	);
+
+	const handlePerPageChange = useCallback(
+		(event: ChangeEvent<HTMLSelectElement>) => {
+			const _value = event.target.value;
+			setPerPageValue(_value);
+
+			setIsLoading(true);
+			push({ query: { ...query, page: 1, perPage: _value } }, undefined, {
+				scroll: true,
+			}).catch(() => {
+				setIsLoading(false);
+			});
+		},
+		[push, query]
+	);
+
+	const handleOrderChange = useCallback(
+		(event: ChangeEvent<HTMLSelectElement>) => {
+			const _value = event.target.value;
+			setOrderValue(_value);
+
+			setIsLoading(true);
+			push({ query: { ...query, order: _value } }, undefined, {
+				scroll: true,
+			}).catch(() => {
+				setIsLoading(false);
+			});
+		},
+		[push, query]
 	);
 
 	const handlePageChange = useCallback<
@@ -123,56 +154,56 @@ const AllStacksProvider = ({
 			const _selected = selected + 1;
 			if (_selected === pagination?.pageNumber) return;
 
-			const query = router.query as { [key: string]: string };
-
 			setIsLoading(true);
-			router
-				.push({ query: { ...query, page: _selected } }, undefined, {
-					scroll: true,
-				})
-				.catch(() => {
-					setIsLoading(false);
-				});
+			push({ query: { ...query, page: _selected } }, undefined, {
+				scroll: true,
+			}).catch(() => {
+				setIsLoading(false);
+			});
 		},
-		[pagination?.pageNumber, router]
+		[pagination?.pageNumber, push, query]
 	);
 
 	const goToPage = useCallback(
 		(pageNumber: number) => {
 			if (pageNumber === pagination?.pageNumber) return;
 
-			const query = router.query as { [key: string]: string };
-
 			setIsLoading(true);
-			router
-				.push({ query: { ...query, page: pageNumber } }, undefined, {
-					scroll: true,
-				})
-				.catch(() => {
-					setIsLoading(false);
-				});
+			push({ query: { ...query, page: pageNumber } }, undefined, {
+				scroll: true,
+			}).catch(() => {
+				setIsLoading(false);
+			});
 		},
-		[pagination?.pageNumber, router]
+		[pagination?.pageNumber, push, query]
 	);
 
 	const providerValue = useMemo<AllStacksContextValue>(
 		() => ({
 			goToPage,
+			handleOrderChange,
 			handlePageChange,
+			handlePerPageChange,
 			handleSearchInputChange,
 			handleSearchSubmit,
 			isLoading,
+			orderValue,
 			pagination,
+			perPageValue,
 			searchValue,
 			stacks,
 		}),
 		[
 			goToPage,
+			handleOrderChange,
 			handlePageChange,
+			handlePerPageChange,
 			handleSearchInputChange,
 			handleSearchSubmit,
 			isLoading,
+			orderValue,
 			pagination,
+			perPageValue,
 			searchValue,
 			stacks,
 		]

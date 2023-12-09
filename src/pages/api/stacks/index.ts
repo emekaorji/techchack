@@ -6,7 +6,7 @@ import { AllStacksResult } from '@/types/stack';
 
 interface Query {
 	perPage: string;
-	orderBy: 'asc' | 'desc';
+	order: 'asc' | 'desc';
 	page: string;
 	search: string;
 }
@@ -28,11 +28,11 @@ export default async function handler(
 	if (!session) res.status(401);
 
 	// Parse the query parameters
-	const { perPage, orderBy, page, search } = req.query as Partial<Query>;
+	const { perPage, order, page, search } = req.query as Partial<Query>;
 
 	// Handle the request
 	try {
-		const allStacks = await getAllStacks(perPage, orderBy, page, search);
+		const allStacks = await getAllStacks(perPage, order, page, search);
 		res.status(200).json(allStacks);
 	} catch (error: any) {
 		res.status(500).send(error);

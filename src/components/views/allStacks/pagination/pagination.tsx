@@ -9,12 +9,19 @@ import getClassName from '@/utils/getClassName';
 import { useMemo } from 'react';
 
 const AllStacksPagination = () => {
-	const { goToPage, handlePageChange, isLoading, pagination } =
-		useAllStacksContext();
+	const {
+		goToPage,
+		handleOrderChange,
+		handlePageChange,
+		handlePerPageChange,
+		isLoading,
+		orderValue,
+		pagination,
+		perPageValue,
+	} = useAllStacksContext();
 
 	const [startIndex, endIndex] = useMemo(() => {
 		if (!pagination) return [0, 0];
-		console.log(pagination);
 
 		const start = pagination.limit * (pagination.pageNumber - 1);
 
@@ -29,8 +36,6 @@ const AllStacksPagination = () => {
 
 	if (!pagination) return <></>;
 
-	console.log('pagination.pageNumber', pagination.pageNumber);
-
 	return (
 		<>
 			<div
@@ -41,9 +46,30 @@ const AllStacksPagination = () => {
 					<h4>
 						Showing {startIndex} - {endIndex} of {pagination.total}
 					</h4>
+					<select
+						name='Page Limit'
+						onChange={handlePerPageChange}
+						value={perPageValue}>
+						<option value='5'>5</option>
+						<option value='10'>10</option>
+						<option value='15'>15</option>
+						<option value='20'>20</option>
+						<option value='25'>25</option>
+						<option value='30'>30</option>
+						<option value='40'>40</option>
+						<option value='50'>50</option>
+					</select>
+					<select name='Order' onChange={handleOrderChange} value={orderValue}>
+						<option value='asc'>Ascending</option>
+						<option value='desc'>Descending</option>
+					</select>
 				</div>
 				<div className={styles.pageNumbersContainer}>
-					<li className={styles.pageButton}>
+					<li
+						className={
+							styles.pageButton +
+							getClassName(pagination.pageNumber === 1, styles.disabledButton)
+						}>
 						<a
 							aria-disabled={pagination.pageNumber === 1}
 							aria-label='First Page'
@@ -64,6 +90,7 @@ const AllStacksPagination = () => {
 						nextClassName={styles.nextButton}
 						breakClassName={styles.breakButton}
 						activeClassName={styles.activePage}
+						disabledClassName={styles.disabledButton}
 						pageCount={pagination.pageCount}
 						pageRangeDisplayed={2}
 						marginPagesDisplayed={2}
@@ -71,7 +98,14 @@ const AllStacksPagination = () => {
 						renderOnZeroPageCount={null}
 						disableInitialCallback
 					/>
-					<li className={styles.pageButton}>
+					<li
+						className={
+							styles.pageButton +
+							getClassName(
+								pagination.pageNumber === pagination.pageCount,
+								styles.disabledButton
+							)
+						}>
 						<a
 							aria-disabled={pagination.pageNumber === pagination.pageCount}
 							aria-label='Last Page'
