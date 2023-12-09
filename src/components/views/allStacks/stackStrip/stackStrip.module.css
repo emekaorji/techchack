@@ -10,6 +10,9 @@
 .stackStrip:hover {
   background-color: #1c7fee44;
 }
+.stackStrip:focus {
+  outline: 2px solid #1c7feecc;
+}
 .left {
   width: 4em;
   height: 4em;

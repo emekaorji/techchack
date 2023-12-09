@@ -7,8 +7,11 @@ import ArrowLeftIcon from '@/components/interface/icons/arrowLeft';
 import DoubleArrowRightIcon from '@/components/interface/icons/doubleArrowRight';
 import getClassName from '@/utils/getClassName';
 import { useMemo } from 'react';
+import useDeviceSize from '@/hooks/view/useDeviceSize';
 
 const AllStacksPagination = () => {
+	const [width] = useDeviceSize();
+
 	const {
 		goToPage,
 		handleOrderChange,
@@ -92,8 +95,8 @@ const AllStacksPagination = () => {
 						activeClassName={styles.activePage}
 						disabledClassName={styles.disabledButton}
 						pageCount={pagination.pageCount}
-						pageRangeDisplayed={2}
-						marginPagesDisplayed={2}
+						pageRangeDisplayed={width > 500 ? 2 : 1}
+						marginPagesDisplayed={width > 450 ? 2 : 1}
 						previousLabel={<ArrowLeftIcon />}
 						renderOnZeroPageCount={null}
 						disableInitialCallback
