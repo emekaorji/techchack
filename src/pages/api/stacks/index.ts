@@ -4,6 +4,13 @@ import { nextAuthOptions } from '../auth/[...nextauth]';
 import getAllStacks from '@/api/stacks/getAllStacks';
 import { AllStacksResult } from '@/types/stack';
 
+interface Query {
+	perPage: string;
+	orderBy: 'asc' | 'desc';
+	page: string;
+	search: string;
+}
+
 const ALLOWED_METHODS = ['GET'];
 
 export default async function handler(
@@ -21,13 +28,11 @@ export default async function handler(
 	if (!session) res.status(401);
 
 	// Parse the query parameters
-	const { limit, orderBy, page, search } = req.query as {
-		[key: string]: string;
-	};
+	const { perPage, orderBy, page, search } = req.query as Partial<Query>;
 
 	// Handle the request
 	try {
-		const allStacks = await getAllStacks(limit, orderBy, page, search);
+		const allStacks = await getAllStacks(perPage, orderBy, page, search);
 		res.status(200).json(allStacks);
 	} catch (error: any) {
 		res.status(error.code || 500).send(error);

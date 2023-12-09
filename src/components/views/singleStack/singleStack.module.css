@@ -1,6 +1,6 @@
 .container {
-  width: min(1000px, 90%);
-  max-width: min(1000px, 90%);
+  width: 90%;
+  max-width: 1000px;
 }
 .heading {
   width: 100%;

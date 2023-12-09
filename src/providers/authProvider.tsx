@@ -12,8 +12,6 @@ interface AuthProviderProps {
 const AuthProvider = ({ children }: AuthProviderProps) => {
 	const { status, data: session } = useSession();
 
-	console.log(session);
-
 	const [user, setUser] = useState<IPublicUser | null>(session?.user || null);
 
 	useEffect(() => {

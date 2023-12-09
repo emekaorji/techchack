@@ -1,0 +1,31 @@
+.paginationContainer, .container {
+  display: flex;
+  gap: 0.3em;
+}
+.activePage {
+  color: red
+}
+.pageButton, .prevButton, .nextButton, .breakButton {
+  list-style-type: none;
+}
+.pageButton,
+.prevButton,
+.nextButton,
+.breakButton {
+  width: 2em;
+  height: 2em;
+  display: flex;
+  border: 1px solid red;
+  border-radius: 0.35em;
+}
+.pageButton a,
+.prevButton a,
+.nextButton a,
+.breakButton a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.45em;
+}

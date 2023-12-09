@@ -20,7 +20,7 @@ export interface IMergedStack extends IStack {
 	score: number;
 }
 
-export interface Pagination {
+export interface IPagination {
 	limit: number;
 	orderBy: string;
 	pageNumber: number;
@@ -30,5 +30,5 @@ export interface Pagination {
 
 export interface AllStacksResult {
 	results: IStack[];
-	pagination: Pagination;
+	pagination: IPagination;
 }

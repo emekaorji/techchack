@@ -1,6 +1,6 @@
 import { techChackDB } from '@/db';
 import { stacks } from '@/db/schema';
-import { AllStacksResult, IStack, Pagination } from '@/types/stack';
+import { AllStacksResult, IStack, IPagination } from '@/types/stack';
 import { SQL, asc, desc, like, sql } from 'drizzle-orm';
 
 function getOrder(orderBy: string): SQL<unknown> {
@@ -51,7 +51,7 @@ function getPagination(
 		orderBy,
 		total: count,
 		pageCount,
-	} satisfies Pagination;
+	} satisfies IPagination;
 
 	return pagination;
 }

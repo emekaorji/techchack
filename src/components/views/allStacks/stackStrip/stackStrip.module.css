@@ -1,0 +1,15 @@
+.stackStrip {
+  background-color: #1c7fee33;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 0.75em;
+  overflow: hidden;
+}
+.left {
+  width: 4em;
+  height: 4em;
+  border-radius: 0.5em;
+  overflow: hidden;
+}

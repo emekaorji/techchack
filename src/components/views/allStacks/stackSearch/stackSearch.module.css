@@ -2,9 +2,11 @@
   width: 90%;
   max-width: 700px;
   font-size: 0.8em;
-  position: sticky;
   top: 4.5em;
   z-index: 1;
+}
+.searchBar:focus-within {
+  position: sticky;
 }
 .inputContainer {
   display: flex;
@@ -59,6 +61,6 @@
     background-position-x: -200%;
   }
 }
-.searchBar:focus-within .background {
+/* .input:focus ~ .background {
   filter: blur(40px);
-}
+} */
