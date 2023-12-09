@@ -39,13 +39,14 @@ const ProfileProvider = ({
 	const stash = useRef<IStack[]>([]);
 	const fuse = useRef(new Fuse<IStack>([], options));
 	const abortController = useRef(new AbortController());
+	const isLastPage = useRef(false);
 
 	const [mergedStacks, setMergedStacks] = useState(_mergedStacks);
 	const [isLoading, setIsLoading] = useState(false);
 	const [isSearching, setIsSearching] = useState(false);
 	const [searchValue, setValue] = useState('');
 	const [stacks, setStacks] = useState<IStack[]>([]);
-	const isLastPage = useRef(false);
+	const [expandedStripId, setExpandedStripId] = useState('');
 
 	const parsedStacks = useMemo(() => {
 		if (searchValue) {
@@ -228,23 +229,26 @@ const ProfileProvider = ({
 		() => ({
 			addStack,
 			deleteStack,
+			expandedStripId,
 			handleSearchInputChange,
 			isLoading,
 			isSearching,
+			mergedStacks,
 			observerTarget,
 			searchValue,
+			setExpandedStripId,
 			stacks: parsedStacks,
-			mergedStacks,
 		}),
 		[
 			addStack,
 			deleteStack,
+			expandedStripId,
 			handleSearchInputChange,
 			isLoading,
 			isSearching,
+			mergedStacks,
 			parsedStacks,
 			searchValue,
-			mergedStacks,
 		]
 	);
 

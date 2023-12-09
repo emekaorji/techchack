@@ -1,8 +1,18 @@
 import useModalContext from '@/hooks/context/useModalContext';
-import { CSSProperties, MouseEvent, useCallback, useRef } from 'react';
+import {
+	CSSProperties,
+	MouseEvent,
+	useCallback,
+	useRef,
+	useState,
+} from 'react';
 import styles from './stackStrip.module.css';
 import StackModal from '../stackModal/stackModal';
 import { Tcategory } from '@/types/stack';
+import UpArrowIcon from '@/components/interface/icons/upArrow';
+import getClassName from '@/utils/getClassName';
+import useProfileContext from '../hooks/useProfileContext';
+import useOnBlur from '@/hooks/view/useOnBlur';
 
 interface StackStripProps {
 	icon: string;
@@ -26,7 +36,11 @@ const StackStrip = ({
 	requirements,
 }: StackStripProps) => {
 	const { createModal } = useModalContext();
-	const ref = useRef<HTMLButtonElement | null>(null);
+	const { expandedStripId, setExpandedStripId } = useProfileContext();
+
+	console.log(expandedStripId);
+
+	const isExpanded = expandedStripId === id;
 
 	const handleModal = useCallback(
 		(event: MouseEvent<HTMLButtonElement>) => {
@@ -50,32 +64,63 @@ const StackStrip = ({
 		[category, createModal, description, icon, id, link, name, requirements]
 	);
 
+	const expand = useCallback(
+		() => setExpandedStripId(id),
+		[id, setExpandedStripId]
+	);
+	const collapse = useCallback(
+		() => (isExpanded ? setExpandedStripId('') : undefined),
+		[isExpanded, setExpandedStripId]
+	);
+	const toggle = useCallback(
+		() => (isExpanded ? collapse() : expand()),
+		[collapse, expand, isExpanded]
+	);
+
+	const ref = useRef<HTMLDivElement | null>(null);
+
+	useOnBlur(ref, collapse);
+
 	return (
 		<>
-			<div className={styles.strip}>
+			<div
+				className={styles.strip + getClassName(isExpanded, styles.isExpanded)}
+				ref={ref}>
+				<button
+					className={styles.overlayButton}
+					onMouseDown={toggle}
+					onFocus={expand}>
+					<span className={styles.icon}>
+						<UpArrowIcon />
+					</span>
+				</button>
 				<button
 					className={styles.stackIcon}
 					dangerouslySetInnerHTML={{ __html: icon || '?' }}
 					onClick={handleModal}
-					ref={ref}
 				/>
 				<div className={styles.stackInfo}>
 					<div className={styles.stackTitle}>
 						<h3>{name}</h3>
 						<p>Less than 1 year</p>
 					</div>
-					<div
-						className={styles.proficiency}
-						style={{ '--score': score } as CSSProperties}>
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
-						<div className={styles.line} />
+					<div className={styles.proficiencyContainer}>
+						<div
+							className={
+								styles.proficiency + getClassName(score === 10, styles.full)
+							}
+							style={{ '--score': score } as CSSProperties}>
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+							<div className={styles.line} />
+						</div>
+						{isExpanded && <h5 className={styles.proficiencyText}>Beginner</h5>}
 					</div>
 				</div>
 			</div>

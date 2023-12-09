@@ -3,12 +3,23 @@
   display: flex;
   gap: 0.5em;
   align-items: center;
+  position: relative;
+  isolation: isolate;
+  padding: 0.1em 0.2em;
+}
+.strip.isExpanded {
+  align-items: flex-start;
+  padding: 0.2em 0.3em 0.5em;
 }
 .stackIcon {
   width: 2.75em;
   height: 2.75em;
   overflow: hidden;
   border-radius: 0.5em;
+  z-index: 1;
+}
+.isExpanded .stackIcon {
+  margin-top: 0.2em;
 }
 .stackInfo {
   width: 100%;
@@ -16,21 +27,28 @@
   gap: 0.75em;
   flex-direction: column;
 }
-/* .stackTitle h3 {
-  font-weight: 600;
-} */
+.isExpanded .stackInfo {
+  gap: 0.6em;
+}
 .stackTitle p {
   color: #ffffffbb;
   font-size: 0.7em;
   line-height: 0.9em;
+}
+.proficiencyContainer {
+  display: flex;
+  flex-direction: column;
 }
 .proficiency {
   width: 100%;
   height: 0.3em;
   background-color: #ffffff44;
   position: relative;
-  overflow: hidden;
-  border-radius: 0.5em;
+  /* overflow: hidden; */
+  border-radius: 0.3em;
+}
+.isExpanded .proficiency {
+  height: 1em;
 }
 .proficiency::before {
   content: '';
@@ -40,7 +58,11 @@
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 0.3em 0 0 0.3em;
   animation: grow 1s ease 500ms forwards;
+}
+.proficiency.full::before {
+  border-radius: 0.3em;
 }
 @keyframes grow {
   100% {
@@ -48,9 +70,9 @@
   }
 }
 .line {
-  width: 0.2em;
+  width: 0.175em;
   height: 100%;
-  background-color: #000;
+  background-color: #021836;
   position: absolute;
   top: 0;
 }
@@ -80,4 +102,37 @@
 }
 .line:nth-child(9) {
   left: 90%;
+}
+.proficiencyText {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-top: 0.2em;
+}
+.overlayButton {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff18;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5em;
+}
+.isExpanded .overlayButton,
+.overlayButton:hover,
+.overlayButton:focus-visible {
+  opacity: 0.9;
+  outline: none;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 30%;
+  right: 1em;
+  transform: rotate(180deg);
+}
+.isExpanded .icon {
+  top: 15%;
+  transform: rotate(0deg);
 }
