@@ -5,7 +5,11 @@ interface ProfileEditViewProps {
 }
 
 const ProfileEditView = ({}: ProfileEditViewProps) => {
-	return <></>;
+	return (
+		<>
+			<div>ProfileEditView</div>
+		</>
+	);
 };
 
 export default ProfileEditView;

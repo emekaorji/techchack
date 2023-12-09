@@ -41,22 +41,19 @@ const Shelf = () => {
 							tech stack by clicking a stack below
 						</div>
 					)}
-					{mergedStacks.map(
-						(item, index) =>
-							index < 2 && (
-								<StackStrip
-									icon={item.icon}
-									id={item.id}
-									key={item.id}
-									name={item.name}
-									score={item.score}
-									category={item.category}
-									description={item.description}
-									link={item.link}
-									requirements={item.requirements}
-								/>
-							)
-					)}
+					{mergedStacks.map((item) => (
+						<StackStrip
+							icon={item.icon}
+							id={item.id}
+							key={item.id}
+							name={item.name}
+							score={item.score}
+							category={item.category}
+							description={item.description}
+							link={item.link}
+							requirements={item.requirements}
+						/>
+					))}
 				</div>
 				{mergedStacks.length > 6 && (
 					<button

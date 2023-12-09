@@ -38,7 +38,9 @@ const StackStrip = ({
 	const { createModal } = useModalContext();
 	const { expandedStripId, setExpandedStripId } = useProfileContext();
 
-	console.log(expandedStripId);
+	const ref = useRef<HTMLDivElement | null>(null);
+
+	const [proficiency, setProficiency] = useState('Beginner');
 
 	const isExpanded = expandedStripId === id;
 
@@ -77,8 +79,6 @@ const StackStrip = ({
 		[collapse, expand, isExpanded]
 	);
 
-	const ref = useRef<HTMLDivElement | null>(null);
-
 	useOnBlur(ref, collapse);
 
 	return (
@@ -109,18 +109,22 @@ const StackStrip = ({
 							className={
 								styles.proficiency + getClassName(score === 10, styles.full)
 							}
-							style={{ '--score': score } as CSSProperties}>
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
-							<div className={styles.line} />
+							style={{ '--score': 5 || score } as CSSProperties}>
+							{Array.from({ length: 10 }).map((_i, index) => (
+								<div
+									className={styles.line}
+									key={index}
+									onMouseOver={() => {
+										setProficiency(`Level 0x${index.toString(16)}`);
+									}}
+									onMouseOut={() => setProficiency('Beginner')}
+									onTouchEnd={() => setProficiency('Beginner')}
+								/>
+							))}
 						</div>
-						{isExpanded && <h5 className={styles.proficiencyText}>Beginner</h5>}
+						{isExpanded && (
+							<h5 className={styles.proficiencyText}>{proficiency}</h5>
+						)}
 					</div>
 				</div>
 			</div>

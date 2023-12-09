@@ -11,6 +11,35 @@
   align-items: flex-start;
   padding: 0.2em 0.3em 0.5em;
 }
+.overlayButton {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff18;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5em;
+  z-index: 1;
+}
+.isExpanded .overlayButton,
+.overlayButton:hover,
+.overlayButton:focus-visible {
+  opacity: 0.9;
+  outline: none;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 30%;
+  right: 1em;
+  transform: rotate(180deg);
+}
+.isExpanded .icon {
+  top: 15%;
+  transform: rotate(0deg);
+}
 .stackIcon {
   width: 2.75em;
   height: 2.75em;
@@ -20,6 +49,9 @@
 }
 .isExpanded .stackIcon {
   margin-top: 0.2em;
+}
+.isExpanded .stackIcon:hover {
+  filter: brightness(130%);
 }
 .stackInfo {
   width: 100%;
@@ -39,12 +71,16 @@
   display: flex;
   flex-direction: column;
 }
+.isExpanded .proficiencyContainer {
+  z-index: 1;
+}
 .proficiency {
   width: 100%;
   height: 0.3em;
   background-color: #ffffff44;
+  display: flex;
   position: relative;
-  /* overflow: hidden; */
+  isolation: isolate;
   border-radius: 0.3em;
 }
 .isExpanded .proficiency {
@@ -60,6 +96,7 @@
   left: 0;
   border-radius: 0.3em 0 0 0.3em;
   animation: grow 1s ease 500ms forwards;
+  z-index: -1;
 }
 .proficiency.full::before {
   border-radius: 0.3em;
@@ -70,69 +107,28 @@
   }
 }
 .line {
+  width: 10%;
+  height: 100%;
+  background-color: #02183600;
+  position: relative;
+}
+.line:hover {
+  background-color: #02183633;
+}
+.line::before {
+  content: '';
   width: 0.175em;
   height: 100%;
   background-color: #021836;
   position: absolute;
   top: 0;
+  left: 0;
 }
-.line:nth-child(1) {
-  left: 10%;
-}
-.line:nth-child(2) {
-  left: 20%;
-}
-.line:nth-child(3) {
-  left: 30%;
-}
-.line:nth-child(4) {
-  left: 40%;
-}
-.line:nth-child(5) {
-  left: 50%;
-}
-.line:nth-child(6) {
-  left: 60%;
-}
-.line:nth-child(7) {
-  left: 70%;
-}
-.line:nth-child(8) {
-  left: 80%;
-}
-.line:nth-child(9) {
-  left: 90%;
+.line:first-child::before {
+  display: none;
 }
 .proficiencyText {
   text-transform: uppercase;
   font-size: 0.75em;
   padding-top: 0.2em;
-}
-.overlayButton {
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff18;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 0.5em;
-}
-.isExpanded .overlayButton,
-.overlayButton:hover,
-.overlayButton:focus-visible {
-  opacity: 0.9;
-  outline: none;
-}
-.icon {
-  width: 1em;
-  height: 1em;
-  position: absolute;
-  top: 30%;
-  right: 1em;
-  transform: rotate(180deg);
-}
-.isExpanded .icon {
-  top: 15%;
-  transform: rotate(0deg);
 }
