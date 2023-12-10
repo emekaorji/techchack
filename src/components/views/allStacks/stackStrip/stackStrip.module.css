@@ -16,6 +16,7 @@
 .left {
   width: 4em;
   height: 4em;
+  min-width: 3em;
   border-radius: 0.5em;
   overflow: hidden;
 }

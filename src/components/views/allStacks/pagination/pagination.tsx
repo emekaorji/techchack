@@ -49,23 +49,28 @@ const AllStacksPagination = () => {
 					<h4>
 						Showing {startIndex} - {endIndex} of {pagination.total}
 					</h4>
-					<select
-						name='Page Limit'
-						onChange={handlePerPageChange}
-						value={perPageValue}>
-						<option value='5'>5</option>
-						<option value='10'>10</option>
-						<option value='15'>15</option>
-						<option value='20'>20</option>
-						<option value='25'>25</option>
-						<option value='30'>30</option>
-						<option value='40'>40</option>
-						<option value='50'>50</option>
-					</select>
-					<select name='Order' onChange={handleOrderChange} value={orderValue}>
-						<option value='asc'>Ascending</option>
-						<option value='desc'>Descending</option>
-					</select>
+					<div className={styles.selectFilters}>
+						<select
+							name='Page Limit'
+							onChange={handlePerPageChange}
+							value={perPageValue}>
+							<option value='5'>5</option>
+							<option value='10'>10</option>
+							<option value='15'>15</option>
+							<option value='20'>20</option>
+							<option value='25'>25</option>
+							<option value='30'>30</option>
+							<option value='40'>40</option>
+							<option value='50'>50</option>
+						</select>
+						<select
+							name='Order'
+							onChange={handleOrderChange}
+							value={orderValue}>
+							<option value='asc'>Ascending</option>
+							<option value='desc'>Descending</option>
+						</select>
+					</div>
 				</div>
 				<div className={styles.pageNumbersContainer}>
 					<li
