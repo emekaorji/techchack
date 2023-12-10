@@ -4,6 +4,7 @@ import AllStacksProvider from './provider/provider';
 import styles from './allStacks.module.css';
 import StackList from './stackList/stackList';
 import StackSearch from './stackSearch/stackSearch';
+import Pagination from './pagination/nossrpagination';
 
 interface AllStacksViewProps {
 	allStacksResult?: AllStacksResult;
@@ -15,6 +16,7 @@ const AllStacksConsumer = () => {
 			<div className={styles.container}>
 				<StackSearch />
 				<StackList />
+				<Pagination />
 				{/* <AllStacksPagination /> */}
 				<br />
 			</div>
