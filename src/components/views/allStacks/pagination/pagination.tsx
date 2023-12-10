@@ -82,29 +82,25 @@ const AllStacksPagination = () => {
 							<DoubleArrowLeftIcon />
 						</a>
 					</li>
-					{pagination.pageCount ? (
-						<Pagination
-							breakLabel='...'
-							forcePage={pagination.pageNumber - 1}
-							nextLabel={<ArrowRightIcon />}
-							onPageChange={handlePageChange}
-							className={styles.container}
-							pageClassName={styles.pageButton}
-							previousClassName={styles.prevButton}
-							nextClassName={styles.nextButton}
-							breakClassName={styles.breakButton}
-							activeClassName={styles.activePage}
-							disabledClassName={styles.disabledButton}
-							pageCount={pagination.pageCount}
-							pageRangeDisplayed={width > 500 ? 2 : 1}
-							marginPagesDisplayed={width > 450 ? 2 : 1}
-							previousLabel={<ArrowLeftIcon />}
-							renderOnZeroPageCount={null}
-							disableInitialCallback
-						/>
-					) : (
-						''
-					)}
+					<Pagination
+						breakLabel='...'
+						forcePage={pagination.pageNumber - 1}
+						nextLabel={<ArrowRightIcon />}
+						onPageChange={handlePageChange}
+						className={styles.container}
+						pageClassName={styles.pageButton}
+						previousClassName={styles.prevButton}
+						nextClassName={styles.nextButton}
+						breakClassName={styles.breakButton}
+						activeClassName={styles.activePage}
+						disabledClassName={styles.disabledButton}
+						pageCount={pagination.pageCount}
+						pageRangeDisplayed={width > 500 ? 2 : 1}
+						marginPagesDisplayed={width > 450 ? 2 : 1}
+						previousLabel={<ArrowLeftIcon />}
+						renderOnZeroPageCount={null}
+						disableInitialCallback
+					/>
 					<li
 						className={
 							styles.pageButton +
