@@ -7,7 +7,7 @@ const Nav = () => {
 	return (
 		<>
 			<nav className={styles.nav}>
-				<Link className={styles.left} href='/'>
+				<Link className={styles.logo} href='/'>
 					TechChack
 				</Link>
 				<MobileNav />

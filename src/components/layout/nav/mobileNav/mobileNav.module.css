@@ -4,12 +4,31 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
+}
+.menuButton.isExpanded {
+  width: 2.3em;
+  height: 1.7em;
+  background-color: #ffffff18;
+  padding: 0.3em;
+  border-radius: 0.3em;
 }
 .menuButton div {
   width: 100%;
   height: 3px;
   background-color: #ffffff;
+  transform-origin: left;
   border-radius: 0.3em;
+  transition: all 100ms ease-in-out;
+}
+.menuButton.isExpanded div:nth-child(1) {
+  transform: rotate(45deg) translate(7.5%, -150%);
+}
+.menuButton.isExpanded div:nth-child(2) {
+  opacity: 0;
+}
+.menuButton.isExpanded div:nth-child(3) {
+  transform: rotate(-45deg) translate(7.5%, 150%);
 }
 /* .menuButton div:nth-child(1) {
   top: 0;
@@ -18,21 +37,75 @@
   width: 100%;
   height: 100%;
   background-color: #00030d;
+  opacity: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 1.5em;
   justify-content: center;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
+  transition: all 500ms ease-out;
+  pointer-events: none;
+}
+.menu.isExpanded {
+  opacity: 1;
+  pointer-events: all;
 }
 .navItems {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
   justify-content: center;
   align-items: center;
+  transform: translateY(-10em);
+  transition: all 500ms ease-out;
+}
+.menu.isExpanded .navItems {
+  transform: translateY(0em);
+}
+.navItem {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  position: relative;
+  padding: 0.9em;
+  transition: opacity 500ms ease-out;
+}
+.menu.isExpanded .navItems a {
+  opacity: 1;
+}
+.menu.isExpanded .navItems a:nth-child(1) {
+  transition-delay: 200ms;
+}
+.menu.isExpanded .navItems a:nth-child(2) {
+  transition-delay: 400ms;
+}
+.navItem:hover {
+  background-color: #1c7fee44;
+}
+.navItem::before {
+  content: '';
+  width: 90%;
+  height: 1px;
+  background-color: #ffffff22;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logoutButton {
+  font-size: 1.2em;
+  opacity: 0;
+  transform: translateY(10em);
+  transition: all 500ms ease-out;
+}
+.menu.isExpanded .logoutButton {
+  transform: translateY(0em);
+  opacity: 1;
 }
 @media screen and (min-width: 500px) and (hover: hover) {
   .menuButton,

@@ -8,7 +8,7 @@
   padding: 1em 1.1em;
   z-index: 1;
 }
-.left {
+.logo {
   font-size: 1.5em;
   font-family: Agbalumo, 'san-serif';
   text-shadow: 
@@ -16,6 +16,7 @@
     -4px 4px 15px rgb(0, 0, 0),
     4px 4px 15px rgb(0, 0, 0),
     4px -4px 15px rgb(0, 0, 0);
+  z-index: 1;
 }
 @media screen and (min-width: 768px) {
   .nav {
