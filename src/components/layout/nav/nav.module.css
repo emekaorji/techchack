@@ -17,15 +17,6 @@
     4px 4px 15px rgb(0, 0, 0),
     4px -4px 15px rgb(0, 0, 0);
 }
-.right {
-  display: flex;
-  gap: 0.5em;
-  align-items: center
-}
-.logoutButton {
-  padding: 0.4em;
-}
-
 @media screen and (min-width: 768px) {
   .nav {
     padding: 1em 3em;

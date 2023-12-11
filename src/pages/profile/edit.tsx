@@ -18,34 +18,34 @@ export const getServerSideProps: GetServerSideProps<{
 	);
 
 	if (session) {
-		const userStacks = session.user.stacks;
-		const stackIds = userStacks.map((item) => item.id);
+		// const userStacks = session.user.stacks;
+		// const stackIds = userStacks.map((item) => item.id);
 
-		const publicStacks = stackIds.length
-			? await techChackDB
-					.select()
-					.from(stacks)
-					.where(inArray(stacks.id, stackIds))
-			: [];
+		// const publicStacks = stackIds.length
+		// 	? await techChackDB
+		// 			.select()
+		// 			.from(stacks)
+		// 			.where(inArray(stacks.id, stackIds))
+		// 	: [];
 
-		const mergedStacks = publicStacks.map(
-			(stack) =>
-				({
-					category: stack.category,
-					description: stack.description || '',
-					icon: stack.icon || '',
-					id: stack.id,
-					link: stack.link || '',
-					name: stack.name,
-					requirements: stack.requirements || [],
-					score: userStacks.find((item) => item.id === stack.id)?.score || 1,
-				} satisfies IMergedStack)
-		);
+		// const mergedStacks = publicStacks.map(
+		// 	(stack) =>
+		// 		({
+		// 			category: stack.category,
+		// 			description: stack.description || '',
+		// 			icon: stack.icon || '',
+		// 			id: stack.id,
+		// 			link: stack.link || '',
+		// 			name: stack.name,
+		// 			requirements: stack.requirements || [],
+		// 			score: userStacks.find((item) => item.id === stack.id)?.score || 1,
+		// 		} satisfies IMergedStack)
+		// );
 
 		return {
 			props: {
 				session,
-				mergedStacks,
+				mergedStacks: [],
 			},
 		};
 	} else {
