@@ -9,10 +9,10 @@ const DesktopNav = () => {
 		<>
 			<div className={styles.menu}>
 				<div className={styles.navItems}>
-					<Link className={styles.navItem} href='/contribute'>
+					<Link className={styles.navItem} href='/stacks'>
 						Stacks
 					</Link>
-					<Link className={styles.navItem} href='/stacks'>
+					<Link className={styles.navItem} href='/contribute'>
 						Contribute
 					</Link>
 				</div>
