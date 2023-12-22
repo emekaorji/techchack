@@ -96,7 +96,7 @@ const handlePostRequest = async (req: NextApiRequest) => {
 			code: 409,
 			message: 'Stack with that id already exists in user shelf',
 		};
-	userStacks.push({ id: stackId, score: 1 });
+	userStacks.push({ id: stackId, score: 0 });
 
 	const updatedUserFields = {
 		stacks: userStacks,

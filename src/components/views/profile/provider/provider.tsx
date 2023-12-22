@@ -190,7 +190,7 @@ const ProfileProvider = ({
 
 			const localStack = stash.current.find((stack) => stack.id === id);
 			if (localStack) {
-				const score = result.find((stack) => stack.id === id)?.score || 1;
+				const score = result.find((stack) => stack.id === id)?.score || 0;
 				setMergedStacks((prev) => {
 					prev.push({ ...localStack, score });
 					return [...prev];
