@@ -1,4 +1,4 @@
-import { IPublicUser } from '@/types/user';
+import { IUser } from '@/types/user';
 import { AuthContextValue } from '@/types/context';
 import { useSession } from 'next-auth/react';
 import { ReactNode, createContext, useEffect, useMemo, useState } from 'react';
@@ -12,7 +12,7 @@ interface AuthProviderProps {
 const AuthProvider = ({ children }: AuthProviderProps) => {
 	const { status, data: session } = useSession();
 
-	const [user, setUser] = useState<IPublicUser | null>(session?.user || null);
+	const [user, setUser] = useState<IUser | null>(session?.user || null);
 
 	useEffect(() => {
 		if (session?.user) {

@@ -10,14 +10,19 @@ export interface IStack {
 	id: string;
 	name: string;
 	description: string;
+	shortDescription: string;
 	category: Tcategory;
 	link: string;
 	requirements: string[];
 	icon: string;
+	releaseDate: Date | null;
+	creators: string[];
 }
 
 export interface IMergedStack extends IStack {
 	score: number;
+	experience: number;
+	proofs: string[];
 }
 
 export interface IPagination {

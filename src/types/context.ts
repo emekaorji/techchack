@@ -1,10 +1,10 @@
 import { ModalOptions } from './modal';
-import { IPublicUser } from './user';
+import { IUser } from './user';
 import { Dispatch, ReactNode, SetStateAction } from 'react';
 
 export interface AuthContextValue {
-	user: IPublicUser | null;
-	setUser: Dispatch<SetStateAction<IPublicUser | null>>;
+	user: IUser | null;
+	setUser: Dispatch<SetStateAction<IUser | null>>;
 }
 
 export interface ModalContextValue {

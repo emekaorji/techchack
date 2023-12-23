@@ -1,10 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { techChackDB } from '@/db';
-import { publicUsers, users } from '@/db/schema';
+import { users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../../auth/[...nextauth]';
-import { IPublicUser, IUser } from '@/types/user';
+import { IUser } from '@/types/user';
 
 const ALLOWED_METHODS = ['GET', 'PATCH'];
 
@@ -56,6 +56,19 @@ const handleGetRequest = async (
 					name: user.name || '',
 					email: user.email || '',
 					image: user.image || '',
+					company: user.company || '',
+					description: user.description || '',
+					githubUrl: user.githubUrl || '',
+					interests: user.interests || '',
+					joinedDate: user.joinedDate || null,
+					linkedinUrl: user.linkedinUrl || '',
+					location: user.location || '',
+					phone: user.phone || '',
+					pronouns: user.pronouns || '',
+					publicFields: user.publicFields || [],
+					role: user.role || '',
+					stacks: user.stacks || [],
+					twitterUrl: user.twitterUrl || '',
 			  } satisfies IUser)
 			: undefined;
 
@@ -67,17 +80,17 @@ const handleGetRequest = async (
 
 const handlePatchRequest = async (
 	req: NextApiRequest,
-	res: NextApiResponse<IPublicUser>
+	res: NextApiResponse<IUser>
 ) => {
 	const userId = req.query.userId as string;
 
-	const { name, role, image } = JSON.parse(req.body) as Partial<IPublicUser>;
+	const { name, role, image } = JSON.parse(req.body) as Partial<IUser>;
 
 	try {
 		const user = await techChackDB
 			.select()
-			.from(publicUsers)
-			.where(eq(publicUsers.id, userId))
+			.from(users)
+			.where(eq(users.id, userId))
 			.get();
 
 		if (!user) throw Error('User does not exist');
@@ -86,37 +99,35 @@ const handlePatchRequest = async (
 			name: name || user.name || '',
 			image: image || user.image || '',
 		} satisfies Partial<IUser>;
-		const updatedPublicUserFields = {
-			...updatedUserFields,
-			role: role || user.role || '',
-		} satisfies Partial<IPublicUser>;
 
-		const userUpdater = techChackDB
+		const updatedUser = await techChackDB
 			.update(users)
 			.set(updatedUserFields)
 			.where(eq(users.id, userId))
 			.returning()
 			.get();
-		const publicUserUpdater = techChackDB
-			.update(publicUsers)
-			.set(updatedPublicUserFields)
-			.where(eq(publicUsers.id, userId))
-			.returning()
-			.get();
-		const updatedPublicUser = (
-			await Promise.all([userUpdater, publicUserUpdater])
-		)[1];
 
-		const parsedUpdatedPublicUser = {
-			id: updatedPublicUser.id,
-			name: updatedPublicUser.name || '',
-			email: updatedPublicUser.email || '',
-			image: updatedPublicUser.image || '',
-			role: updatedPublicUser.role || '',
-			stacks: updatedPublicUser.stacks || [],
-		} satisfies IPublicUser;
+		const parsedUpdatedUser = {
+			id: updatedUser.id,
+			name: updatedUser.name || '',
+			email: updatedUser.email || '',
+			image: updatedUser.image || '',
+			role: updatedUser.role || '',
+			stacks: updatedUser.stacks || [],
+			company: updatedUser.company || '',
+			description: updatedUser.description || '',
+			githubUrl: updatedUser.githubUrl || '',
+			interests: updatedUser.interests || '',
+			joinedDate: updatedUser.joinedDate || null,
+			linkedinUrl: updatedUser.linkedinUrl || '',
+			location: updatedUser.location || '',
+			phone: updatedUser.phone || '',
+			pronouns: updatedUser.pronouns || '',
+			publicFields: updatedUser.publicFields || [],
+			twitterUrl: updatedUser.twitterUrl || '',
+		} satisfies IUser;
 
-		res.status(200).json(parsedUpdatedPublicUser);
+		res.status(200).json(parsedUpdatedUser);
 	} catch (error: any) {
 		res.status(500).send(error);
 	}

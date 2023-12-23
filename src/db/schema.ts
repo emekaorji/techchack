@@ -13,19 +13,21 @@ export const users = sqliteTable('user', {
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
 	image: text('image'),
-});
-
-export const publicUsers = sqliteTable('public_user', {
-	id: text('id')
-		.notNull()
-		.references(() => users.id, { onDelete: 'cascade' }),
-	name: text('name'),
-	email: text('email').notNull(),
-	image: text('image'),
 	role: text('role'),
+	description: text('description'),
+	twitterUrl: text('twitterUrl'),
+	linkedinUrl: text('linkedinUrl'),
+	githubUrl: text('githubUrl'),
+	company: text('company'),
+	location: text('location'),
+	joinedDate: integer('joinedDate', { mode: 'timestamp_ms' }),
+	phone: text('phone'),
+	interests: text('interests'),
+	pronouns: text('pronouns'),
 	stacks: blob('stacks', { mode: 'json' }).$type<
-		{ id: string; score: number }[]
+		{ id: string; score: number; experience: number; proofs: string[] }[]
 	>(),
+	publicFields: text('publicFields', { mode: 'json' }).$type<string[]>(),
 });
 
 export const accounts = sqliteTable('account', {
@@ -67,6 +69,7 @@ export const verificationTokens = sqliteTable(
 export const stacks = sqliteTable('stack', {
 	id: text('id').notNull().primaryKey(),
 	name: text('name').notNull(),
+	shortDescription: text('shortDescription'),
 	description: text('description'),
 	category: text('category', {
 		enum: [
@@ -80,4 +83,6 @@ export const stacks = sqliteTable('stack', {
 	link: text('link'),
 	requirements: text('requirements', { mode: 'json' }).$type<string[]>(),
 	icon: text('icon'),
+	releaseDate: integer('releaseDate', { mode: 'timestamp_ms' }),
+	creators: text('creators', { mode: 'json' }).$type<string[]>(),
 });

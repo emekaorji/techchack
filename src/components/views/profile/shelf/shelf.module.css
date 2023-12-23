@@ -16,7 +16,7 @@
   align-items: center;
 }
 .level2 {
-  max-height: 25em;
+  max-height: 27em;
   display: flex;
   flex-direction: column;
   gap: 0.6em;

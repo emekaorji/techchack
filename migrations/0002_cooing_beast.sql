@@ -1,0 +1,1 @@
+ALTER TABLE `stack` RENAME COLUMN `expires` TO `releaseDate`;
