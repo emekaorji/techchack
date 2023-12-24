@@ -1,10 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { techChackDB } from '@/db';
-import { publicUsers } from '@/db/schema';
+import { users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../../../auth/[...nextauth]';
-import { IPublicUser, IUserStack } from '@/types/user';
+import { IUser, IUserStack } from '@/types/user';
 
 const ALLOWED_METHODS = ['GET', 'POST'];
 
@@ -51,8 +51,8 @@ const handleGetRequest = async (req: NextApiRequest) => {
 
 	const user = await techChackDB
 		.select()
-		.from(publicUsers)
-		.where(eq(publicUsers.id, userId))
+		.from(users)
+		.where(eq(users.id, userId))
 		.get();
 
 	if (!user)
@@ -79,8 +79,8 @@ const handlePostRequest = async (req: NextApiRequest) => {
 
 	const user = await techChackDB
 		.select()
-		.from(publicUsers)
-		.where(eq(publicUsers.id, userId))
+		.from(users)
+		.where(eq(users.id, userId))
 		.get();
 
 	if (!user)
@@ -96,16 +96,16 @@ const handlePostRequest = async (req: NextApiRequest) => {
 			code: 409,
 			message: 'Stack with that id already exists in user shelf',
 		};
-	userStacks.push({ id: stackId, score: 0 });
+	userStacks.push({ id: stackId, score: 0, experience: 0.5, proofs: [] });
 
 	const updatedUserFields = {
 		stacks: userStacks,
-	} satisfies Partial<IPublicUser>;
+	} satisfies Partial<IUser>;
 
 	const updatedUser = await techChackDB
-		.update(publicUsers)
+		.update(users)
 		.set(updatedUserFields)
-		.where(eq(publicUsers.id, userId))
+		.where(eq(users.id, userId))
 		.returning()
 		.get();
 

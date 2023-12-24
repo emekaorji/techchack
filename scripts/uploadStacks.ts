@@ -1,4 +1,4 @@
-import stacksData from '@/data/stacks.json';
+import stacksData from '@/data/stacks-0.json';
 import { techChackDB } from '@/db';
 import { stacks } from '@/db/schema';
 import { IStack } from '@/types/stack';

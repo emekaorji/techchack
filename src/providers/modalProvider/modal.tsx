@@ -33,8 +33,6 @@ function ModalLayout({
 	}, []);
 	const [documentWidth] = useDeviceSize();
 
-	console.log('isClosing', isClosing);
-
 	return (
 		<>
 			<div

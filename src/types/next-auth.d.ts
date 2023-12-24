@@ -10,6 +10,17 @@ declare module 'next-auth' {
 			name: string;
 			email: string;
 			image: string;
+			description: string;
+			twitterUrl: string;
+			linkedinUrl: string;
+			githubUrl: string;
+			company: string;
+			location: string;
+			joinedDate: Date | null;
+			phone: string;
+			interests: string;
+			pronouns: string;
+			publicFields: string[];
 		};
 	}
 }

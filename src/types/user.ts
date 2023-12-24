@@ -1,6 +1,8 @@
 export interface IUserStack {
 	id: string;
 	score: number;
+	experience: number;
+	proofs: string[];
 }
 
 export interface IUser {
@@ -8,9 +10,17 @@ export interface IUser {
 	name: string;
 	email: string;
 	image: string;
-}
-
-export interface IPublicUser extends IUser {
 	role: string;
 	stacks: IUserStack[];
+	description: string;
+	twitterUrl: string;
+	linkedinUrl: string;
+	githubUrl: string;
+	company: string;
+	location: string;
+	joinedDate: Date | null;
+	phone: string;
+	interests: string;
+	pronouns: string;
+	publicFields: string[];
 }

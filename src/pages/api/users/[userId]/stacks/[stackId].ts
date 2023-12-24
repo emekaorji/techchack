@@ -1,10 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { techChackDB } from '@/db';
-import { publicUsers } from '@/db/schema';
+import { users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { getServerSession } from 'next-auth';
 import { nextAuthOptions } from '../../../auth/[...nextauth]';
-import { IPublicUser, IUserStack } from '@/types/user';
+import { IUser, IUserStack } from '@/types/user';
 
 const ALLOWED_METHODS = ['DELETE', 'PATCH'];
 
@@ -51,8 +51,8 @@ const handleDeleteRequest = async (
 	try {
 		const user = await techChackDB
 			.select()
-			.from(publicUsers)
-			.where(eq(publicUsers.id, userId))
+			.from(users)
+			.where(eq(users.id, userId))
 			.get();
 
 		if (!user) throw Error('User does not exist');
@@ -64,12 +64,12 @@ const handleDeleteRequest = async (
 
 		const updatedUserFields = {
 			stacks: userStacks,
-		} satisfies Partial<IPublicUser>;
+		} satisfies Partial<IUser>;
 
 		const updatedUser = await techChackDB
-			.update(publicUsers)
+			.update(users)
 			.set(updatedUserFields)
-			.where(eq(publicUsers.id, userId))
+			.where(eq(users.id, userId))
 			.returning()
 			.get();
 
@@ -93,15 +93,12 @@ const handlePatchRequest = async (
 	const stackId = req.query.stackId as string;
 
 	try {
-		const { score: stackScore } = JSON.parse(req.body);
-		if (!stackScore) {
-			throw Error('`score` must be specified in request body');
-		}
+		const { score: stackScore, experience, proofs } = JSON.parse(req.body);
 
 		const user = await techChackDB
 			.select()
-			.from(publicUsers)
-			.where(eq(publicUsers.id, userId))
+			.from(users)
+			.where(eq(users.id, userId))
 			.get();
 
 		if (!user) throw Error('User does not exist');
@@ -109,16 +106,23 @@ const handlePatchRequest = async (
 		const userStacks = user.stacks || [];
 		const stackIndex = userStacks.findIndex((stack) => stack.id === stackId);
 		if (stackIndex < 0) throw Error('User does not have a stack with that ID');
-		userStacks.splice(stackIndex, 1, { id: stackId, score: stackScore });
+		const foundStack = userStacks[stackIndex];
+		const parsedStack = {
+			experience: experience || foundStack.experience,
+			id: stackId,
+			proofs: proofs || foundStack.proofs,
+			score: stackScore || foundStack.score,
+		} satisfies IUserStack;
+		userStacks.splice(stackIndex, 1, parsedStack);
 
 		const updatedUserFields = {
 			stacks: userStacks,
-		} satisfies Partial<IPublicUser>;
+		} satisfies Partial<IUser>;
 
 		const updatedUser = await techChackDB
-			.update(publicUsers)
+			.update(users)
 			.set(updatedUserFields)
-			.where(eq(publicUsers.id, userId))
+			.where(eq(users.id, userId))
 			.returning()
 			.get();
 

@@ -2,8 +2,7 @@ import NextAuth, { NextAuthOptions } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
 import { techChackDB } from '@/db';
-import { publicUsers, users } from '@/db/schema';
-import { eq } from 'drizzle-orm';
+import { users } from '@/db/schema';
 import { variables } from '@/constants/variables';
 
 const credentials = {
@@ -16,17 +15,11 @@ export const nextAuthOptions: NextAuthOptions = {
 		...DrizzleAdapter(techChackDB),
 		async createUser(data) {
 			const userId = crypto.randomUUID();
-			// Create User
 			const res = await techChackDB
 				.insert(users)
-				.values({ ...data, id: userId })
+				.values({ ...data, id: userId, role: null, stacks: null })
 				.returning()
 				.get();
-
-			// Create User Public Profile
-			await techChackDB
-				.insert(publicUsers)
-				.values({ ...data, id: userId, role: null, stacks: null });
 
 			return res;
 		},
@@ -40,22 +33,11 @@ export const nextAuthOptions: NextAuthOptions = {
 	],
 	callbacks: {
 		session: async ({ session, user }) => {
+			console.log(user);
 			if (session?.user && user) {
-				const userId = user.id;
-				try {
-					const publicUser = await techChackDB
-						.select()
-						.from(publicUsers)
-						.where(eq(publicUsers.id, userId))
-						.get();
-					session.user.role = publicUser?.role || '';
-					session.user.stacks = publicUser?.stacks || [];
-				} catch (error) {
-					console.error('There was an error in fetching the public user info');
-					session.user.role = '';
-					session.user.stacks = [];
-				}
-				session.user.id = userId;
+				session.user.role = '';
+				session.user.stacks = [];
+				session.user.id = user.id;
 				session.user.name = user.name || '';
 				session.user.email = user.email || '';
 				session.user.image = user.image || '';
