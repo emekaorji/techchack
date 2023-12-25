@@ -35,6 +35,9 @@ export const getServerSideProps: GetServerSideProps<{
 					link: stack.link || '',
 					name: stack.name,
 					requirements: stack.requirements || [],
+					creators: stack.creators || [],
+					releaseDate: stack.releaseDate || null,
+					shortDescription: stack.shortDescription || '',
 			  } satisfies IStack)
 			: null;
 

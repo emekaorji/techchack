@@ -191,8 +191,11 @@ const ProfileProvider = ({
 			const localStack = stash.current.find((stack) => stack.id === id);
 			if (localStack) {
 				const score = result.find((stack) => stack.id === id)?.score || 0;
+				const experience =
+					result.find((stack) => stack.id === id)?.experience || 0;
+				const proofs = result.find((stack) => stack.id === id)?.proofs || [];
 				setMergedStacks((prev) => {
-					prev.push({ ...localStack, score });
+					prev.push({ ...localStack, score, experience, proofs });
 					return [...prev];
 				});
 			}
