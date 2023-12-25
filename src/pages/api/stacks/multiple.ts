@@ -45,6 +45,9 @@ export default async function handler(
 					link: result.link || '',
 					name: result.name,
 					requirements: result.requirements || [],
+					creators: result.creators || [],
+					releaseDate: result.releaseDate || null,
+					shortDescription: result.shortDescription || '',
 				} satisfies IStack)
 		);
 

@@ -38,7 +38,13 @@ export const getServerSideProps: GetServerSideProps<{
 					link: stack.link || '',
 					name: stack.name,
 					requirements: stack.requirements || [],
-					score: userStacks.find((item) => item.id === stack.id)?.score || 1,
+					score: userStacks.find((item) => item.id === stack.id)?.score || 0,
+					creators: stack.creators || [],
+					experience:
+						userStacks.find((item) => item.id === stack.id)?.experience || 0,
+					proofs: userStacks.find((item) => item.id === stack.id)?.proofs || [],
+					releaseDate: stack.releaseDate || null,
+					shortDescription: stack.shortDescription || '',
 				} satisfies IMergedStack)
 		);
 
