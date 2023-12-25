@@ -17,7 +17,7 @@ export default async function handler(
 		return;
 	}
 	const session = await getServerSession(req, res, nextAuthOptions);
-	if (session) {
+	if (session && session.user) {
 		const userId = req.query.userId as string;
 
 		if (userId !== session.user.id) {

@@ -2,7 +2,7 @@ import Avatar from '@/components/interface/avatar/avatar';
 import IconButton from '@/components/interface/buttons/iconButton/iconButton';
 import PenIcon from '@/components/interface/icons/pen';
 import useAuthContext from '@/hooks/context/useAuthContext';
-import styles from './shelf.module.css';
+import styles from './stackShelf.module.css';
 import { useState } from 'react';
 import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
@@ -10,7 +10,7 @@ import getClassName from '@/utils/getClassName';
 import StackStrip from '../stackStrip/stackStrip';
 import { useRouter } from 'next/router';
 
-const Shelf = () => {
+const StackShelf = () => {
 	const router = useRouter();
 
 	const { user } = useAuthContext();
@@ -69,4 +69,4 @@ const Shelf = () => {
 	);
 };
 
-export default Shelf;
+export default StackShelf;

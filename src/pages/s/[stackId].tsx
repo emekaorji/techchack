@@ -17,7 +17,7 @@ export const getServerSideProps: GetServerSideProps<{
 		nextAuthOptions
 	);
 
-	if (session) {
+	if (session && session.user) {
 		const stackId = (context.params?.stackId as string) || '';
 
 		const stack = await techChackDB

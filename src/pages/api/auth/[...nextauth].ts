@@ -1,9 +1,11 @@
-import NextAuth, { NextAuthOptions } from 'next-auth';
+import NextAuth, { NextAuthOptions, Session } from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
 import { techChackDB } from '@/db';
 import { users } from '@/db/schema';
 import { variables } from '@/constants/variables';
+import { eq } from 'drizzle-orm';
+import { IUser } from '@/types/user';
 
 const credentials = {
 	githubClientId: variables.GITHUB_CLIENT_ID,
@@ -15,9 +17,26 @@ export const nextAuthOptions: NextAuthOptions = {
 		...DrizzleAdapter(techChackDB),
 		async createUser(data) {
 			const userId = crypto.randomUUID();
+			const user = {
+				...data,
+				id: userId,
+				role: '',
+				stacks: [],
+				company: '',
+				description: '',
+				githubUrl: '',
+				interests: '',
+				joinedDate: new Date().getTime(),
+				linkedinUrl: '',
+				location: '',
+				phone: '',
+				pronouns: '',
+				publicFields: [],
+				twitterUrl: '',
+			} satisfies Omit<IUser, 'name' | 'email' | 'image' | 'emailVerified'>;
 			const res = await techChackDB
 				.insert(users)
-				.values({ ...data, id: userId, role: null, stacks: null })
+				.values(user)
 				.returning()
 				.get();
 
@@ -33,17 +52,61 @@ export const nextAuthOptions: NextAuthOptions = {
 	],
 	callbacks: {
 		session: async ({ session, user }) => {
-			console.log(user);
+			let parsedUser: Session['user'] = {
+				company: '',
+				description: '',
+				email: '',
+				githubUrl: '',
+				id: '',
+				image: '',
+				interests: '',
+				joinedDate: null,
+				linkedinUrl: '',
+				location: '',
+				name: '',
+				phone: '',
+				pronouns: '',
+				publicFields: [],
+				role: '',
+				stacks: [],
+				twitterUrl: '',
+			};
 			if (session?.user && user) {
-				session.user.role = '';
-				session.user.stacks = [];
-				session.user.id = user.id;
-				session.user.name = user.name || '';
-				session.user.email = user.email || '';
-				session.user.image = user.image || '';
+				const userId = user.id;
+				try {
+					const _user = await techChackDB
+						.select()
+						.from(users)
+						.where(eq(users.id, userId))
+						.get();
+					console.log(_user);
+					console.log(_user?.joinedDate);
+					console.log(typeof _user?.joinedDate);
+					parsedUser = {
+						company: _user?.company || '',
+						description: _user?.description || '',
+						email: _user?.email || '',
+						githubUrl: _user?.githubUrl || '',
+						id: _user?.id || '',
+						image: _user?.image || '',
+						interests: _user?.interests || '',
+						joinedDate: _user?.joinedDate || null,
+						linkedinUrl: _user?.linkedinUrl || '',
+						location: _user?.location || '',
+						name: _user?.name || '',
+						phone: _user?.phone || '',
+						pronouns: _user?.pronouns || '',
+						publicFields: _user?.publicFields || [],
+						role: _user?.role || '',
+						stacks: _user?.stacks || [],
+						twitterUrl: _user?.twitterUrl || '',
+					};
+				} catch (error) {
+					console.error('There was an error in fetching the user info');
+				}
+				session.user = parsedUser;
 			} else {
-				session.user.role = '';
-				session.user.stacks = [];
+				session.user = null;
 			}
 			return session;
 		},

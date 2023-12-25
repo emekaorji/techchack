@@ -1,6 +1,6 @@
 import ProfileProvider from './provider/provider';
 import useProfileContext from './hooks/useProfileContext';
-import Shelf from './shelf/shelf';
+import StackShelf from './stackShelf/stackShelf';
 import StackSearch from './stackSearch/stackSearch';
 import StackList from './stackList/stackList';
 import Head from '@/components/others/head/head';
@@ -15,7 +15,7 @@ const ProfileConsumer = () => {
 				description='Share your tech stack with the world'
 				title='TechChack | Profile'
 			/>
-			<Shelf />
+			<StackShelf />
 			<StackSearch />
 			<StackList />
 			<br id='brElem' ref={observerTarget} />

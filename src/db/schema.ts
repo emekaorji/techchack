@@ -20,7 +20,7 @@ export const users = sqliteTable('user', {
 	githubUrl: text('githubUrl'),
 	company: text('company'),
 	location: text('location'),
-	joinedDate: integer('joinedDate', { mode: 'timestamp_ms' }),
+	joinedDate: integer('joinedDate'),
 	phone: text('phone'),
 	interests: text('interests'),
 	pronouns: text('pronouns'),

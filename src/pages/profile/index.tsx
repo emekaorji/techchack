@@ -17,7 +17,7 @@ export const getServerSideProps: GetServerSideProps<{
 		nextAuthOptions
 	);
 
-	if (session) {
+	if (session && session.user) {
 		const userStacks = session.user.stacks;
 		const stackIds = userStacks.map((item) => item.id);
 

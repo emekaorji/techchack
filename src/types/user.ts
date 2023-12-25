@@ -18,7 +18,7 @@ export interface IUser {
 	githubUrl: string;
 	company: string;
 	location: string;
-	joinedDate: Date | null;
+	joinedDate: number | null;
 	phone: string;
 	interests: string;
 	pronouns: string;
