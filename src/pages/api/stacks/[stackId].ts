@@ -54,6 +54,9 @@ const handleGetRequest = async (
 					link: stack.link || '',
 					name: stack.name,
 					requirements: stack.requirements || [],
+					creators: stack.creators || [],
+					releaseDate: stack.releaseDate || null,
+					shortDescription: stack.shortDescription || '',
 			  } satisfies IStack)
 			: undefined;
 
@@ -69,7 +72,17 @@ const handlePatchRequest = async (
 ) => {
 	const stackId = req.query.stackId as string;
 
-	const { category, description, icon, link, name, requirements } = req.body;
+	const {
+		category,
+		description,
+		icon,
+		link,
+		name,
+		requirements,
+		creators,
+		releaseDate,
+		shortDescription,
+	} = req.body;
 
 	try {
 		const stack = await techChackDB
@@ -87,6 +100,9 @@ const handlePatchRequest = async (
 			link: link || stack.link,
 			name: name || stack.name,
 			requirements: requirements || stack.requirements,
+			creators: creators || stack.creators,
+			releaseDate: releaseDate || stack.releaseDate,
+			shortDescription: shortDescription || stack.shortDescription,
 		} satisfies Partial<IStack>;
 		const newStack = {
 			...stack,
@@ -108,6 +124,9 @@ const handlePatchRequest = async (
 			link: updatedStack.link || '',
 			name: updatedStack.name,
 			requirements: updatedStack.requirements || [],
+			creators: updatedStack.creators || [],
+			releaseDate: updatedStack.releaseDate || null,
+			shortDescription: updatedStack.shortDescription || '',
 		} satisfies IStack;
 
 		res.status(200).json(parsedStack);
