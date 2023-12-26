@@ -6,14 +6,11 @@ import useProfileContext from '../hooks/useProfileContext';
 import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
 import StackStrip from '../stackStrip/stackStrip';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 import ViewLinkIcon from '@/components/interface/icons/viewLink';
 import ButtonLink from '@/components/interface/links/link/link';
 
 const StackShelf = () => {
-	const router = useRouter();
-
 	const { user } = useAuthContext();
 	const { mergedStacks } = useProfileContext();
 
