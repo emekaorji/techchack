@@ -1,6 +1,4 @@
 import Avatar from '@/components/interface/avatar/avatar';
-import IconButton from '@/components/interface/buttons/iconButton/iconButton';
-import PenIcon from '@/components/interface/icons/pen';
 import useAuthContext from '@/hooks/context/useAuthContext';
 import styles from './stackShelf.module.css';
 import { useState } from 'react';
@@ -9,6 +7,9 @@ import UpArrowIcon from '@/components/interface/icons/upArrow';
 import getClassName from '@/utils/getClassName';
 import StackStrip from '../stackStrip/stackStrip';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
+import ViewLinkIcon from '@/components/interface/icons/viewLink';
+import ButtonLink from '@/components/interface/links/link/link';
 
 const StackShelf = () => {
 	const router = useRouter();
@@ -22,15 +23,18 @@ const StackShelf = () => {
 		<>
 			<div className={styles.profileDetails}>
 				<div className={styles.level1}>
-					<div className={styles.left}>
+					<Link className={styles.left} href='/profile/view'>
 						<Avatar url={user?.image || ''} />
 						<div>{user?.name}</div>
-					</div>
-					<IconButton
-						onClick={() => router.push('/profile/edit')}
-						title='Edit Your Profile'>
-						<PenIcon />
-					</IconButton>
+					</Link>
+					<ButtonLink
+						href='/profile/view'
+						icon={<ViewLinkIcon />}
+						iconSize='small'
+						iconPosition='right'
+						title='View & Edit Your Profile'>
+						View Full Profile
+					</ButtonLink>
 				</div>
 				<br />
 				<div
