@@ -2,6 +2,7 @@ import ProfileViewProvider from './provider/provider';
 import Head from '@/components/others/head/head';
 import { IMergedStack } from '@/types/stack';
 import ProfileSummary from './summary/summary';
+import StackList from './stackList/stackList';
 
 const ProfileViewConsumer = () => {
 	return (
@@ -11,6 +12,8 @@ const ProfileViewConsumer = () => {
 				title='TechChack | Profile View'
 			/>
 			<ProfileSummary />
+			<StackList />
+			<br />
 		</>
 	);
 };
