@@ -9,7 +9,7 @@ interface ProfileProviderProps {
 
 const ProfileViewContext = createContext<ProfileViewContextValue | null>(null);
 
-const ProfileProvider = ({
+const ProfileViewProvider = ({
 	children,
 	mergedStacks: _mergedStacks,
 }: ProfileProviderProps) => {
@@ -28,4 +28,4 @@ const ProfileProvider = ({
 };
 
 export { ProfileViewContext };
-export default ProfileProvider;
+export default ProfileViewProvider;
