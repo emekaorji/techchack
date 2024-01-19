@@ -10,7 +10,7 @@ export interface IUser {
 	name: string;
 	email: string;
 	image: string;
-	role: string;
+	roles: string[];
 	stacks: IUserStack[];
 	description: string;
 	twitterUrl: string;
