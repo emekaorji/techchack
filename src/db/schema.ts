@@ -13,7 +13,7 @@ export const users = sqliteTable('user', {
 	email: text('email').notNull(),
 	emailVerified: integer('emailVerified', { mode: 'timestamp_ms' }),
 	image: text('image'),
-	role: text('role', { mode: 'json' }).$type<string[]>(),
+	roles: text('roles', { mode: 'json' }).$type<string[]>(),
 	description: text('description'),
 	twitterUrl: text('twitterUrl'),
 	linkedinUrl: text('linkedinUrl'),

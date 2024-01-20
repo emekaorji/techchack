@@ -5,7 +5,7 @@ declare module 'next-auth' {
 	interface Session {
 		user: {
 			id: string;
-			role: string;
+			roles: string[];
 			stacks: IUserStack[];
 			name: string;
 			email: string;

@@ -66,7 +66,7 @@ const handleGetRequest = async (
 					phone: user.phone || '',
 					pronouns: user.pronouns || '',
 					publicFields: user.publicFields || [],
-					role: user.role || '',
+					roles: user.roles || [],
 					stacks: user.stacks || [],
 					twitterUrl: user.twitterUrl || '',
 			  } satisfies IUser)
@@ -84,7 +84,7 @@ const handlePatchRequest = async (
 ) => {
 	const userId = req.query.userId as string;
 
-	const { name, role, image } = JSON.parse(req.body) as Partial<IUser>;
+	const { name, roles, image } = JSON.parse(req.body) as Partial<IUser>;
 
 	try {
 		const user = await techChackDB
@@ -112,7 +112,7 @@ const handlePatchRequest = async (
 			name: updatedUser.name || '',
 			email: updatedUser.email || '',
 			image: updatedUser.image || '',
-			role: updatedUser.role || '',
+			roles: updatedUser.roles || [],
 			stacks: updatedUser.stacks || [],
 			company: updatedUser.company || '',
 			description: updatedUser.description || '',

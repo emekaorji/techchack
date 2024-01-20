@@ -20,7 +20,7 @@ export const nextAuthOptions: NextAuthOptions = {
 			const user = {
 				...data,
 				id: userId,
-				role: '',
+				roles: [],
 				stacks: [],
 				company: '',
 				description: '',
@@ -67,7 +67,7 @@ export const nextAuthOptions: NextAuthOptions = {
 				phone: '',
 				pronouns: '',
 				publicFields: [],
-				role: '',
+				roles: [],
 				stacks: [],
 				twitterUrl: '',
 			};
@@ -97,12 +97,12 @@ export const nextAuthOptions: NextAuthOptions = {
 						phone: _user?.phone || '',
 						pronouns: _user?.pronouns || '',
 						publicFields: _user?.publicFields || [],
-						role: _user?.role || '',
+						roles: _user?.roles || [],
 						stacks: _user?.stacks || [],
 						twitterUrl: _user?.twitterUrl || '',
 					};
 				} catch (error) {
-					console.error('There was an error in fetching the user info');
+					console.error('There was an error in fetching the user info', error);
 				}
 				session.user = parsedUser;
 			} else {
